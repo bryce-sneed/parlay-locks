@@ -69,6 +69,8 @@ $ModelLabel = @{ claude = "Claude"; codex = "Codex (ChatGPT)"; cursor = "Cursor"
 $Runner = {
   param([string]$model, [string]$runDir, [string]$promptFile, [string]$schemaFile, [hashtable]$cfg)
   $ErrorActionPreference = "Continue"
+  $OutputEncoding = New-Object System.Text.UTF8Encoding($false)
+  [Console]::OutputEncoding = New-Object System.Text.UTF8Encoding($false)
   Set-Location $runDir
   $t0 = Get-Date
   $out = ""; $usage = @{}
@@ -79,7 +81,7 @@ $Runner = {
                "--disallowedTools", "Bash,Edit,Write,MultiEdit,NotebookEdit,WebFetch,WebSearch,Task")
         if ($cfg.ClaudeModel)  { $a += @("--model", $cfg.ClaudeModel) }
         if ($cfg.ClaudeEffort) { $a += @("--effort", $cfg.ClaudeEffort) }
-        $raw = (Get-Content -Raw $promptFile | & claude @a 2>&1 | Out-String)
+        $raw = (Get-Content -Raw -Encoding UTF8 $promptFile | & claude @a 2>&1 | Out-String)
         $out = $raw
         try {
           $j = $raw.Substring($raw.IndexOf("{")) | ConvertFrom-Json
@@ -96,9 +98,9 @@ $Runner = {
         if ($cfg.CodexEffort) { $a += @("-c", ("model_reasoning_effort=" + $cfg.CodexEffort)) }
         if ($cfg.CodexModel)  { $a += @("-m", $cfg.CodexModel) }
         $a += "-"
-        $raw = (Get-Content -Raw $promptFile | & codex @a 2>&1 | Out-String)
+        $raw = (Get-Content -Raw -Encoding UTF8 $promptFile | & codex @a 2>&1 | Out-String)
         if ($raw -match "tokens used\s*\r?\n\s*([\d,]+)") { $usage = @{ tokens = [int]($matches[1] -replace ",", "") } }
-        if (Test-Path $last) { $out = Get-Content -Raw $last } else { $out = $raw }
+        if (Test-Path $last) { $out = Get-Content -Raw -Encoding UTF8 $last } else { $out = $raw }
       }
       "cursor" {
         Copy-Item $promptFile (Join-Path $runDir "panel-prompt.md") -Force
@@ -213,15 +215,23 @@ function Add-Feed([string]$agent, [string]$action, [string]$text, [string]$to = 
   [System.IO.File]::AppendAllText($f, $line + "`n", $Utf8)
 }
 
+function G {
+  # git writes progress/warnings to stderr; never let that trip ErrorActionPreference=Stop
+  $old = $ErrorActionPreference; $ErrorActionPreference = "Continue"
+  try { $o = & git @args 2>&1 | ForEach-Object { "$_" }; $code = $LASTEXITCODE } finally { $ErrorActionPreference = $old }
+  foreach ($l in $o) { if ($l -and $l -notmatch "LF will be replaced|CRLF will be replaced") { Log ("git: " + $l) } }
+  $global:LASTEXITCODE = $code
+}
+
 function Git-Sync([string]$msg) {
   Push-Location $Repo
   try {
-    git add -A data 2>&1 | Out-Null
-    git -c user.name="Parlay Panel (Sneed_PC)" -c user.email="57764294+bryce-sneed@users.noreply.github.com" commit -q -m $msg 2>&1 | Out-Null
+    G add -A data
+    G -c user.name="Parlay Panel (Sneed_PC)" -c user.email="57764294+bryce-sneed@users.noreply.github.com" commit -q -m $msg
     if ($NoPush) { Log "NoPush set; committed locally only"; return $true }
     for ($i = 1; $i -le 4; $i++) {
-      git pull -q --rebase --autostash origin main 2>&1 | ForEach-Object { Log ("git: " + $_) }
-      git push -q origin HEAD:main 2>&1 | ForEach-Object { Log ("git: " + $_) }
+      G pull -q --rebase --autostash origin main
+      G push -q origin HEAD:main
       if ($LASTEXITCODE -eq 0) { Log "pushed"; return $true }
       Start-Sleep -Seconds (5 * $i)
     }
@@ -249,7 +259,8 @@ if ((Test-Path $lock) -and ((Get-Item $lock).LastWriteTime -gt (Get-Date).AddMin
 Set-Content $lock (Get-Date) -Encoding ASCII
 try {
   Push-Location $Repo
-  git pull -q --rebase --autostash origin main 2>&1 | ForEach-Object { Log ("git: " + $_) }
+  G config core.autocrlf false; G config core.filemode false
+  G pull -q --rebase --autostash origin main
   Pop-Location
   # self-update: the repo copy (pc/) is the source of truth; takes effect next run
   foreach ($pair in @(@("pc\run-panel.ps1", "run-panel.ps1"), @("pc\vote-output.schema.json", "vote-output.schema.json"), @("pc\register-tasks.ps1", "register-tasks.ps1"))) {

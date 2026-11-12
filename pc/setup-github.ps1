@@ -5,7 +5,7 @@
   push the panel + dashboard, turn on GitHub Pages, sign in cursor-agent if needed, and run a self-test of all 3 CLIs.
   Safe to re-run.
 #>
-$ErrorActionPreference = "Stop"
+$ErrorActionPreference = "Continue"
 $Root = "C:\parlay-locks"; $Repo = Join-Path $Root "repo"; $Bin = Join-Path $Root "bin"
 $gh = Join-Path $Bin "gh.exe"
 if (-not (Test-Path $gh)) { $c = Get-Command gh -ErrorAction SilentlyContinue; if ($c) { $gh = $c.Source } else { throw "gh.exe not found in $Bin" } }

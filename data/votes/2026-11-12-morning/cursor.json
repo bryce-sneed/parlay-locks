@@ -1,0 +1,133 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-12-morning",
+    "model":  "cursor",
+    "model_name":  "auto",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-12T10:31:55-05:00",
+    "finished_at":  "2026-11-12T10:32:41-05:00",
+    "duration_s":  21.5,
+    "usage":  {
+                  "inputTokens":  15239,
+                  "outputTokens":  2584,
+                  "cacheReadTokens":  35264,
+                  "cacheWriteTokens":  0
+              },
+    "overall_notes":  "Several NFL legs mix up roster/game fit (Likely and White are not in WAS @ NYG), which removes half the TNF stack before matchup math. Among plausible legs, Ekeler rush attempts under and Cade assists under have the clearest process; NBA overs on Booker/Brooks and NHL shot unders lean efficient or coin-flip at posted numbers. Confirm every pick\u0027em line in-app before any paper entry.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  58,
+                      "reasoning":  "Nabers\u0027 target share and the Week 5 Washington game support volume enough to beat 66.5 when the script isn\u0027t a pure grind. Wet TNF and last week\u0027s low-target outing are real downsides, and the sportsbook already leans over at modest juice, so this is not a strong edge leg. I would cut if inactives remove a WR or the pick\u0027em line is materially above 66.5.",
+                      "risk_flags":  [
+                                         "weather",
+                                         "script",
+                                         "line-efficient",
+                                         "volatility"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "cut",
+                      "confidence":  92,
+                      "reasoning":  "Isaiah Likely is a Baltimore Ravens tight end and does not play in Washington at New York; listing him on NYG for this event is a slate error, not a matchup play. No amount of TE yardage allowed to Washington salvages a leg on the wrong player and game. Re-evaluate only if the drafter substitutes a Giants or Commanders TE actually on this roster.",
+                      "risk_flags":  [
+                                         "wrong-player",
+                                         "wrong-game",
+                                         "data-error"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  74,
+                      "reasoning":  "Season-long carry caps near eight and the rushing split with other backs plus quarterback runs structurally cap attempt volume at a pick\u0027em 8.5. Book under nine at -130 aligns, though a broken game script or backfield injury could spike carries. Cut if the platform posts 6.5 or lower or White\u0027s role changes pre-kick.",
+                      "risk_flags":  [
+                                         "script",
+                                         "role-change",
+                                         "line-check"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "cut",
+                      "confidence":  90,
+                      "reasoning":  "Rachaad White is a Tampa Bay Buccaneer and is not on the Commanders roster for this Thursday night game, so the under on rushing yards in WAS @ NYG is not a valid proposition. The written case also conflicts with New York\u0027s run-defense ranking versus a road back who is not in this contest. Keep only after replacing with the actual Washington primary rusher in this matchup.",
+                      "risk_flags":  [
+                                         "wrong-player",
+                                         "wrong-game",
+                                         "data-error"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "cut",
+                      "confidence":  56,
+                      "reasoning":  "Market under pricing conflicts with a 4.0 shots L10 average, so you are betting against recent rate on a star shooter unless Dallas suppresses volume more than history suggests. Road underdog Winnipeg may trail and add SOG rather than shrink Connor\u0027s line. Keep only at pick\u0027em 3.5 (not 2.5) if books stay heavily under and Connor\u0027s linemates are out.",
+                      "risk_flags":  [
+                                         "form-vs-market",
+                                         "game-script",
+                                         "line-check"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "cut",
+                      "confidence":  55,
+                      "reasoning":  "At 4.5 the under wins on four or fewer shots while L10 sits at 4.1, which is a thin margin and often near fair. Platforms frequently post 3.5 instead, which would flip the thesis entirely. Devil favorite in a modest total is not enough to justify the under without a confirmed 4.5 pick\u0027em number.",
+                      "risk_flags":  [
+                                         "line-check",
+                                         "coin-flip",
+                                         "small-edge"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  60,
+                      "reasoning":  "Eight of ten with two-plus threes on a 1.5 line clears pick\u0027em break-even math with a cushion, and Charlotte\u0027s shorthanded defense is a plausible spot for Booker floor threes. DraftKings -163 already embeds roughly sixty percent, so the edge is small and blowout minutes could trim late attempts. Cut if the line moves to 2.5 or Booker is questionable.",
+                      "risk_flags":  [
+                                         "blowout",
+                                         "minutes",
+                                         "line-efficient"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  67,
+                      "reasoning":  "Assist under trends (one of nine over 8.5, cited ten-of-eleven unders) plus a large spread favor a reduced pass-volume second half, which helps the under more than the over. Washington on a back-to-back is tired but that can also speed up the game flow unpredictably. Cut if Cunningham\u0027s usage as primary initiator spikes in a competitive first half.",
+                      "risk_flags":  [
+                                         "blowout",
+                                         "minutes",
+                                         "variance"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "cut",
+                      "confidence":  54,
+                      "reasoning":  "Six of ten over 1.5 assists is only barely above break-even for a two-leg slip while books price the over near sixty-one percent, so the line looks efficient. Brooks is not a primary playmaker; one dry game fails the leg outright. I would keep only with a softer line at 1.0 or a confirmed usage bump.",
+                      "risk_flags":  [
+                                         "small-sample",
+                                         "line-efficient",
+                                         "variance"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L10",
+                      "decision":  "cut",
+                      "confidence":  53,
+                      "reasoning":  "Seven of ten over 3.5 rebounds is fine sampling but Philadelphia as a large home favorite raises blowout risk that can cap starter minutes for a Toronto wing. Juiced over near sixty percent leaves little margin for a single rebound miss. Keep if the spread tightens or Walter\u0027s recent minutes and rebound rate trend up in close games only.",
+                      "risk_flags":  [
+                                         "blowout",
+                                         "minutes",
+                                         "line-efficient",
+                                         "role"
+                                     ]
+                  }
+              ]
+}

@@ -1,0 +1,136 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-12-morning",
+    "model":  "codex",
+    "model_name":  "default",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-12T10:31:55-05:00",
+    "finished_at":  "2026-11-12T10:32:41-05:00",
+    "duration_s":  44,
+    "usage":  {
+                  "tokens":  4933
+              },
+    "overall_notes":  "This is a paper-only assessment using the supplied snapshot without tools or browsing; my knowledge of November 2026 rosters, injuries, and roles may be stale. I favor only the clearest volume or two-sided pricing cases, conditional on matching app lines, and would not combine every kept leg because several share games. Confidence reflects the selected outcome, so a cut below 50 means insufficient edge rather than a prediction that the leg probably misses.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "cut",
+                      "confidence":  49,
+                      "reasoning":  "The supplied 58% probability for 60+ yards cannot justify a 58% estimate for over 66.5, and the modest sportsbook price offers little independent support. Wet weather, uncertain passing volume, and reliance on an earlier matchup weaken the case; a materially lower line or stronger volume projection would change my mind.",
+                      "risk_flags":  [
+                                         "weather",
+                                         "passing-volume",
+                                         "threshold-mismatch",
+                                         "same-game"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "cut",
+                      "confidence":  48,
+                      "reasoning":  "The target volume is encouraging, but season averages and five clears in eight games do not establish sufficient edge at 46.5. Washington\u0027s allowance covers all tight ends, while the previous matchup may inflate the narrative; a lower line and independently supported current route participation would improve the case.",
+                      "risk_flags":  [
+                                         "small-sample",
+                                         "weather",
+                                         "passing-volume",
+                                         "same-game"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  60,
+                      "reasoning":  "A season-long ceiling of eight carries supports under 8.5 more directly than the trend arguments elsewhere, assuming the reported backfield roles are accurate. Rising snap share and a run-heavy wet-weather script remain risks, and under 9 pricing is not directly equivalent because nine carries can push; I would reconsider with a lower app line or evidence of increased rushing work.",
+                      "risk_flags":  [
+                                         "role-change",
+                                         "weather",
+                                         "line-mismatch",
+                                         "same-game"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "cut",
+                      "confidence":  50,
+                      "reasoning":  "The line is only modestly above White\u0027s average, and the opposing model projection materially contradicts the under thesis. Blitz rate does not directly establish rushing suppression, while wet weather could increase carries; a stronger workload reduction or substantially higher line would change my mind.",
+                      "risk_flags":  [
+                                         "projection-conflict",
+                                         "weather",
+                                         "workload",
+                                         "same-game"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  58,
+                      "reasoning":  "The supplied two-sided prices imply approximately 60% under after normalization, giving this a stronger foundation than recent-form arguments alone. Connor\u0027s 4.0-shot recent average is meaningful contrary evidence, and Dallas being favored does not itself establish shot suppression; I would cut at 2.5 or if synchronized market prices lose their under lean.",
+                      "risk_flags":  [
+                                         "recent-form-conflict",
+                                         "price-timing",
+                                         "line-sensitive"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "cut",
+                      "confidence":  47,
+                      "reasoning":  "An over price of +114 alone cannot establish the fair under probability without the corresponding under quote. A 4.1-shot average also leaves the probability of five-plus unresolved; a complete market showing a substantial under edge at exactly 4.5 would change my mind.",
+                      "risk_flags":  [
+                                         "incomplete-pricing",
+                                         "distribution-unknown",
+                                         "line-sensitive"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  59,
+                      "reasoning":  "The supplied same-book prices normalize to approximately 58.6% over, supported directionally by eight clears in ten games. That leaves a modest margin with shooting variance and reduced minutes as risks; I would reconsider if the line rises to 2.5 or expected three-point attempts decline.",
+                      "risk_flags":  [
+                                         "shooting-variance",
+                                         "blowout",
+                                         "small-sample",
+                                         "same-game"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "cut",
+                      "confidence":  49,
+                      "reasoning":  "The recent under streak is striking, but roughly balanced market pricing suggests the line already accounts for available information. A weak opponent can generate assists before any blowout reduces minutes; stable potential-assist data demonstrating a reduced creation role would change my mind.",
+                      "risk_flags":  [
+                                         "trend-chasing",
+                                         "small-sample",
+                                         "blowout",
+                                         "market-disagreement"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "keep",
+                      "confidence":  59,
+                      "reasoning":  "The quoted prices normalize to approximately 60.4% over, with the recent hit rate providing modest supporting evidence. Two assists still depend on teammate conversion and Brooks\u0027 role, and the cross-book quotes require matching timestamps; I would cut if minutes or passing opportunities decline or the app posts 2.5.",
+                      "risk_flags":  [
+                                         "role",
+                                         "assist-variance",
+                                         "cross-book-pricing",
+                                         "same-game"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L10",
+                      "decision":  "cut",
+                      "confidence":  47,
+                      "reasoning":  "The supplied prices imply approximately 57% over, below the stated two-pick power threshold before accounting for uncertainty. Seven clears in ten games cannot resolve missing minutes and rotation information, and garbage-time participation is speculative; confirmed stable playing time and stronger market support would change my mind.",
+                      "risk_flags":  [
+                                         "minutes",
+                                         "rotation",
+                                         "blowout",
+                                         "small-sample"
+                                     ]
+                  }
+              ]
+}

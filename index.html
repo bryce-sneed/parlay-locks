@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Parlay Locks">
+<meta name="theme-color" content="#0b0f17">
+<meta name="robots" content="noindex">
+<title>Parlay Locks · Panel</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔒</text></svg>">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <span class="logo">🔒</span>
+    <div>
+      <h1>Parlay Locks <span class="badge paper">PAPER</span></h1>
+      <div class="sub" id="status">Loading…</div>
+    </div>
+  </div>
+  <button id="refresh" class="iconbtn" title="Refresh" aria-label="Refresh">⟳</button>
+</header>
+
+<div class="runbar" id="runbar"></div>
+
+<nav class="tabs" id="tabs">
+  <button data-tab="slips" class="on">Slips</button>
+  <button data-tab="panel">Panel</button>
+  <button data-tab="feed">Feed</button>
+  <button data-tab="models">Models</button>
+  <button data-tab="pl">P/L</button>
+  <button data-tab="about">How</button>
+</nav>
+
+<main>
+  <section id="tab-slips" class="tab on"></section>
+  <section id="tab-panel" class="tab"></section>
+  <section id="tab-feed" class="tab"></section>
+  <section id="tab-models" class="tab"></section>
+  <section id="tab-pl" class="tab"></section>
+  <section id="tab-about" class="tab"></section>
+</main>
+<footer class="foot">Paper dry run · Nov 12–18, 2026 · $20 paper bankroll, $1 per slip · not betting advice</footer>
+<script src="app.js"></script>
+</body>
+</html>

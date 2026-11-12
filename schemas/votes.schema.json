@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Panel votes v1 — data/votes/<run>/<model>.json (model = claude|codex|cursor; <model>-r2.json = optional second pass)",
+  "type": "object",
+  "required": ["schema", "run", "model", "round", "status", "started_at", "finished_at", "votes"],
+  "properties": {
+    "schema": { "const": "votes/v1" },
+    "run": { "type": "string" },
+    "model": { "enum": ["claude", "codex", "cursor"] },
+    "model_name": { "type": "string", "description": "Model/alias requested, e.g. haiku, default" },
+    "round": { "type": "integer", "enum": [1, 2] },
+    "status": { "enum": ["ok", "partial", "error", "skipped"] },
+    "error": { "type": ["string", "null"] },
+    "started_at": { "type": "string" },
+    "finished_at": { "type": "string" },
+    "duration_s": { "type": "number" },
+    "usage": { "type": "object", "description": "Whatever the CLI reported (tokens, cost)" },
+    "overall_notes": { "type": "string" },
+    "votes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["leg_id", "decision", "confidence", "reasoning"],
+        "properties": {
+          "leg_id": { "type": "string" },
+          "decision": { "enum": ["keep", "cut", "abstain"] },
+          "confidence": { "type": "integer", "minimum": 0, "maximum": 100, "description": "Confidence the decision is right (keep = leg hits, cut = leg misses)" },
+          "reasoning": { "type": "string" },
+          "risk_flags": { "type": "array", "items": { "type": "string" } },
+          "changed_from_round1": { "type": "boolean" }
+        }
+      }
+    }
+  }
+}

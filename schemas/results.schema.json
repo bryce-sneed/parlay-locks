@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Graded results v1 — data/results/<run>.json",
+  "type": "object",
+  "required": ["schema", "run", "graded_at", "legs", "slips"],
+  "properties": {
+    "schema": { "const": "results/v1" },
+    "run": { "type": "string" }, "graded_at": { "type": "string" }, "author": { "type": "string" },
+    "legs": {
+      "type": "array", "description": "Grade EVERY candidate leg (not only those on slips) so model calibration has data",
+      "items": { "type": "object", "required": ["leg_id", "outcome"], "properties": {
+        "leg_id": { "type": "string" }, "actual": { "type": ["number", "null"] },
+        "outcome": { "enum": ["hit", "miss", "push", "void", "pending"] }, "note": { "type": "string" }, "source": { "type": "string" } } }
+    },
+    "slips": {
+      "type": "array",
+      "items": { "type": "object", "required": ["id", "size", "stake", "outcome", "payout", "pnl"], "properties": {
+        "id": { "type": "string" }, "size": { "enum": [2, 3, 5] }, "stake": { "type": "number" },
+        "outcome": { "enum": ["win", "loss", "push", "partial", "void", "pending"] },
+        "payout": { "type": "number", "description": "Total returned incl. stake (0 on a loss)" },
+        "pnl": { "type": "number", "description": "payout - stake" }, "note": { "type": "string" } } }
+    }
+  }
+}

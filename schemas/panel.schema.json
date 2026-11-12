@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Panel summary v1 — data/votes/<run>/_panel.json (written by run-panel.ps1; its presence marks the run as voted)",
+  "type": "object",
+  "required": ["schema", "run", "finished_at", "models", "consensus"],
+  "properties": {
+    "schema": { "const": "panel/v1" },
+    "run": { "type": "string" },
+    "host": { "type": "string" },
+    "started_at": { "type": "string" },
+    "finished_at": { "type": "string" },
+    "second_pass": { "type": "boolean" },
+    "models": { "type": "object", "additionalProperties": { "type": "object", "properties": { "status": { "type": "string" }, "keep": { "type": "integer" }, "cut": { "type": "integer" }, "abstain": { "type": "integer" }, "duration_s": { "type": "number" } } } },
+    "consensus": {
+      "type": "array",
+      "description": "Sorted best-first. score = mean over voting models of (+conf if keep, -conf if cut), range -100..100",
+      "items": { "type": "object", "properties": { "leg_id": { "type": "string" }, "keep": { "type": "integer" }, "cut": { "type": "integer" }, "abstain": { "type": "integer" }, "avg_conf": { "type": "number" }, "score": { "type": "number" } } }
+    }
+  }
+}

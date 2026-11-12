@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Final slips v1 — data/slips/<run>.json",
+  "type": "object",
+  "required": ["schema", "run", "date", "snapshot", "created_at", "author", "slips"],
+  "properties": {
+    "schema": { "const": "slips/v1" },
+    "run": { "type": "string" }, "date": { "type": "string" }, "snapshot": { "enum": ["morning", "pregame"] },
+    "created_at": { "type": "string" }, "author": { "type": "string" },
+    "paper": { "const": true },
+    "notes": { "type": "string" },
+    "slips": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "size", "platform", "stake", "payout_multiplier", "legs"],
+        "properties": {
+          "id": { "type": "string", "examples": ["2026-11-12-morning-3"] },
+          "size": { "enum": [2, 3, 5] },
+          "platform": { "type": "string", "examples": ["PrizePicks", "Underdog"] },
+          "play_type": { "type": "string", "examples": ["power", "flex", "standard"] },
+          "stake": { "type": "number", "default": 1 },
+          "payout_multiplier": { "type": "number", "description": "Full-hit payout multiple, e.g. 3 for a 2-pick power play" },
+          "legs": { "type": "array", "items": { "type": "string" }, "description": "Leg ids from the candidates file" },
+          "rationale": { "type": "string" }
+        }
+      }
+    }
+  }
+}

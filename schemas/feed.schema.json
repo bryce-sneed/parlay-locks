@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Activity feed line v1 — one JSON object per line in data/feed.jsonl (append-only, merge=union)",
+  "type": "object",
+  "required": ["ts", "agent", "action", "text"],
+  "properties": {
+    "ts": { "type": "string", "description": "ISO 8601 with ET offset" },
+    "agent": { "enum": ["parlay-locks", "panel", "claude", "codex", "cursor", "system"] },
+    "to": { "type": "string", "description": "Recipient agent(s), e.g. panel, all, parlay-locks, bryce" },
+    "action": { "enum": ["draft_candidates", "pickup", "handoff", "vote", "revise", "consensus", "finalize_slips", "grade", "note", "error", "setup"] },
+    "run": { "type": "string" },
+    "text": { "type": "string" },
+    "ref": { "type": "string", "description": "Repo path of the file this action produced" },
+    "meta": { "type": "object" }
+  }
+}

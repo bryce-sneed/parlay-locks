@@ -1,0 +1,355 @@
+{
+ "schema": "candidates/v1",
+ "run": "2026-11-12-morning",
+ "date": "2026-11-12",
+ "snapshot": "morning",
+ "created_at": "2026-11-12T09:58:00-05:00",
+ "author": "parlay-locks",
+ "slate_notes": "Thursday slate: TNF WAS @ NYG (8:15 ET, NYG -2.5), 4 NBA games, 11 NHL games. College sports excluded: PrizePicks bars college Player Picks in Indiana. Lines are sportsbook consensus proxies; PrizePicks/Underdog lines weren't publicly findable this morning, so confirm the app line matches before using a leg. Avoided Wizards players (2nd night of back-to-back, rest risk). Pick'em break-even: about 57.7% per leg for a 2-pick power play, ~54-55% for 5-6 pick flex.",
+ "legs": [
+  {
+   "id": "L1",
+   "sport": "NFL",
+   "event": "WAS @ NYG",
+   "start_time": "2026-11-12T20:15:00-05:00",
+   "player": "Malik Nabers",
+   "team": "NYG",
+   "market": "Receiving Yards",
+   "line": 66.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.58,
+   "confidence": 62,
+   "reasoning": "Nabers is the Giants' clear first read (29.6% target share last week, 35 targets over last 4). Before last week's 5-43 dud in a 27-attempt grinder he had four straight 111+ yard games, including 11-121-1 on 20 targets vs Washington in Week 5. Kalshi prices 60+ yards at 58%; SportsLine projects 75.6. Sportsbook line 66.5 at -114 over. Fully practiced all week. Weather (wet) and a low-volume script are the main risks.",
+   "key_stats": [
+    "8.0 targets last game, 29.6% share",
+    "4 straight 111+ yd games before Wk 9",
+    "Wk 5 vs WAS: 11-121-1 on 20 targets",
+    "Kalshi 60+ yds: 58%"
+   ],
+   "injury_notes": "Full practice all week (knee), no designation.",
+   "sources": [
+    {
+     "title": "BettingPros TNF props",
+     "url": "https://www.bettingpros.com/articles/nfl-thursday-night-football-player-props-bets-commanders-vs-giants/"
+    },
+    {
+     "title": "Bettors Insider TNF props",
+     "url": "https://bettorsinsider.com/nfl/2026/11/11/tnf-skill-props-commanders-giants/"
+    },
+    {
+     "title": "CBS/Kalshi props",
+     "url": "https://www.cbssports.com/prediction/news/commanders-vs-giants-odds-picks-props-nfl-predictions-at-kalshi-include-jayden-daniels-malik-nabers/"
+    },
+    {
+     "title": "NFL.com injury report",
+     "url": "https://www.nfl.com/injuries/"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "sport": "NFL",
+   "event": "WAS @ NYG",
+   "start_time": "2026-11-12T20:15:00-05:00",
+   "player": "Isaiah Likely",
+   "team": "NYG",
+   "market": "Receiving Yards",
+   "line": 46.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.57,
+   "confidence": 60,
+   "reasoning": "Likely averages 56.0 yds and 8.6 targets/game (~26% share), cleared 50 in 5 of 8, and torched Washington for 11-94-2 in Week 5. Washington allows 68.75 yds/game to tight ends (4th most). Line 46.5 at -114 over.",
+   "key_stats": [
+    "46-448-6 on 69 targets in 8 games",
+    "50+ yds in 5/8",
+    "Wk 5 vs WAS: 11-94-2",
+    "WAS allows 68.75 TE yds/g (4th most)"
+   ],
+   "injury_notes": "No injury designation.",
+   "sources": [
+    {
+     "title": "Bettors Insider TNF props",
+     "url": "https://bettorsinsider.com/nfl/2026/11/11/tnf-skill-props-commanders-giants/"
+    },
+    {
+     "title": "FanDuel Research TNF props",
+     "url": "https://www.fanduel.com/research/commanders-giants-prediction-nfl-player-prop-bets-picks-tnf-nov-12"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "sport": "NFL",
+   "event": "WAS @ NYG",
+   "start_time": "2026-11-12T20:15:00-05:00",
+   "player": "Austin Ekeler",
+   "team": "WAS",
+   "market": "Rush Attempts",
+   "line": 8.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.62,
+   "confidence": 64,
+   "reasoning": "Ekeler has not had more than 8 carries in any game this season (3 vs NYG in Week 5) and splits with Rachaad White plus Daniels' scrambles. Books hang U9 at -130. Risk: White injury mid-game or a positive script; his snap share rose to 45% last week. Check that the fantasy line is 8.5 or lower; skip if posted at 6.5.",
+   "key_stats": [
+    "Max 8 carries in any game this season",
+    "3 carries vs NYG Wk 5",
+    "Books: U9 at -130"
+   ],
+   "injury_notes": "Healthy. Rachaad White healthy.",
+   "sources": [
+    {
+     "title": "BettingPros TNF props",
+     "url": "https://www.bettingpros.com/articles/nfl-thursday-night-football-player-props-bets-commanders-vs-giants/"
+    },
+    {
+     "title": "Bettors Insider TNF props",
+     "url": "https://bettorsinsider.com/nfl/2026/11/11/tnf-skill-props-commanders-giants/"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "sport": "NFL",
+   "event": "WAS @ NYG",
+   "start_time": "2026-11-12T20:15:00-05:00",
+   "player": "Rachaad White",
+   "team": "WAS",
+   "market": "Rushing Yards",
+   "line": 37.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.55,
+   "confidence": 52,
+   "reasoning": "White is at 32.6 yds/game on 4.2 YPC and had 7-28 last week while Ekeler ate a season-high 45% of snaps. Washington is a short road dog with a backup center (Allegretti for Patrick) against the 3rd-highest blitz rate. Counterpoint: NYG allows 123.6 rush yds/g (21st) and one public model projects 47. Lower-confidence leg.",
+   "key_stats": [
+    "32.6 rush yds/g",
+    "7-28 last week",
+    "Ekeler 45% snaps last week",
+    "NYG run D 21st (123.6/g)"
+   ],
+   "injury_notes": "C Lucas Patrick out (concussion); TE Yankoff out.",
+   "sources": [
+    {
+     "title": "Bettors Insider TNF props",
+     "url": "https://bettorsinsider.com/nfl/2026/11/11/tnf-skill-props-commanders-giants/"
+    },
+    {
+     "title": "SI Commanders injury report",
+     "url": "https://www.si.com/nfl/commanders/onsi/commanders-giants-final-injury-report-week-10"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "sport": "NHL",
+   "event": "WPG @ DAL",
+   "start_time": "2026-11-12T20:00:00-05:00",
+   "player": "Kyle Connor",
+   "team": "WPG",
+   "market": "Shots on Goal",
+   "line": 3.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.58,
+   "confidence": 55,
+   "reasoning": "Market is strongly to the under: best over +134 (FanDuel) vs under -176, about 60% under after removing vig. Connor's L10 average is 4.0 SOG, so this leans on the market over recent form; Dallas is the 62% favorite (AccuScore) and limits volume at home. Only keep if the pick'em line is 3.5 (not 2.5).",
+   "key_stats": [
+    "Books: O3.5 +134 / U3.5 -176",
+    "L10 avg 4.0 SOG"
+   ],
+   "injury_notes": "No reported injury.",
+   "sources": [
+    {
+     "title": "Hashmark Kyle Connor props",
+     "url": "https://hashmarkoprops.com/nhl-player-props/kyle-connor"
+    },
+    {
+     "title": "DARIMARKET NHL slate",
+     "url": "https://darimarket.us/blog/nhl/slate-2026-11-12"
+    }
+   ]
+  },
+  {
+   "id": "L6",
+   "sport": "NHL",
+   "event": "WSH @ NJ",
+   "start_time": "2026-11-12T19:00:00-05:00",
+   "player": "Jack Hughes",
+   "team": "NJ",
+   "market": "Shots on Goal",
+   "line": 4.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.56,
+   "confidence": 52,
+   "reasoning": "Line is high at 4.5 with the best over at only +114 (FanDuel), implying the under is favored. Hughes' L10 average is 4.1 SOG, so he needs 5+ to beat us. Game total 6.5, Devils -148. Pick'em platforms often post 3.5 instead; if so, cut this leg.",
+   "key_stats": [
+    "Books: O4.5 best +114",
+    "L10 avg 4.1 SOG",
+    "Game total 6.5"
+   ],
+   "injury_notes": "NJ: Mantha IR, Casey IR; Hughes healthy.",
+   "sources": [
+    {
+     "title": "Hashmark Capitals vs Devils",
+     "url": "https://hashmarkoprops.com/nhl-player-props/capitals-vs-devils-2026-11-12"
+    },
+    {
+     "title": "DARIMARKET NHL slate",
+     "url": "https://darimarket.us/blog/nhl/slate-2026-11-12"
+    }
+   ]
+  },
+  {
+   "id": "L7",
+   "sport": "NBA",
+   "event": "CHA @ PHX",
+   "start_time": "2026-11-12T21:00:00-05:00",
+   "player": "Devin Booker",
+   "team": "PHX",
+   "market": "3-Pointers Made",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.6,
+   "confidence": 62,
+   "reasoning": "Booker hit 2+ threes in 8 of his last 10. Books price over 1.5 at -163 (DraftKings) vs under +128, roughly 60% over after vig. Suns -6.5 home vs short-handed Hornets; mild blowout risk to minutes.",
+   "key_stats": [
+    "8/10 L10 over 1.5 3PM",
+    "DK O1.5 -163 / U +128",
+    "Suns -6.5, total 214.5"
+   ],
+   "injury_notes": "No reported Booker injury; Hornets short-handed per SI.",
+   "sources": [
+    {
+     "title": "HaterPicks NBA props",
+     "url": "https://www.haterpicks.app/us/nba/player-props"
+    },
+    {
+     "title": "FanDuel Research NBA odds",
+     "url": "https://www.fanduel.com/research/nba-predictions-odds-11-12-2026"
+    }
+   ]
+  },
+  {
+   "id": "L8",
+   "sport": "NBA",
+   "event": "DET @ WAS",
+   "start_time": "2026-11-12T19:00:00-05:00",
+   "player": "Cade Cunningham",
+   "team": "DET",
+   "market": "Assists",
+   "line": 8.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.58,
+   "confidence": 58,
+   "reasoning": "Cunningham cleared 8.5 assists only 1 of his last 9 and BetMGM tracks the assists under hitting in 10 of his last 11. Pistons are -10.5 vs a tired Wizards team on a back-to-back, so blowout minutes cut against the over. Books roughly even (O -114 FD / U -103 DK), so the edge here is the form trend.",
+   "key_stats": [
+    "1/9 L9 over 8.5 ast",
+    "Assists under 10 of last 11 (BetMGM)",
+    "DET -10.5"
+   ],
+   "injury_notes": "Healthy. WAS on 2nd night of back-to-back (Anthony Davis rest possible).",
+   "sources": [
+    {
+     "title": "HaterPicks NBA props",
+     "url": "https://www.haterpicks.app/us/nba/player-props"
+    },
+    {
+     "title": "BetMGM Pistons vs Wizards props",
+     "url": "https://sports.betmgm.com/en/blog/nba/pistons-wizards-player-prop-bets-picks-nba-nov-12-jaa/"
+    }
+   ]
+  },
+  {
+   "id": "L9",
+   "sport": "NBA",
+   "event": "CHA @ PHX",
+   "start_time": "2026-11-12T21:00:00-05:00",
+   "player": "Dillon Brooks",
+   "team": "PHX",
+   "market": "Assists",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.6,
+   "confidence": 55,
+   "reasoning": "Low bar: Brooks has 2+ assists in 6 of his last 10 and books price over 1.5 at -175 (DraftKings) vs under +140, about 61% over after vig. Low line means one assist variance risk.",
+   "key_stats": [
+    "6/10 L10",
+    "DK O1.5 -175 / FD U +140"
+   ],
+   "injury_notes": "None reported.",
+   "sources": [
+    {
+     "title": "HaterPicks NBA props",
+     "url": "https://www.haterpicks.app/us/nba/player-props"
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "sport": "NBA",
+   "event": "TOR @ PHI",
+   "start_time": "2026-11-12T19:00:00-05:00",
+   "player": "Ja'Kobe Walter",
+   "team": "TOR",
+   "market": "Rebounds",
+   "line": 3.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.6,
+   "confidence": 56,
+   "reasoning": "Walter grabbed 4+ rebounds in 7 of his last 10. Books price over 3.5 at -152 (BetRivers) vs under +120. 76ers -9.5, so blowout minutes are the risk, but Toronto wings get garbage-time run too.",
+   "key_stats": [
+    "7/10 L10 over 3.5 reb",
+    "O3.5 -152 / U +120"
+   ],
+   "injury_notes": "None reported.",
+   "sources": [
+    {
+     "title": "HaterPicks NBA props",
+     "url": "https://www.haterpicks.app/us/nba/player-props"
+    },
+    {
+     "title": "FanDuel Research NBA odds",
+     "url": "https://www.fanduel.com/research/nba-predictions-odds-11-12-2026"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+{"schema":"slips/v1","run":"2026-11-12-morning","date":"2026-11-12","snapshot":"morning","created_at":"2026-11-12T11:08:00-05:00","author":"parlay-locks","paper":true,
+ "notes":"Paper only, flat $1 per slip from a $20 bankroll. Panel ran with Codex + Cursor; Claude errored (session limit), so splits are out of 2 voters. Late-news recheck at ~11:05 ET: no changes for any slip leg (Nabers full practice, Ekeler/White healthy, Booker/Brooks/Cade active). Overruled Cursor's roster objection on L2/L4: official Giants/Commanders depth charts confirm Isaiah Likely is NYG TE1 and Rachaad White is WAS RB1; L2/L4 still left out on Codex's price-based cuts. Multipliers: Underdog standard 3.5x/6.5x, PrizePicks Power 20x (sources in notes.md). Confirm app lines match before any real entry.",
+ "slips":[
+  {"id":"2026-11-12-morning-2","size":2,"platform":"Underdog","play_type":"standard","stake":1,"payout_multiplier":3.5,"legs":["L3","L7"],
+   "rationale":"The only two legs both panel voters kept: Ekeler under 8.5 rush attempts (never more than 8 carries this season) and Booker over 1.5 threes (8/10 L10, books ~60%). Different games, no correlation."},
+  {"id":"2026-11-12-morning-3","size":3,"platform":"Underdog","play_type":"standard","stake":1,"payout_multiplier":6.5,"legs":["L3","L7","L8"],
+   "rationale":"Adds Cade under 8.5 assists (1-1 split; Cursor 67 keep, Codex 49 cut as 'priced in'). I side with keep: 1/9 L9 over, DET -10.5 blowout risk, and Daniss Jenkins starting and projected 35 min takes ball-handling."},
+  {"id":"2026-11-12-morning-5","size":5,"platform":"PrizePicks","play_type":"power","stake":1,"payout_multiplier":20,"legs":["L3","L7","L8","L1","L5"],
+   "rationale":"Adds Nabers over 66.5 rec yds (Cursor keep 58 / Codex cut 49) and Connor under 3.5 SOG (Codex keep 58 / Cursor cut 56), both market-backed at ~58-60%. Skipped Brooks O1.5 ast to avoid stacking two PHX legs with Booker. Five different games."}
+ ]}

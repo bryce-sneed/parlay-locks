@@ -1,0 +1,123 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-12-pregame",
+    "model":  "codex",
+    "model_name":  "default",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-12T17:30:05-05:00",
+    "finished_at":  "2026-11-12T17:31:15-05:00",
+    "duration_s":  39.9,
+    "usage":  {
+                  "tokens":  20415
+              },
+    "overall_notes":  "I used only the supplied data and did not browse; my roster knowledge may be stale, so the unusual team assignments and injury reports remain unverified assumptions. I favor L2 and L9, with L7 a thinner keep; the quoted no-vig probabilities cannot be independently established from one-sided prices. Confidence reflects the selected outcome direction, not certainty that a leg offers value, so marginal cuts receive low confidence.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "cut",
+                      "confidence":  51,
+                      "reasoning":  "The 7.7-carry projection supports the under, but its assumptions are missing and the five-game sample is thin. A competitive game or Washington lead could push White to 11 carries; verified snap shares and a second independent projection would change my mind.",
+                      "risk_flags":  [
+                                         "projection-uncertainty",
+                                         "small-sample",
+                                         "game-script"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  59,
+                      "reasoning":  "The supplied season results and claimed passing-down split provide complementary support for fewer than three catches. The main risk is an expanded receiving role or trailing script; I would cut if Ekeler\u0027s availability or passing-down role changed, and avoid pairing this with L1.",
+                      "risk_flags":  [
+                                         "role-verification",
+                                         "game-script",
+                                         "same-player-correlation"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "cut",
+                      "confidence":  51,
+                      "reasoning":  "The under has support, but the unresolved quarterback situation makes target distribution uncertain, and this directly conflicts with the slate note that Giants passing legs were avoided. Missing running backs could also change short-pass usage; confirmed quarterback status and stable routes and targets would change my mind.",
+                      "risk_flags":  [
+                                         "qb-injury",
+                                         "role-uncertainty",
+                                         "small-sample",
+                                         "conflicting-rationale"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "cut",
+                      "confidence":  51,
+                      "reasoning":  "The scoring average and hit rate favor the over, but the stated 58% estimate offers almost no cushion above the supplied two-pick break-even rate. Embiid\u0027s status can change both usage and offensive efficiency, while Toronto\u0027s absences create blowout risk; 23.5 with confirmed availability would make this more attractive.",
+                      "risk_flags":  [
+                                         "injury-dependent",
+                                         "blowout",
+                                         "thin-edge",
+                                         "line-sensitive"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "cut",
+                      "confidence":  52,
+                      "reasoning":  "Seven clears in 11 games and a 6.3 average suggest a modest advantage, but the two-game absence split is too small to establish a durable rebound boost. Missing centers do not automatically transfer their rebounds to Edgecombe; confirmed minutes and rebound chances under the expected lineup would change my mind.",
+                      "risk_flags":  [
+                                         "small-sample",
+                                         "injury-dependent",
+                                         "role-uncertainty",
+                                         "same-game-correlation"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "cut",
+                      "confidence":  51,
+                      "reasoning":  "The rebound average and matchup support the over, but five clears in nine games and a substantial spread temper the apparent edge. The recent short-minutes result demonstrates a relevant failure path; a tighter spread or stronger evidence of stable minutes without Duren would change my mind.",
+                      "risk_flags":  [
+                                         "blowout",
+                                         "minutes",
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  56,
+                      "reasoning":  "The 35.1 PRA average provides some cushion below 39.5, and reduced minutes in a lopsided game offer another route to the under. Washington\u0027s matchup and Duren\u0027s absence could increase production enough to overcome that cushion; I would reconsider at 38.5 or with evidence of a larger role, and avoid stacking it with the existing assists under.",
+                      "risk_flags":  [
+                                         "usage-change",
+                                         "line-sensitive",
+                                         "same-player-correlation",
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "cut",
+                      "confidence":  55,
+                      "reasoning":  "Returning from quad tendinopathy creates meaningful minutes uncertainty for a rebound over. Eight rebounds loses at 8.5, so the seven-game 8+ statistic overstates the relevant support; confirmed unrestricted minutes and a complete 9+ hit rate would change my mind.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "minutes",
+                                         "threshold-mismatch",
+                                         "missing-denominator"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "keep",
+                      "confidence":  59,
+                      "reasoning":  "The quoted -190 over price is the strongest market signal supplied, provided it applies to the identical standard-payout 1.5 line. A time-on-ice line is not verified actual usage, and power-play responsibility alone does not establish shot volume; I would cut with reduced deployment, weaker corroborating prices, or a reduced payout.",
+                      "risk_flags":  [
+                                         "single-book",
+                                         "deployment-verification",
+                                         "payout-structure",
+                                         "missing-shot-history"
+                                     ]
+                  }
+              ]
+}

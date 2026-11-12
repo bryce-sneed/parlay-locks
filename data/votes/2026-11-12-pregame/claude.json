@@ -1,0 +1,110 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-12-pregame",
+    "model":  "claude",
+    "model_name":  "haiku",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-12T17:30:05-05:00",
+    "finished_at":  "2026-11-12T17:31:15-05:00",
+    "duration_s":  66.9,
+    "usage":  {
+                  "cost_usd":  0.0844,
+                  "cache_read":  0,
+                  "output_tokens":  5753,
+                  "input_tokens":  9
+              },
+    "overall_notes":  "Slate is situational with mixed value. Key binaries: McCarthy\u0027s hip (affects L3), Embiid status (affects L5), Diabate\u0027s first game back (affects L8), and blowout risk in DET-WAS (affects L6-L7). The lines are mostly reasonable; usage spike from injuries (LeBron out, Duren out) inflates some props but doesn\u0027t guarantee hits. Suitable for flex entry with caution.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  60,
+                      "reasoning":  "Projection gap (7.7 carries vs 10.5 line) is real and backed by track record (over in only 1 of 5). Ekeler splits backfield work and Daniels runs heavily (6.5 line), so White\u0027s ceiling is capped. Market at -108 confirms book sees it as close but not screaming value either. Risk: if WAS gets positive game script (they\u0027re -3 road dogs), late carries could add up. If game stays close, under hits.",
+                      "risk_flags":  [
+                                         "game-script",
+                                         "blowout",
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  65,
+                      "reasoning":  "Strong track record (under in 8 of 10, 5 of 7 this season; 1 catch vs NYG in October) and market confirmation (~58% under, over +140 suggests weakness). White averages 0.7 receptions per game and Ekeler handles passing-down work. This is a classic passing-back under. Correlation with L1 noted by drafter; both should not be paired on same slip.",
+                      "risk_flags":  [
+                                         "same-player-correlation",
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "cut",
+                      "confidence":  45,
+                      "reasoning":  "McCarthy\u0027s hip injury (questionable) introduces a binary: backup QB behavior is volatile and unpredictable in both directions (could check down helping Fields, or air it out hurting him). The 4-of-4 at-home under is solid but tiny sample. Market at ~60% under doesn\u0027t scream value. Low 40.5 total is supportive but doesn\u0027t offset the McCarthy uncertainty.",
+                      "risk_flags":  [
+                                         "backup-qb-binary",
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  68,
+                      "reasoning":  "Maxey\u0027s usage is flagged to spike (LeBron out, Embiid questionable, TOR on B2B without Kawhi/Barnes). His baseline is 26.7 PPG; 24.5 is soft and even conservative given usage boost. Track record 25+ in 9 of 12 is strong. Prior game with LeBron out: 26 points on 22 shots. Only risk: if Embiid also misses, game gets loose with more ball-movement, but Maxey should still clear this.",
+                      "risk_flags":  [
+                                         "embiid-status"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  58,
+                      "reasoning":  "Frontcourt depth (Bona, Hukporti, Barlow out; Embiid questionable) boosts Edgecombe\u0027s rebound share significantly. He averages 6.3 RPG and cleared 5.5 in 7 of 11. The two LeBron-absent games showing 21 total boards (10.5/game) are enticing but only 2 samples. -130 pricing (55% no-vig) is reasonable. Risk: if Embiid plays, his rebound gravity competes with Edgecombe\u0027s share.",
+                      "risk_flags":  [
+                                         "embiid-status",
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "cut",
+                      "confidence":  42,
+                      "reasoning":  "Blowout precedent is the blocker: Monday vs WAS, DET won big and Thompson got only 5 rebounds in 26.5 short minutes. DET is -10.5 favorite again today vs same opponent. If blowout repeats, under hits due to minutes cap. But 8.4 RPG average is real in normal minutes and -142 pricing (57% no-vig) suggests book sees game as closer. Blowout dependency is too high.",
+                      "risk_flags":  [
+                                         "blowout-precedent",
+                                         "minutes-cap"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  56,
+                      "reasoning":  "Cade averages 35.1 PRA (4.4 below line) and cleared 39.5 only 4 of 9 recent. Monday vs WAS he had 27 PRA in 26.5 min due to blowout. DET -10.5 today vs same opponent suggests similar blowout path is possible, which would cap minutes and help under. However, the 39.5 line is not aggressive for his average, so if game stays close (despite spread), Cade clears 40 easily. Blowout thesis is reasonable but not guaranteed.",
+                      "risk_flags":  [
+                                         "blowout-dependency",
+                                         "line-not-aggressive"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "cut",
+                      "confidence":  48,
+                      "reasoning":  "Diabate is probable after missing 2 games (quad tendinopathy) — first-game-back minutes restriction is the key risk. He averages 21.2 rebound chances, but if limited to 20-25 min on return, his chances drop proportionally. The 8.5 line is right at his frequency (8+ in 7 of 11, under 8 in 3 recent). -138 pricing (56% no-vig) shows book slightly prefers overs (higher hold). Return risk outweighs the PHX matchup advantage.",
+                      "risk_flags":  [
+                                         "first-game-back-minutes",
+                                         "quad-injury"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "keep",
+                      "confidence":  63,
+                      "reasoning":  "Luke Hughes is a high-floor defenseman with 26.5 min TOI and power-play QB duties. Over 1.5 priced -190 (63% no-vig) is aggressive but justified for a PP QB with consistent shot-volume. The play is sound. Drafter\u0027s warning about potential goblin tagging (reduced payout) is valid but doesn\u0027t change the underlying quality. This is a reliable, low-variance contributor.",
+                      "risk_flags":  [
+                                         "goblin-tagging-payout-risk"
+                                     ]
+                  }
+              ]
+}

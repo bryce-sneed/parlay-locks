@@ -1,0 +1,126 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-12-pregame",
+    "model":  "cursor",
+    "model_name":  "auto",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-12T17:30:05-05:00",
+    "finished_at":  "2026-11-12T17:31:15-05:00",
+    "duration_s":  42.1,
+    "usage":  {
+                  "inputTokens":  14397,
+                  "outputTokens":  2428,
+                  "cacheReadTokens":  36096,
+                  "cacheWriteTokens":  0
+              },
+    "overall_notes":  "Pregame slate is injury-heavy; blowout and minutes caps matter on DET-WAS and several NBA fronts. I kept legs where usage or matchup gap clearly beats a near-fair book line and cut or downgraded where the market already prices the outcome (NHL SOG) or QB/return-from-injury variance dominates. Treat TOR-PHI usage narratives as scenario-specific and confirm PrizePicks lines match the proxies cited.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  56,
+                      "reasoning":  "The under fits a three-way run diet with Ekeler and Daniels-designed carries, and the 7.7 projection versus 10.5 is a meaningful gap with a weak recent over rate. The main worry is a positive script for Washington that extends drives and late clock drains, which would add attempts without needing a blowout win. I would flip to cut if the spread tightens materially or White’s snap share trends up in pregame reports.",
+                      "risk_flags":  [
+                                         "game-script",
+                                         "committee",
+                                         "line-moved"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  68,
+                      "reasoning":  "Reception unders align with role (Ekeler on passing downs), a strong recent under record, and a market already leaning under with a plus-money over. Volume risk is mostly if Washington trails and the offense short-passes more, but White’s target share has been persistently low. Correlation with L1 is a slip-building issue, not a hit-rate issue on this leg alone.",
+                      "risk_flags":  [
+                                         "correlation",
+                                         "game-script",
+                                         "market-efficient"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  54,
+                      "reasoning":  "Low total and Nabers ahead in the pecking order support a sub-2.5 reception night if the Giants’ passing pie stays small. McCarthy’s hip tag is the swing factor: a backup can compress targets to WR1 or spray volume unpredictably. I keep it lean because home splits and market lean under, but this is not a high-conviction leg.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "QB",
+                                         "low-total",
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  59,
+                      "reasoning":  "Maxey’s shot volume and scoring floor look elevated when Embiid is limited or out and the opponent is on a B2B missing key defenders. The 24.5 line is reasonable versus season scoring rate and recent 25+ frequency. Embiid playing full minutes or an unexpectedly slow pace would cap the over; I would cut if Embiid is confirmed active without restriction.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "usage",
+                                         "pace",
+                                         "same-game"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  61,
+                      "reasoning":  "Rebound share should rise with thin PHI frontcourt availability and Embiid uncertainty, and season rate plus recent clears support 5.5. The book already prices a modest over (-130), so edge is mostly role-driven rather than mispricing. A full Embiid with heavy minutes or foul trouble limiting Edgecombe’s run changes the thesis.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "minutes",
+                                         "same-game",
+                                         "market-efficient"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  57,
+                      "reasoning":  "Duren’s absence keeps Thompson on a higher rebound-chance role against a weak WAS glass team, and season averages clear the line with room. DET as a double-digit favorite reintroduces blowout minutes risk, which already showed up in the recent WAS meeting. I would cut if the spread compresses or Thompson’s minutes projection drops under ~28.",
+                      "risk_flags":  [
+                                         "blowout",
+                                         "minutes",
+                                         "injury"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  60,
+                      "reasoning":  "Season PRA average sits well below 39.5 and the same-matchup blowout produced a low-minute, low-output line for Cade. Favorite script risk is the core mechanism for the under, and recent over rate on this number is modest. Duren out could slightly boost usage and assist counting; a competitive game where Cade plays 36+ minutes is the main path to an over.",
+                      "risk_flags":  [
+                                         "blowout",
+                                         "minutes",
+                                         "usage",
+                                         "correlation"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  52,
+                      "reasoning":  "Mark Williams out and PHX’s poor rebounding profile support Diabate’s chance environment when active, and his chance rate is elite on paper. First-game-back probable tag is real: teams often cap starters on a soft minutes limit after quad issues. I keep it only if he’s confirmed without a restriction; otherwise this becomes a cut.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "minutes",
+                                         "rust",
+                                         "line-moved"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "cut",
+                      "confidence":  72,
+                      "reasoning":  "A 1.5 SOG over for a top-pair defenseman is already heavily juiced in the market (roughly low-60s implied), leaving little margin for pick’em breakeven once payout is standard—or worse if labeled a goblin. Shot props also variance-wire on PP time and game state despite high TOI. I would only reconsider at a softer alt line or if PP1 usage spikes from confirmed lineup news.",
+                      "risk_flags":  [
+                                         "market-efficient",
+                                         "goblin",
+                                         "low-line",
+                                         "variance"
+                                     ]
+                  }
+              ]
+}

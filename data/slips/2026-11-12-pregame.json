@@ -1,0 +1,10 @@
+{"schema":"slips/v1","run":"2026-11-12-pregame","date":"2026-11-12","snapshot":"pregame","created_at":"2026-11-12T18:15:00-05:00","author":"parlay-locks","paper":true,
+ "notes":"Paper only, flat $1 per slip from a $20 bankroll. Full panel ran (Claude, Codex, Cursor). Late-news recheck ~6:10 ET: Rachaad White active (WAS inactives only Patrick, Yankoff); LeBron OUT; Embiid still questionable (helps L4 Maxey usage if he sits). Giants.com final report shows Skattebo and McCarthy with no game status, which conflicts with the draft's slate notes; this doesn't touch any slip leg, but it's another reason L3 (NYG passing) stays out. Followed panel cuts on L3, L6, L8. Skipped L1 (White rush attempts) because it's the same player as L2. Multipliers: Underdog standard 3.5x/6.5x, PrizePicks Power 20x (sources in notes.md). Confirm app lines match before any real entry.",
+ "slips":[
+  {"id":"2026-11-12-pregame-2","size":2,"platform":"Underdog","play_type":"standard","stake":1,"payout_multiplier":3.5,"legs":["L2","L7"],
+   "rationale":"The only two 3-0 panel keeps: Rachaad White under 2.5 receptions and Cade under 39.5 PRA (DET-WAS blowout risk limits his minutes). Different games."},
+  {"id":"2026-11-12-pregame-3","size":3,"platform":"Underdog","play_type":"standard","stake":1,"payout_multiplier":6.5,"legs":["L2","L7","L4"],
+   "rationale":"Adds Maxey over 24.5 points (2-1, score 25.3). LeBron is out and Embiid is questionable, so Maxey's usage goes up. Three different games."},
+  {"id":"2026-11-12-pregame-5","size":5,"platform":"PrizePicks","play_type":"power","stake":1,"payout_multiplier":20,"legs":["L2","L7","L4","L9","L5"],
+   "rationale":"Adds Luke Hughes over 1.5 SOG (2-1, highest avg confidence at 64.7; Codex's favorite) and Edgecombe over 5.5 rebounds (2-1). PHI bigs Bona, Barlow, and Hukporti are out. Maxey and Edgecombe share a game, but they're different stats with mild positive correlation if Embiid sits."}
+ ]}

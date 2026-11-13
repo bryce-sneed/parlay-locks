@@ -1,0 +1,137 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-13-morning",
+    "model":  "codex",
+    "model_name":  "default",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-13T10:30:03-05:00",
+    "finished_at":  "2026-11-13T10:31:13-05:00",
+    "duration_s":  45,
+    "usage":  {
+                  "tokens":  20551
+              },
+    "overall_notes":  "I used only the supplied data, without tools or browsing; my roster and role knowledge may be stale for November 2026. I favor a small shortlist because these are unverified proxy lines, recent hit streaks can overstate predictive strength, and one-sided sportsbook prices cannot establish no-vig probabilities. Confidence follows your outcome definition, so cuts remain near 50% when the evidence supports passing more strongly than predicting a miss.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "cut",
+                      "confidence":  51,
+                      "reasoning":  "The recent unders support the direction, but a 7.2 average against 7.5 leaves little cushion against Chicago\u0027s stated pace. Additional minutes could offset the recent trend, and -154 alone does not establish the quoted fair probability. An 8.5 line or stronger evidence of reduced creation would change my mind.",
+                      "risk_flags":  [
+                                         "pace",
+                                         "minutes",
+                                         "small-sample",
+                                         "unverified-line"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "cut",
+                      "confidence":  51,
+                      "reasoning":  "The attempt log and depleted frontcourt make this a credible over, but a 15.5-point spread creates substantial minutes risk. Missing backup centers helps playing time more directly than shot share, and the depleted opponent could make the game uncompetitive early. A materially tighter spread or a 12.5 line would change my mind.",
+                      "risk_flags":  [
+                                         "blowout",
+                                         "minutes",
+                                         "role",
+                                         "unverified-market"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  58,
+                      "reasoning":  "The supplied rebound log provides consistent support above 6.5, with frontcourt absences offering a plausible reason for sustained opportunity. The main uncertainty is whether Coward\u0027s minutes and rebounding role remain stable; a high total alone does not establish extra missed shots. I would cut at 7.5 or with evidence of reduced minutes.",
+                      "risk_flags":  [
+                                         "small-sample",
+                                         "minutes",
+                                         "injury",
+                                         "unverified-line"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  59,
+                      "reasoning":  "Ten consecutive clears and a strongly shaded book price make this one of the better supplied cases. Four of those games finished at exactly five makes, however, and attempts and minutes are missing, leaving meaningful shooting variance. I would cut at 5.5 or if the questionable players materially reduce his shot volume.",
+                      "risk_flags":  [
+                                         "shooting-variance",
+                                         "role",
+                                         "small-sample",
+                                         "unverified-market"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  59,
+                      "reasoning":  "Banchero\u0027s absence supplies a coherent creation-based explanation for the turnover streak, supported by the stated minutes and assists. Turnovers remain volatile, and an early blowout could remove valuable possessions. I would reconsider if the logs do not reflect the current role, Wagner faces a minutes restriction, or the line rises to 3.5.",
+                      "risk_flags":  [
+                                         "turnover-variance",
+                                         "blowout",
+                                         "injury",
+                                         "unverified-market"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "cut",
+                      "confidence":  52,
+                      "reasoning":  "Three strong games and a road average of 35 provide limited separation from 33.5, while double-doubles do not necessarily clear this threshold. Position-based opponent splits are incomplete evidence, and the spread adds minutes risk. A lower line or a longer current-role distribution showing consistent clears would change my mind.",
+                      "risk_flags":  [
+                                         "small-sample",
+                                         "blowout",
+                                         "matchup-data",
+                                         "same-game"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  56,
+                      "reasoning":  "Nine clears in ten games and supportive pricing justify a modest lean at 1.5. The case lacks potential assists and touches, so two assists could still depend heavily on teammate conversion and full minutes. I would cut at 2.5 or with reduced minutes, and would avoid treating this and Towns as independent outcomes.",
+                      "risk_flags":  [
+                                         "assist-variance",
+                                         "small-sample",
+                                         "same-game",
+                                         "blowout"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "cut",
+                      "confidence":  52,
+                      "reasoning":  "The absences clearly support increased opportunity, but two recent games are a thin foundation against a tough defense with an 11.5-point spread. The supplied 29.4 PRA per 36 translates to approximately 24.5 over 30 minutes, leaving little cushion if his playing time falls. A tighter spread and stronger evidence of sustained minutes and usage would change my mind.",
+                      "risk_flags":  [
+                                         "blowout",
+                                         "minutes",
+                                         "small-sample",
+                                         "opponent-defense"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "keep",
+                      "confidence":  57,
+                      "reasoning":  "The strongly shaded price supports a modest over lean at a two-shot threshold, although the opposite price is needed to estimate a no-vig probability. Nashville\u0027s low shots allowed matters more directly than its save percentage, but Stone\u0027s own shot and ice-time logs are missing. I would cut with reduced deployment, at 2.5, or if the quoted price belongs to a different line.",
+                      "risk_flags":  [
+                                         "opponent-shot-suppression",
+                                         "missing-player-data",
+                                         "unverified-line"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L10",
+                      "decision":  "cut",
+                      "confidence":  53,
+                      "reasoning":  "The player-team mapping requires scrutiny: my potentially stale knowledge associates Dorofeyev with Vegas, so the Rangers matchup rationale needs confirmation. Even accepting the supplied assignment, a 3.0-shot average against 2.5, modest pricing, and a back-to-back leave a thin case. Confirmed roster and event mapping plus sustained shot volume and deployment would change my mind.",
+                      "risk_flags":  [
+                                         "roster-verification",
+                                         "back-to-back",
+                                         "small-sample",
+                                         "thin-edge"
+                                     ]
+                  }
+              ]
+}

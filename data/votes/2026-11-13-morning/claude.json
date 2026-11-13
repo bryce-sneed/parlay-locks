@@ -1,0 +1,124 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-13-morning",
+    "model":  "claude",
+    "model_name":  "haiku",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-13T10:30:03-05:00",
+    "finished_at":  "2026-11-13T10:31:13-05:00",
+    "duration_s":  67.4,
+    "usage":  {
+                  "cost_usd":  0.084846,
+                  "cache_read":  0,
+                  "output_tokens":  5823,
+                  "input_tokens":  9
+              },
+    "overall_notes":  "Slate has merit but several legs are either fairly priced with thin edges or carry material unpriced risk (blowout, platform issues, noisy markets). Solid keeps: Sengun volume, Coward boards, Towns/Podziemski strong recent form vs weak opponents. Cuts: Johnson has flawed reasoning (faster pace + worst defense = MORE assists risk, not less), Mitchell has platform verification gap, Stone/Dorofeyev face elite/well-priced defense. My knowledge cutoff is Feb 2025, so 2026 season data verifies the given statistics but team identity/role changes are what I\u0027m assessing.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "cut",
+                      "confidence":  70,
+                      "reasoning":  "Reasoning contains a logical flaw: Chicago\u0027s fastest pace and worst defensive rating should create MORE assist opportunities, not fewer, which contradicts the under thesis. Johnson\u0027s recent 6-of-9 under 8 is real, but gaining 5.8 minutes from Newell\u0027s injury should help, not hurt an assists prop. Line at -154 (~58%) is fairly priced; no edge here.",
+                      "risk_flags":  [
+                                         "flawed-reasoning",
+                                         "pace-contradiction"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  62,
+                      "reasoning":  "Strong volume thesis: Sengun has 14+ FGA in 9 of 10 and 5 of 5 recent with Capela/Adams/Smart all out. Even if Houston blows out Utah (real risk at -15.5), Sengun\u0027s role is likely protected enough to reach 14 FGA. Book -130 (~55% fair) leaves room. Blowout could suppress 4Q volume but frontcourt consolidation should hold.",
+                      "risk_flags":  [
+                                         "blowout",
+                                         "1-11-opponent-variance"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  67,
+                      "reasoning":  "Solid setup: Memphis loses Edey and Post (direct board impact), New Orleans loses Missi (opposing reb threat), total 236.5 with both teams top-half pace. Coward 9-of-10 over 7 with recent 8.7 average is strong. Book -112 is nearly fair but slightly favors overs. Board play should hold.",
+                      "risk_flags":  [
+                                         "tight-pricing"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "cut",
+                      "confidence":  85,
+                      "reasoning":  "Critical blocker: FGM market availability on PrizePicks/Underdog not verified, making entry uncertain or impossible. Beyond that, 10-straight 5+ FGM at -190 (~63% fair) is tightly priced, and Klay Thompson questionable introduces variance. Thin margin with platform risk is disqualifying.",
+                      "risk_flags":  [
+                                         "platform-unavailable",
+                                         "thin-margin",
+                                         "klay-questionable"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "cut",
+                      "confidence":  65,
+                      "reasoning":  "Turnovers are notoriously noisy and high-variance; even a 10-straight streak is fragile. Wagner\u0027s 2.5 line is tight with -165 fairly pricing the 60% edge. Real blowout risk (ORL -8.5 vs 1-11 MIL) could suppress 4Q usage and lower creation attempts. TO props rarely have clean edges.",
+                      "risk_flags":  [
+                                         "blowout",
+                                         "noisy-market",
+                                         "10-straight-sample-recency"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  63,
+                      "reasoning":  "Strong matchup: Towns averaging 41 P+R in last 3, 10-game double-double streak, road average 35 P+R, faces Indiana\u0027s documented center weaknesses (52.2% FG allowed to centers, bottom-10 vs fives). Line 33.5 is beatable. NY -8.5 blowout risk is real but Towns\u0027s recent form suggests he hits even with limited 4Q.",
+                      "risk_flags":  [
+                                         "blowout",
+                                         "back-to-back-not-listed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "cut",
+                      "confidence":  58,
+                      "reasoning":  "Very thin line at 1.5 with 9-of-10 hitting 2+, yet priced at -150 (~58% fair). While the track record suggests higher hit rate, the 1.5 line margin is razor-thin and heavily same-game correlated with L6. Correlation risk plus tight margin make this a low-priority leg that doesn\u0027t justify the variance.",
+                      "risk_flags":  [
+                                         "thin-margin",
+                                         "same-game-correlation",
+                                         "low-line-variance"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  64,
+                      "reasoning":  "Excellent load concentration: Curry (oblique), Butler, Moody, and Porzingis all out means Podziemski is the primary ballhandler and volume driver. Last 2 games 32, 31 PRA with 29.4 PRA/36 without Curry is elite. 24.5 line is reasonable. SA -11.5 blowout risk is material but even limited 4Q minutes likely gets him there given recent usage.",
+                      "risk_flags":  [
+                                         "blowout",
+                                         "tough-defense"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "cut",
+                      "confidence":  68,
+                      "reasoning":  "Despite -196 being the slate\u0027s strongest-priced SOG line, Nashville is elite defensively (5th-fewest SOG allowed, 2nd-best save%). At 1.5 SOG against elite D, the market is fairly pricing or slightly undervaluing Nashville\u0027s defensive strength. Mark Stone is good but 1.5 SOG vs elite defense is appropriately hostile. No edge.",
+                      "risk_flags":  [
+                                         "elite-opponent-defense",
+                                         "fairly-priced-market"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L10",
+                      "decision":  "cut",
+                      "confidence":  61,
+                      "reasoning":  "Material risk: New York is on back-to-back (played at Calgary Nov 12), and SOG output is sensitive to fatigue in the first period. Recent L10 average 3.0 SOG masks variance (3,6,3,4). FD -130 (~54%) is fairly priced, but back-to-back fatigue is likely underpriced. Thin edge with real fatigue risk.",
+                      "risk_flags":  [
+                                         "back-to-back",
+                                         "fatigue-risk",
+                                         "variance-in-recent-games"
+                                     ]
+                  }
+              ]
+}

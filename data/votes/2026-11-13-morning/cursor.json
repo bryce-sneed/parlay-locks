@@ -1,0 +1,137 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-13-morning",
+    "model":  "cursor",
+    "model_name":  "auto",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-13T10:30:03-05:00",
+    "finished_at":  "2026-11-13T10:31:13-05:00",
+    "duration_s":  59.1,
+    "usage":  {
+                  "inputTokens":  15573,
+                  "outputTokens":  3117,
+                  "cacheReadTokens":  35328,
+                  "cacheWriteTokens":  0
+              },
+    "overall_notes":  "This slate leans on recent streaks and injury-driven usage, which is directionally sound, but several legs stack blowout risk (big NBA spreads) or very thin market edge on low lines and NHL volume. I would keep a smaller core of matchup- and usage-backed overs and cut props where garbage time or pace works against the thesis.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  61,
+                      "reasoning":  "The last-month assist distribution (multiple games at 4–6) sits clearly under 8 despite full minutes, which is more predictive than season-long 7.2 against a noisy 7.5. Chicago’s pace and weak defense add assist upside, and Powell/Wilson availability could shift usage, so this is not a slam dunk—but the recent floor argues the under still has a modest edge. I’d flip to cut if Johnson’s on-ball rate jumps materially in the first half.",
+                      "risk_flags":  [
+                                         "pace",
+                                         "matchup",
+                                         "injury",
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "cut",
+                      "confidence":  74,
+                      "reasoning":  "FGA overs in 15+ point favorites against depleted opponents often die in the fourth quarter when the center’s minutes get trimmed regardless of early volume. The 9/10 over trend is real, but the -15.5 spread and Utah’s absence of competitive bigs make a 20–26 minute night plausible even with Capela/Adams out. I’d keep this only if the line dropped to 12.5 or Houston’s spread tightened into single digits.",
+                      "risk_flags":  [
+                                         "blowout",
+                                         "minutes",
+                                         "line-efficient"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  64,
+                      "reasoning":  "A 6.5 rebound line with 7+ in nine of ten and a 236.5 total fits the injury picture (no Edey/Post, Missi doubtful) and extra missed shots from pace. The main pushback is role stability if Memphis’s frontcourt rotation changes night to night, but the board-share case is stronger than the counterarguments. Cut if Coward’s minutes project under ~28.",
+                      "risk_flags":  [
+                                         "minutes",
+                                         "injury",
+                                         "rotation"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  66,
+                      "reasoning":  "Ten straight games at 5+ made field goals against 4.5 is a meaningful bar even if many land exactly on five, and weaker Cleveland interior defense without Mobley supports continued paint and mid-range attempts for Miami’s guards. Variance on shooting nights is real, and FGM availability on pick’em apps is unverified. I’d cut on a sharp line move toward 5.5 or if Klay sits and Mitchell’s shot diet shifts heavily to low-volume spots.",
+                      "risk_flags":  [
+                                         "variance",
+                                         "thin-margin",
+                                         "platform",
+                                         "injury"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  60,
+                      "reasoning":  "With Banchero out, Wagner’s 37+ minutes and 8+ assists correlate with turnover volume, and 3+ in ten straight is hard to dismiss as noise alone. Turnovers remain high-variance, and an ORL blowout could reduce late usage or make Wagner play more conservatively. I’d cut if Suggs is out and creation is even more concentrated in ways that reduce live-ball turnovers.",
+                      "risk_flags":  [
+                                         "blowout",
+                                         "variance",
+                                         "injury",
+                                         "minutes"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  71,
+                      "reasoning":  "Towns’ points-plus-rebounds run (41 over three, double-doubles in ten straight) aligns with Indiana’s center defensive profile and Haliburton’s absence inflating opponent production. The -8.5 spread is the main hazard for a light fourth quarter, but 33.5 is modest relative to recent outputs and road average. I’d cut if the spread balloons past double digits with heavy live public on New York.",
+                      "risk_flags":  [
+                                         "blowout",
+                                         "minutes",
+                                         "correlation-L7"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "cut",
+                      "confidence":  56,
+                      "reasoning":  "Two assists on a 1.5 line is a low bar that books typically price efficiently for wings who occasionally make the extra pass, and the drafter’s edge case is essentially ‘hit rate plus -150’ without a clear usage or matchup driver. Same-game pairing with Towns adds correlation risk in builds without improving standalone EV. I’d reconsider only with a confirmed uptick in primary-ball touches or a material line drop.",
+                      "risk_flags":  [
+                                         "line-efficient",
+                                         "thin-margin",
+                                         "same-game",
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "cut",
+                      "confidence":  62,
+                      "reasoning":  "Curry/Butler absences scream usage, but San Antonio as an 11.5-point home favorite implies a likely competitive gap that caps minutes or shifts Podziemski into lower-efficiency garbage time against a strong defense. The last two PRA spikes are compelling yet small-sample against a tough opponent profile. Keep only if Golden State’s spread tightens meaningfully or Podziemski’s projected minutes stay north of 34 in a close script.",
+                      "risk_flags":  [
+                                         "blowout",
+                                         "matchup",
+                                         "minutes",
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "keep",
+                      "confidence":  58,
+                      "reasoning":  "Stone over 1.5 shots is structurally easy when Vegas dominates possession at home, and -196 suggests books agree despite Nashville’s league-low shots allowed. The Predators’ suppression and strong goaltending are legitimate counters that can cap total attempts even in a favorite game. I’d cut if the line moves to 2.5 or Nashville’s recent five-on-five shot rates trend even lower.",
+                      "risk_flags":  [
+                                         "matchup",
+                                         "line-efficient",
+                                         "small-slate"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L10",
+                      "decision":  "cut",
+                      "confidence":  67,
+                      "reasoning":  "Needing three shots on a back-to-back with only ~60% hit rate over ten games is a slim edge against a -130 price, and fatigue often shows up in shot volume before goals. New York should control play as -225 favorites, but that does not guarantee Dorofeyev’s individual shot share on the second night of a road set. I’d keep this with rest or if recent lines drop to 2.5 at similar odds.",
+                      "risk_flags":  [
+                                         "b2b",
+                                         "minutes",
+                                         "thin-margin",
+                                         "line-efficient"
+                                     ]
+                  }
+              ]
+}

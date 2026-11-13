@@ -1,0 +1,373 @@
+{
+ "schema": "candidates/v1",
+ "run": "2026-11-13-pregame",
+ "date": "2026-11-13",
+ "snapshot": "pregame",
+ "created_at": "2026-11-13T16:52:25-05:00",
+ "author": "parlay-locks",
+ "slate_notes": "Pregame snapshot, first tips 7:00 ET (slate not started). 9 NBA + 2 NHL. Carried the morning panel's four best non-Wagner keeps (Coward, Towns, Stone, Mitchell) and added Nembhard, Spencer, Toppin, Wembanyama, Acuff, plus Wagner TO downgraded for Suggs' likely return. Dropped morning legs the panel cut. Lines are sportsbook proxies; PrizePicks/Underdog direct feeds weren't reachable, so confirm app lines (FGM/TO may not be on both apps). Same-game clusters: NY @ IND (Towns, Nembhard, Toppin) and MEM @ NO (Coward, Spencer); avoid stacking. Break-even: PrizePicks 2-pick 57.7%/leg, 5-pick 54.9%; Underdog 2-pick 53.5%.",
+ "legs": [
+  {
+   "id": "L1",
+   "sport": "NBA",
+   "event": "MEM @ NO",
+   "start_time": "2026-11-13T20:00:00-05:00",
+   "player": "Cedric Coward",
+   "team": "MEM",
+   "market": "Rebounds",
+   "line": 6.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.58,
+   "confidence": 58,
+   "reasoning": "Coward has 7+ rebounds in 9 of last 10 (7, 11, 11, 7, 7, 9, 9, 9, 6, 11). Memphis is without Zach Edey and Quinten Post, which opens up board share, and New Orleans is missing Yves Missi (doubtful). MEM @ NO has a 236.5 total with both teams top-half pace, so more missed shots to clean up. Book price -112. Pregame update: No change; 3:45 PM report still has Edey/Post out for MEM and Murphy III, Mathurin, Missi doubtful for NO. Morning panel kept 3-0.",
+   "key_stats": [
+    "7+ reb in 9/10",
+    "L10 avg ~8.7",
+    "Total 236.5"
+   ],
+   "injury_notes": "MEM: Edey, Post out; NO: Murphy III, Mathurin, Missi doubtful.",
+   "sources": [
+    {
+     "title": "StatsBench NBA props Nov 13, 2026",
+     "url": "https://blog.statsbench.com/nba-prop-picks-today/"
+    },
+    {
+     "title": "WhyNBA Friday injury report Nov 13",
+     "url": "https://whynba.com/friday-nba-injury-report-november-13-2026-caleb-wilson-hand-surgery-three-weeks-evan-mobley-toe-joel-embiid-knee/"
+    },
+    {
+     "title": "NBA official injury report 11/13 3:45 PM",
+     "url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-13_03_45PM.pdf"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "sport": "NBA",
+   "event": "NY @ IND",
+   "start_time": "2026-11-13T19:00:00-05:00",
+   "player": "Karl-Anthony Towns",
+   "team": "NY",
+   "market": "Pts+Rebs",
+   "line": 33.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.57,
+   "confidence": 58,
+   "reasoning": "Towns is averaging 41.0 points+rebounds over his last three (double-double in each, 23.3 FGA+FTA), has a double-double in 10 straight, and averages 35.0 P+R on the road. Indiana allows 52.2% shooting to centers and is bottom-10 in points and rebounds allowed to fives, and is without Haliburton. Risk: NY -8.5 could mean a light fourth quarter. Pregame update: Nesmith still questionable, Haliburton out. Morning panel kept 2-1.",
+   "key_stats": [
+    "L3 P+R avg 41.0",
+    "DD in 10 straight",
+    "IND bottom-10 vs C"
+   ],
+   "injury_notes": "IND: Haliburton, Furphy, Sheppard out; Nesmith questionable.",
+   "sources": [
+    {
+     "title": "Lineups.com: Towns, Carter Jr., Podziemski props",
+     "url": "https://www.lineups.com/articles/nba-player-props-today-karl-anthony-towns-wendell-carter-jr-and-brandin-podziemski-best-bets/"
+    },
+    {
+     "title": "StatsBench NBA props Nov 13, 2026",
+     "url": "https://blog.statsbench.com/nba-prop-picks-today/"
+    },
+    {
+     "title": "NBA official injury report 11/13 3:45 PM",
+     "url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-13_03_45PM.pdf"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "sport": "NHL",
+   "event": "NSH @ VGK",
+   "start_time": "2026-11-13T22:00:00-05:00",
+   "player": "Mark Stone",
+   "team": "VGK",
+   "market": "Shots on Goal",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.61,
+   "confidence": 55,
+   "reasoning": "FanDuel prices Stone over 1.5 SOG at -196 (~63% after vig), the strongest-priced SOG over on a two-game NHL slate. Vegas is -185 at home. Counterpoint: Nashville allows only 25.4 shots per game (5th fewest) and has the 2nd-best save %, so I shade the fair number down a bit. Pregame update: No injury change found. Morning panel kept 2-1.",
+   "key_stats": [
+    "FD over -196",
+    "VGK -185, total 5.5",
+    "NSH 25.4 shots allowed (5th)"
+   ],
+   "injury_notes": "No notable injuries found.",
+   "sources": [
+    {
+     "title": "Hashmark: Predators vs Golden Knights props Nov 13",
+     "url": "https://hashmarkoprops.com/nhl-player-props/predators-vs-golden-knights-2026-11-13"
+    },
+    {
+     "title": "NBA official injury report 11/13 3:45 PM",
+     "url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-13_03_45PM.pdf"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "sport": "NBA",
+   "event": "CLE @ MIA",
+   "start_time": "2026-11-13T20:00:00-05:00",
+   "player": "Davion Mitchell",
+   "team": "MIA",
+   "market": "FG Made",
+   "line": 4.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.62,
+   "confidence": 60,
+   "reasoning": "Mitchell has made 5+ field goals in 10 straight (6, 8, 9, 5, 6, 5, 5, 9, 6, 5). Books price it at -190 (~63% fair). Evan Mobley is out for Cleveland, weakening their rim protection. Several makes sit right at 5, so margin is thin; Klay Thompson questionable either way (Mitchell splits without Klay are flat). Platform availability of FGM on PrizePicks/Underdog not verified. Pregame update: Klay Thompson still questionable at 3:45 PM; Mobley out. Morning panel kept 2-1.",
+   "key_stats": [
+    "5+ FGM in 10/10",
+    "Book -190",
+    "MIA -2.5, total 235.5"
+   ],
+   "injury_notes": "CLE: Mobley, Merrill, Tomlin out. MIA: Klay Thompson, Pelle Larsson questionable; Giannis probable.",
+   "sources": [
+    {
+     "title": "StatsBench NBA props Nov 13, 2026",
+     "url": "https://blog.statsbench.com/nba-prop-picks-today/"
+    },
+    {
+     "title": "WhyNBA Friday injury report Nov 13",
+     "url": "https://whynba.com/friday-nba-injury-report-november-13-2026-caleb-wilson-hand-surgery-three-weeks-evan-mobley-toe-joel-embiid-knee/"
+    },
+    {
+     "title": "NBA official injury report 11/13 3:45 PM",
+     "url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-13_03_45PM.pdf"
+    }
+   ]
+  },
+  {
+   "sport": "NBA",
+   "event": "NY @ IND",
+   "start_time": "2026-11-13T19:00:00-05:00",
+   "player": "Andrew Nembhard",
+   "team": "IND",
+   "market": "FG Made",
+   "line": 4.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.6,
+   "confidence": 56,
+   "reasoning": "With Haliburton out (hamstring, at least through ~Nov 22) Nembhard is the primary ball handler. He has 5+ FGM in 9 of last 10 (6, 5, 5, 5, 8, 7, 8, 3, 5, 6). Books price it -180 (~60% fair after vig). Risks: several makes sit exactly at 5 so the margin is thin, last-5 is 4/5, and this is the same game as the Towns leg (correlated if the game is slow).",
+   "key_stats": [
+    "5+ FGM in 9/10",
+    "L5 4/5",
+    "Book -180"
+   ],
+   "injury_notes": "IND: Haliburton, Furphy, Sheppard out; Nesmith questionable; McConnell probable.",
+   "sources": [
+    {
+     "title": "StatsBench NBA props Nov 13, 2026",
+     "url": "https://blog.statsbench.com/nba-prop-picks-today/"
+    },
+    {
+     "title": "NBA official injury report 11/13 3:45 PM",
+     "url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-13_03_45PM.pdf"
+    }
+   ],
+   "id": "L5"
+  },
+  {
+   "sport": "NBA",
+   "event": "MEM @ NO",
+   "start_time": "2026-11-13T20:00:00-05:00",
+   "player": "Cam Spencer",
+   "team": "MEM",
+   "market": "FG Made",
+   "line": 2.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.58,
+   "confidence": 53,
+   "reasoning": "Spencer has 3+ FGM in 9 of last 10 (last 5: 4/5) and Memphis is thin up front with Edey and Post out, which keeps the rotation guard-heavy. Game total ~236.5 with a shorthanded New Orleans (Murphy III, Mathurin, Missi, McGowens doubtful; Watford, Murray out). Book -125 (~54% after vig), so the edge rests mostly on role and pace. Market may not be on both apps; confirm.",
+   "key_stats": [
+    "3+ FGM in 9/10",
+    "L5 4/5",
+    "Book -125",
+    "Total 236.5"
+   ],
+   "injury_notes": "MEM: Edey, Post out. NO: Murphy III, Mathurin, Missi, McGowens doubtful; Watford, D. Murray out.",
+   "sources": [
+    {
+     "title": "StatsBench NBA props Nov 13, 2026",
+     "url": "https://blog.statsbench.com/nba-prop-picks-today/"
+    },
+    {
+     "title": "NBA official injury report 11/13 3:45 PM",
+     "url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-13_03_45PM.pdf"
+    }
+   ],
+   "id": "L6"
+  },
+  {
+   "sport": "NBA",
+   "event": "NY @ IND",
+   "start_time": "2026-11-13T19:00:00-05:00",
+   "player": "Obi Toppin",
+   "team": "IND",
+   "market": "Pts+Rebs+Asts",
+   "line": 14.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.57,
+   "confidence": 52,
+   "reasoning": "Toppin has cleared 14.5 PRA in 9 of last 10 (last 5: 4/5) while Indiana is missing Haliburton, Sheppard and Furphy and Nesmith is questionable; if Nesmith sits, Toppin's minutes go up further. Book -130 (~55% fair). Risk: bench role and Knicks -8.5 game script. Same game as Towns and Nembhard; don't stack all three.",
+   "key_stats": [
+    "15+ PRA in 9/10",
+    "Book -130",
+    "Nesmith Q"
+   ],
+   "injury_notes": "IND: Haliburton, Furphy, Sheppard out; Nesmith questionable.",
+   "sources": [
+    {
+     "title": "StatsBench NBA props Nov 13, 2026",
+     "url": "https://blog.statsbench.com/nba-prop-picks-today/"
+    },
+    {
+     "title": "NBA official injury report 11/13 3:45 PM",
+     "url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-13_03_45PM.pdf"
+    }
+   ],
+   "id": "L7"
+  },
+  {
+   "sport": "NBA",
+   "event": "GS @ SA",
+   "start_time": "2026-11-13T21:30:00-05:00",
+   "player": "Victor Wembanyama",
+   "team": "SA",
+   "market": "Rebounds",
+   "line": 11.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.56,
+   "confidence": 52,
+   "reasoning": "Wembanyama averages 11.7 rebounds and SportsLine projects 12.1. Golden State is missing Curry, Butler, Moody, Brandon Williams and Porzingis, which removes their size and means more misses. Tobias Harris (calf) is out for SA, taking a rebounder off the floor. Book -128 (~54% fair). Honest counterpoint: he has gone over 11.5 only twice in his last six (two misses at 11), and a SA blowout could trim minutes.",
+   "key_stats": [
+    "11.7 RPG season",
+    "Proj 12.1",
+    "Over in 2 of L6 (two 11s)"
+   ],
+   "injury_notes": "GS: Curry, Butler, Moody, B. Williams, Porzingis out. SA: Harris out; Fox, Vassell questionable.",
+   "sources": [
+    {
+     "title": "CBS Sports: Friday NBA player props (Harden, Wembanyama, SGA)",
+     "url": "https://www.cbssports.com/betting/news/nba-player-props-odds-picks-james-harden-shai-gilgeous-alexander-featured-in-fridays-best-bets/"
+    },
+    {
+     "title": "WhyNBA Friday injury update Nov 13 (Suggs, Topic)",
+     "url": "https://whynba.com/friday-nba-injury-update-november-13-2026-jalen-suggs-knee-return-nikola-topic-recalled-austin-reaves-heel/"
+    }
+   ],
+   "id": "L8"
+  },
+  {
+   "sport": "NBA",
+   "event": "POR @ SAC",
+   "start_time": "2026-11-13T22:00:00-05:00",
+   "player": "Darius Acuff Jr.",
+   "team": "SAC",
+   "market": "Pts+Rebs+Asts",
+   "line": 34.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.57,
+   "confidence": 52,
+   "reasoning": "Acuff carries a 32.2% usage rate for a Kings team missing Raynaud; he averages 37.3 PRA (last 5: 38.4) and has cleared 34.5 in 7 of last 10. He scored 32 and 29 in his last two and 33 in the earlier meeting with Portland, who allow 31.1 PPG to point guards. SZN Lab shows the PrizePicks line at 34.5, matching books (-125 over). Main risk: POR -10.5 blowout could pull his fourth quarter.",
+   "key_stats": [
+    "PRA avg 37.3, L5 38.4",
+    "7/10 over 34.5",
+    "33 pts vs POR earlier",
+    "POR -10.5, total 229.5"
+   ],
+   "injury_notes": "SAC: Raynaud out; Achiuwa questionable. POR: Morant, Sharpe out.",
+   "sources": [
+    {
+     "title": "Covers: best NBA player props Nov 13",
+     "url": "https://www.covers.com/nba/player-props-nov-13-2026"
+    },
+    {
+     "title": "HaterPicks NBA props Nov 13 (FanDuel lines, last 10)",
+     "url": "https://www.haterpicks.app/us/nba/player-props"
+    },
+    {
+     "title": "SZN Lab: POR @ SAC PrizePicks lines",
+     "url": "https://www.sznlab.com/nba/games/por-at-sac"
+    }
+   ],
+   "id": "L9"
+  },
+  {
+   "sport": "NBA",
+   "event": "MIL @ ORL",
+   "start_time": "2026-11-13T19:00:00-05:00",
+   "player": "Franz Wagner",
+   "team": "ORL",
+   "market": "Turnovers",
+   "line": 2.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.57,
+   "confidence": 50,
+   "reasoning": "Wagner has 3+ turnovers in 10 straight (6, 3, 7, 4, 3, 3, 6, 6, 3, 4) as the lead creator with Banchero out (37.6 min, 8.6 ast in games without Paolo). Book -165 (~60%). Pregame downgrade from the morning: Jalen Suggs told reporters he is 'good' to play after missing eight games, which would take some ball-handling off Wagner, so I shade this down to ~57%.",
+   "key_stats": [
+    "3+ TO in 10/10",
+    "Book -165",
+    "Suggs likely returns"
+   ],
+   "injury_notes": "ORL: Banchero, Isaac out; Suggs, da Silva, Cain questionable (Suggs says he's good).",
+   "sources": [
+    {
+     "title": "StatsBench NBA props Nov 13, 2026",
+     "url": "https://blog.statsbench.com/nba-prop-picks-today/"
+    },
+    {
+     "title": "WhyNBA Friday injury update Nov 13 (Suggs, Topic)",
+     "url": "https://whynba.com/friday-nba-injury-update-november-13-2026-jalen-suggs-knee-return-nikola-topic-recalled-austin-reaves-heel/"
+    },
+    {
+     "title": "NBA official injury report 11/13 3:45 PM",
+     "url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-13_03_45PM.pdf"
+    }
+   ],
+   "id": "L10"
+  }
+ ]
+}

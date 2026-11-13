@@ -189,8 +189,12 @@ function Build-Prompt($cand, [string]$extra) {
 @"
 You are one member of a 3-model review panel (Claude, Codex, Cursor) for a PAPER-ONLY player-prop dry run (PrizePicks/Underdog pick'em, no real money).
 The drafter (Parlay Locks) researched today's slate ($($cand.date), $($cand.snapshot) snapshot) and proposes the candidate legs below.
-Your job: independently judge each leg. Be skeptical; cut legs whose line looks efficient, whose reasoning is thin, or that carry injury/minutes/role/blowout/weather risk.
-Do not use tools or browse; rely on the data given plus your own knowledge, and say so if your knowledge may be stale.
+Your job: independently judge each leg against pick'em break-even math (~53.5% for Underdog 2/3-leg Standard, ~54.3% for PrizePicks 5-leg Flex, ~54.9% for 5-leg Power). Be skeptical; cut legs if:
+1. The cited sportsbook/prediction probability is NOT for the exact pick'em line and settlement rule (e.g., citing a 60+ yard price for O66.5, or a pushable book Under 9 for a pick'em Under 8.5), or relies on an un-devigged one-sided price.
+2. An under relies primarily on a spread-driven blowout benching rather than baseline volume/efficiency (competitive games or OT blow up blowout unders).
+3. The reasoning is thin, ignores recent workload/snap shifts, or carries unresolved injury/minutes/weather risk.
+IMPORTANT: You have no web access and today is $($cand.date). Trust the drafter's 2026 player-team rosters and current injuries as fact unless internally contradictory; do NOT vote cut just because your offline memory has a player on an older team.
+Do not use tools or browse; rely on the data given plus your own analysis.
 
 Slate notes from drafter: $($cand.slate_notes)
 $extra

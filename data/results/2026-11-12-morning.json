@@ -1,0 +1,107 @@
+{
+ "schema": "results/v1",
+ "run": "2026-11-12-morning",
+ "graded_at": "2026-11-13T09:55:00-05:00",
+ "author": "parlay-locks",
+ "legs": [
+  {
+   "leg_id": "L1",
+   "actual": 44,
+   "outcome": "miss",
+   "note": "Nabers 5 rec, 44 yds",
+   "source": "https://www.espn.com/nfl/boxscore/_/gameId/401873052"
+  },
+  {
+   "leg_id": "L2",
+   "actual": 127,
+   "outcome": "hit",
+   "note": "Likely 9-127-1 on 11 targets",
+   "source": "https://www.espn.com/nfl/boxscore/_/gameId/401873052"
+  },
+  {
+   "leg_id": "L3",
+   "actual": 9,
+   "outcome": "miss",
+   "note": "Ekeler 9 carries for 26 yds",
+   "source": "https://www.espn.com/nfl/boxscore/_/gameId/401873052"
+  },
+  {
+   "leg_id": "L4",
+   "actual": 47,
+   "outcome": "miss",
+   "note": "White 11 carries for 47 yds",
+   "source": "https://www.espn.com/nfl/boxscore/_/gameId/401873052"
+  },
+  {
+   "leg_id": "L5",
+   "actual": 4,
+   "outcome": "miss",
+   "note": "Connor 4 shots on goal (1 G, 2 A)",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892703"
+  },
+  {
+   "leg_id": "L6",
+   "actual": 3,
+   "outcome": "hit",
+   "note": "Jack Hughes 3 SOG, 1 G",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892700"
+  },
+  {
+   "leg_id": "L7",
+   "actual": 4,
+   "outcome": "hit",
+   "note": "Booker 4-8 from three, 30 pts",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909979"
+  },
+  {
+   "leg_id": "L8",
+   "actual": 11,
+   "outcome": "miss",
+   "note": "Cunningham 52 pts, 11 ast in 48 min",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909977"
+  },
+  {
+   "leg_id": "L9",
+   "actual": 1,
+   "outcome": "miss",
+   "note": "Brooks 1 ast",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909979"
+  },
+  {
+   "leg_id": "L10",
+   "actual": 5,
+   "outcome": "hit",
+   "note": "Walter 5 reb",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909976"
+  }
+ ],
+ "slips": [
+  {
+   "id": "2026-11-12-morning-2",
+   "size": 2,
+   "stake": 1,
+   "outcome": "loss",
+   "payout": 0,
+   "pnl": -1,
+   "note": "legs: L3 miss, L7 hit"
+  },
+  {
+   "id": "2026-11-12-morning-3",
+   "size": 3,
+   "stake": 1,
+   "outcome": "loss",
+   "payout": 0,
+   "pnl": -1,
+   "note": "legs: L3 miss, L7 hit, L8 miss"
+  },
+  {
+   "id": "2026-11-12-morning-5",
+   "size": 5,
+   "stake": 1,
+   "outcome": "loss",
+   "payout": 0,
+   "pnl": -1,
+   "note": "legs: L3 miss, L7 hit, L8 miss, L1 miss, L5 miss"
+  }
+ ]
+}

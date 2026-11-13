@@ -1,0 +1,100 @@
+{
+ "schema": "results/v1",
+ "run": "2026-11-12-pregame",
+ "graded_at": "2026-11-13T09:55:00-05:00",
+ "author": "parlay-locks",
+ "legs": [
+  {
+   "leg_id": "L1",
+   "actual": 11,
+   "outcome": "miss",
+   "note": "White 11 carries",
+   "source": "https://www.espn.com/nfl/boxscore/_/gameId/401873052"
+  },
+  {
+   "leg_id": "L2",
+   "actual": 1,
+   "outcome": "hit",
+   "note": "White 1 rec on 2 targets",
+   "source": "https://www.espn.com/nfl/boxscore/_/gameId/401873052"
+  },
+  {
+   "leg_id": "L3",
+   "actual": 3,
+   "outcome": "miss",
+   "note": "Fields 3 rec, 62 yds",
+   "source": "https://www.espn.com/nfl/boxscore/_/gameId/401873052"
+  },
+  {
+   "leg_id": "L4",
+   "actual": 27,
+   "outcome": "hit",
+   "note": "Maxey 27 pts",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909976"
+  },
+  {
+   "leg_id": "L5",
+   "actual": 8,
+   "outcome": "hit",
+   "note": "Edgecombe 8 reb",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909976"
+  },
+  {
+   "leg_id": "L6",
+   "actual": 11,
+   "outcome": "hit",
+   "note": "Ausar Thompson 11 reb",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909977"
+  },
+  {
+   "leg_id": "L7",
+   "actual": 68,
+   "outcome": "miss",
+   "note": "Cunningham 52/5/11 = 68 PRA in 48 min",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909977"
+  },
+  {
+   "leg_id": "L8",
+   "actual": 13,
+   "outcome": "hit",
+   "note": "Diabate 13 reb",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909979"
+  },
+  {
+   "leg_id": "L9",
+   "actual": 3,
+   "outcome": "hit",
+   "note": "Luke Hughes 3 SOG",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892700"
+  }
+ ],
+ "slips": [
+  {
+   "id": "2026-11-12-pregame-2",
+   "size": 2,
+   "stake": 1,
+   "outcome": "loss",
+   "payout": 0,
+   "pnl": -1,
+   "note": "legs: L2 hit, L7 miss"
+  },
+  {
+   "id": "2026-11-12-pregame-3",
+   "size": 3,
+   "stake": 1,
+   "outcome": "loss",
+   "payout": 0,
+   "pnl": -1,
+   "note": "legs: L2 hit, L7 miss, L4 hit"
+  },
+  {
+   "id": "2026-11-12-pregame-5",
+   "size": 5,
+   "stake": 1,
+   "outcome": "loss",
+   "payout": 0,
+   "pnl": -1,
+   "note": "legs: L2 hit, L7 miss, L4 hit, L9 hit, L5 hit"
+  }
+ ]
+}

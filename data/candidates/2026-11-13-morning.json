@@ -1,0 +1,345 @@
+{
+ "schema": "candidates/v1",
+ "run": "2026-11-13-morning",
+ "date": "2026-11-13",
+ "snapshot": "morning",
+ "created_at": "2026-11-13T10:02:00-05:00",
+ "author": "parlay-locks",
+ "slate_notes": "Friday slate: 9 NBA games (NBA Cup night, first tips 7:00 ET) and 2 late NHL games (NYR @ VAN 9:00, NSH @ VGK 10:00). No NFL today; college excluded (PrizePicks bars college Player Picks in Indiana). Lines are sportsbook proxies (FanDuel/StatsBench feed); PrizePicks/Underdog direct feeds were not reachable from the box, so confirm the app line before entering, and FGA/FGM/turnover markets may not be offered on both apps. Big injury drivers: Curry/Butler out (GS), Banchero out (ORL), Haliburton out (IND), Mobley out (CLE), Capela/Adams out + Smart suspended (HOU), Edey/Post out (MEM). Same-game pairs: L6+L7 (NY @ IND).",
+ "legs": [
+  {
+   "id": "L1",
+   "sport": "NBA",
+   "event": "ATL @ CHI",
+   "start_time": "2026-11-13T20:00:00-05:00",
+   "player": "Jalen Johnson",
+   "team": "ATL",
+   "market": "Assists",
+   "line": 7.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.58,
+   "confidence": 60,
+   "reasoning": "Johnson is averaging 7.2 assists (down from 7.9 last year) and has gone under 8 in 6 of 9 games; last four were 4, 6, 4, 7, including just 4 and 6 in 36-38 minute games. FanDuel prices the under at -154 (about 58-59% after vig). Risk: Chicago plays the fastest pace and has the worst defensive rating, and Johnson has a 16-assist ceiling game this year.",
+   "key_stats": [
+    "2026-27 avg 7.2 ast",
+    "Under 8 in 6 of 9",
+    "L4: 4, 6, 4, 7",
+    "FD under -154"
+   ],
+   "injury_notes": "Asa Newell out for ATL (Johnson gains ~5.8 min per keelstats); Caleb Wilson out for CHI; Norman Powell questionable.",
+   "sources": [
+    {
+     "title": "FanDuel Research: NBA props Fri Nov 13",
+     "url": "https://www.fanduel.com/research/nba-props-today-prop-bets-for-friday-nov-13"
+    },
+    {
+     "title": "WhyNBA Friday injury report Nov 13",
+     "url": "https://whynba.com/friday-nba-injury-report-november-13-2026-caleb-wilson-hand-surgery-three-weeks-evan-mobley-toe-joel-embiid-knee/"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "sport": "NBA",
+   "event": "UTA @ HOU",
+   "start_time": "2026-11-13T20:30:00-05:00",
+   "player": "Alperen Sengun",
+   "team": "HOU",
+   "market": "FG Attempted",
+   "line": 13.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.58,
+   "confidence": 57,
+   "reasoning": "Pure volume prop: Sengun has 14+ FGA in 9 of last 10 and 5 of 5 recent (15, 20, 12, 15, 17, 15, 15, 16, 17, 14). Clint Capela and Steven Adams are both out and Marcus Smart is suspended, so the frontcourt and creation load is concentrated on him. Book price -130 (~55% fair). Main risk is a blowout: HOU is -15.5 vs a 1-11 Utah team missing Markkanen, JJJ and Nurkic, which could cap his minutes.",
+   "key_stats": [
+    "14+ FGA in 9/10",
+    "L5 5/5",
+    "HOU -15.5, total 219.5"
+   ],
+   "injury_notes": "HOU: Capela, Adams out; Smart suspended. UTA: Markkanen, Jackson Jr., Nurkic out.",
+   "sources": [
+    {
+     "title": "StatsBench NBA props Nov 13, 2026",
+     "url": "https://blog.statsbench.com/nba-prop-picks-today/"
+    },
+    {
+     "title": "NBA official injury report 11/13 8:30 AM",
+     "url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-13_08_30AM.pdf"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "sport": "NBA",
+   "event": "MEM @ NO",
+   "start_time": "2026-11-13T20:00:00-05:00",
+   "player": "Cedric Coward",
+   "team": "MEM",
+   "market": "Rebounds",
+   "line": 6.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.58,
+   "confidence": 58,
+   "reasoning": "Coward has 7+ rebounds in 9 of last 10 (7, 11, 11, 7, 7, 9, 9, 9, 6, 11). Memphis is without Zach Edey and Quinten Post, which opens up board share, and New Orleans is missing Yves Missi (doubtful). MEM @ NO has a 236.5 total with both teams top-half pace, so more missed shots to clean up. Book price -112.",
+   "key_stats": [
+    "7+ reb in 9/10",
+    "L10 avg ~8.7",
+    "Total 236.5"
+   ],
+   "injury_notes": "MEM: Edey, Post out; NO: Murphy III, Mathurin, Missi doubtful.",
+   "sources": [
+    {
+     "title": "StatsBench NBA props Nov 13, 2026",
+     "url": "https://blog.statsbench.com/nba-prop-picks-today/"
+    },
+    {
+     "title": "WhyNBA Friday injury report Nov 13",
+     "url": "https://whynba.com/friday-nba-injury-report-november-13-2026-caleb-wilson-hand-surgery-three-weeks-evan-mobley-toe-joel-embiid-knee/"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "sport": "NBA",
+   "event": "CLE @ MIA",
+   "start_time": "2026-11-13T20:00:00-05:00",
+   "player": "Davion Mitchell",
+   "team": "MIA",
+   "market": "FG Made",
+   "line": 4.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.62,
+   "confidence": 60,
+   "reasoning": "Mitchell has made 5+ field goals in 10 straight (6, 8, 9, 5, 6, 5, 5, 9, 6, 5). Books price it at -190 (~63% fair). Evan Mobley is out for Cleveland, weakening their rim protection. Several makes sit right at 5, so margin is thin; Klay Thompson questionable either way (Mitchell splits without Klay are flat). Platform availability of FGM on PrizePicks/Underdog not verified.",
+   "key_stats": [
+    "5+ FGM in 10/10",
+    "Book -190",
+    "MIA -2.5, total 235.5"
+   ],
+   "injury_notes": "CLE: Mobley, Merrill, Tomlin out. MIA: Klay Thompson, Pelle Larsson questionable; Giannis probable.",
+   "sources": [
+    {
+     "title": "StatsBench NBA props Nov 13, 2026",
+     "url": "https://blog.statsbench.com/nba-prop-picks-today/"
+    },
+    {
+     "title": "WhyNBA Friday injury report Nov 13",
+     "url": "https://whynba.com/friday-nba-injury-report-november-13-2026-caleb-wilson-hand-surgery-three-weeks-evan-mobley-toe-joel-embiid-knee/"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "sport": "NBA",
+   "event": "MIL @ ORL",
+   "start_time": "2026-11-13T19:00:00-05:00",
+   "player": "Franz Wagner",
+   "team": "ORL",
+   "market": "Turnovers",
+   "line": 2.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.6,
+   "confidence": 56,
+   "reasoning": "With Paolo Banchero out, Wagner averages 37.6 minutes, 24.2 points and 8.6 assists and has 3+ turnovers in 10 of 10 (6, 3, 7, 4, 3, 3, 6, 6, 3, 4). Jalen Suggs is questionable, which would add more creation to Wagner. Price -165 (~60% fair). Turnovers are noisy; ORL -8.5 vs 1-11 Milwaukee raises some blowout-minutes risk.",
+   "key_stats": [
+    "3+ TO in 10/10",
+    "w/o Banchero: 37.6 min, 8.6 ast",
+    "Book -165"
+   ],
+   "injury_notes": "ORL: Banchero out, Suggs/da Silva questionable.",
+   "sources": [
+    {
+     "title": "StatsBench NBA props Nov 13, 2026",
+     "url": "https://blog.statsbench.com/nba-prop-picks-today/"
+    },
+    {
+     "title": "NBA official injury report 11/13 8:30 AM",
+     "url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-13_08_30AM.pdf"
+    }
+   ]
+  },
+  {
+   "id": "L6",
+   "sport": "NBA",
+   "event": "NY @ IND",
+   "start_time": "2026-11-13T19:00:00-05:00",
+   "player": "Karl-Anthony Towns",
+   "team": "NY",
+   "market": "Pts+Rebs",
+   "line": 33.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.57,
+   "confidence": 58,
+   "reasoning": "Towns is averaging 41.0 points+rebounds over his last three (double-double in each, 23.3 FGA+FTA), has a double-double in 10 straight, and averages 35.0 P+R on the road. Indiana allows 52.2% shooting to centers and is bottom-10 in points and rebounds allowed to fives, and is without Haliburton. Risk: NY -8.5 could mean a light fourth quarter.",
+   "key_stats": [
+    "L3 P+R avg 41.0",
+    "DD in 10 straight",
+    "IND bottom-10 vs C"
+   ],
+   "injury_notes": "IND: Haliburton, Furphy, Sheppard out; Nesmith questionable.",
+   "sources": [
+    {
+     "title": "Lineups.com: Towns, Carter Jr., Podziemski props",
+     "url": "https://www.lineups.com/articles/nba-player-props-today-karl-anthony-towns-wendell-carter-jr-and-brandin-podziemski-best-bets/"
+    },
+    {
+     "title": "StatsBench NBA props Nov 13, 2026",
+     "url": "https://blog.statsbench.com/nba-prop-picks-today/"
+    }
+   ]
+  },
+  {
+   "id": "L7",
+   "sport": "NBA",
+   "event": "NY @ IND",
+   "start_time": "2026-11-13T19:00:00-05:00",
+   "player": "OG Anunoby",
+   "team": "NY",
+   "market": "Assists",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.58,
+   "confidence": 52,
+   "reasoning": "Anunoby has 2+ assists in 9 of last 10 and 5 of 5 recent per StatsBench, priced -150 (~58% fair). Low line with a thin margin; same game as the Towns leg, so pair carefully.",
+   "key_stats": [
+    "2+ ast in 9/10",
+    "L5 5/5",
+    "Book -150"
+   ],
+   "injury_notes": "None for NY listed.",
+   "sources": [
+    {
+     "title": "StatsBench NBA props Nov 13, 2026",
+     "url": "https://blog.statsbench.com/nba-prop-picks-today/"
+    }
+   ]
+  },
+  {
+   "id": "L8",
+   "sport": "NBA",
+   "event": "GS @ SA",
+   "start_time": "2026-11-13T21:30:00-05:00",
+   "player": "Brandin Podziemski",
+   "team": "GS",
+   "market": "Pts+Rebs+Asts",
+   "line": 24.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.56,
+   "confidence": 53,
+   "reasoning": "Stephen Curry (oblique tear), Jimmy Butler, Moses Moody and Porzingis are all out, and Podziemski just posted 32 PRA in 37 minutes (15 FGA) and 31 PRA in 26 minutes before that. He averages 29.4 PRA per 36 with Curry off the floor. San Antonio is a tough defense, but allows the sixth-most rebounds to backcourt players. Risk: SA -11.5 blowout.",
+   "key_stats": [
+    "Last 2: 32, 31 PRA",
+    "29.4 PRA/36 without Curry",
+    "SA -11.5"
+   ],
+   "injury_notes": "GS: Curry, Butler, Moody, Porzingis, B. Williams out. SA: Fox, Vassell questionable; Harris out.",
+   "sources": [
+    {
+     "title": "Lineups.com: Towns, Carter Jr., Podziemski props",
+     "url": "https://www.lineups.com/articles/nba-player-props-today-karl-anthony-towns-wendell-carter-jr-and-brandin-podziemski-best-bets/"
+    },
+    {
+     "title": "WhyNBA Friday injury report Nov 13",
+     "url": "https://whynba.com/friday-nba-injury-report-november-13-2026-caleb-wilson-hand-surgery-three-weeks-evan-mobley-toe-joel-embiid-knee/"
+    }
+   ]
+  },
+  {
+   "id": "L9",
+   "sport": "NHL",
+   "event": "NSH @ VGK",
+   "start_time": "2026-11-13T22:00:00-05:00",
+   "player": "Mark Stone",
+   "team": "VGK",
+   "market": "Shots on Goal",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.61,
+   "confidence": 55,
+   "reasoning": "FanDuel prices Stone over 1.5 SOG at -196 (~63% after vig), the strongest-priced SOG over on a two-game NHL slate. Vegas is -185 at home. Counterpoint: Nashville allows only 25.4 shots per game (5th fewest) and has the 2nd-best save %, so I shade the fair number down a bit.",
+   "key_stats": [
+    "FD over -196",
+    "VGK -185, total 5.5",
+    "NSH 25.4 shots allowed (5th)"
+   ],
+   "injury_notes": "No notable injuries found.",
+   "sources": [
+    {
+     "title": "Hashmark: Predators vs Golden Knights props Nov 13",
+     "url": "https://hashmarkoprops.com/nhl-player-props/predators-vs-golden-knights-2026-11-13"
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "sport": "NHL",
+   "event": "NYR @ VAN",
+   "start_time": "2026-11-13T21:00:00-05:00",
+   "player": "Pavel Dorofeyev",
+   "team": "NYR",
+   "market": "Shots on Goal",
+   "line": 2.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.56,
+   "confidence": 50,
+   "reasoning": "Dorofeyev averages 3.0 SOG over his last 10 (hit 3+ in 60% of L10, 80% of L5) with recent games of 3, 6, 3, 4. FanDuel over 2.5 is -130 (~54% fair). Vancouver is 3-16 and the Rangers are -225 favorites, so New York should control play. Thin edge; second game of a back-to-back (played @CGY Nov 12).",
+   "key_stats": [
+    "L10 avg 3.0 SOG",
+    "L5 4/5 over",
+    "FD -130",
+    "NYR -225"
+   ],
+   "injury_notes": "Back-to-back for NYR.",
+   "sources": [
+    {
+     "title": "Hashmark: Pavel Dorofeyev props Nov 13",
+     "url": "https://hashmarkoprops.com/nhl-player-props/pavel-dorofeyev"
+    },
+    {
+     "title": "PlayerProps.ai NHL roundup Nov 13",
+     "url": "https://articles.playerprops.ai/blog/daily-roundup-nhl-nov-13-2026/"
+    }
+   ]
+  }
+ ]
+}

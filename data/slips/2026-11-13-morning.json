@@ -1,0 +1,10 @@
+{"schema":"slips/v1","run":"2026-11-13-morning","date":"2026-11-13","snapshot":"morning","created_at":"2026-11-13T11:12:00-05:00","author":"parlay-locks","paper":true,
+ "notes":"Paper only, flat $1 per slip from a $20 bankroll (now $14 after Nov 12 went 0-6). Full panel ran (Claude, Codex, Cursor). Late-news recheck ~11:10 ET: Towns, Coward, Davion Mitchell, Franz Wagner all projected starters; Mark Stone on VGK line 1 and PP1. Klay Thompson and Pelle Larsson still questionable (helps L4 Mitchell volume if either sits). Sources conflict on Jalen Suggs (FantasyDailies says out, NBA House projects him back on a minutes limit); if he plays, Franz Wagner's on-ball load drops, so L5 is only in the 5-leg. Followed all panel cuts (L1, L2, L7, L8, L10). Used L9 (score 15.7) over L5 (18.0) in the 3-leg because of the Suggs uncertainty. Every slip uses one leg per game. Multipliers: Underdog standard 3.5x/6.5x, PrizePicks Power 20x (sources in notes.md). FGM and turnover markets may not be on both apps; confirm app lines before any real entry.",
+ "slips":[
+  {"id":"2026-11-13-morning-2","size":2,"platform":"Underdog","play_type":"standard","stake":1,"payout_multiplier":3.5,"legs":["L3","L6"],
+   "rationale":"Top two panel legs: Coward over 6.5 rebounds (3-0, score 63; Edey and Post out) and Towns over 33.5 PR (2-1, score 27.3; IND without Haliburton). Different games."},
+  {"id":"2026-11-13-morning-3","size":3,"platform":"Underdog","play_type":"standard","stake":1,"payout_multiplier":6.5,"legs":["L3","L6","L9"],
+   "rationale":"Adds Mark Stone over 1.5 SOG (2-1). He's on the top line and PP1 and chasing the franchise points record. Picked over L5 because of the Suggs return uncertainty."},
+  {"id":"2026-11-13-morning-5","size":5,"platform":"PrizePicks","play_type":"power","stake":1,"payout_multiplier":20,"legs":["L3","L6","L9","L5","L4"],
+   "rationale":"Adds Franz Wagner over 2.5 turnovers (2-1; Banchero out) and Davion Mitchell over 4.5 FGM (2-1, highest avg confidence at 70; projected 37 min with Klay/Larsson questionable). Claude flagged Mitchell's FGM market may not be on both apps. Five different games."}
+ ]}

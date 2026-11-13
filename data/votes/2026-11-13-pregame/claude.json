@@ -1,0 +1,121 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-13-pregame",
+    "model":  "claude",
+    "model_name":  "haiku",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-13T17:30:04-05:00",
+    "finished_at":  "2026-11-13T17:31:24-05:00",
+    "duration_s":  77.8,
+    "usage":  {
+                  "cost_usd":  0.094634,
+                  "cache_read":  0,
+                  "output_tokens":  7205,
+                  "input_tokens":  9
+              },
+    "overall_notes":  "Solid slate with reasonable edges, but I\u0027m cutting 5 of 11 due to efficient book pricing and weak recent trends. The blowout risks from the Knicks (-8.5) and Blazers (-10.5) spreads are real but manageable for the higher-average props (Towns, Acuff). My main skepticism targets: tight book prices already reflecting most edge (-196, -190, -180), thin margins where recent \u0027makes\u0027 cluster at exactly the line, and recent weak stretches (Wembanyama 2/6, Nembhard/Toppin last-5 slumps). Keeping the strongest recent trends and lowest-line props; cutting the squeaky-by ones. Knowledge cutoff Feb 2025, ~9 months stale on seasonal context but relying on the specific stats provided.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  75,
+                      "reasoning":  "9 of 10 games with 7+ rebounds and 8.7 average is a strong recent trend. Memphis losing Edey and Post opens significant board share, and New Orleans missing Missi creates a real imbalance in the paint. The 236.5 total with both teams playing at good pace supports rebounding volume. 58% is reasonable.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "role"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  72,
+                      "reasoning":  "Double-double in 10 straight with 41.0 P+R average over last three games is a powerful stat. Indiana\u0027s bottom-10 defense against fives and missing Haliburton is a real matchup advantage. The 33.5 line is achievable even if New York\u0027s -8.5 spread pushes some Q4 rest; he needs only a 31-min pace to hit it based on his averages. 57% is conservative.",
+                      "risk_flags":  [
+                                         "blowout"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "cut",
+                      "confidence":  68,
+                      "reasoning":  "FanDuel already pricing Stone over 1.5 at -196 (~63% fair) before vig, meaning the book is already confident in this edge. Nashville\u0027s elite defense—25.4 shots allowed (5th fewest) and 2nd-best save%—is a meaningful counterpoint. The 2-game NHL slate compounds the small-sample risk, and individual shot overs are inherently noisy. The line looks efficiently priced.",
+                      "risk_flags":  [
+                                         "small-sample",
+                                         "line-efficient"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "cut",
+                      "confidence":  72,
+                      "reasoning":  "While the 10-straight 5+ FGM is impressive, the drafter\u0027s own note that \u0027several makes sit right at 5\u0027 signals a thin margin. Book at -190 (~63% fair) is already tight, and multiple games hitting exactly 5 in the streak means he\u0027s barely clearing the line. Platform availability (FGM) unconfirmed on both apps adds execution risk, and Klay\u0027s questionable status clouds the setup further.",
+                      "risk_flags":  [
+                                         "thin-margin",
+                                         "line-efficient",
+                                         "platform-risk"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "cut",
+                      "confidence":  65,
+                      "reasoning":  "Thin margin again—\u0027several makes sit exactly at 5\u0027—and the last-5 is only 4/5, suggesting recent softness. Book -180 (~60% fair) is already competitive pricing. While Haliburton\u0027s absence should boost Nembhard\u0027s volume, the combination of tight margin, recent weakness, and the book\u0027s tight pricing makes this an efficiency test. Correlated with Towns leg (same game).",
+                      "risk_flags":  [
+                                         "thin-margin",
+                                         "line-efficient",
+                                         "blowout"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  73,
+                      "reasoning":  "2.5 is a low enough line that the margin is comfortable—Spencer just needs 3 makes, which he\u0027s reached in 9 of 10 with a solid 4/5 in the last five. Memphis being guard-heavy due to Edey/Post absence increases his role, and the 236.5 total with New Orleans shorthanded supports volume. Book -125 (~54% fair) is reasonable. Platform availability is a note but not a blocker at this price.",
+                      "risk_flags":  [
+                                         "platform-risk"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "cut",
+                      "confidence":  70,
+                      "reasoning":  "The Knicks\u0027 -8.5 spread is a major game-script risk for a bench player. While Haliburton\u0027s absence opens minutes for Toppin, a blowout could quickly erase that benefit. The recent last-5 is only 4/5 (weak), and 14.5 PRA for a reserve hinges on a close game and Nesmith sitting—too many conditions stacking. The bench role is a limiting factor.",
+                      "risk_flags":  [
+                                         "blowout",
+                                         "bench-role"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "cut",
+                      "confidence":  68,
+                      "reasoning":  "Only 2 overs in the last six games with two performances at exactly 11—a dangerously tight margin. The 11.5 line is already fairly efficient at book -128 (~54% fair). Golden State missing size is a plus, but if San Antonio builds a lead (plausible if Wembanyama\u0027s game is strong), he could sit and miss the line. Recent trend (2/6) doesn\u0027t support the ask.",
+                      "risk_flags":  [
+                                         "thin-margin",
+                                         "small-sample",
+                                         "line-efficient"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "keep",
+                      "confidence":  74,
+                      "reasoning":  "Strong season context: 37.3 PRA average, last-5 bumped to 38.4, and 7 of 10 over 34.5 is a solid recent trend. Darius Acuff\u0027s 32.2% usage and Sacramento missing Raynaud makes him a volume play. The Blazers\u0027 -10.5 spread could trim Q4, but 34.5 should hold given his 37.3 baseline; even a 10% minutes reduction keeps him in play. 57% is reasonable.",
+                      "risk_flags":  [
+                                         "blowout"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L10",
+                      "decision":  "keep",
+                      "confidence":  71,
+                      "reasoning":  "Three-plus turnovers in 10 straight games (range 3–7) is a robust recent trend. Wagner is Orlando\u0027s lead creator with Banchero sidelined (37.6 min, 8.6 ast). Suggs\u0027 return is a real downside—he\u0027ll claim some handling duties—but 2.5 TO minimum is achievable even with shared ball-moving. Book -165 (~60%) prices this fairly; the 10-game streak is strong enough to absorb some risk.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "minutes"
+                                     ]
+                  }
+              ]
+}

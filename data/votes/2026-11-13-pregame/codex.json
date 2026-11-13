@@ -1,0 +1,140 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-13-pregame",
+    "model":  "codex",
+    "model_name":  "default",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-13T17:30:04-05:00",
+    "finished_at":  "2026-11-13T17:31:24-05:00",
+    "duration_s":  56.1,
+    "usage":  {
+                  "tokens":  21509
+              },
+    "overall_notes":  "I am relying only on the supplied snapshot; my knowledge of November 2026 rosters, injuries, and roles may be stale. I keep L1, L3, L4, and L5 conditionally at the exact listed lines, with no same-game stacking and no independent verification of the quoted prices. A cut can still be more likely to hit than miss while lacking sufficient edge; accordingly, some cut confidence scores are below 50 under your requested definition.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  58,
+                      "reasoning":  "The supplied rebound sequence averages 8.7, providing a meaningful cushion above 6.5, and Memphis\u0027s missing centers support additional opportunities. The key uncertainty is whether those absences actually preserve Coward\u0027s minutes and rebounding role; a high total alone does not establish extra missed shots. I would cut at 7.5 or if the expected rotation reduces his minutes.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "role",
+                                         "small-sample",
+                                         "same-game"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "cut",
+                      "confidence":  47,
+                      "reasoning":  "The road average of 35.0 is only modestly above 33.5, while three recent games and a double-double streak do not establish a strong probability of clearing this particular threshold. Indiana\u0027s positional defensive numbers help the case, but the 8.5-point spread creates meaningful minutes risk. A lower line or stronger evidence of stable full-game minutes would change my mind.",
+                      "risk_flags":  [
+                                         "blowout",
+                                         "minutes",
+                                         "small-sample",
+                                         "same-game"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  60,
+                      "reasoning":  "The quoted -196 price is the strongest supplied market support for an exact threshold, making two shots a reasonable conditional keep. However, a fair probability cannot be calculated from the over price alone, and Nashville\u0027s shot suppression matters more directly than its save percentage for this market. I would cut if Stone\u0027s deployment is reduced, the app line becomes 2.5, or opposing prices reveal substantially less support after removing vig.",
+                      "risk_flags":  [
+                                         "unverified-price",
+                                         "opponent-shot-suppression",
+                                         "role"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  60,
+                      "reasoning":  "Ten consecutive clears plus the quoted -190 price provide two supporting signals, and Mobley\u0027s absence improves the matchup. Several results land exactly at five makes, so a small reduction in attempts or minutes could erase the advantage. I would cut if the app offers 5.5, the recent logs are not comparable to today\u0027s role, or lineup news materially reduces Mitchell\u0027s shot volume.",
+                      "risk_flags":  [
+                                         "line-sensitive",
+                                         "role",
+                                         "platform-availability",
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  58,
+                      "reasoning":  "Haliburton\u0027s absence provides a clear role rationale, and nine clears in ten games plus the quoted -180 price support retaining 4.5. Primary ball handling does not guarantee scoring attempts, and repeated finishes at five leave little cushion against New York or reduced minutes. I would cut at 5.5 or if McConnell\u0027s involvement substantially reduces Nembhard\u0027s minutes or attempts.",
+                      "risk_flags":  [
+                                         "role",
+                                         "blowout",
+                                         "line-sensitive",
+                                         "same-game",
+                                         "platform-availability"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "cut",
+                      "confidence":  48,
+                      "reasoning":  "Missing centers do not directly establish additional minutes or attempts for Spencer, making the role argument weaker than the recent hit rate suggests. The quoted -125 price offers limited support, and pace cannot compensate reliably for uncertain individual volume. Confirmed elevated minutes and shot attempts in the expected rotation would change my mind.",
+                      "risk_flags":  [
+                                         "minutes",
+                                         "role",
+                                         "small-sample",
+                                         "same-game",
+                                         "platform-availability"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "cut",
+                      "confidence":  48,
+                      "reasoning":  "The recent hit rate is attractive, but the case depends on an uncertain bench workload and a possible Nesmith absence. The quoted -130 price provides little cushion for that uncertainty, and a lopsided game could alter his rotation in either direction. I would reconsider with Nesmith confirmed out and evidence that Toppin receives a dependable increase in minutes.",
+                      "risk_flags":  [
+                                         "minutes",
+                                         "injury",
+                                         "role",
+                                         "blowout",
+                                         "same-game"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "cut",
+                      "confidence":  52,
+                      "reasoning":  "An 11.7 average and 12.1 projection leave little separation from 11.5, while two clears in six offer no compelling recent support. Golden State\u0027s absences could increase missed shots but also reduce possessions and competitive minutes, so their net benefit is uncertain. A lower line or a clearly competitive game outlook with unrestricted minutes would change my mind.",
+                      "risk_flags":  [
+                                         "blowout",
+                                         "minutes",
+                                         "injury",
+                                         "efficient-line"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "cut",
+                      "confidence":  47,
+                      "reasoning":  "The supplied season and recent PRA averages support the over, but the -125 price and 10.5-point spread leave the claimed edge insufficiently established. Recent scoring and positional points allowed do not fully substantiate a combined points, rebounds, and assists projection, and Raynaud\u0027s absence has no quantified role effect here. A lower line or stronger evidence of stable minutes in losses would make this a keep candidate.",
+                      "risk_flags":  [
+                                         "blowout",
+                                         "minutes",
+                                         "small-sample",
+                                         "unverified-role"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L10",
+                      "decision":  "cut",
+                      "confidence":  47,
+                      "reasoning":  "The ten-game streak is strong evidence for Wagner\u0027s previous workload, but Suggs\u0027s likely return changes the ball-handling conditions behind it. The supplied downgrade to 57% is not supported by comparable lineup data, and turnovers are sensitive to changes in touches and creation duties. I would reconsider if Suggs is ruled out or has a clearly restrictive workload that preserves Wagner\u0027s lead-creator role.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "role-change",
+                                         "small-sample",
+                                         "platform-availability"
+                                     ]
+                  }
+              ]
+}

@@ -1,0 +1,139 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-13-pregame",
+    "model":  "cursor",
+    "model_name":  "auto",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-13T17:30:04-05:00",
+    "finished_at":  "2026-11-13T17:31:24-05:00",
+    "duration_s":  35.4,
+    "usage":  {
+                  "inputTokens":  15734,
+                  "outputTokens":  2001,
+                  "cacheReadTokens":  19328,
+                  "cacheWriteTokens":  0
+              },
+    "overall_notes":  "Pregame NBA-heavy slate with two same-game clusters (NY@IND, MEM@NO) where I\u0027d avoid stacking. I kept legs with clearer role/injury tailwinds and softer books, and cut thin-margin shooting props, blowout-sensitive overs, and Wagner TO after Suggs\u0027 likely return. App line confirmation still matters for several FGM markets.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  67,
+                      "reasoning":  "Coward\u0027s recent rebounding run plus Memphis frontcourt absences and a high total point to extra missed shots and board share. New Orleans\u0027 interior doubts add a bit more upside. I\u0027d flip if Coward\u0027s minutes or starting role shrinks in late injury reports.",
+                      "risk_flags":  [
+                                         "minutes",
+                                         "role",
+                                         "small-sample",
+                                         "same-game-cluster"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  64,
+                      "reasoning":  "Towns\u0027 sustained double-double streak and Indiana\u0027s weak center defense are a solid matchup fit with Haliburton out. The main drag is a potential NY blowout trimming fourth-quarter usage. A tighter spread or Nesmith playing heavy minutes on a hot night would lower my edge.",
+                      "risk_flags":  [
+                                         "blowout",
+                                         "minutes",
+                                         "same-game-cluster"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  61,
+                      "reasoning":  "Books are unusually aggressive on Stone over 1.5 SOG, which usually reflects real volume expectation at home. Nashville\u0027s stingy shot suppression is the honest pushback on a low bar prop. I\u0027d cut if Stone is limited or Vegas is a heavy underdog game script.",
+                      "risk_flags":  [
+                                         "matchup",
+                                         "variance",
+                                         "injury"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "cut",
+                      "confidence":  74,
+                      "reasoning":  "The hit rate looks great but many games land on exactly five makes, so 4.5 is a knife-edge line against a very efficient -190 price. Mobley out helps less for a guard\u0027s make count than the drafter implies, and FGM availability on pick\u0027em apps is unverified. I\u0027d keep only if the app line drops meaningfully below books.",
+                      "risk_flags":  [
+                                         "thin-margin",
+                                         "line-efficient",
+                                         "platform-uncertainty",
+                                         "injury"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "cut",
+                      "confidence":  69,
+                      "reasoning":  "Haliburton out boosts usage but 4.5 FGM with repeated scores of exactly five is fragile, and the last five is only 4/5 over. Stacking with Towns in the same game adds correlation if pace or shooting goes cold. Clearer green light if the line were 3.5 or books were softer.",
+                      "risk_flags":  [
+                                         "thin-margin",
+                                         "same-game-cluster",
+                                         "correlation",
+                                         "line-efficient"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  57,
+                      "reasoning":  "2.5 FGM is a more forgiving bar with strong recent clears and a guard-heavy Memphis rotation when bigs are out. The book at roughly -125 doesn\u0027t scream misprice, so the bet is mostly trend plus pace. Shorter rotation or a slower-than-expected total would worry me.",
+                      "risk_flags":  [
+                                         "same-game-cluster",
+                                         "line-efficient",
+                                         "platform-uncertainty",
+                                         "injury"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "cut",
+                      "confidence":  71,
+                      "reasoning":  "Toppin\u0027s recent PRA clears are encouraging but he\u0027s still a bench piece in a likely Knicks blowout, which caps minutes and counting stats. Nesmith\u0027s status adds noise to the minutes story rather than a clean boost. I\u0027d reconsider if the spread tightens materially pre-tip.",
+                      "risk_flags":  [
+                                         "blowout",
+                                         "minutes",
+                                         "bench-role",
+                                         "same-game-cluster"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "cut",
+                      "confidence":  76,
+                      "reasoning":  "Season average and projection barely clear 11.5, and he\u0027s ticked 11 twice in the last six—classic one-rebound short. Golden State\u0027s absences help missed shots but a Spurs blowout could limit Wemby\u0027s fourth quarter. Fox or Vassell sitting changes context but doesn\u0027t fix the efficient line.",
+                      "risk_flags":  [
+                                         "thin-margin",
+                                         "blowout",
+                                         "line-efficient",
+                                         "injury"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "cut",
+                      "confidence":  68,
+                      "reasoning":  "Usage and season PRA support the idea but Portland as a double-digit dog raises early bench risk and he\u0027s gone 32 and 29 lately—both under 34.5. The prior Portland game helps narrative more than a repeatable path tonight. I\u0027d keep if Sacramento\u0027s spread tightens or the pick\u0027em line drops.",
+                      "risk_flags":  [
+                                         "blowout",
+                                         "minutes",
+                                         "recent-form",
+                                         "line-efficient"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L10",
+                      "decision":  "cut",
+                      "confidence":  75,
+                      "reasoning":  "The 10-game TO streak is real but Suggs likely returning meaningfully shares primary creation and reduces Wagner\u0027s burden. The morning downgrade in the drafter\u0027s own notes aligns with cutting this on a 2.5 line that needs three turnovers. I\u0027d only revisit if Suggs is ruled out close to tip.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "role",
+                                         "line-efficient",
+                                         "variance"
+                                     ]
+                  }
+              ]
+}

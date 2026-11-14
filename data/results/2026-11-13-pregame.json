@@ -1,0 +1,98 @@
+{
+ "schema": "results/v1",
+ "run": "2026-11-13-pregame",
+ "graded_at": "2026-11-14T09:51:15-05:00",
+ "author": "parlay-locks",
+ "legs": [
+  {
+   "leg_id": "L1",
+   "actual": 7,
+   "outcome": "hit",
+   "note": "Coward 7 reb",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909300"
+  },
+  {
+   "leg_id": "L2",
+   "actual": 38,
+   "outcome": "hit",
+   "note": "Towns 23 pts + 15 reb",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909296"
+  },
+  {
+   "leg_id": "L3",
+   "actual": 1,
+   "outcome": "miss",
+   "note": "Mark Stone 1 SOG",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892707"
+  },
+  {
+   "leg_id": "L4",
+   "actual": 7,
+   "outcome": "hit",
+   "note": "Davion Mitchell 7 FGM",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909298"
+  },
+  {
+   "leg_id": "L5",
+   "actual": 4,
+   "outcome": "miss",
+   "note": "Nembhard 4-14 FG",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909296"
+  },
+  {
+   "leg_id": "L6",
+   "actual": 3,
+   "outcome": "hit",
+   "note": "Cam Spencer 3-5 FG",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909300"
+  },
+  {
+   "leg_id": "L7",
+   "actual": 13,
+   "outcome": "miss",
+   "note": "Toppin 9/3/1 in 16 min",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909296"
+  },
+  {
+   "leg_id": "L8",
+   "actual": 12,
+   "outcome": "hit",
+   "note": "Wembanyama 12 reb in 21 min",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909302"
+  },
+  {
+   "leg_id": "L9",
+   "actual": 27,
+   "outcome": "miss",
+   "note": "Acuff 17/4/6",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909303"
+  },
+  {
+   "leg_id": "L10",
+   "actual": 3,
+   "outcome": "hit",
+   "note": "Franz Wagner 3 TO",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909297"
+  }
+ ],
+ "slips": [
+  {
+   "id": "2026-11-13-pregame-2",
+   "size": 2,
+   "stake": 1,
+   "outcome": "loss",
+   "payout": 0,
+   "pnl": -1,
+   "note": "Underdog Standard 3.5x; legs: L1 hit, L3 miss"
+  },
+  {
+   "id": "2026-11-13-pregame-3",
+   "size": 3,
+   "stake": 1,
+   "outcome": "loss",
+   "payout": 0,
+   "pnl": -1,
+   "note": "Underdog Standard 6.5x; legs: L2 hit, L6 hit, L3 miss"
+  }
+ ]
+}

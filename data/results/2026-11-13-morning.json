@@ -1,0 +1,107 @@
+{
+ "schema": "results/v1",
+ "run": "2026-11-13-morning",
+ "graded_at": "2026-11-14T09:51:15-05:00",
+ "author": "parlay-locks",
+ "legs": [
+  {
+   "leg_id": "L1",
+   "actual": 10,
+   "outcome": "miss",
+   "note": "Jalen Johnson 27/11/10 (10 ast vs U7.5)",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909299"
+  },
+  {
+   "leg_id": "L2",
+   "actual": 24,
+   "outcome": "hit",
+   "note": "Sengun 17-24 FG, 43 pts",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909301"
+  },
+  {
+   "leg_id": "L3",
+   "actual": 7,
+   "outcome": "hit",
+   "note": "Coward 7 reb in 30 min",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909300"
+  },
+  {
+   "leg_id": "L4",
+   "actual": 7,
+   "outcome": "hit",
+   "note": "Davion Mitchell 7-14 FG, 17 ast",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909298"
+  },
+  {
+   "leg_id": "L5",
+   "actual": 3,
+   "outcome": "hit",
+   "note": "Franz Wagner 3 TO, 35/9/12",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909297"
+  },
+  {
+   "leg_id": "L6",
+   "actual": 38,
+   "outcome": "hit",
+   "note": "Towns 23 pts + 15 reb",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909296"
+  },
+  {
+   "leg_id": "L7",
+   "actual": 1,
+   "outcome": "miss",
+   "note": "Anunoby 1 ast",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909296"
+  },
+  {
+   "leg_id": "L8",
+   "actual": 11,
+   "outcome": "miss",
+   "note": "Podziemski 8/3/0 in 22 min (-24 +/- in a blowout)",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909302"
+  },
+  {
+   "leg_id": "L9",
+   "actual": 1,
+   "outcome": "miss",
+   "note": "Mark Stone 1 SOG in 19:59",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892707"
+  },
+  {
+   "leg_id": "L10",
+   "actual": 4,
+   "outcome": "hit",
+   "note": "Dorofeyev 4 SOG",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892706"
+  }
+ ],
+ "slips": [
+  {
+   "id": "2026-11-13-morning-2",
+   "size": 2,
+   "stake": 1,
+   "outcome": "win",
+   "payout": 3.5,
+   "pnl": 2.5,
+   "note": "Underdog Standard 3.5x; legs: L3 hit, L6 hit"
+  },
+  {
+   "id": "2026-11-13-morning-3",
+   "size": 3,
+   "stake": 1,
+   "outcome": "loss",
+   "payout": 0,
+   "pnl": -1,
+   "note": "Underdog Standard 6.5x; legs: L3 hit, L6 hit, L9 miss"
+  },
+  {
+   "id": "2026-11-13-morning-5",
+   "size": 5,
+   "stake": 1,
+   "outcome": "loss",
+   "payout": 0,
+   "pnl": -1,
+   "note": "PrizePicks 5-pick Power 20x (all-or-nothing); 4/5: L3 hit, L6 hit, L9 miss, L5 hit, L4 hit. Would have paid 2x as 5-Flex."
+  }
+ ]
+}

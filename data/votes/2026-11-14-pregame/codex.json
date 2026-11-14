@@ -1,0 +1,140 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-14-pregame",
+    "model":  "codex",
+    "model_name":  "default",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-14T17:30:03-05:00",
+    "finished_at":  "2026-11-14T17:31:50-05:00",
+    "duration_s":  36.8,
+    "usage":  {
+                  "tokens":  22444
+              },
+    "overall_notes":  "The exact half-point, two-way prices support several conditional keeps above the stated break-even thresholds, but stale morning quotes and unconfirmed app lines prevent treating these as executable selections. Keep decisions require matching standard app lines and settlement rules; cut decisions reflect insufficient demonstrated edge, although those legs can still hit, so their miss-confidence scores remain below 50%.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  60,
+                      "reasoning":  "The exact-line devig clears every stated threshold, supported by sustained minutes and 2+ shots in nine of ten games. Stale cross-book pricing limits confidence; a reduced role or different app line would reverse this keep.",
+                      "risk_flags":  [
+                                         "stale-prices",
+                                         "cross-book",
+                                         "app-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  60,
+                      "reasoning":  "The single-book exact-line pair supports the under, and reduced minutes plus low baseline shot volume independently reinforce it. This does not require benching or a blowout; a restored shooting role or materially higher minutes would change my vote.",
+                      "risk_flags":  [
+                                         "stale-prices",
+                                         "role-change",
+                                         "app-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  60,
+                      "reasoning":  "The exact-line single-book probability exceeds the required thresholds, with season volume and Barkov\u0027s absence supporting opportunity. The recent distribution includes substantial variance, so a diminished center role or lower minutes would change my mind.",
+                      "risk_flags":  [
+                                         "stale-prices",
+                                         "shot-variance",
+                                         "app-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  57,
+                      "reasoning":  "Eight overs in ten games and the exact-line market provide enough support for a modest keep. The 1.94 season average and variable minutes leave less cushion than the recent hit rate suggests; reduced deployment or a weaker current price would reverse the decision.",
+                      "risk_flags":  [
+                                         "stale-prices",
+                                         "cross-book",
+                                         "minutes",
+                                         "app-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  57,
+                      "reasoning":  "The exact-line price and eight unders in twelve games support a narrow keep across substantial playing time. A maximum of three assists is not a protective ceiling when three already loses, and the 2.38 projection leaves limited room; evidence of increased creation responsibilities would change my vote.",
+                      "risk_flags":  [
+                                         "stale-prices",
+                                         "cross-book",
+                                         "thin-market",
+                                         "app-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  57,
+                      "reasoning":  "The exact-line devig narrowly clears all thresholds, with 3.31 season shots and stable minutes supporting the over independently of favorite status. The edge is vulnerable to stale pricing; reduced deployment or a higher app line would change my mind.",
+                      "risk_flags":  [
+                                         "stale-prices",
+                                         "cross-book",
+                                         "late-start",
+                                         "app-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  59,
+                      "reasoning":  "The exact-line single-book pair and low recent shot volume support a baseline under, with some allowance for the substantial hold and missing minutes detail. Opposite teams do not establish negative correlation: sustained LA possession could help both this under and Kempe\u0027s over, so I would avoid assuming independent outcomes or reverse this vote after a role increase.",
+                      "risk_flags":  [
+                                         "stale-prices",
+                                         "high-hold",
+                                         "minutes-unverified",
+                                         "same-game-correlation",
+                                         "app-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  58,
+                      "reasoning":  "The exact-line single-book market supports the under, and the supplied log actually shows nine unders in twelve games, rather than eight. Missing deployment detail and the favorable shooting matchup temper confidence; increased minutes or shooting responsibility would change my vote.",
+                      "risk_flags":  [
+                                         "stale-prices",
+                                         "minutes-unverified",
+                                         "matchup",
+                                         "stat-count-error",
+                                         "app-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "cut",
+                      "confidence":  43,
+                      "reasoning":  "Murphy\u0027s absence creates an unresolved opportunity change that the stale morning prices and mixed 14–37 minute sample do not adequately address. The supplied attempts total 34 across twelve games, but that baseline may not represent tonight\u0027s role; current exact-line pricing and Murphy-out workload evidence could restore a keep.",
+                      "risk_flags":  [
+                                         "injury-role-shift",
+                                         "minutes",
+                                         "stale-prices",
+                                         "cross-book",
+                                         "app-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L10",
+                      "decision":  "cut",
+                      "confidence":  48,
+                      "reasoning":  "The supplied log contains six unders in twelve games, not seven, and Edwards\u0027 absence could materially increase Shannon\u0027s minutes and attempts. Three consecutive scoreless shooting games do not resolve that workload risk; updated exact-line prices and evidence from his expanded role would be needed to reconsider.",
+                      "risk_flags":  [
+                                         "injury-role-shift",
+                                         "minutes",
+                                         "stat-count-error",
+                                         "recency-bias",
+                                         "stale-prices",
+                                         "app-unconfirmed"
+                                     ]
+                  }
+              ]
+}

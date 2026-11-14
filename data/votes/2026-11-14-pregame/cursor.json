@@ -1,0 +1,128 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-14-pregame",
+    "model":  "cursor",
+    "model_name":  "auto",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-14T17:30:03-05:00",
+    "finished_at":  "2026-11-14T17:31:50-05:00",
+    "duration_s":  24.4,
+    "usage":  {
+                  "inputTokens":  16961,
+                  "outputTokens":  2603,
+                  "cacheReadTokens":  19328,
+                  "cacheWriteTokens":  0
+              },
+    "overall_notes":  "The NHL shot-volume legs mostly pair credible two-way devigs at the listed lines with repeatable SOG trends, though several use single-book pairs and stale morning prices, which modestly inflates est_prob. The slate’s clearest cut is Shannon under 1.5 threes with Edwards out and explicit minutes/attempt upside risk; Herb Jones is a softer keep with Murphy out and a back-to-back flagged. I would keep nine legs for a paper 5-leg build after dropping L10.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  79,
+                      "reasoning":  "Cross-book two-way devig at 1.5 matches the pick, and Benson’s 2.53 season SOG average with 9 of 10 games at 2+ shots is a stable volume over that does not depend on blowout script. The main risk is line movement or a cold shooting night at 1.5. I would cut only if app lines differ from 1.5 or his TOI drops materially pregame.",
+                      "risk_flags":  [
+                                         "stale-prices",
+                                         "line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  81,
+                      "reasoning":  "DraftKings O/U at 2.5 supports a 60.4% under, and Ovechkin’s reduced role (11–17 min, 1.65 season SOG, 8 of 10 at 2 or fewer) is a baseline-volume under rather than a benching narrative. NJ @ WSH could stay competitive and add SOG, which is the main miss path. I would reconsider if his deployment or PP usage spikes in warmups.",
+                      "risk_flags":  [
+                                         "single-book",
+                                         "competitive-game"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  73,
+                      "reasoning":  "Single-book devig at 1.5 is aligned, and Barkov on IR plausibly locks Lundell into center minutes with a 2.79 season SOG rate and WinDaily near 2.7. The L10 log is volatile (0–1 shot games), so 1.5 is not a lock. A cut would follow confirmed Barkov return or a meaningful line bump on the app.",
+                      "risk_flags":  [
+                                         "injury-context",
+                                         "variance",
+                                         "single-book"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  71,
+                      "reasoning":  "BetMGM/DK cross-book devig at 1.5 is valid, and Coyle has cleared 1.5 in 8 of 10 with steady middle-six TOI. The 5.5 total is a modest drag on event shot volume but not obviously script-dependent for his personal rate. Low-scoring grind or reduced minutes would be the change-my-mind triggers.",
+                      "risk_flags":  [
+                                         "low-total",
+                                         "stale-prices"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  69,
+                      "reasoning":  "Two-way devig at 2.5 assists and a hard ceiling of 3 assists in the cited sample fit a role-based under for a catch-and-shoot wing. Duren and Giannis status are unlikely to turn Robinson into a primary creator at this number. Thin market coverage and stale morning prices are the main structural concerns.",
+                      "risk_flags":  [
+                                         "small-market",
+                                         "stale-prices",
+                                         "injury-peripheral"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  68,
+                      "reasoning":  "Devig at 2.5 SOG matches the over, and Kempe’s 3.31 average with frequent 3+ games supports clearing a modest line at home. Late start and potential blowout as -175 favorite could slightly cap SOG if LA parks the bus early, but he usually shoots regardless. App line at 2.5 unconfirmed is the operational risk.",
+                      "risk_flags":  [
+                                         "blowout",
+                                         "line-unconfirmed",
+                                         "late-start"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  64,
+                      "reasoning":  "Single-book BetMGM pair at 1.5 is the correct settlement line, and Pospisil’s bottom-six profile (8 of 12 at 1 or fewer SOG) is a true volume under. The noted ~7.5% hold makes the 62% estimate a bit optimistic versus a sharper devig. I would cut on Goblin/demon or if the app posts 1.0 instead of 1.5.",
+                      "risk_flags":  [
+                                         "high-hold",
+                                         "single-book",
+                                         "line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  75,
+                      "reasoning":  "DK two-way at 2.5 under fits Trocheck’s pass-first trend with 8 of 12 at 2 or fewer and five straight under 2.5. Weak SJ defense is the main counter—theoretically more zone time and attempts—but his personal shot rate has been low regardless. A sudden shift to more shoot-first usage would change the vote.",
+                      "risk_flags":  [
+                                         "opponent-soft",
+                                         "single-book"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "keep",
+                      "confidence":  61,
+                      "reasoning":  "Devig at 1.5 threes is on-line, and 10 of 12 games at 1 or fewer with ~2.9 attempts supports a volume under without needing a blowout. Trey Murphy out and a second-night back-to-back raise the chance of extra catch-and-shoot attempts and minutes for Jones. This stays a keep only while the app still shows 1.5 and he is not vaulted into a high-volume spacer role.",
+                      "risk_flags":  [
+                                         "injury-redistribution",
+                                         "b2b",
+                                         "minutes"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L10",
+                      "decision":  "cut",
+                      "confidence":  74,
+                      "reasoning":  "The 64.7% devig is attractive, but Anthony Edwards out after knee surgery is a direct workload risk for Shannon’s minutes and three-point attempts—the drafter flags this as the main reason confidence is low. An under on 1.5 threes that depends on a fringe shooter staying at 16–27 low-usage minutes often fails when a star void opens rotation and shot diet. I would keep only if pregame reports show no meaningful minute or attempt bump with Edwards ruled out.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "minutes",
+                                         "volume-spike",
+                                         "small-sample"
+                                     ]
+                  }
+              ]
+}

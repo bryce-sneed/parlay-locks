@@ -1,0 +1,115 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-14-pregame",
+    "model":  "claude",
+    "model_name":  "haiku",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-14T17:30:03-05:00",
+    "finished_at":  "2026-11-14T17:31:50-05:00",
+    "duration_s":  104.5,
+    "usage":  {
+                  "cost_usd":  0.117337,
+                  "cache_read":  0,
+                  "output_tokens":  11216,
+                  "input_tokens":  9
+              },
+    "overall_notes":  "Slate carries 6 strong morning keeps (all clean devigged, carry status validated). Two of the four new legs are problematic: Pospisil relies on a single-book pair with 7.5% hold (drafter flagged low confidence), and Shannon faces direct material uncertainty with Edwards out (drafter also noted low confidence). Cut both new uncertain legs; keep the 8 solid ones with established devigged edges and volume reasoning.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  85,
+                      "reasoning":  "Morning 3-0 panel keep with clean exact-line devig (60.9%). Benson\u0027s volume is consistent and indifferent to game script: 2+ SOG in 9/L10, season avg 2.53, stable 18-23 min TOI on no back-to-back. WinDaily projection 2.21 well above line. No injury or role risk.",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  85,
+                      "reasoning":  "Morning 3-0 panel keep with clean exact-line devig (60.4%). Ovechkin\u0027s baseline has genuinely contracted: 11-17 min TOI, ≤2 SOG in 8/L10, season avg only 1.65. This is a true baseline-volume under (WinDaily proj 1.52), independent of blowout script. Defensible regardless of game flow.",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  85,
+                      "reasoning":  "Morning 3-0 panel keep with clean exact-line devig (60.4%). Barkov\u0027s IR status elevates Lundell to top-six center role. Consistent volume (2+ SOG in 7/L10, season avg 2.79, projection 2.71) plus 4 straight road games over 1.5. Clarity from injury, not speculation.",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  72,
+                      "reasoning":  "Morning 3-0 panel keep with clean exact-line devig (59.3%). Coyle is consistent (2+ SOG in 8/L10, avg 1.94) on stable 15-24 min. Primary risk: PHI @ CBJ at 5.5 total depresses league-wide shot volume. However, Coyle\u0027s baseline does not require high-octane offense; carries enough for the line.",
+                      "risk_flags":  [
+                                         "low-game-total"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  80,
+                      "reasoning":  "Morning 3-0 panel keep with clean exact-line devig (59.4%). Robinson\u0027s role is catch-and-shoot only (not creation); ceiling is 3 assists even on 26-41 min TOI. Established track record: ≤2 AST in 7/L10, max 3, avg 2.18. DET injuries do not shift his position.",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  75,
+                      "reasoning":  "Morning 3-0 panel keep with clean exact-line devig (58.6%, lowest but justified). Kempe\u0027s volume is consistent (3+ SOG in 7/L10, season avg 3.31, projection 3.30) on 17-22 min. LA -175 home favorite adds mild positive script. Late 10 PM ET start is minor variable.",
+                      "risk_flags":  [
+                                         "low-edge"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "cut",
+                      "confidence":  62,
+                      "reasoning":  "New leg. Devig shows 62.0% under, but drafter explicitly flagged this single-book pair with 7.5% hold and stated low confidence. High hold typically deflates true market probability 3–5 percentage points; likely true probability ~56–57%, not 62%. Pospisil\u0027s baseline volume (≤1 SOG in 8/L12, avg 1.17) is genuine, but this leg depends on a questionable sportsbook pair rather than multi-book consensus. New leg without morning validation compounds risk.",
+                      "risk_flags":  [
+                                         "high-hold",
+                                         "single-book-pair",
+                                         "new-leg"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  78,
+                      "reasoning":  "New leg. Clean exact-line devig (60.4%). Trocheck is a pass-first center (≤2 SOG in 8/L12, recent 5-game trend 2,1,1,1,0) whose baseline volume is role-dependent, not script-dependent. SJ\u0027s weak defense is flagged but does not invalidate the under on a genuine pass-first player. Solid baseline reasoning.",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "keep",
+                      "confidence":  70,
+                      "reasoning":  "New leg. Clean exact-line devig (62.2%). Herbert Jones\u0027 track record is strong (≤1 3PM in 10/L12, avg ~2.9 3PA/g, low-volume shooter). Risk flagged: Trey Murphy III is OUT, which could shift catch-and-shoot looks. However, Jones is a defender first; even with modest volume increase (say 3.2 3PA), his ~34% rate keeps him under 1.5 most nights. Back-to-back second night is minor. Baseline under holds.",
+                      "risk_flags":  [
+                                         "injury"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L10",
+                      "decision":  "cut",
+                      "confidence":  68,
+                      "reasoning":  "New leg. Devig shows 64.7% under, but this predates Edwards\u0027 Thursday knee surgery. Anthony Edwards is now OUT, directly increasing Shannon\u0027s minutes (est. 16–27 min → 23–32+ min) and shot volume (+1–2 3PA). Drafter explicitly stated \u0027confidence is low\u0027 due to role uncertainty. Without Edwards, Shannon\u0027s usage profile becomes unpriced. Material unresolved minutes risk makes this unplayable despite attractive nominal devig.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "minutes-risk",
+                                         "new-leg"
+                                     ]
+                  }
+              ]
+}

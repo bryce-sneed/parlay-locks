@@ -1,0 +1,55 @@
+{
+  "schema": "slips/v1",
+  "run": "2026-11-14-pregame",
+  "date": "2026-11-14",
+  "snapshot": "pregame",
+  "created_at": "2026-11-14T18:10:00-05:00",
+  "author": "parlay-locks",
+  "paper": true,
+  "notes": "Panel ran (3/3 ok). Used only 3-0 keeps; agreed with the panel cut on L10 (Shannon U1.5 3PM) and also benched the 2-1 legs L9 (H. Jones U1.5 3PM) and L7 (Pospisil U1.5 SOG, single high-hold book, same game as L6). 6pm recheck: Robinson not on the injury report (ESPN via 12:26 PM ET); NHL.com projected lines have Ovechkin on the 3rd line with Sourdif/Beauvillier (low TOI supports the under); no new injuries for Benson, Lundell, Coyle, Kempe, Trocheck. Caveat: these prices are WinDaily's ~9 AM quotes (page not refreshed), and several legs repeat this morning's slips on the same games, so the two snapshots are correlated.",
+  "slips": [
+    {
+      "id": "2026-11-14-pregame-2",
+      "size": 2,
+      "platform": "Underdog",
+      "play_type": "standard",
+      "stake": 1,
+      "payout_multiplier": 3.5,
+      "legs": [
+        "L2",
+        "L1"
+      ],
+      "rationale": "Top two panel scores (75.3, 74.7), both 3-0. Ovechkin U2.5 SOG (60.4% devig, bumped down the lineup) + Benson O1.5 SOG (60.9%). Different games. Shares no legs with the 3-leg."
+    },
+    {
+      "id": "2026-11-14-pregame-3",
+      "size": 3,
+      "platform": "Underdog",
+      "play_type": "standard",
+      "stake": 1,
+      "payout_multiplier": 6.5,
+      "legs": [
+        "L3",
+        "L8",
+        "L5"
+      ],
+      "rationale": "Independent core: Lundell O1.5 SOG (60.4%), Trocheck U2.5 SOG (60.4%), D. Robinson U2.5 AST (59.4%). All 3-0 keeps, three different games, mixes NHL and NBA. Shares nothing with the 2-leg."
+    },
+    {
+      "id": "2026-11-14-pregame-5",
+      "size": 5,
+      "platform": "PrizePicks",
+      "play_type": "power",
+      "stake": 1,
+      "payout_multiplier": 20,
+      "legs": [
+        "L1",
+        "L3",
+        "L4",
+        "L6",
+        "L5"
+      ],
+      "rationale": "Five different games, all 3-0 keeps. Avg est_prob 0.597 (>0.566 crossover), so Power (20x) over Flex. Benson O1.5, Lundell O1.5, Coyle O1.5, Kempe O2.5 SOG + Robinson U2.5 AST. Doesn't contain the full 2-leg or 3-leg core."
+    }
+  ]
+}

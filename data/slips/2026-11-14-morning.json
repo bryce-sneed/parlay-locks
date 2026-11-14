@@ -1,0 +1,55 @@
+{
+ "schema": "slips/v1",
+ "run": "2026-11-14-morning",
+ "date": "2026-11-14",
+ "snapshot": "morning",
+ "created_at": "2026-11-14T11:05:00-05:00",
+ "author": "parlay-locks",
+ "paper": true,
+ "notes": "Panel ran (3/3 ok). Used only 3-0 keeps; agreed with panel cuts L3, L6, L12. 11am recheck: Benson cleared and expected to play; Ovechkin projected on the 4th line + PP1 (low TOI supports the under); Kucherov on TB L1 with Vasilevskiy confirmed; Robinson not on DET injury report; FLA and DET on a back-to-back (played each other Fri). PP/UD app lines still UNCONFIRMED from the box; void any leg whose app line differs or comes up as Goblin/Demon. 2-leg and 3-leg share no legs. 5-leg avg est_prob 0.598 (~0.58 after a haircut for best-price pairing), above the 56.6% crossover, so PrizePicks 5-pick Power.",
+ "slips": [
+  {
+   "id": "2026-11-14-morning-2",
+   "size": 2,
+   "platform": "Underdog",
+   "play_type": "standard",
+   "stake": 1,
+   "payout_multiplier": 3.5,
+   "legs": [
+    "L1",
+    "L4"
+   ],
+   "rationale": "Two strongest 3-0 panel keeps (scores 77, 74.7) in different games. Benson O1.5 SOG (2+ in 9 of last 10, 62.4% devig); Ovechkin U2.5 SOG (avg 1.65, 4th-line minutes, 60.4% devig)."
+  },
+  {
+   "id": "2026-11-14-morning-3",
+   "size": 3,
+   "platform": "Underdog",
+   "play_type": "standard",
+   "stake": 1,
+   "payout_multiplier": 6.5,
+   "legs": [
+    "L5",
+    "L2",
+    "L9"
+   ],
+   "rationale": "Independent core from the 2-leg. Lundell O1.5 SOG (top-six C with Barkov on IR), Dobson U2.5 SOG (2 or fewer in 7 of 10), Robinson U2.5 AST (never over 3 in his last 10). All 3-0 keeps, three different games, mixed NHL/NBA."
+  },
+  {
+   "id": "2026-11-14-morning-5",
+   "size": 5,
+   "platform": "PrizePicks",
+   "play_type": "power",
+   "stake": 1,
+   "payout_multiplier": 20,
+   "legs": [
+    "L1",
+    "L7",
+    "L10",
+    "L11",
+    "L8"
+   ],
+   "rationale": "Five different games, all 3-0 keeps. Avg est_prob 0.598 (>0.566 crossover), so Power over Flex. Shares only L1 with the 2-leg and nothing with the 3-leg. RNH U2.5, Kucherov O2.5, Kempe O2.5, Coyle O1.5 SOG plus Benson O1.5."
+  }
+ ]
+}

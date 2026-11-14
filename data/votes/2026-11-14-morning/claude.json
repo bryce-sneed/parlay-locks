@@ -1,0 +1,135 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-14-morning",
+    "model":  "claude",
+    "model_name":  "haiku",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-14T10:30:04-05:00",
+    "finished_at":  "2026-11-14T10:31:11-05:00",
+    "duration_s":  65.4,
+    "usage":  {
+                  "cost_usd":  0.09184,
+                  "cache_read":  0,
+                  "output_tokens":  6771,
+                  "input_tokens":  9
+              },
+    "overall_notes":  "Nine solid legs remain after cutting three high-risk picks. The slate clusters around 58-62% est_prob with workload/role fundamentals supporting most bets. The three cuts remove: a tiny-sample NBA under contradicted by WinDaily (L3), an explicit blowout-dependency on an over (L6), and the thinnest edge with unconfirmed injury context (L12). The remaining nine legs build well for 5-leg Power tickets (54.9% break-even) and avoid spread-driven blowout unders.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  85,
+                      "reasoning":  "Benson\u0027s 2.53 season SOG average and 9-of-10 recent games with 2+ shots are steady volume metrics at 1.5. The 62.4% devig from FanDuel\u0027s two-way spread (-198/-150) is clean and clears break-even comfortably. No injury, stable 18-23 min TOI, and BUF not on a back-to-back remove volatility risk.",
+                      "risk_flags":  [
+                                         "none"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  80,
+                      "reasoning":  "Dobson\u0027s 2.16 season average with 7-of-10 recent games at ≤2 SOG is genuine baseline volume, not blowout-dependent benching. The 61.8% devig from Hard Rock\u0027s spread (+145/-195) is solid, and WinDaily projects 2.20, supporting the under. His distributor role (~20 min) means game script doesn\u0027t blow him out.",
+                      "risk_flags":  [
+                                         "opponent_strength"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "cut",
+                      "confidence":  75,
+                      "reasoning":  "Only five games logged—far too small a sample for reliable assist props. Minutes swing from 10–31, creating unpredictable opportunity. WinDaily projects 3.10, which is above the 3.5 line, contradicting the under. Mikel Brown Jr.\u0027s illness (Q) status unresolved; if he sits, Demin gets more on-ball time. MEM\u0027s B2B back-to-back context adds further uncertainty.",
+                      "risk_flags":  [
+                                         "small_sample",
+                                         "injury_uncertainty",
+                                         "minutes_volatility",
+                                         "conflicting_projection"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  82,
+                      "reasoning":  "Ovechkin\u0027s role has clearly shrunk to 11-17 min TOI with 1.65 season SOG average and 8-of-10 recent games at ≤2. This is baseline-volume driven, not blowout-dependent. The 60.4% devig from DraftKings (+135/-185) is clean and above break-even. WinDaily projects 1.52, well below the 2.5 line.",
+                      "risk_flags":  [
+                                         "none"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  83,
+                      "reasoning":  "Barkov\u0027s IR (knee) elevates Lundell into stable top-six center minutes (16-19 min). His 2.79 season average and 7-of-10 recent games at 2+ SOG are strong at the 1.5 line. The 60.4% devig from DraftKings (-185/+135) is sound, and WinDaily projects 2.71. Four straight road games over 1.5 confirm recent form.",
+                      "risk_flags":  [
+                                         "none"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "cut",
+                      "confidence":  72,
+                      "reasoning":  "Drafter explicitly flags \u0027blowout minutes are the risk for this over.\u0027 DEN is a 12.5-point favorite (roughly -1250), creating material risk of second-half benching if DEN pulls away. Johnson\u0027s 1.86 assist average is thin at 1.5, and while NO is shorthanded and on B2B, that doesn\u0027t fully offset a heavily favored team\u0027s blowout scenario.",
+                      "risk_flags":  [
+                                         "blowout_dependent",
+                                         "spread_risk"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  78,
+                      "reasoning":  "RNH\u0027s distributor role (17-20 min) yields a baseline 1.73 season SOG average with 8-of-10 recent games at ≤2. The 59.4% devig from Hard Rock (+130/-175) clears break-even with a small margin. WinDaily projects 2.08, well below the 2.5 line. Volume is role-dependent, not game-script dependent.",
+                      "risk_flags":  [
+                                         "low_break_even_margin"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  73,
+                      "reasoning":  "Coyle\u0027s 1.94 season average and 8-of-10 recent games at 2+ SOG support the 1.5 over. The 59.3% devig from BetMGM/DraftKings (-155/+140) clears break-even. The 5.5 game total is tight (flagged by drafter as \u0027the only knock\u0027), which compresses shot variance, but Coyle\u0027s recent form is strong enough to navigate it.",
+                      "risk_flags":  [
+                                         "low_game_total"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "keep",
+                      "confidence":  81,
+                      "reasoning":  "Robinson has a structural ceiling at ≤3 assists (never exceeded it in L10) with a 2.18 average, far below the 2.5 line. His role is catch-and-shoot, not playmaking; Isaiah Joe being out expands Robinson\u0027s shooting volume but not creation. The 58.9% devig from Hard Rock (+130/-165) is clean, and WinDaily projects 2.38.",
+                      "risk_flags":  [
+                                         "limited_book_coverage"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L10",
+                      "decision":  "keep",
+                      "confidence":  82,
+                      "reasoning":  "Brayden Point\u0027s IR (absence) elevates Kucherov into primary offensive load. His 3.05 season SOG average and 6-of-10 recent games at 3+ SOG are strong at 2.5. The 59.2% devig from FanDuel (-170/+130) is solid, and WinDaily projects 2.98. TB is a -225 home favorite, reducing blowout risk.",
+                      "risk_flags":  [
+                                         "none"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L11",
+                      "decision":  "keep",
+                      "confidence":  81,
+                      "reasoning":  "Kempe\u0027s 3.31 season SOG average and 7-of-10 recent games at 3+ SOG are strong at 2.5. The 58.6% devig from BetMGM/FanDuel (-160/+130) clears break-even, and WinDaily projects 3.30. LA is a -175 home favorite. Late 10 PM ET start does not materially change shot volume or role.",
+                      "risk_flags":  [
+                                         "none"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L12",
+                      "decision":  "cut",
+                      "confidence":  70,
+                      "reasoning":  "Flagg\u0027s 55.7% edge is the thinnest on slate, only +80 bps above 5-leg Power break-even (54.9%). CLE\u0027s injury report is unsubmitted (Mobley out Friday, status unknown for tonight), creating material uncertainty. CLE is on the second night of a back-to-back, and while Lively II\u0027s absence helps Flagg\u0027s rebounding room, the combination of thin edge, missing injury intel, and B2B context is too risky.",
+                      "risk_flags":  [
+                                         "thin_break_even_margin",
+                                         "unconfirmed_injury",
+                                         "back_to_back"
+                                     ]
+                  }
+              ]
+}

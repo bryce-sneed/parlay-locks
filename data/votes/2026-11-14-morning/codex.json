@@ -1,0 +1,156 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-14-morning",
+    "model":  "codex",
+    "model_name":  "default",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-14T10:30:04-05:00",
+    "finished_at":  "2026-11-14T10:31:11-05:00",
+    "duration_s":  53.9,
+    "usage":  {
+                  "tokens":  22232
+              },
+    "overall_notes":  "The quoted prices support the stated exact-line devigs, but cross-book pricing and short samples warrant an uncertainty discount. Keeps are conditional on confirming the identical app line, standard payout, and compatible settlement rules; unconfirmed availability prevents treating any as finalized. Cuts indicate insufficient dependable edge, not necessarily a greater than 50% chance of missing, so their confidence scores reflect that distinction.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  62,
+                      "reasoning":  "The exact-line market estimate, recent shooting frequency, and sustained minutes support an edge above all three thresholds. The projection is less bullish than the recent results; a higher app line or reduced role would reverse this vote.",
+                      "risk_flags":  [
+                                         "app-line-unconfirmed",
+                                         "single-book-pair",
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  60,
+                      "reasoning":  "Baseline volume and seven unders in ten support the exact-line market estimate without requiring reduced minutes from game script. Colorado\u0027s shot allowance is a meaningful counterweight; expanded shooting responsibility or a lower app line would change the decision.",
+                      "risk_flags":  [
+                                         "app-line-unconfirmed",
+                                         "matchup",
+                                         "single-book-pair"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "cut",
+                      "confidence":  48,
+                      "reasoning":  "Five games with minutes ranging from 10 to 31 do not establish a stable assist baseline, especially with Brown questionable. The quoted edge could disappear with additional ballhandling responsibility; confirmed normal rotation usage and a broader comparable sample would justify reconsideration.",
+                      "risk_flags":  [
+                                         "app-line-unconfirmed",
+                                         "injury",
+                                         "minutes",
+                                         "small-sample",
+                                         "single-book-pair"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  62,
+                      "reasoning":  "Reduced ice time, low season shooting volume, and eight recent unders provide coherent support for this baseline-volume under. Renewed top-unit usage or a material increase in minutes would weaken the case enough to reconsider.",
+                      "risk_flags":  [
+                                         "app-line-unconfirmed",
+                                         "role-change",
+                                         "single-book-pair"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  60,
+                      "reasoning":  "The season average, projection, and seven recent overs support clearing this low threshold, with Barkov\u0027s absence reinforcing opportunity. The eight-shot game inflates the average and the road streak adds little independent evidence; diminished minutes or a higher app line would change the vote.",
+                      "risk_flags":  [
+                                         "app-line-unconfirmed",
+                                         "outlier-sensitive",
+                                         "single-book-pair"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "cut",
+                      "confidence":  47,
+                      "reasoning":  "Four overs in seven and stable minutes are encouraging, but the assist baseline is modest and the missing New Orleans report leaves the matchup unsettled. A depleted opponent does not establish faster pace, and the large spread threatens minutes; confirmed personnel and stronger evidence of creation opportunities would support reconsideration.",
+                      "risk_flags":  [
+                                         "app-line-unconfirmed",
+                                         "injury",
+                                         "blowout",
+                                         "small-sample",
+                                         "cross-book"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  60,
+                      "reasoning":  "Low baseline shooting and eight unders in ten reinforce an exact-line market estimate comfortably above break-even. Normal distributor usage is essential; a move into a more shot-heavy role or a lower app threshold would reverse the vote.",
+                      "risk_flags":  [
+                                         "app-line-unconfirmed",
+                                         "role-change",
+                                         "single-book-pair"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  57,
+                      "reasoning":  "Eight recent overs and the exact-line market provide enough support for a conditional keep, though the season average offers less cushion. The low game total alone is not a strong shots objection; reduced ice time or weaker same-time pricing would erase the thinner edge.",
+                      "risk_flags":  [
+                                         "app-line-unconfirmed",
+                                         "cross-book",
+                                         "minutes"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "keep",
+                      "confidence":  57,
+                      "reasoning":  "Seven recent unders despite substantial minutes support a role-based under, and the exact-line price supplies additional evidence. A maximum of three is weak ceiling protection when three already loses; expanded creation duties or injury-driven rotation changes would prompt a cut.",
+                      "risk_flags":  [
+                                         "app-line-unconfirmed",
+                                         "injury",
+                                         "limited-market",
+                                         "thin-edge"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L10",
+                      "decision":  "keep",
+                      "confidence":  58,
+                      "reasoning":  "The market estimate, six recent overs, and substantial ice time support a modest edge at 2.5. Point\u0027s absence may change defensive attention as well as opportunity, so it is not automatically positive; reduced shot generation or a higher app line would change the vote.",
+                      "risk_flags":  [
+                                         "app-line-unconfirmed",
+                                         "teammate-injury",
+                                         "single-book-pair"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L11",
+                      "decision":  "keep",
+                      "confidence":  58,
+                      "reasoning":  "Season volume, the projection, and seven recent overs support the market\u0027s modest edge at this threshold. Cross-book uncertainty and the late start require checking availability before entry; a higher line or reduced role would reverse the decision.",
+                      "risk_flags":  [
+                                         "app-line-unconfirmed",
+                                         "cross-book",
+                                         "late-news"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L12",
+                      "decision":  "cut",
+                      "confidence":  48,
+                      "reasoning":  "The quoted probability barely clears the stated thresholds before accounting for uncertainty, while five recent overs and a 6.66 projection provide little cushion. Mobley\u0027s status is unresolved, and less size does not automatically produce more Flagg rebounds; confirmed favorable personnel and stronger exact-line pricing would justify reconsideration.",
+                      "risk_flags":  [
+                                         "app-line-unconfirmed",
+                                         "injury",
+                                         "thin-edge",
+                                         "cross-book"
+                                     ]
+                  }
+              ]
+}

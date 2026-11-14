@@ -1,0 +1,149 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-14-morning",
+    "model":  "cursor",
+    "model_name":  "auto",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-14T10:30:04-05:00",
+    "finished_at":  "2026-11-14T10:31:11-05:00",
+    "duration_s":  31.3,
+    "usage":  {
+                  "inputTokens":  16620,
+                  "outputTokens":  3112,
+                  "cacheReadTokens":  19264,
+                  "cacheWriteTokens":  0
+              },
+    "overall_notes":  "The slate leans on devigged book edges that may be slightly optimistic from cross-book pairing, and app lines are unconfirmed on several lopsided prices. Most NHL volume props have plausible baselines; the weakest spots are thin NBA samples, missing injury reports, and legs near break-even. I would finalize only after confirming pick\u0027em lines match books and rechecking NO/CLE/MEM/MIA/BKN reports.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  84,
+                      "reasoning":  "Two-way devig at the exact 1.5 SOG line and Benson’s recent shot volume (9/10 at 2+, ~2.5 season average, stable 18–23 min) support the over without needing a specific script. Main risk is a heavy FanDuel favorite implying the app may post 2.0 or a Goblin/Demon. I would cut if the PrizePicks/Underdog line is not 1.5 at standard odds.",
+                      "risk_flags":  [
+                                         "unconfirmed-app-line",
+                                         "heavy-favorite-price"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  74,
+                      "reasoning":  "The under is anchored on Dobson’s own shot rate (7/10 at 2 or fewer, ~2.16 average) rather than a blowout narrative, and devig is at the correct 2.5. Colorado’s shot volume against is the main counter—more cycle time could add opportunistic attempts. I would flip to cut if Dobson’s recent deployment shifts up the wing or PP1 shot share.",
+                      "risk_flags":  [
+                                         "matchup-volume",
+                                         "unconfirmed-app-line"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "cut",
+                      "confidence":  71,
+                      "reasoning":  "Probable edge on paper, but the assist sample is tiny (five games), minutes are extremely volatile (10–31), and only one book pair prices the prop. Mikel Brown Jr. questionable is a direct path to more on-ball reps and assist upside if he sits. I would keep only if Brown plays normal minutes and Demin’s role stays off-ball.",
+                      "risk_flags":  [
+                                         "small-sample",
+                                         "minutes-volatility",
+                                         "injury",
+                                         "single-book"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  80,
+                      "reasoning":  "Ovechkin’s under rests on a clear role change—low season average (~1.65), shortened TOI, and 8/10 at 2 or fewer shots—not on a blowout. Devig matches the 2.5 pick\u0027em line. Risk is a rare spike game or PP surge if NJ opens up track-meet style. I would reconsider if his last-two TOI ticks back above ~18 minutes.",
+                      "risk_flags":  [
+                                         "role-decline"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  76,
+                      "reasoning":  "Barkov on IR stabilizes Lundell’s top-six minutes and the over 1.5 aligns with season (~2.79) and projection support; devig is at 1.5. He has two sub-1 games in the last ten, so cold shooting nights are live. I would cut if Barkov’s return or line shuffles demote Lundell’s usage before lock.",
+                      "risk_flags":  [
+                                         "usage-injury-benefit",
+                                         "variance"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  57,
+                      "reasoning":  "Cross-book devig nudges the edge up, but Johnson still projects reasonably over 1.5 with rotation injuries and shorthanded NO. The 12.5-point spread is a real blowout-risk for fourth-quarter minutes on a primary-unit player. I would cut if live spread balloons further or if Strawther’s absence doesn’t actually increase his facilitation role.",
+                      "risk_flags":  [
+                                         "blowout",
+                                         "cross-book-devig",
+                                         "unconfirmed-app-line"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  70,
+                      "reasoning":  "RNH’s distributor profile and 8/10 at 2 or fewer shots fit a baseline under 2.5 with devig at the correct number. The 59.4% estimate is closer to break-even after any cross-book optimism. Spike games (he had 5 once in L10) are the main failure mode. I would cut if Edmonton moves him to a more shoot-first line combo tonight.",
+                      "risk_flags":  [
+                                         "thin-edge",
+                                         "variance"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  66,
+                      "reasoning":  "Coyle’s 8/10 over 1.5 and decent minutes support the over with devig at 1.5, though BetMGM/DK pairing may slightly inflate edge. A 5.5 total suggests lower event volume, which matters for shot props. I would cut if the app posts 2.0+ or if Coyle’s line drops with heavy chalk.",
+                      "risk_flags":  [
+                                         "low-total-game",
+                                         "cross-book-devig",
+                                         "unconfirmed-app-line"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "keep",
+                      "confidence":  73,
+                      "reasoning":  "Robinson’s assist ceiling has been stable (max 3 in L10, 7/10 at 2 or fewer) at a catch-and-shoot role, which fits under 2.5 even with heavy minutes. Devig at 2.5 is appropriate; limited book coverage is a mild concern. Outcomes above 3 usually need unexpected creation or broken coverage. I would cut only if rotation injuries force him into primary-ball duties.",
+                      "risk_flags":  [
+                                         "limited-books",
+                                         "injury-context"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L10",
+                      "decision":  "keep",
+                      "confidence":  68,
+                      "reasoning":  "Point on IR concentrates offense through Kucherov, whose season shot rate and projection sit above 2.5 with devig at the line. Large home favorite status can trim late shots if the game pulls away. He still has 3+ in six of ten despite variance. I would cut if the app line is 3.0+ or odds imply a demon.",
+                      "risk_flags":  [
+                                         "blowout",
+                                         "unconfirmed-app-line",
+                                         "injury-benefit"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L11",
+                      "decision":  "keep",
+                      "confidence":  63,
+                      "reasoning":  "Kempe’s volume (7/10 at 3+, ~3.31 average, projection ~3.3) supports over 2.5 with correct-line devig, but 58.6% is barely above Power break-even after possible cross-book inflation. Another big home favorite adds late-game script risk at a 10 PM start. I would cut if the pick\u0027em app posts 3.0 or Kempe’s line moves up.",
+                      "risk_flags":  [
+                                         "thin-edge",
+                                         "blowout",
+                                         "late-start",
+                                         "unconfirmed-app-line"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L12",
+                      "decision":  "cut",
+                      "confidence":  70,
+                      "reasoning":  "At 55.7% this is the slate’s thinnest margin over Flex/Power break-even, and Mobley’s status plus missing CLE report add rebounding-scheme uncertainty against a CLE back-to-back. Lively out helps Flagg’s minutes, but 5/10 at 7+ and a 6.9 average leave little cushion at 6.5. I would keep only if Mobley is confirmed out and the app holds 6.5 at neutral odds.",
+                      "risk_flags":  [
+                                         "thin-edge",
+                                         "injury",
+                                         "missing-report",
+                                         "back-to-back"
+                                     ]
+                  }
+              ]
+}

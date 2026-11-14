@@ -1,0 +1,394 @@
+{
+ "schema": "candidates/v1",
+ "run": "2026-11-14-pregame",
+ "date": "2026-11-14",
+ "snapshot": "pregame",
+ "created_at": "2026-11-14T16:58:00-05:00",
+ "author": "parlay-locks",
+ "slate_notes": "Pregame snapshot, written ~4:55 PM ET. The evening slate hasn't started (first puck drop and tip at 7:00 ET; afternoon WPG@CHI and SEA@CAR not used). No college player props (ineligible in IN). 10 legs, all in different games except CGY@LA (Kempe over and Pospisil under are on opposite teams): 7 NHL SOG and 3 NBA. Carried 6 of the morning's 9 panel keeps. Dropped Kucherov O2.5 and RNH U2.5 because WinDaily's current pair at 2.5 is broken (both sides minus, about 27% hold, so no valid devig). Dropped Dobson U2.5 because WinDaily no longer lists a 2.5 SOG market for him, only 1.5. New legs: Pospisil U1.5 SOG, Trocheck U2.5 SOG, Herb Jones U1.5 3PM, Shannon U1.5 3PM. Every est_prob is a multiplicative two-way devig at the exact same half-point line, using the best price on each side from WinDaily. Those prices are still stamped Sat 9:05-9:25 AM ET (the page didn't refresh), and pairing the best price across books overstates the edge a bit. PrizePicks/Underdog app lines are UNCONFIRMED. Drop any leg whose app line differs or comes as a Goblin/Demon. 4:30 PM NBA report: Trey Murphy out (NO), Mitchell and Allen questionable (CLE), Edwards out (MIN), Duren out (DET), Giannis probable (MIA). Avg est_prob ~0.609.",
+ "legs": [
+  {
+   "id": "L1",
+   "sport": "NHL",
+   "event": "BUF @ DAL",
+   "start_time": "2026-11-14T20:00:00-05:00",
+   "player": "Zach Benson",
+   "team": "BUF",
+   "market": "Shots on Goal",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.609,
+   "confidence": 61,
+   "reasoning": "Carried from the morning run (3-0 panel keep). Rechecked the two-way devig at the same 1.5 line on WinDaily's latest book comparison (prices as of Sat ~9:05-9:25 AM ET; the page had not refreshed by 4:55 PM): DraftKings O -180 / FanDuel U +142, which comes out to 60.9% over (down from 62.4% in the morning).  Original thesis: Two-way devig at the same 1.5: FanDuel O -198 / U +150, which comes out to 62.4% over. Benson has 2+ shots in 9 of his last 10 games (2,4,3,3,3,4,3,5,2,1), averages 2.53 SOG on the season, and is playing 18-23 min a night. Volume this steady doesn't depend on game script. BUF is not on a back-to-back.",
+   "key_stats": [
+    "2+ SOG in 9/L10",
+    "season avg 2.53 SOG (19 GP)",
+    "TOI 18-23 min",
+    "WinDaily proj 2.21"
+   ],
+   "injury_notes": "No listed injury. Rechecked ESPN injuries at 4:55 PM ET: nothing new listed.",
+   "sources": [
+    {
+     "title": "WinDaily BUF @ DAL props (two-way book prices)",
+     "url": "https://windailysports.com/nhl-player-props/buffalo-sabres-vs-dallas-stars-2026-11-14/"
+    },
+    {
+     "title": "ESPN Zach Benson game log",
+     "url": "https://www.espn.com/nhl/player/gamelog/_/id/5149186"
+    },
+    {
+     "title": "ESPN NHL injuries",
+     "url": "https://www.espn.com/nhl/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "sport": "NHL",
+   "event": "NJ @ WSH",
+   "start_time": "2026-11-14T19:00:00-05:00",
+   "player": "Alex Ovechkin",
+   "team": "WSH",
+   "market": "Shots on Goal",
+   "line": 2.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.604,
+   "confidence": 60,
+   "reasoning": "Carried from the morning run (3-0 panel keep). Rechecked the two-way devig at the same 2.5 line on WinDaily's latest book comparison (prices as of Sat ~9:05-9:25 AM ET; the page had not refreshed by 4:55 PM): DraftKings O +135 / U -185, which comes out to 60.4% under (single book).  Original thesis: Devig at 2.5: DraftKings O +135 / U -185, which comes out to 60.4% under. Ovechkin's role has shrunk: 11-17 min TOI over his last 10, 2 or fewer shots in 8 of 10 (2,0,3,2,2,3,2,1,2,1), and a season average of just 1.65 SOG. WinDaily projects 1.52. This is a baseline-volume under, so it doesn't need a blowout.",
+   "key_stats": [
+    "<=2 SOG in 8/L10",
+    "season avg 1.65",
+    "TOI 11-17 min",
+    "WinDaily proj 1.52"
+   ],
+   "injury_notes": "No listed injury. Rechecked ESPN injuries at 4:55 PM ET: nothing new listed.",
+   "sources": [
+    {
+     "title": "WinDaily NJ @ WSH props (two-way book prices)",
+     "url": "https://windailysports.com/nhl-player-props/new-jersey-devils-vs-washington-capitals-2026-11-14/"
+    },
+    {
+     "title": "ESPN Alex Ovechkin game log",
+     "url": "https://www.espn.com/nhl/player/gamelog/_/id/3101"
+    },
+    {
+     "title": "ESPN NHL injuries",
+     "url": "https://www.espn.com/nhl/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "sport": "NHL",
+   "event": "FLA @ STL",
+   "start_time": "2026-11-14T20:00:00-05:00",
+   "player": "Anton Lundell",
+   "team": "FLA",
+   "market": "Shots on Goal",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.604,
+   "confidence": 60,
+   "reasoning": "Carried from the morning run (3-0 panel keep). Rechecked the two-way devig at the same 1.5 line on WinDaily's latest book comparison (prices as of Sat ~9:05-9:25 AM ET; the page had not refreshed by 4:55 PM): DraftKings O -185 / U +135, which comes out to 60.4% over (single book).  Original thesis: Devig at 1.5: DraftKings O -185 / U +135, which comes out to 60.4% over. Barkov is on IR, so Lundell keeps the top-six center minutes. He has 2+ SOG in 7 of his last 10 (3,2,5,0,1,8,4,2,2,1), a season average of 2.79, and has gone over 1.5 in 4 straight road games (SportsGambler). WinDaily projects 2.71.",
+   "key_stats": [
+    "2+ SOG in 7/L10",
+    "season avg 2.79",
+    "TOI 16-19 min",
+    "WinDaily proj 2.71"
+   ],
+   "injury_notes": "FLA: Barkov IR (knee). Rechecked ESPN injuries at 4:55 PM ET: nothing new listed.",
+   "sources": [
+    {
+     "title": "WinDaily FLA @ STL props (two-way book prices)",
+     "url": "https://windailysports.com/nhl-player-props/florida-panthers-vs-st-louis-blues-2026-11-14/"
+    },
+    {
+     "title": "ESPN Anton Lundell game log",
+     "url": "https://www.espn.com/nhl/player/gamelog/_/id/4697395"
+    },
+    {
+     "title": "ESPN NHL injuries",
+     "url": "https://www.espn.com/nhl/injuries"
+    },
+    {
+     "title": "SportsGambler FLA vs STL props (Lundell O1.5 4 straight road games)",
+     "url": "https://www.sportsgambler.com/betting-tips/ice-hockey/florida-panthers-vs-st-louis-blues-prediction-odds-2026-11-14/"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "sport": "NHL",
+   "event": "PHI @ CBJ",
+   "start_time": "2026-11-14T19:00:00-05:00",
+   "player": "Charlie Coyle",
+   "team": "CBJ",
+   "market": "Shots on Goal",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.593,
+   "confidence": 59,
+   "reasoning": "Carried from the morning run (3-0 panel keep). Rechecked the two-way devig at the same 1.5 line on WinDaily's latest book comparison (prices as of Sat ~9:05-9:25 AM ET; the page had not refreshed by 4:55 PM): BetMGM O -155 / DraftKings U +140, which comes out to 59.3% over.  Original thesis: Devig at 1.5: BetMGM O -155 / DraftKings U +140, which comes out to 59.3% over. Coyle has 2+ SOG in 8 of his last 10 (3,2,2,1,3,2,3,0,2,2) on 15-24 min. PHI @ CBJ is a 5.5 total, which is the only knock.",
+   "key_stats": [
+    "2+ SOG in 8/L10",
+    "avg 1.94",
+    "TOI 15-24 min"
+   ],
+   "injury_notes": "No listed injury. Rechecked ESPN injuries at 4:55 PM ET: nothing new listed.",
+   "sources": [
+    {
+     "title": "WinDaily PHI @ CBJ props (two-way book prices)",
+     "url": "https://windailysports.com/nhl-player-props/philadelphia-flyers-vs-columbus-blue-jackets-2026-11-14/"
+    },
+    {
+     "title": "ESPN Charlie Coyle game log",
+     "url": "https://www.espn.com/nhl/player/gamelog/_/id/2555315"
+    },
+    {
+     "title": "ESPN NHL injuries",
+     "url": "https://www.espn.com/nhl/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "sport": "NBA",
+   "event": "DET @ MIA",
+   "start_time": "2026-11-14T20:00:00-05:00",
+   "player": "Duncan Robinson",
+   "team": "DET",
+   "market": "Assists",
+   "line": 2.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.594,
+   "confidence": 59,
+   "reasoning": "Carried from the morning run (3-0 panel keep). Rechecked the two-way devig at the same 2.5 line on WinDaily's latest book comparison (prices as of Sat ~9:05-9:25 AM ET; the page had not refreshed by 4:55 PM): BetMGM O +135 / Hard Rock U -165, which comes out to 59.4% under. ESPN log: 2 or fewer assists in 8 of his last 12 (1,2,3,2,3,2,2,2,3,2,2,3) on 26-41 min. 4:30 PM NBA report: DET Duren out; MIA Giannis probable (wrist). Neither changes Robinson's role much. Original thesis: Devig at 2.5: Hard Rock O +130 / U -165, which comes out to 58.9% under. Robinson has 2 or fewer assists in 7 of his last 10 and has never gone over 3 (1,2,3,2,3,2,2,2,3,2; avg 2.18), even at 26-41 min. That's a stable ceiling at a low line. Isaiah Joe is out, so Robinson gets plenty of shooting minutes, but his role is catch-and-shoot, not creation. Only Hard Rock and one other book post this prop.",
+   "key_stats": [
+    "<=2 ast in 7/L10",
+    "max 3 ast L10",
+    "avg 2.18",
+    "WinDaily proj 2.38"
+   ],
+   "injury_notes": "DET: Duren, Joe out. MIA report not yet submitted (Klay Thompson and Pelle Larsson were out Friday). Rechecked ESPN injuries at 4:55 PM ET: nothing new listed.",
+   "sources": [
+    {
+     "title": "WinDaily DET @ MIA props (two-way book prices)",
+     "url": "https://windailysports.com/nba-player-props/detroit-pistons-vs-miami-heat-2026-11-14/"
+    },
+    {
+     "title": "ESPN Duncan Robinson game log",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/3157465"
+    },
+    {
+     "title": "NBA official injury report 11/14 9:30 AM",
+     "url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-14_09_30AM.pdf"
+    }
+   ]
+  },
+  {
+   "id": "L6",
+   "sport": "NHL",
+   "event": "CGY @ LA",
+   "start_time": "2026-11-14T22:00:00-05:00",
+   "player": "Adrian Kempe",
+   "team": "LA",
+   "market": "Shots on Goal",
+   "line": 2.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.586,
+   "confidence": 59,
+   "reasoning": "Carried from the morning run (3-0 panel keep). Rechecked the two-way devig at the same 2.5 line on WinDaily's latest book comparison (prices as of Sat ~9:05-9:25 AM ET; the page had not refreshed by 4:55 PM): BetMGM O -160 / FanDuel U +130, which comes out to 58.6% over.  Original thesis: Devig at 2.5: BetMGM O -160 / FanDuel U +130, which comes out to 58.6% over. Kempe has 3+ SOG in 7 of his last 10 (3,3,2,4,5,1,7,0,5,6), averages 3.31, and plays 17-22 min. LA is a -175 home favorite. WinDaily projects 3.30. Late puck drop (10 PM ET).",
+   "key_stats": [
+    "3+ SOG in 7/L10",
+    "season avg 3.31",
+    "TOI 17-22 min",
+    "WinDaily proj 3.30"
+   ],
+   "injury_notes": "No listed injury. Rechecked ESPN injuries at 4:55 PM ET: nothing new listed.",
+   "sources": [
+    {
+     "title": "WinDaily CGY @ LA props (two-way book prices)",
+     "url": "https://windailysports.com/nhl-player-props/calgary-flames-vs-los-angeles-kings-2026-11-14/"
+    },
+    {
+     "title": "ESPN Adrian Kempe game log",
+     "url": "https://www.espn.com/nhl/player/gamelog/_/id/3114802"
+    },
+    {
+     "title": "ESPN NHL injuries",
+     "url": "https://www.espn.com/nhl/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L7",
+   "sport": "NHL",
+   "event": "CGY @ LA",
+   "start_time": "2026-11-14T22:00:00-05:00",
+   "player": "Martin Pospisil",
+   "team": "CGY",
+   "market": "Shots on Goal",
+   "line": 1.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.62,
+   "confidence": 58,
+   "reasoning": "Two-way devig at the same 1.5: BetMGM O +145 / U -200, which comes out to 62.0% under. This is a single-book pair with a high hold (7.5%), so I'm trusting it less. Pospisil has 1 or fewer shots in 8 of his last 12 (0,3,0,1,0,2,1,3,2,1,0,1). He's a bottom-six energy forward and the under holds on his normal volume without needing a blowout. Same game as Kempe O2.5, but they're on opposite teams, so the correlation is mildly negative if anything.",
+   "key_stats": [
+    "<=1 SOG in 8/L12",
+    "L12 avg 1.17 SOG"
+   ],
+   "injury_notes": "Nothing listed on ESPN NHL injuries (4:55 PM ET).",
+   "sources": [
+    {
+     "title": "WinDaily CGY @ LA props (two-way book prices)",
+     "url": "https://windailysports.com/nhl-player-props/calgary-flames-vs-los-angeles-kings-2026-11-14/"
+    },
+    {
+     "title": "ESPN Martin Pospisil game log",
+     "url": "https://www.espn.com/nhl/player/gamelog/_/id/4392883"
+    },
+    {
+     "title": "ESPN NHL injuries",
+     "url": "https://www.espn.com/nhl/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L8",
+   "sport": "NHL",
+   "event": "SJ @ UTA",
+   "start_time": "2026-11-14T21:00:00-05:00",
+   "player": "Vincent Trocheck",
+   "team": "UTA",
+   "market": "Shots on Goal",
+   "line": 2.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.604,
+   "confidence": 57,
+   "reasoning": "Devig at 2.5: DraftKings O +135 / U -185, which comes out to 60.4% under (single book). Trocheck has 2 or fewer shots in 8 of his last 12 (2,1,1,1,0,2,4,5,2,4,0,2), and 5 straight games at 2 or fewer. He's a pass-first center. SJ is a weak defensive team, which is the risk here. The under holds on his baseline volume, not on game script.",
+   "key_stats": [
+    "<=2 SOG in 8/L12",
+    "L5: 2,1,1,1,0"
+   ],
+   "injury_notes": "Nothing listed on ESPN NHL injuries (4:55 PM ET).",
+   "sources": [
+    {
+     "title": "WinDaily SJ @ UTA props (two-way book prices)",
+     "url": "https://windailysports.com/nhl-player-props/san-jose-sharks-vs-utah-mammoth-2026-11-14/"
+    },
+    {
+     "title": "ESPN Vincent Trocheck game log",
+     "url": "https://www.espn.com/nhl/player/gamelog/_/id/2563036"
+    }
+   ]
+  },
+  {
+   "id": "L9",
+   "sport": "NBA",
+   "event": "DEN @ NO",
+   "start_time": "2026-11-14T19:00:00-05:00",
+   "player": "Herbert Jones",
+   "team": "NO",
+   "market": "3-PT Made",
+   "line": 1.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.622,
+   "confidence": 57,
+   "reasoning": "Devig at 1.5: BetMGM O +155 / DraftKings U -183, which comes out to 62.2% under. Herb Jones has 1 or fewer threes in 10 of his last 12 (0-5, 0-2, 2-3, 0-2, 0-1, 0-3, 3-7, 1-3, 0-3, 0-1, 0-2, 1-2) and takes about 2.9 attempts a game. Risk: Trey Murphy III is OUT (knees) on the 4:30 PM report, which could free up a few more catch-and-shoot looks. NO is on the second night of a back-to-back. The under holds on his volume, not on a blowout.",
+   "key_stats": [
+    "<=1 3PM in 10/L12",
+    "~2.9 3PA/g L12",
+    "min 14-37"
+   ],
+   "injury_notes": "NO: Trey Murphy III out, Malik Dia questionable. DEN: DaRon Holmes II out (G League).",
+   "sources": [
+    {
+     "title": "WinDaily DEN @ NO props (two-way book prices)",
+     "url": "https://windailysports.com/nba-player-props/denver-nuggets-vs-new-orleans-pelicans-2026-11-14/"
+    },
+    {
+     "title": "ESPN Herbert Jones game log",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/4277813"
+    },
+    {
+     "title": "NBA injury report 11/14 4:30 PM",
+     "url": "https://ak-static.cms.nba.com/referee/injury/Injury-Report_2026-11-14_04_30PM.pdf"
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "sport": "NBA",
+   "event": "CHI @ MIN",
+   "start_time": "2026-11-14T20:00:00-05:00",
+   "player": "Terrence Shannon Jr.",
+   "team": "MIN",
+   "market": "3-PT Made",
+   "line": 1.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.647,
+   "confidence": 55,
+   "reasoning": "Devig at 1.5: DraftKings O +169 / FanDuel U -215, which comes out to 64.7% under. Shannon has 1 or fewer threes in 7 of his last 12 (0-1, 0-3, 0-4, 2-4, 1-5, 3-6, 3-3, 2-4, 2-7, 0-2, 1-2, 3-6) and went 0-for in each of his last 3, on 16-27 min. The big risk: Anthony Edwards is OUT after knee surgery Thursday, so Shannon's minutes and shot volume could jump. That's why confidence is low even though the price is strong. The under holds on his volume, not on a blowout.",
+   "key_stats": [
+    "<=1 3PM in 7/L12",
+    "0 3PM in L3",
+    "min 16-27"
+   ],
+   "injury_notes": "MIN: Anthony Edwards out (right knee arthroscopy). CHI: Tobe Awaka out.",
+   "sources": [
+    {
+     "title": "WinDaily CHI @ MIN props (two-way book prices)",
+     "url": "https://windailysports.com/nba-player-props/chicago-bulls-vs-minnesota-timberwolves-2026-11-14/"
+    },
+    {
+     "title": "ESPN Terrence Shannon Jr. game log",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/4432847"
+    },
+    {
+     "title": "ESPN NBA injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    }
+   ]
+  }
+ ]
+}

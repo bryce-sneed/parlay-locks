@@ -1,0 +1,121 @@
+{
+ "schema": "results/v1",
+ "run": "2026-11-14-morning",
+ "graded_at": "2026-11-15T09:58:00-05:00",
+ "author": "parlay-locks",
+ "legs": [
+  {
+   "leg_id": "L1",
+   "actual": 2,
+   "outcome": "hit",
+   "note": "Zach Benson 2 SOG",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892717"
+  },
+  {
+   "leg_id": "L2",
+   "actual": 0,
+   "outcome": "hit",
+   "note": "Noah Dobson 0 SOG (5 missed)",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892711"
+  },
+  {
+   "leg_id": "L3",
+   "actual": 2,
+   "outcome": "hit",
+   "note": "Egor Demin 2 AST in 27 min",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909983"
+  },
+  {
+   "leg_id": "L4",
+   "actual": 4,
+   "outcome": "miss",
+   "note": "Ovechkin 4 SOG in 11:05 TOI",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892714"
+  },
+  {
+   "leg_id": "L5",
+   "actual": 1,
+   "outcome": "miss",
+   "note": "Lundell 1 SOG (1 G)",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892716"
+  },
+  {
+   "leg_id": "L6",
+   "actual": 2,
+   "outcome": "hit",
+   "note": "Cam Johnson 2 AST",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909980"
+  },
+  {
+   "leg_id": "L7",
+   "actual": 1,
+   "outcome": "hit",
+   "note": "Nugent-Hopkins 1 SOG",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892710"
+  },
+  {
+   "leg_id": "L8",
+   "actual": 5,
+   "outcome": "hit",
+   "note": "Charlie Coyle 5 SOG",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892715"
+  },
+  {
+   "leg_id": "L9",
+   "actual": 1,
+   "outcome": "hit",
+   "note": "Duncan Robinson 1 AST in 17 min",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909982"
+  },
+  {
+   "leg_id": "L10",
+   "actual": 5,
+   "outcome": "hit",
+   "note": "Kucherov 5 SOG",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892712"
+  },
+  {
+   "leg_id": "L11",
+   "actual": 3,
+   "outcome": "hit",
+   "note": "Kempe 3 SOG",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892720"
+  },
+  {
+   "leg_id": "L12",
+   "actual": 8,
+   "outcome": "hit",
+   "note": "Cooper Flagg 8 REB in 38 min",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909981"
+  }
+ ],
+ "slips": [
+  {
+   "id": "2026-11-14-morning-2",
+   "size": 2,
+   "stake": 1,
+   "outcome": "loss",
+   "payout": 0,
+   "pnl": -1,
+   "note": "Underdog Standard 3.5x; legs: L1 hit, L4 miss"
+  },
+  {
+   "id": "2026-11-14-morning-3",
+   "size": 3,
+   "stake": 1,
+   "outcome": "loss",
+   "payout": 0,
+   "pnl": -1,
+   "note": "Underdog Standard 6.5x; legs: L5 miss, L2 hit, L9 hit"
+  },
+  {
+   "id": "2026-11-14-morning-5",
+   "size": 5,
+   "stake": 1,
+   "outcome": "win",
+   "payout": 20,
+   "pnl": 19,
+   "note": "PrizePicks 5-pick Power 20x; 5/5: L1 hit, L7 hit, L10 hit, L11 hit, L8 hit"
+  }
+ ]
+}

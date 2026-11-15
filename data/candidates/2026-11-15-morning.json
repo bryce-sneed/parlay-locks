@@ -1,0 +1,309 @@
+{
+ "schema": "candidates/v1",
+ "run": "2026-11-15-morning",
+ "date": "2026-11-15",
+ "snapshot": "morning",
+ "created_at": "2026-11-15T09:51:51-05:00",
+ "author": "parlay-locks",
+ "slate_notes": "Sunday: NFL Week 11 (NE vs DET Munich kicked off 9:30 AM ET, skipped), 9 NBA, 5 NHL (WinDaily had no NHL prop prices yet). 8 legs in 8 different games: 6 NFL, 2 NBA. Every est_prob is a multiplicative two-way devig at the exact same half-point line from WinDaily's best-price-per-side comparison (DK/FD/BetMGM/Fanatics/Hard Rock/BetRivers). NFL prices are from Sat 9:01 AM ET and NBA from Sat ~9:19 PM ET, so they're stale. Best-price pairing understates hold, so treat est_prob as slightly high. The two NBA legs are single-book FanDuel pairs. PrizePicks/Underdog lines are UNCONFIRMED from the box; drop any leg whose app line differs or is a Goblin/Demon. Game logs were built from ESPN box scores (ESPN's NFL gamelog endpoint has misaligned columns). Dropped market-vs-trend conflicts (Metchie, Judkins, Watson, Freiermuth, Maxey) and WinDaily roster mismatches. Kirk Cousins was just traded to MIN, so his first start makes the U1.5 too uncertain. No college props. Avg est_prob ~0.613. Recheck NFL inactives (~11:30 AM / 2:30 PM ET) at finalize.",
+ "legs": [
+  {
+   "id": "L1",
+   "sport": "NFL",
+   "event": "BUF @ NYJ",
+   "start_time": "2026-11-15T13:00:00-05:00",
+   "player": "Geno Smith",
+   "team": "NYJ",
+   "market": "Pass TDs",
+   "line": 1.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.643,
+   "confidence": 64,
+   "reasoning": "Two-way devig at the same 1.5: BetRivers O +170 / Fanatics U -200 (best price each side), which comes out to 64.3% under. Geno threw 1 or fewer TDs in 6 of 9 games (0,1,3,1,1,1,3,2,0), including 0 last week at KC on 18/32 for 165 yds and 5 sacks. NYJ are 8.5-point home dogs to BUF. Trailing script raises attempts, but this offense has struggled to finish drives. Weather at MetLife: 51F with intermittent clouds (ESPN). Wind not checked.",
+   "key_stats": [
+    "<=1 pass TD in 6/9",
+    "0 TD wk9 (18/32, 165 yds, 5 sacks)",
+    "BUF -8.5"
+   ],
+   "injury_notes": "NYJ: Garrett Wilson Q but expected to play (cleared concussion protocol); Omar Cooper Jr., Adonai Mitchell Q.",
+   "sources": [
+    {
+     "title": "WinDaily BUF @ NYJ props (two-way book prices)",
+     "url": "https://windailysports.com/nfl-player-props/buffalo-bills-vs-new-york-jets-2026-11-15/"
+    },
+    {
+     "title": "ESPN Geno Smith game log",
+     "url": "https://www.espn.com/nfl/player/gamelog/_/id/15864"
+    },
+    {
+     "title": "ESPN NFL injuries",
+     "url": "https://www.espn.com/nfl/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "sport": "NFL",
+   "event": "SF @ DAL",
+   "start_time": "2026-11-15T16:25:00-05:00",
+   "player": "Dak Prescott",
+   "team": "DAL",
+   "market": "Pass TDs",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.625,
+   "confidence": 57,
+   "reasoning": "Devig at 1.5: BetRivers O -182 / DraftKings U +158, which comes out to 62.5% over. Indoors at AT&T Stadium. Dak has 2+ TDs in 4 of 9 games (2,4,1,1,1,1,3,1,2) but 2 TD/335 yds last week at IND. SF are 4.5-point favorites, so DAL likely has to throw. The market is stronger on this than his hit rate, so confidence is moderate. Jake Ferguson (TE) is out, which costs Dak a red-zone target.",
+   "key_stats": [
+    "2+ TD in 4/9 (avg 1.8)",
+    "wk9: 21/34, 335 yds, 2 TD",
+    "dome",
+    "SF -4.5"
+   ],
+   "injury_notes": "DAL: Jake Ferguson out (knee), Jonathan Mingo out; Pickens no designation. SF: Mike Evans and Aiyuk out; several CBs questionable (Lenoir, R. Green).",
+   "sources": [
+    {
+     "title": "WinDaily SF @ DAL props",
+     "url": "https://windailysports.com/nfl-player-props/san-francisco-49ers-vs-dallas-cowboys-2026-11-15/"
+    },
+    {
+     "title": "ESPN Dak Prescott game log",
+     "url": "https://www.espn.com/nfl/player/gamelog/_/id/2577417"
+    },
+    {
+     "title": "ESPN NFL injuries",
+     "url": "https://www.espn.com/nfl/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "sport": "NFL",
+   "event": "LAR @ ARI",
+   "start_time": "2026-11-15T16:05:00-05:00",
+   "player": "Blake Corum",
+   "team": "LAR",
+   "market": "Receptions",
+   "line": 1.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.614,
+   "confidence": 58,
+   "reasoning": "Devig at 1.5: BetRivers O +155 / BetMGM U -165, which comes out to 61.4% under. Only 1.5% combined hold, so this is a sharp, low-vig pair. Corum had 1 or fewer catches in 5 of 8 games (1,2,1,3,2,1,0,0), with 0 in each of the last two (3 targets total). He is the early-down back with little passing-down work. Risk: Puka Nacua and Davante Adams are on IR, so short targets could be redistributed. Indoors.",
+   "key_stats": [
+    "<=1 rec in 5/8",
+    "0 rec last 2 games",
+    "1.5% hold pair"
+   ],
+   "injury_notes": "LAR: Nacua (knee) IR, Davante Adams IR, Whittington IR, TE Davis Allen Q. ARI: Minshew IR, Carson Beck starts.",
+   "sources": [
+    {
+     "title": "WinDaily LAR @ ARI props",
+     "url": "https://windailysports.com/nfl-player-props/los-angeles-rams-vs-arizona-cardinals-2026-11-15/"
+    },
+    {
+     "title": "ESPN Blake Corum game log",
+     "url": "https://www.espn.com/nfl/player/gamelog/_/id/4429096"
+    },
+    {
+     "title": "ESPN NFL injuries",
+     "url": "https://www.espn.com/nfl/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "sport": "NFL",
+   "event": "SEA @ LV",
+   "start_time": "2026-11-15T16:05:00-05:00",
+   "player": "Cooper Kupp",
+   "team": "SEA",
+   "market": "Receptions",
+   "line": 2.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.594,
+   "confidence": 58,
+   "reasoning": "Devig at 2.5: BetMGM O +138 / Hard Rock U -160, which comes out to 59.4% under. Kupp had 2 or fewer catches in 6 of 9 games (2,2,4,1,2,5,2,1,3) and is behind JSN in target share. Sam Darnold is OUT, so Drew Lock starts, which should lower overall passing volume. SEA are 6.5-point favorites and should lean on the run game (Charbonnet/Price). Indoors at Allegiant.",
+   "key_stats": [
+    "<=2 rec in 6/9",
+    "3/4 for 32 yds wk9",
+    "Darnold out, Lock starts"
+   ],
+   "injury_notes": "SEA: Sam Darnold (quad) OUT; Drew Lock no designation. LV: Fernando Mendoza takes over at QB (Cousins traded to MIN).",
+   "sources": [
+    {
+     "title": "WinDaily SEA @ LV props",
+     "url": "https://windailysports.com/nfl-player-props/seattle-seahawks-vs-las-vegas-raiders-2026-11-15/"
+    },
+    {
+     "title": "ESPN NFL injuries (Darnold out)",
+     "url": "https://www.espn.com/nfl/injuries"
+    },
+    {
+     "title": "ESPN Cooper Kupp",
+     "url": "https://www.espn.com/nfl/player/_/id/2977187/cooper-kupp"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "sport": "NFL",
+   "event": "JAX @ TEN",
+   "start_time": "2026-11-15T13:00:00-05:00",
+   "player": "Trevor Lawrence",
+   "team": "JAX",
+   "market": "Pass TDs",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.597,
+   "confidence": 56,
+   "reasoning": "Devig at 1.5: BetRivers O -162 / FanDuel U +140, which comes out to 59.7% over. Lawrence has 2+ TDs in 5 of 8 games (4,0,3,1,2,4,3,1). JAX are 10.5-point favorites at TEN. The TEN defense is missing LBs Cody Barton and Anthony Hill Jr. (both out). A big lead could limit late passing, but the TD thesis doesn't depend on attempts. Outdoors in Nashville: 50F, partly sunny (ESPN). Wind not checked.",
+   "key_stats": [
+    "2+ TD in 5/8",
+    "avg 2.25 TD/g",
+    "JAX -10.5",
+    "TEN LBs Barton, Hill out"
+   ],
+   "injury_notes": "TEN: Barton, Hill Jr. out, Carnell Tate (WR) out, Skoronski IR. JAX: Bates, Jordan Davis out (defense).",
+   "sources": [
+    {
+     "title": "WinDaily JAX @ TEN props",
+     "url": "https://windailysports.com/nfl-player-props/jacksonville-jaguars-vs-tennessee-titans-2026-11-15/"
+    },
+    {
+     "title": "ESPN NFL injuries",
+     "url": "https://www.espn.com/nfl/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L6",
+   "sport": "NFL",
+   "event": "KC @ ATL",
+   "start_time": "2026-11-15T13:00:00-05:00",
+   "player": "Michael Penix Jr.",
+   "team": "ATL",
+   "market": "Pass TDs",
+   "line": 1.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.582,
+   "confidence": 55,
+   "reasoning": "Devig at 1.5: BetMGM O +135 / DraftKings U -146, which comes out to 58.2% under (1.9% hold). Penix had 1 or fewer TDs in 5 of 7 games (1,1,1,3,3,0,1). ATL is Bijan-centric and Zachariah Branch (WR) is out. KC's Kenneth Walker is out, which could slow KC's pace a bit. Indoors.",
+   "key_stats": [
+    "<=1 TD in 5/7",
+    "wk9 20/31, 162 yds, 1 TD",
+    "KC -3, total 47"
+   ],
+   "injury_notes": "ATL: Zachariah Branch out (hamstring), Brian Robinson IR. KC: Kenneth Walker III out.",
+   "sources": [
+    {
+     "title": "WinDaily KC @ ATL props",
+     "url": "https://windailysports.com/nfl-player-props/kansas-city-chiefs-vs-atlanta-falcons-2026-11-15/"
+    },
+    {
+     "title": "ESPN NFL injuries",
+     "url": "https://www.espn.com/nfl/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L7",
+   "sport": "NBA",
+   "event": "NY @ TOR",
+   "start_time": "2026-11-15T18:00:00-05:00",
+   "player": "OG Anunoby",
+   "team": "NYK",
+   "market": "3-PT Made",
+   "line": 2.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.629,
+   "confidence": 58,
+   "reasoning": "Devig at 2.5: FanDuel O +152 / U -205 (single book, ~7% hold), which comes out to 62.9% under. Anunoby made 2 or fewer threes in 6 of 10 (2,2,5,3,1,3,1,2,1,3) on about 6.5 attempts. NYK are on a back-to-back (played IND Saturday). Barnes (groin) Q, Bittle out for TOR. Because this is a single-book price, est_prob is probably a bit high.",
+   "key_stats": [
+    "<=2 3PM in 6/10",
+    "~6.5 3PA/g",
+    "NYK B2B"
+   ],
+   "injury_notes": "TOR: Scottie Barnes Q (groin), Nate Bittle out, Kawhi out. NYK: none listed.",
+   "sources": [
+    {
+     "title": "WinDaily NY @ TOR props",
+     "url": "https://windailysports.com/nba-player-props/new-york-knicks-vs-toronto-raptors-2026-11-15/"
+    },
+    {
+     "title": "ESPN OG Anunoby game log",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/3934719"
+    },
+    {
+     "title": "ESPN NBA injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L8",
+   "sport": "NBA",
+   "event": "HOU @ WSH",
+   "start_time": "2026-11-15T19:00:00-05:00",
+   "player": "Jabari Smith Jr.",
+   "team": "HOU",
+   "market": "3-PT Made",
+   "line": 2.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.629,
+   "confidence": 52,
+   "reasoning": "Devig at 2.5: FanDuel O +152 / U -205 (single book, ~7% hold), which comes out to 62.9% under. Jabari made 2 or fewer threes in 6 of 10 and in each of his last 5 (1,2,2,1,2). HOU are on a back-to-back (at UTAH Saturday). Risk: VanVleet is out, Smart is suspended, and Capela is out, so his usage and minutes could rise against a weak WSH defense. Lower confidence; drop if the line moves.",
+   "key_stats": [
+    "<=2 3PM in 6/10, L5 all <=2",
+    "~5.6 3PA/g",
+    "HOU B2B"
+   ],
+   "injury_notes": "HOU: VanVleet out, Capela out, Smart suspended, Adams probable. WSH: Sarr, Tre Johnson, Carrington Q.",
+   "sources": [
+    {
+     "title": "WinDaily HOU @ WSH props",
+     "url": "https://windailysports.com/nba-player-props/houston-rockets-vs-washington-wizards-2026-11-15/"
+    },
+    {
+     "title": "ESPN Jabari Smith Jr. game log",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/4432639"
+    },
+    {
+     "title": "ESPN NBA injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    }
+   ]
+  }
+ ]
+}

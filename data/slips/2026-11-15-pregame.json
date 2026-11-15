@@ -1,0 +1,55 @@
+{
+ "schema": "slips/v1",
+ "run": "2026-11-15-pregame",
+ "date": "2026-11-15",
+ "snapshot": "pregame",
+ "created_at": "2026-11-15T18:05:00-05:00",
+ "author": "parlay-locks",
+ "paper": true,
+ "notes": "Panel ran (3/3 ok). Built only from the five 3-0 keeps (L1, L4, L2, L8, L7). Agreed with panel cuts on L5, L9, L10. Dropped L3 (P.J. Washington) because DAL@BOS tips at 6:00 PM, before finalize, and his 9 AM price predates Kyrie/Christie/Aldama OUT. Benched L6 (Warren, 2-1 split, thin receiving role last week) as the 6th-best leg. 6pm recheck: NBA 5 PM injury report has no designation for Dybantsa, Acuff, or Wiggins; Warren active for SNF. Prices are WinDaily 9 AM best-of-book, so est_probs are ceilings. App lines unconfirmed: if the app line differs or shows a Goblin/Demon, the leg is off.",
+ "slips": [
+  {
+   "id": "2026-11-15-pregame-2",
+   "size": 2,
+   "platform": "Underdog",
+   "play_type": "standard",
+   "stake": 1,
+   "payout_multiplier": 3.5,
+   "legs": [
+    "L1",
+    "L4"
+   ],
+   "rationale": "Top two panel legs, different games: Dybantsa U1.5 3PM (62.7% devig, 0-1 in 9/9, score 73) + Wiggins O1.5 3PM (59.6%, 2+ in 8/10, score 68). Shares nothing with the 3-leg."
+  },
+  {
+   "id": "2026-11-15-pregame-3",
+   "size": 3,
+   "platform": "Underdog",
+   "play_type": "standard",
+   "stake": 1,
+   "payout_multiplier": 6.5,
+   "legs": [
+    "L2",
+    "L8",
+    "L7"
+   ],
+   "rationale": "Independent core across three games: Acuff O2.5 3PM (58.6%, 3-0), Coronato U2.5 SOG (56.9%, 3-0), Bourque U2.5 SOG (57.4%, 3-0)."
+  },
+  {
+   "id": "2026-11-15-pregame-5",
+   "size": 5,
+   "platform": "PrizePicks",
+   "play_type": "power",
+   "stake": 1,
+   "payout_multiplier": 20,
+   "legs": [
+    "L1",
+    "L4",
+    "L2",
+    "L8",
+    "L7"
+   ],
+   "rationale": "All five 3-0 keeps, five different games, no correlation. Avg est_prob 0.590 > 56.6% crossover, so Power (20x) over Flex; still above it after a ~1.5pt haircut for best-of-book pairing, but it's close."
+  }
+ ]
+}

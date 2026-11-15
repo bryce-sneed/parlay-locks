@@ -3,9 +3,9 @@
  "run": "2026-11-15-pregame",
  "date": "2026-11-15",
  "snapshot": "pregame",
- "created_at": "2026-11-15T16:55:00-05:00",
+ "created_at": "2026-11-15T16:47:00-05:00",
  "author": "parlay-locks",
- "slate_notes": "Pregame snapshot, written ~4:55 PM ET. The 1pm/4pm NFL games and the afternoon NBA games (IND@PHI, LAL@PHX, CHA@LAC, SA@UTAH 5pm) are excluded because they've started or start before the panel. Also excluded: NY@TOR (morning already used Anunoby) and FLA@DAL (Verhaeghe U2.5 was priced 61% but he went over in 6 of his last 10, so I skipped it). 10 legs: NBA 3PM x5 (4 games), NFL SNF x1, NHL SOG x4 (4 games). Only Wiggins/Ament share a game (ATL@MIL), and they're on opposite teams. No college props. Every est_prob is a multiplicative two-way devig at the exact same half-point line, using the best price on each side from WinDaily. Those prices are stamped 9:00 AM ET (NFL 1:00 PM) and may predate news like Kyrie Irving being OUT for DAL. PrizePicks/Underdog app lines are UNCONFIRMED; drop any leg whose app line differs or comes as a Goblin/Demon. Avg est_prob ~0.59. Morning 1pm legs L1/L5/L6 all hit.",
+ "slate_notes": "Pregame snapshot, written ~4:47 PM ET. The 1pm/4pm NFL games and the afternoon NBA games (IND@PHI, LAL@PHX, CHA@LAC, SA@UTAH 5pm) are excluded because they've started or start before the panel. Also excluded: NY@TOR (morning already used Anunoby) and FLA@DAL (Verhaeghe U2.5 was priced 61% but he went over in 6 of his last 10, so I skipped it). 10 legs: NBA 3PM x5 (4 games), NFL SNF x1, NHL SOG x4 (4 games). Only Wiggins/Ament share a game (ATL@MIL), and they're on opposite teams. No college props. Every est_prob is a multiplicative two-way devig at the exact same half-point line, using the best price on each side from WinDaily. Those prices are stamped 9:00 AM ET (NFL 1:00 PM) and may predate news like Kyrie Irving being OUT for DAL. PrizePicks/Underdog app lines are UNCONFIRMED; drop any leg whose app line differs or comes as a Goblin/Demon. Avg est_prob ~0.59. Morning 1pm legs L1/L5/L6 all hit.",
  "legs": [
   {
    "id": "L1",

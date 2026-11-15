@@ -1,4 +1,4 @@
-{"schema":"results/v1","run":"2026-11-15-morning","graded_at":"2026-11-15T16:50:00-05:00","author":"parlay-locks",
+{"schema":"results/v1","run":"2026-11-15-morning","graded_at":"2026-11-15T16:46:00-05:00","author":"parlay-locks",
 "legs":[
 {"leg_id":"L1","actual":0,"outcome":"hit","note":"Geno Smith 13/21, 148 yds, 0 TD (Cade Klubnik also played: 11/20, 0 TD). Final.","source":"https://www.espn.com/nfl/boxscore/_/gameId/401873054"},
 {"leg_id":"L2","actual":null,"outcome":"pending","note":"SF @ DAL 4:25pm ET in progress"},

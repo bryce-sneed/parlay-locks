@@ -1,0 +1,16 @@
+{"schema":"results/v1","run":"2026-11-15-morning","graded_at":"2026-11-15T16:50:00-05:00","author":"parlay-locks",
+"legs":[
+{"leg_id":"L1","actual":0,"outcome":"hit","note":"Geno Smith 13/21, 148 yds, 0 TD (Cade Klubnik also played: 11/20, 0 TD). Final.","source":"https://www.espn.com/nfl/boxscore/_/gameId/401873054"},
+{"leg_id":"L2","actual":null,"outcome":"pending","note":"SF @ DAL 4:25pm ET in progress"},
+{"leg_id":"L3","actual":null,"outcome":"pending","note":"LAR @ ARI 4:05pm ET in progress"},
+{"leg_id":"L4","actual":null,"outcome":"pending","note":"SEA @ LV 4:05pm ET in progress"},
+{"leg_id":"L5","actual":3,"outcome":"hit","note":"Trevor Lawrence 25/35, 352 yds, 3 TD, 1 INT. Final.","source":"https://www.espn.com/nfl/boxscore/_/gameId/401873057"},
+{"leg_id":"L6","actual":0,"outcome":"hit","note":"Michael Penix Jr. 23/43, 286 yds, 0 TD, 1 INT. Final.","source":"https://www.espn.com/nfl/boxscore/_/gameId/401873058"},
+{"leg_id":"L7","actual":null,"outcome":"pending","note":"NY @ TOR 6pm ET not started"},
+{"leg_id":"L8","actual":null,"outcome":"pending","note":"HOU @ WSH 7pm ET not started"}
+],
+"slips":[
+{"id":"2026-11-15-morning-2","size":2,"stake":1,"outcome":"pending","payout":null,"pnl":null,"platform":"Underdog","play_type":"standard"},
+{"id":"2026-11-15-morning-3","size":3,"stake":1,"outcome":"pending","payout":null,"pnl":null,"platform":"Underdog","play_type":"standard"},
+{"id":"2026-11-15-morning-5","size":5,"stake":1,"outcome":"pending","payout":null,"pnl":null,"platform":"PrizePicks","play_type":"power"}
+]}

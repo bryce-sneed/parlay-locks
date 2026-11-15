@@ -1,0 +1,387 @@
+{
+ "schema": "candidates/v1",
+ "run": "2026-11-15-pregame",
+ "date": "2026-11-15",
+ "snapshot": "pregame",
+ "created_at": "2026-11-15T16:55:00-05:00",
+ "author": "parlay-locks",
+ "slate_notes": "Pregame snapshot, written ~4:55 PM ET. The 1pm/4pm NFL games and the afternoon NBA games (IND@PHI, LAL@PHX, CHA@LAC, SA@UTAH 5pm) are excluded because they've started or start before the panel. Also excluded: NY@TOR (morning already used Anunoby) and FLA@DAL (Verhaeghe U2.5 was priced 61% but he went over in 6 of his last 10, so I skipped it). 10 legs: NBA 3PM x5 (4 games), NFL SNF x1, NHL SOG x4 (4 games). Only Wiggins/Ament share a game (ATL@MIL), and they're on opposite teams. No college props. Every est_prob is a multiplicative two-way devig at the exact same half-point line, using the best price on each side from WinDaily. Those prices are stamped 9:00 AM ET (NFL 1:00 PM) and may predate news like Kyrie Irving being OUT for DAL. PrizePicks/Underdog app lines are UNCONFIRMED; drop any leg whose app line differs or comes as a Goblin/Demon. Avg est_prob ~0.59. Morning 1pm legs L1/L5/L6 all hit.",
+ "legs": [
+  {
+   "id": "L1",
+   "sport": "NBA",
+   "event": "HOU @ WSH",
+   "start_time": "2026-11-15T19:00:00-05:00",
+   "player": "AJ Dybantsa",
+   "team": "WSH",
+   "market": "3-PT Made",
+   "line": 1.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.627,
+   "confidence": 63,
+   "reasoning": "WinDaily best two-way at 1.5: O +154 (FanDuel) / U -195 (Hard Rock Bet), hold 5.5%, multiplicative devig under 62.7%. Prices stamped Sun 9:00 AM ET, and best-of-book pairing slightly overstates the edge. PrizePicks/Underdog app line NOT confirmed; drop the leg if the app line differs or is a Goblin/Demon. Made 0 or 1 three in all 9 logged games (1,0,1,1,1,0,1,1,1). He shoots 1-5 threes a night despite 27-44 min, so the volume isn't there for 2+.",
+   "key_stats": [
+    "0-1 3PM in 9/9 L9",
+    "1-5 3PA per game",
+    "27-44 min"
+   ],
+   "injury_notes": "No injury designation on ESPN NBA injuries.",
+   "sources": [
+    {
+     "title": "WinDaily HOU @ WSH props (two-way book prices)",
+     "url": "https://windailysports.com/nba-player-props/houston-rockets-vs-washington-wizards-2026-11-15/"
+    },
+    {
+     "title": "ESPN AJ Dybantsa game log",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/5142718"
+    },
+    {
+     "title": "ESPN NBA injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "sport": "NBA",
+   "event": "OKC @ SAC",
+   "start_time": "2026-11-15T21:00:00-05:00",
+   "player": "Darius Acuff Jr.",
+   "team": "SAC",
+   "market": "3-PT Made",
+   "line": 2.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.586,
+   "confidence": 59,
+   "reasoning": "WinDaily best two-way at 2.5: O -160 (DraftKings) / U +130 (FanDuel), hold 5.0%, multiplicative devig over 58.6%. Prices stamped Sun 9:00 AM ET, and best-of-book pairing slightly overstates the edge. PrizePicks/Underdog app line NOT confirmed; drop the leg if the app line differs or is a Goblin/Demon. Made 3+ threes in 8 of his last 10 (3,4,3,3,3,2,9,3,3,2) while playing 33-42 min. OKC is a tough defense, but his volume and minutes are steady.",
+   "key_stats": [
+    "3+ 3PM in 8/10 L10",
+    "33-42 min L10"
+   ],
+   "injury_notes": "No designation. OKC: Ajay Mitchell (ankle) questionable.",
+   "sources": [
+    {
+     "title": "WinDaily OKC @ SAC props (two-way book prices)",
+     "url": "https://windailysports.com/nba-player-props/oklahoma-city-thunder-vs-sacramento-kings-2026-11-15/"
+    },
+    {
+     "title": "ESPN Darius Acuff Jr. game log",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/5142620"
+    },
+    {
+     "title": "ESPN NBA injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "sport": "NBA",
+   "event": "DAL @ BOS",
+   "start_time": "2026-11-15T18:00:00-05:00",
+   "player": "P.J. Washington",
+   "team": "DAL",
+   "market": "3-PT Made",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.586,
+   "confidence": 59,
+   "reasoning": "WinDaily best two-way at 1.5: O -152 (BetRivers) / U +135 (DraftKings), hold 2.9%, multiplicative devig over 58.6%. Prices stamped Sun 9:00 AM ET, and best-of-book pairing slightly overstates the edge. PrizePicks/Underdog app line NOT confirmed; drop the leg if the app line differs or is a Goblin/Demon. Made 2+ threes in 8 of his last 10 (2,1,2,2,6,3,2,1,2,4), on 3-11 attempts a night. Kyrie Irving (knee) has been RULED OUT, which should push more shots and minutes to Washington. Caution: the book prices are from 9 AM, so they may be from before the Kyrie news.",
+   "key_stats": [
+    "2+ 3PM in 8/10 L10",
+    "16-41 min"
+   ],
+   "injury_notes": "DAL: Kyrie Irving OUT (knee). Washington has no designation.",
+   "sources": [
+    {
+     "title": "WinDaily DAL @ BOS props (two-way book prices)",
+     "url": "https://windailysports.com/nba-player-props/dallas-mavericks-vs-boston-celtics-2026-11-15/"
+    },
+    {
+     "title": "ESPN P.J. Washington game log",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/4278078"
+    },
+    {
+     "title": "ESPN NBA injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "sport": "NBA",
+   "event": "ATL @ MIL",
+   "start_time": "2026-11-15T20:00:00-05:00",
+   "player": "Aaron Wiggins",
+   "team": "ATL",
+   "market": "3-PT Made",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.596,
+   "confidence": 60,
+   "reasoning": "WinDaily best two-way at 1.5: O -169 (DraftKings) / U +135 (Hard Rock Bet), hold 5.4%, multiplicative devig over 59.6%. Prices stamped Sun 9:00 AM ET, and best-of-book pairing slightly overstates the edge. PrizePicks/Underdog app line NOT confirmed; drop the leg if the app line differs or is a Goblin/Demon. Made 2+ threes in 8 of his last 10 (1,4,5,3,3,1,2,4,2,2), on 6-13 attempts in 23-29 min. That's a steady role with high volume.",
+   "key_stats": [
+    "2+ 3PM in 8/10 L10",
+    "6-13 3PA"
+   ],
+   "injury_notes": "No designation on ESPN.",
+   "sources": [
+    {
+     "title": "WinDaily ATL @ MIL props (two-way book prices)",
+     "url": "https://windailysports.com/nba-player-props/atlanta-hawks-vs-milwaukee-bucks-2026-11-15/"
+    },
+    {
+     "title": "ESPN Aaron Wiggins game log",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/4397183"
+    },
+    {
+     "title": "ESPN NBA injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "sport": "NBA",
+   "event": "ATL @ MIL",
+   "start_time": "2026-11-15T20:00:00-05:00",
+   "player": "Nate Ament",
+   "team": "MIL",
+   "market": "3-PT Made",
+   "line": 1.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.62,
+   "confidence": 62,
+   "reasoning": "WinDaily best two-way at 1.5: O +180 (Hard Rock Bet) / U -240 (Hard Rock Bet), hold 6.3%, multiplicative devig under 66.4%. Prices stamped Sun 9:00 AM ET, and best-of-book pairing slightly overstates the edge. PrizePicks/Underdog app line NOT confirmed; drop the leg if the app line differs or is a Goblin/Demon. Bench rookie playing 8-23 min. He made 0-1 threes in 5 of his last 10 (2,0,2,2,0,2,0,2,1,1), so his log is closer to a coin flip than the 66% books imply. The minutes cap keeps his ceiling low, though, and the price has 6.3% hold. This leg is lower confidence. Opposite team from Wiggins. est_prob is cut from the 66.4% devig to 0.62 because his own log only supports about 50%.",
+   "key_stats": [
+    "0-1 3PM in 5/10",
+    "8-23 min",
+    "1-6 3PA"
+   ],
+   "injury_notes": "No designation.",
+   "sources": [
+    {
+     "title": "WinDaily ATL @ MIL props (two-way book prices)",
+     "url": "https://windailysports.com/nba-player-props/atlanta-hawks-vs-milwaukee-bucks-2026-11-15/"
+    },
+    {
+     "title": "ESPN Nate Ament game log",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/5164559"
+    },
+    {
+     "title": "ESPN NBA injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L6",
+   "sport": "NFL",
+   "event": "PIT @ CIN",
+   "start_time": "2026-11-15T20:20:00-05:00",
+   "player": "Jaylen Warren",
+   "team": "PIT",
+   "market": "Receptions",
+   "line": 2.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.585,
+   "confidence": 54,
+   "reasoning": "WinDaily best two-way at 2.5: O -158 (FanDuel) / U +130 (BetMGM), hold 4.7%, multiplicative devig over 58.5%. Prices stamped Sun 1:00 PM ET, and best-of-book pairing slightly overstates the edge. PrizePicks/Underdog app line NOT confirmed; drop the leg if the app line differs or is a Goblin/Demon. SNF. Warren had 3+ catches in 5 of 8 logged games (1,3,2,6,3,3,2,5) on 2-6 targets. Last week he had only 1 catch on 2 targets while running for 143 yds on 17 carries. If PIT trails at CIN, more dump-offs are likely. Paycor Stadium is open-air, and I did not check the weather.",
+   "key_stats": [
+    "3+ rec in 5/8",
+    "2-6 targets",
+    "1 rec last week"
+   ],
+   "injury_notes": "PIT: Warren active, no designation; Rodgers active.",
+   "sources": [
+    {
+     "title": "WinDaily PIT @ CIN props (two-way book prices)",
+     "url": "https://windailysports.com/nfl-player-props/pittsburgh-steelers-vs-cincinnati-bengals-2026-11-15/"
+    },
+    {
+     "title": "ESPN Jaylen Warren game log",
+     "url": "https://www.espn.com/nfl/player/gamelog/_/id/4569987"
+    },
+    {
+     "title": "ESPN NFL injuries",
+     "url": "https://www.espn.com/nfl/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L7",
+   "sport": "NHL",
+   "event": "NSH @ SJ",
+   "start_time": "2026-11-15T21:00:00-05:00",
+   "player": "Mavrik Bourque",
+   "team": "NSH",
+   "market": "Shots on Goal",
+   "line": 2.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.574,
+   "confidence": 57,
+   "reasoning": "WinDaily best two-way at 2.5: O +125 (BetMGM) / U -150 (Hard Rock Bet), hold 4.4%, multiplicative devig under 57.4%. Prices stamped Sun 9:00 AM ET, and best-of-book pairing slightly overstates the edge. PrizePicks/Underdog app line NOT confirmed; drop the leg if the app line differs or is a Goblin/Demon. 2 or fewer SOG in 6 of his last 10 (0,1,5,2,3,3,1,3,0,1) in 14-19 min TOI. Middle-six role.",
+   "key_stats": [
+    "<=2 SOG in 6/10",
+    "14-19 TOI"
+   ],
+   "injury_notes": "No designation on ESPN NHL injuries.",
+   "sources": [
+    {
+     "title": "WinDaily NSH @ SJ props (two-way book prices)",
+     "url": "https://windailysports.com/nhl-player-props/nashville-predators-vs-san-jose-sharks-2026-11-15/"
+    },
+    {
+     "title": "ESPN Mavrik Bourque game log",
+     "url": "https://www.espn.com/nhl/player/gamelog/_/id/4697413"
+    },
+    {
+     "title": "ESPN NHL injuries",
+     "url": "https://www.espn.com/nhl/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L8",
+   "sport": "NHL",
+   "event": "CGY @ ANA",
+   "start_time": "2026-11-15T20:00:00-05:00",
+   "player": "Matt Coronato",
+   "team": "CGY",
+   "market": "Shots on Goal",
+   "line": 2.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.569,
+   "confidence": 57,
+   "reasoning": "WinDaily best two-way at 2.5: O +120 (DraftKings) / U -150 (BetMGM), hold 5.5%, multiplicative devig under 56.9%. Prices stamped Sun 9:00 AM ET, and best-of-book pairing slightly overstates the edge. PrizePicks/Underdog app line NOT confirmed; drop the leg if the app line differs or is a Goblin/Demon. 2 or fewer SOG in 7 of his last 10 (2,3,1,3,1,0,2,1,3,2), no game above 3. Calgary plays the second game of a back-to-back (at LA last night).",
+   "key_stats": [
+    "<=2 SOG in 7/10",
+    "max 3 SOG L10",
+    "B2B"
+   ],
+   "injury_notes": "No designation.",
+   "sources": [
+    {
+     "title": "WinDaily CGY @ ANA props (two-way book prices)",
+     "url": "https://windailysports.com/nhl-player-props/calgary-flames-vs-anaheim-ducks-2026-11-15/"
+    },
+    {
+     "title": "ESPN Matt Coronato game log",
+     "url": "https://www.espn.com/nhl/player/gamelog/_/id/4874730"
+    },
+    {
+     "title": "ESPN NHL injuries",
+     "url": "https://www.espn.com/nhl/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L9",
+   "sport": "NHL",
+   "event": "VAN @ VGK",
+   "start_time": "2026-11-15T21:00:00-05:00",
+   "player": "Jack Eichel",
+   "team": "VGK",
+   "market": "Shots on Goal",
+   "line": 2.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.573,
+   "confidence": 53,
+   "reasoning": "WinDaily best two-way at 2.5: O -140 (FanDuel) / U +130 (BetMGM), hold 1.8%, multiplicative devig over 57.3%. Prices stamped Sun 9:00 AM ET, and best-of-book pairing slightly overstates the edge. PrizePicks/Underdog app line NOT confirmed; drop the leg if the app line differs or is a Goblin/Demon. Lowest-hold pair on the board (1.8%). His log is volatile: 3+ SOG in 5 of his last 10 (6,1,5,4,1,1,0,1,6,3), with 21+ min and top PP time. Home against a weaker Vancouver. Lower confidence.",
+   "key_stats": [
+    "3+ SOG in 5/10",
+    "~21 TOI",
+    "PP1"
+   ],
+   "injury_notes": "No designation.",
+   "sources": [
+    {
+     "title": "WinDaily VAN @ VGK props (two-way book prices)",
+     "url": "https://windailysports.com/nhl-player-props/vancouver-canucks-vs-vegas-golden-knights-2026-11-15/"
+    },
+    {
+     "title": "ESPN Jack Eichel game log",
+     "url": "https://www.espn.com/nhl/player/gamelog/_/id/3648002"
+    },
+    {
+     "title": "ESPN NHL injuries",
+     "url": "https://www.espn.com/nhl/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "sport": "NHL",
+   "event": "EDM @ PHI",
+   "start_time": "2026-11-15T19:30:00-05:00",
+   "player": "Matvei Michkov",
+   "team": "PHI",
+   "market": "Shots on Goal",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.569,
+   "confidence": 53,
+   "reasoning": "WinDaily best two-way at 1.5: O -135 (BetMGM) / U +130 (DraftKings), hold 0.9%, multiplicative devig over 56.9%. Prices stamped Sun 9:00 AM ET, and best-of-book pairing slightly overstates the edge. PrizePicks/Underdog app line NOT confirmed; drop the leg if the app line differs or is a Goblin/Demon. Tight 0.9% hold pair. 2+ SOG in 5 of his last 10 (2,0,2,0,0,4,2,1,1,3) in 15-22 min TOI. EDM games are high-event (total 6.5). Lower confidence.",
+   "key_stats": [
+    "2+ SOG in 5/10",
+    "15-22 TOI",
+    "total 6.5"
+   ],
+   "injury_notes": "No designation.",
+   "sources": [
+    {
+     "title": "WinDaily EDM @ PHI props (two-way book prices)",
+     "url": "https://windailysports.com/nhl-player-props/edmonton-oilers-vs-philadelphia-flyers-2026-11-15/"
+    },
+    {
+     "title": "ESPN Matvei Michkov game log",
+     "url": "https://www.espn.com/nhl/player/gamelog/_/id/5149170"
+    },
+    {
+     "title": "ESPN NHL injuries",
+     "url": "https://www.espn.com/nhl/injuries"
+    }
+   ]
+  }
+ ]
+}

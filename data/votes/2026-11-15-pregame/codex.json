@@ -1,0 +1,136 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-15-pregame",
+    "model":  "codex",
+    "model_name":  "default",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-15T17:30:03-05:00",
+    "finished_at":  "2026-11-15T17:31:02-05:00",
+    "duration_s":  52.3,
+    "usage":  {
+                  "tokens":  22015
+              },
+    "overall_notes":  "The supplied two-way prices match the proposed half-point lines, but stale cross-book quotes and short game logs leave meaningful uncertainty around the estimated edges. All keeps are conditional on confirming the exact standard app line and current role; earlier winning legs provide no validation for these selections. Confidence reflects estimated hit probability for keeps and miss probability for cuts, so a cut can have confidence below 50 when its hit probability still falls short of break-even.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  61,
+                      "reasoning":  "The exact-line market estimate and nine straight games below two made threes support an under based on baseline shooting volume, without requiring reduced minutes. The small sample and occasional five-attempt game leave shooting variance as the main risk. A recent increase in attempts or a materially weaker current price would change my vote.",
+                      "risk_flags":  [
+                                         "small-sample",
+                                         "stale-price",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  57,
+                      "reasoning":  "The exact-line devig clears all supplied break-even thresholds, and eight hits in ten games with substantial minutes provide supporting evidence. Missing attempt totals and the difficult defensive matchup make the margin less secure than the raw hit rate suggests. Falling shooting volume or a current market estimate below approximately 55% would change my vote.",
+                      "risk_flags":  [
+                                         "matchup",
+                                         "missing-attempt-volume",
+                                         "stale-price",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  57,
+                      "reasoning":  "The exact-line market and eight hits in ten games support a modest edge. Irving\u0027s absence could increase opportunities, but it does not establish more minutes or better three-point looks, particularly with Washington\u0027s reported 16–41 minute range. A reduced starting role, adverse rotation news, or unfavorable repricing would change my vote.",
+                      "risk_flags":  [
+                                         "news-repricing",
+                                         "minutes",
+                                         "stale-price",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  59,
+                      "reasoning":  "Six to thirteen attempts within a relatively narrow minutes range give this over stronger workload support than a hit-rate argument alone. The exact-line devig also provides a reasonable cushion over break-even. A rotation change or evidence that those attempt totals no longer represent his current role would change my vote.",
+                      "risk_flags":  [
+                                         "shooting-variance",
+                                         "stale-price",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "cut",
+                      "confidence":  45,
+                      "reasoning":  "The same-book exact-line price is meaningful evidence, but the proposed adjustment to 62% has no demonstrated calibration against five misses in ten games. An 8–23 minute range and up to six attempts do not establish a reliable minutes cap or resolve the disagreement between the market and recent results. Current pricing plus chronological minutes and attempt data showing a stable low-volume role would change my vote.",
+                      "risk_flags":  [
+                                         "minutes",
+                                         "market-log-disagreement",
+                                         "unsupported-adjustment",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "cut",
+                      "confidence":  47,
+                      "reasoning":  "The exact-line market and five hits in eight games are supportive, but last week\u0027s one catch on two targets raises an unresolved receiving-workload question. Projected trailing script does not substitute for routes and target share, and outdoor weather remains unchecked. Stable recent route participation, receiving snaps, and acceptable weather would change my vote.",
+                      "risk_flags":  [
+                                         "workload-shift",
+                                         "weather-unchecked",
+                                         "game-script",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  56,
+                      "reasoning":  "The exact-line devig narrowly clears the supplied thresholds, with six unders in ten games and moderate ice time offering consistent supporting evidence. Four overs and missing power-play or line-assignment detail limit conviction. Increased ice time or a promotion into a more prominent offensive role would change my vote.",
+                      "risk_flags":  [
+                                         "thin-edge",
+                                         "role-unverified",
+                                         "stale-price",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  56,
+                      "reasoning":  "Seven unders in ten games support the exact-line market estimate, although the edge over five-leg Power break-even is small. The back-to-back is only secondary evidence, and a recent maximum of three does not prevent another three-shot result from beating this under. Increased ice time, power-play responsibility, or weaker current pricing would change my vote.",
+                      "risk_flags":  [
+                                         "thin-edge",
+                                         "missing-ice-time",
+                                         "back-to-back",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "cut",
+                      "confidence":  46,
+                      "reasoning":  "The exact-line low-hold market is credible, but its modest edge has limited independent support from five hits in ten games. Strong ice time and power-play usage help, while describing Vancouver as weaker does not quantify shot opportunities. Current corroborating prices and sustained individual shot-attempt volume would change my vote.",
+                      "risk_flags":  [
+                                         "thin-edge",
+                                         "volatile-volume",
+                                         "matchup-assumption",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L10",
+                      "decision":  "cut",
+                      "confidence":  47,
+                      "reasoning":  "The low-hold exact-line price supports consideration, but five hits in ten games and a broad ice-time range leave little evidence for a durable edge. A 6.5 game total concerns goals and does not directly establish Michkov\u0027s individual shot volume. Stable deployment, stronger recent attempt rates, and current market confirmation would change my vote.",
+                      "risk_flags":  [
+                                         "thin-edge",
+                                         "minutes",
+                                         "weak-total-proxy",
+                                         "app-line-unconfirmed"
+                                     ]
+                  }
+              ]
+}

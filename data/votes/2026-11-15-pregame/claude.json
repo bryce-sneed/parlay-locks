@@ -1,0 +1,113 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-15-pregame",
+    "model":  "claude",
+    "model_name":  "haiku",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-15T17:30:03-05:00",
+    "finished_at":  "2026-11-15T17:31:02-05:00",
+    "duration_s":  56.9,
+    "usage":  {
+                  "cost_usd":  0.086076,
+                  "cache_read":  0,
+                  "output_tokens":  5241,
+                  "input_tokens":  9
+              },
+    "overall_notes":  "The slate mixes high-confidence NBA 3PM overs (strong recent form, stable volume) with marginal NHL unders and one NFL over. Four legs should be cut: L3 (stale prices predate Kyrie OUT), L5 (drafter\u0027s own log contradicts est_prob and relies on bench minutes), and L9/L10 (volatile logs, ultra-tight holds \u003c2%, drafter flags lower confidence). The remaining six legs have reasonable data support at or above break-even, though L7, L8 are marginal.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  82,
+                      "reasoning":  "Clean data: 0-1 threes in 9/9 games on 1-5 attempts. Low volume is confirmed. Line is U1.5, est_prob 62.7% well above break-even. No injuries, no recent workload shifts. Prices are current (9 AM ET, pregame snapshot). This is a straightforward low-volume player.",
+                      "risk_flags":  [
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  76,
+                      "reasoning":  "Strong recent form: 3+ in 8/10 with solid 33-42 min minutes. OKC tough defense is in the market. Reasonable 58.6% est_prob above power-leg break-even. Volume and minutes steady; no injury red flags. Data supports O2.5.",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "cut",
+                      "confidence":  76,
+                      "reasoning":  "Core issue: WinDaily prices (O -152) are stamped 9 AM ET, before Kyrie Irving OUT news broke. The book has repriced since 9 AM in favor of Washington\u0027s workload; the quoted -152 odds are stale and do not reflect current consensus. Citing a price that predates a material injury development violates the criterion: reasoning must use current, exact-line probabilities.",
+                      "risk_flags":  [
+                                         "line-moved",
+                                         "injury"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  74,
+                      "reasoning":  "Solid recent form: 2+ in 8/10 on 6-13 attempts in 23-29 min. Stable role with good volume. est_prob 59.6% above break-even. Line is O1.5, achievable. No injuries or recent workload shifts. Data is clean and current.",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "cut",
+                      "confidence":  79,
+                      "reasoning":  "Drafter\u0027s own analysis contradicts the stated est_prob: \u0027his log is closer to a coin flip than the 66% books imply\u0027 and \u0027est_prob is cut from 66.4% to 0.62 because his own log only supports about 50%.\u0027 Bench rookie with 8-23 min (highly variable), 1-6 3PA, and noisy log. Reasoning relies on minutes cap, not player efficiency. Drafter flags \u0027lower confidence\u0027 explicitly.",
+                      "risk_flags":  [
+                                         "minutes",
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  68,
+                      "reasoning":  "SNF context supports pass volume if PIT trails. Warren hit 3+ in 5/8 games. Last week\u0027s 1 catch was on 2 targets but offset by rushing; target floors exist. 58.5% est_prob above break-even. Weather unchecked but open-air Paycor is a minor risk at SNF. Data is mixed but defensible.",
+                      "risk_flags":  [
+                                         "weather"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  65,
+                      "reasoning":  "Log supports U2.5: 6/10 games \u003c=2 SOG (0,1,2,1,3,0 from the string), though includes a 5-SOG outlier. 14-19 min TOI is moderate middle-six role. est_prob 57.4% just above power-leg break-even. Noisy but data is present. Marginal confidence due to volatility.",
+                      "risk_flags":  [
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  70,
+                      "reasoning":  "Log strongly supports U2.5: 7/10 games \u003c=2 SOG (2,1,3,1,0,2,1 from the string), no game above 3. B2B context (at LA last night) adds fatigue rationale. 56.9% est_prob above power-leg break-even. Reasoning is solid and data is clear.",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "cut",
+                      "confidence":  74,
+                      "reasoning":  "Log is highly volatile (6, 1, 5, 4, 1, 1, 0, 1, 6, 3 SOG). Over hits only 5/10 on O2.5—marginal for the line. 1.8% hold is the tightest on the board, signaling extreme market uncertainty. Reasoning leans on \u0027home vs. weaker opponent\u0027 which is vague. Drafter explicitly flags \u0027lower confidence.\u0027 This fails the thin-reasoning criterion.",
+                      "risk_flags":  [
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L10",
+                      "decision":  "cut",
+                      "confidence":  72,
+                      "reasoning":  "Log is noisy (2,0,2,0,0,4,2,1,1,3 SOG), over hits only 5/10 on O1.5. 0.9% hold is the second-tightest on the board—market is highly uncertain. \u0027EDM high-event total 6.5\u0027 is vague reasoning. 15-22 min TOI is on the lower end. Drafter flags \u0027lower confidence.\u0027 Ultra-tight hold and thin reasoning violate pick\u0027em standards.",
+                      "risk_flags":  [
+                                         "small-sample"
+                                     ]
+                  }
+              ]
+}

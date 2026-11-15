@@ -1,0 +1,133 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-15-pregame",
+    "model":  "cursor",
+    "model_name":  "auto",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-15T17:30:03-05:00",
+    "finished_at":  "2026-11-15T17:31:02-05:00",
+    "duration_s":  26,
+    "usage":  {
+                  "inputTokens":  15513,
+                  "outputTokens":  2533,
+                  "cacheReadTokens":  20096,
+                  "cacheWriteTokens":  0
+              },
+    "overall_notes":  "Most legs clear break-even only on devigged book prices that the drafter flags as slightly optimistic via best-of-book pairing, and every leg still needs app-line confirmation. I would keep the NBA unders and steadier overs with role/volume support, trim bench or 50/50 recent logs, and cut volatile NHL overs where form does not back the posted edge.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  76,
+                      "reasoning":  "Nine straight games at 0–1 threes on low attempts despite heavy minutes is a stable under profile at 1.5, and the cited devig is at the exact line. Main risk is an unconfirmed PrizePicks/Underdog line or a sudden green-light spike in 3PA. I would cut if the app posts 1.5 as a Goblin/Demon or moves to 0.5.",
+                      "risk_flags":  [
+                                         "unconfirmed-line",
+                                         "small-sample-rookie",
+                                         "minutes-variance"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  63,
+                      "reasoning":  "Eight of ten at 3+ makes on solid minutes supports over 2.5 even against a strong defense if attempt volume holds. Book edge is thin (~58.6%) and pairing may overstate it. Reconsider if OKC\u0027s matchup materially reduces his usual 3PA band or the app line is 3.5+.",
+                      "risk_flags":  [
+                                         "tough-matchup",
+                                         "thin-edge",
+                                         "unconfirmed-line"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  57,
+                      "reasoning":  "Washington has cleared 2+ threes in eight of ten with meaningful attempts, and Kyrie out plausibly adds floor-spacing attempts for him. Prices stamped 9 AM may understate how the market repriced after the OUT news, so true edge is uncertain. Cut if books/app already moved to a harder number or his 3PA dips with altered Dallas rotations.",
+                      "risk_flags":  [
+                                         "stale-pricing",
+                                         "injury-usage-shift",
+                                         "unconfirmed-line"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  71,
+                      "reasoning":  "Consistent 6–13 attempts in 23–29 minutes with eight of ten at 2+ threes fits a repeatable over 1.5. Devig is modestly above break-even with usual best-of-book caution. Main risk is a cold shooting night with unchanged volume or a bad app line.",
+                      "risk_flags":  [
+                                         "shooting-variance",
+                                         "unconfirmed-line"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "cut",
+                      "confidence":  66,
+                      "reasoning":  "The drafter already haircut devig to 62% while noting the game log is closer to a coin flip on 0–1 versus 2+ with only 8–23 bench minutes. That gap means the under is priced off books more than evidence, so I do not trust it to beat ~54% break-even. Would keep only if fresh two-way prices at confirm time still show a large under without a shorter app line.",
+                      "risk_flags":  [
+                                         "thin-edge",
+                                         "minutes-cap",
+                                         "book-vs-form",
+                                         "unconfirmed-line"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  54,
+                      "reasoning":  "Five of eight at 3+ receptions on a low line is workable, and negative game script can add dump-offs for an over 2.5. Last week\u0027s one-catch game and unchecked weather leave real variance, and some logic is script-dependent rather than pure baseline volume. Cut if live total/spread implies a run-heavy, low-pass script for Pittsburgh.",
+                      "risk_flags":  [
+                                         "game-script",
+                                         "weather-unknown",
+                                         "recent-dip",
+                                         "unconfirmed-line"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  58,
+                      "reasoning":  "Six of ten at two or fewer SOG in a middle-six, 14–19 minute role aligns with under 2.5 at a slim devig edge. A single hot night or PP bump can push three shots. Would cut if lineup news moves him into a heavier offensive role.",
+                      "risk_flags":  [
+                                         "role-volatility",
+                                         "thin-edge",
+                                         "unconfirmed-line"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  61,
+                      "reasoning":  "Seven of ten at two or fewer with a max of three shots plus second-night back-to-back supports a fatigue-tinged under. Edge is still narrow relative to Flex/Power break-even. Reconsider if Calgary deploys him elevated with top-six minutes.",
+                      "risk_flags":  [
+                                         "b2b",
+                                         "thin-edge",
+                                         "unconfirmed-line"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "cut",
+                      "confidence":  62,
+                      "reasoning":  "Only five of ten at 3+ SOG with a volatile log makes the over closer to a coin flip than the ~57% devig suggests despite top usage. Home matchup help does not fix half the sample missing the number. Would keep if recent attempts trend up sharply or the app offers an easier alt.",
+                      "risk_flags":  [
+                                         "volatile-log",
+                                         "thin-edge",
+                                         "unconfirmed-line"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L10",
+                      "decision":  "cut",
+                      "confidence":  59,
+                      "reasoning":  "Two-plus SOG in only five of ten at 1.5 over is a 50% base rate while devig sits near 57%; a high total game cuts both ways on variance. Tight hold helps the price quality, not the player\u0027s consistency. Keep only if role/TOI jumps or the app line is 0.5–1.0 easier.",
+                      "risk_flags":  [
+                                         "coin-flip-sample",
+                                         "high-event-game",
+                                         "thin-edge",
+                                         "unconfirmed-line"
+                                     ]
+                  }
+              ]
+}

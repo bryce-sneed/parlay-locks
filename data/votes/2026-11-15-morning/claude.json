@@ -1,0 +1,108 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-15-morning",
+    "model":  "claude",
+    "model_name":  "haiku",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-15T10:30:04-05:00",
+    "finished_at":  "2026-11-15T10:32:04-05:00",
+    "duration_s":  117.2,
+    "usage":  {
+                  "cost_usd":  0.117552,
+                  "cache_read":  0,
+                  "output_tokens":  12267,
+                  "input_tokens":  9
+              },
+    "overall_notes":  "Solid slate with 6/8 legs meeting break-even thresholds; two cuts justified by fundamental disconnect between historical rates and market pricing (L2) and high personnel-driven uncertainty (L8). NFLprices are stale (Sat 9 AM) and single-book NBA pricing inflates est_probs, so treat upper bounds as ceiling.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  75,
+                      "reasoning":  "Geno Smith under 1.5 passes a clean filter: 67% historical hit rate, 64.3% est_prob, and 0 TDs last week at KC support the under. Trailing script (−8.5 dogs) raises attempts but this offense struggles to finish drives. Risk: Garrett Wilson Q but expected (cleared concussion), which could improve red-zone access. Edge is clear vs. break-even.",
+                      "risk_flags":  [
+                                         "stale_price_nfl_sat_9am",
+                                         "garrett_wilson_q"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "cut",
+                      "confidence":  80,
+                      "reasoning":  "Dak Prescott over 1.5 fails the smell test: only 44% historical hit rate (4/9 games) but market is betting 62.5% over, a 18-point gap. Last week\u0027s 2 TDs on 335 yards despite volume shows efficiency hasn\u0027t risen. Loss of Jake Ferguson (TE, red-zone target) removes a key threat. Dome and trailing script (−4.5 favorites) explain market overvaluation, but data doesn\u0027t support the over.",
+                      "risk_flags":  [
+                                         "market_vs_history_gap",
+                                         "ferguson_te_out",
+                                         "recent_low_td_output"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  64,
+                      "reasoning":  "Blake Corum under 1.5 receptions anchors on 62.5% hit rate (5/8) matching 61.4% est_prob—a sharp 1.5% hold pair signals market efficiency. Zero catches in last two games + early-down role lock in the baseline. Risk: Puka Nacua and Davante Adams on IR create target redistribution; short-passing game could flow to Corum. This is real uncertainty but doesn\u0027t override the baseline.",
+                      "risk_flags":  [
+                                         "nacua_ir",
+                                         "adams_ir",
+                                         "target_redistribution"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  62,
+                      "reasoning":  "Cooper Kupp under 2.5 receptions has 67% historical rate (6/9) exceeding 59.4% est_prob, a modest 7.6% edge. Sam Darnold (quad) out, Drew Lock starting, should depress overall passing volume + SEA −6.5 favorites drives run-heavy scheme. Risk: Lock is an unknown; game could devolve into chaos, and JSN may absorb the target distribution shift unpredictably. Borderline confidence due to QB chaos.",
+                      "risk_flags":  [
+                                         "lock_replaces_darnold",
+                                         "jsn_target_share",
+                                         "unknown_lock_patterns"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  70,
+                      "reasoning":  "Trevor Lawrence over 1.5 TDs: 62.5% historical hit rate (5/8) exceeds 59.7% est_prob by 3%, and TEN LBs Cody Barton + Anthony Hill Jr. out is a meaningful edge (reduced pressure). JAX −10.5 favorites could suppress late attempts, but the TD theorem doesn\u0027t hinge on volume. Recent form (4/0/3/1/2/4/3/1 TDs) shows volatility but upside present.",
+                      "risk_flags":  [
+                                         "blowout_benching_risk",
+                                         "big_spread"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  80,
+                      "reasoning":  "Michael Penix Jr. under 1.5 TDs is a strong edge play: 71% historical hit rate (5/7) crushes 58.2% est_prob by +13 points—a significant market inefficiency. ATL is Bijan-centric (run-heavy), Zachariah Branch (WR) out further caps passing threats. KC −3 low total (47) supports a defensive grind. Conviction is high here.",
+                      "risk_flags":  [
+                                         "none"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  54,
+                      "reasoning":  "OG Anunoby under 2.5 threes is marginal: 60% historical hit rate nearly matches 62.9% est_prob, but single-book (FanDuel) pricing inflates the estimate; true prob ~61%, barely above 60% baseline. NYK back-to-back (played IND Saturday) introduces fatigue / rest risk. This is close to break-even and depends entirely on whether B2B load impacts his minutes.",
+                      "risk_flags":  [
+                                         "single_book_pricing_inflates",
+                                         "nyк_back_to_back",
+                                         "break_even_line"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "cut",
+                      "confidence":  70,
+                      "reasoning":  "Jabari Smith Jr. under 2.5 threes deteriorates under personnel scrutiny: VanVleet (out), Capela (out), Smart (suspended) create massive role uncertainty. While last 5 games all ≤2 makes is a recent trend, sample is tiny. HOU back-to-back (at UTAH Saturday) could fatigue him or expand role unpredictably. Single-book (FanDuel) pricing inflates 62.9% est_prob; drafter flags low confidence. Chaos premium too high.",
+                      "risk_flags":  [
+                                         "vanvleet_out",
+                                         "capela_out",
+                                         "smart_suspended",
+                                         "single_book_pricing",
+                                         "hou_back_to_back",
+                                         "small_sample_trend"
+                                     ]
+                  }
+              ]
+}

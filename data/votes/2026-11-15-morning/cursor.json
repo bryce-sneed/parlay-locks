@@ -1,0 +1,115 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-15-morning",
+    "model":  "cursor",
+    "model_name":  "auto",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-15T10:30:04-05:00",
+    "finished_at":  "2026-11-15T10:32:04-05:00",
+    "duration_s":  40.6,
+    "usage":  {
+                  "inputTokens":  14938,
+                  "outputTokens":  2370,
+                  "cacheReadTokens":  20096,
+                  "cacheWriteTokens":  0
+              },
+    "overall_notes":  "Most legs clear break-even on paper, but stale WinDaily pairs and single-book NBA holds mean true edges are thinner than est_prob. I would cut Dak over (red-zone target loss) and Jabari under (usage spike), and I am wary of Michael Penix under given a slim margin and sloppy injury context in the write-up.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  72,
+                      "reasoning":  "Two-way devig at the exact 1.5 line and a 6/9 game pattern of ≤1 TD align with a meaningful edge even after haircutting stale prices. Trailing as an 8.5-point home dog adds attempt volume risk, but this offense has not converted drives into scores and the market still prices under strongly. I would cut if Wilson or the receiving corps were unexpectedly limited or wind at MetLife turned high.",
+                      "risk_flags":  [
+                                         "blowout-script",
+                                         "trailing-volume",
+                                         "stale-price",
+                                         "weather-unknown"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "cut",
+                      "confidence":  68,
+                      "reasoning":  "The devig is at the correct 1.5, but only 4/9 games hit 2+ TDs while the drafter admits the market outruns the hit rate. Jake Ferguson out removes a primary red-zone target for Dak, which directly undercuts a pass-TD over thesis indoors. I would keep only if practice reports showed another WR/TE absorbing clear RZ role or the pick’em line dropped to 0.5–1.0.",
+                      "risk_flags":  [
+                                         "injury-rz-target",
+                                         "hit-rate-vs-market",
+                                         "moderate-edge"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  65,
+                      "reasoning":  "Low-hold two-way devig at 1.5 and an early-down role with 0 catches in the last two games support under despite a solid-looking probability. Nacua and Adams on IR create checkdown redistribution risk, but recent target volume on Corum has still been minimal. I would cut if he clearly gains passing-down snaps or the app line is 0.5 instead of 1.5.",
+                      "risk_flags":  [
+                                         "target-redistribution",
+                                         "role-limited",
+                                         "injury-ripple",
+                                         "line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  62,
+                      "reasoning":  "≤2 receptions in 6/9, JSN ahead in pecking order, Drew Lock starting for Darnold, and a 6.5-point favorite script favoring run volume all support under at 2.5. The edge is modest after stale-price and hold adjustment, so this is more a portfolio leg than a slam dunk. Lock playing sharper than expected or Kupp’s route share jumping would push me to cut.",
+                      "risk_flags":  [
+                                         "qb-change",
+                                         "thin-edge",
+                                         "stale-price",
+                                         "favorite-script"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  64,
+                      "reasoning":  "Lawrence at 2+ TDs in 5/8 with weakened TEN linebacker corps gives a plausible path to two scores without needing a shootout. A large favorite spread does create some late run-the-clock risk, but touchdowns often come in the first half when JAX should still be aggressive. I would cut if key JAX receivers were out or the spread tightened materially pre-kick.",
+                      "risk_flags":  [
+                                         "blowout-script",
+                                         "modest-edge",
+                                         "injury-defense"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "cut",
+                      "confidence":  70,
+                      "reasoning":  "58.2% est_prob is only a sliver above power-play break-even once you trim for stale best-price pairing, and Penix has multiple 3-TD games in a small sample. The write-up also misattributes Kenneth Walker to KC, which signals loose injury review on a borderline leg. Bijan-centric offense helps under, but I would not trust this leg in a 5-leg entry without a fatter market margin.",
+                      "risk_flags":  [
+                                         "thin-edge",
+                                         "small-sample",
+                                         "reasoning-error",
+                                         "stale-price"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  63,
+                      "reasoning":  "Trend of ≤2 made threes in 6/10 on roughly 6.5 attempts supports under at 2.5, and back-to-back fatigue is a mild plus for lower shooting volume. Single-book FanDuel devig with ~7% hold likely overstates true under probability versus a multi-book pair. Scottie Barnes questionable is a minor usage-variance risk but not enough alone to cut.",
+                      "risk_flags":  [
+                                         "single-book",
+                                         "inflated-est_prob",
+                                         "b2b",
+                                         "injury-questionable"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "cut",
+                      "confidence":  71,
+                      "reasoning":  "Recent five-game ≤2 three-point make streak is attractive, but VanVleet out, Smart suspended, and Capela out all raise Smith’s minutes and shot opportunity against a weak Washington defense. The drafter already flags this, and the same single-book FanDuel pair likely inflates edge much like L7. I would keep only if starting lineup news showed no meaningful usage bump or the line moved to 3.5.",
+                      "risk_flags":  [
+                                         "usage-spike",
+                                         "injury-minutes",
+                                         "single-book",
+                                         "weak-opponent"
+                                     ]
+                  }
+              ]
+}

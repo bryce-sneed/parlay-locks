@@ -1,0 +1,119 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-15-morning",
+    "model":  "codex",
+    "model_name":  "default",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-15T10:30:04-05:00",
+    "finished_at":  "2026-11-15T10:32:04-05:00",
+    "duration_s":  49.4,
+    "usage":  {
+                  "tokens":  21374
+              },
+    "overall_notes":  "The exact half-point, two-sided prices clear the stated break-even thresholds, but stale quotes and unconfirmed app lines make every keep provisional. Best-price pairing does not establish an upward probability bias by itself; the larger concerns are changed workloads and whether injury news was incorporated. Cut confidences below 50 reflect insufficient evidence of a profitable edge, rather than a prediction that the selected side probably loses.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  61,
+                      "reasoning":  "The exact-line market estimate and six unders in nine games support an edge above all three thresholds, without needing blowout benching. Trailing attempts and unresolved receiver availability add uncertainty; I would reconsider if refreshed prices materially weaken the under or the app uses a different line.",
+                      "risk_flags":  [
+                                         "stale-price",
+                                         "injury",
+                                         "weather-unchecked",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  57,
+                      "reasoning":  "The exact-line market provides meaningful support despite a four-of-nine historical hit rate, and the dome removes weather uncertainty. Ferguson\u0027s absence and unresolved SF cornerback availability warrant a substantial discount; I would cut if updated prices incorporating those statuses fall near break-even.",
+                      "risk_flags":  [
+                                         "stale-price",
+                                         "injury",
+                                         "market-trend-conflict",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  57,
+                      "reasoning":  "The exact-line market, five unders in eight games, and recent low receiving production support a provisional keep based on baseline role. Three targets across the last two games still leave room for two receptions, and the depleted receiving corps could change his deployment. Evidence of increased routes or passing-down snaps would change my vote; the synthetic low hold does not establish market sharpness.",
+                      "risk_flags":  [
+                                         "stale-price",
+                                         "role-change",
+                                         "injury",
+                                         "small-sample",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "cut",
+                      "confidence":  46,
+                      "reasoning":  "The baseline reception history supports the under, but the quarterback change makes that history less transferable. Assuming Lock necessarily lowers Kupp\u0027s receptions overlooks changes in target distribution, and the favorable spread adds little independent assurance. I would reconsider with evidence of Kupp\u0027s routes and target share under Lock plus a refreshed exact-line price.",
+                      "risk_flags":  [
+                                         "quarterback-change",
+                                         "target-share",
+                                         "game-script",
+                                         "stale-price",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  57,
+                      "reasoning":  "Five overs in eight games and the exact-line market support a modest edge, with Tennessee\u0027s defensive absences providing additional context. Passing touchdowns still depend on opportunities and scoring allocation, so the claim that attempts do not matter is too strong, especially with a 10.5-point spread. Material wind or an updated market near break-even would change my vote.",
+                      "risk_flags":  [
+                                         "stale-price",
+                                         "weather-unchecked",
+                                         "game-script",
+                                         "touchdown-variance",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  57,
+                      "reasoning":  "The exact-line market and five unders in seven games support the under through baseline production rather than blowout benching. The 47-point total leaves scoring upside, and Walker\u0027s absence does not reliably imply a slower Kansas City offense. I would reconsider if updated prices weaken the edge or Atlanta\u0027s receiving deployment shifts materially.",
+                      "risk_flags":  [
+                                         "stale-price",
+                                         "small-sample",
+                                         "touchdown-variance",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  60,
+                      "reasoning":  "The single-book exact-line pair and six unders in ten games support a provisional edge, with no identified Knicks absence forcing a larger role. Roughly 6.5 attempts still create substantial three-point variance, and a back-to-back alone is weak directional evidence. Increased projected attempts or materially weaker refreshed under pricing would change my vote.",
+                      "risk_flags":  [
+                                         "stale-price",
+                                         "three-point-variance",
+                                         "small-sample",
+                                         "back-to-back",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "cut",
+                      "confidence":  47,
+                      "reasoning":  "The historical results and exact-line price favor the under, but multiple Houston absences create an unresolved change in minutes and shot opportunities. The five-game streak is less persuasive without knowing whether it reflects the current rotation, and Washington\u0027s pending statuses add uncertainty. I would reconsider if those games already included comparable absences and current projections preserve his usual minutes and three-point volume.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "minutes",
+                                         "usage-change",
+                                         "stale-price",
+                                         "app-line-unconfirmed"
+                                     ]
+                  }
+              ]
+}

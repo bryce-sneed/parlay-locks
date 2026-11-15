@@ -1,0 +1,55 @@
+{
+  "schema": "slips/v1",
+  "run": "2026-11-15-morning",
+  "date": "2026-11-15",
+  "snapshot": "morning",
+  "created_at": "2026-11-15T11:05:00-05:00",
+  "author": "parlay-locks",
+  "paper": true,
+  "notes": "Panel ran (3/3 ok). Built only from panel keeps: the four 3-0 legs (L1, L5, L3, L7) plus the 2-1 legs L4 and L6. Agreed with the panel cuts on L2 (Dak O1.5) and L8 (Jabari U2.5 3PM). 11am recheck: Geno Smith and Trevor Lawrence have no injury designation and are expected to start; Garrett Wilson expected to play. OG Anunoby status is conflicting (one aggregator lists him Q, undisclosed, unchanged since Oct; another shows him off the report). If he sits, L7 voids and the slip steps down. NFL prices are WinDaily's Saturday ~9 AM quotes and the NBA prices are single-book, so est_probs are treated as ceilings. App lines unconfirmed: if the app line differs or shows a Goblin/Demon, the leg is off.",
+  "slips": [
+    {
+      "id": "2026-11-15-morning-2",
+      "size": 2,
+      "platform": "Underdog",
+      "play_type": "standard",
+      "stake": 1,
+      "payout_multiplier": 3.5,
+      "legs": [
+        "L1",
+        "L3"
+      ],
+      "rationale": "Two 3-0 keeps from different games. Geno U1.5 pass TD (64.3% devig, panel score 69.3) + Corum U1.5 rec (61.4%, 1.5% hold pair). Shares no legs with the 3-leg."
+    },
+    {
+      "id": "2026-11-15-morning-3",
+      "size": 3,
+      "platform": "Underdog",
+      "play_type": "standard",
+      "stake": 1,
+      "payout_multiplier": 6.5,
+      "legs": [
+        "L5",
+        "L7",
+        "L4"
+      ],
+      "rationale": "Independent core across three games: Lawrence O1.5 pass TD (59.7%, 3-0), Anunoby U2.5 3PM (62.9% single-book, 3-0), Kupp U2.5 rec (59.4%, 2-1, Lock starting). Shares nothing with the 2-leg."
+    },
+    {
+      "id": "2026-11-15-morning-5",
+      "size": 5,
+      "platform": "PrizePicks",
+      "play_type": "power",
+      "stake": 1,
+      "payout_multiplier": 20,
+      "legs": [
+        "L1",
+        "L3",
+        "L5",
+        "L7",
+        "L6"
+      ],
+      "rationale": "Five different games. Avg est_prob 0.613, still above the 0.566 crossover after a ~2-pt staleness haircut, so Power (20x) over Flex. Leaves out L4, so it doesn't hold the full 3-leg core. L6 Penix U1.5 TD is a 2-1 keep with a 1.9% hold pair."
+    }
+  ]
+}

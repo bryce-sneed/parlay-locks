@@ -1,0 +1,55 @@
+{
+ "schema": "slips/v1",
+ "run": "2026-11-16-pregame",
+ "date": "2026-11-16",
+ "snapshot": "pregame",
+ "created_at": "2026-11-16T18:02:00-05:00",
+ "author": "parlay-locks",
+ "paper": true,
+ "notes": "Panel ran (3/3 ok; Claude 10 keep, Cursor 8-2, Codex 7-3). Used only the five 3-0 legs (L1, L2, L4, L5, L6), one per game. Agreed with the panel's split cuts of L3 (Codex: under was 6/10 not 7/10, LeBron out frees minutes), L7 (Cursor: last 3 games 4/5/2 SOG), L8 (Codex: miscounted 2+ games, odd 7-min game), L9 (Cursor: 7-make outlier came vs PHX, tonight's opponent), L10 (HOU B2B but Smart suspended and Amen DTD could raise his volume). 6pm recheck: Herbert Jones, Randle and Derrick White expected to start (NBA 5 PM report / lineup sites); Bateman (calf) no designation, full practice Fri/Sat, listed starter; Zibanejad centering the top line with Perreault and Lafreniere. Note: the morning 2-leg has Lafreniere O1.5 SOG on the same line as Zibanejad U2.5 SOG (different slips, mild cross-snapshot hedge). BOS -8.5 but White's rebound under rests on his baseline, not a benching. Prices are WinDaily 9 AM best-of-book, so est_probs are ceilings; app lines unconfirmed, so any leg whose app line differs or is a Goblin/Demon is off. 5-leg avg est_prob 0.587 > 0.566, so PrizePicks 5-pick Power (20x) per the rule.",
+ "slips": [
+  {
+   "id": "2026-11-16-pregame-2",
+   "size": 2,
+   "platform": "Underdog",
+   "play_type": "standard",
+   "stake": 1,
+   "payout_multiplier": 3.5,
+   "legs": [
+    "L1",
+    "L4"
+   ],
+   "rationale": "Top panel leg plus the top non-overlapping leg: Herbert Jones U1.5 3PM (61.5%, 3-0, score 69) + Zibanejad U2.5 SOG (58.0%, 3-0, score 66). Different sports. Shares no legs with the 3-leg."
+  },
+  {
+   "id": "2026-11-16-pregame-3",
+   "size": 3,
+   "platform": "Underdog",
+   "play_type": "standard",
+   "stake": 1,
+   "payout_multiplier": 6.5,
+   "legs": [
+    "L2",
+    "L5",
+    "L6"
+   ],
+   "rationale": "Separate core across three games: Randle U1.5 3PM (60.0%, 3-0), Bateman U2.5 rec (57.5%, 3-0), Derrick White U3.5 reb (56.5%, 3-0)."
+  },
+  {
+   "id": "2026-11-16-pregame-5",
+   "size": 5,
+   "platform": "PrizePicks",
+   "play_type": "power",
+   "stake": 1,
+   "payout_multiplier": 20,
+   "legs": [
+    "L1",
+    "L2",
+    "L4",
+    "L5",
+    "L6"
+   ],
+   "rationale": "All five unanimous legs, five different games. Avg est_prob 0.587 is above the 56.6% crossover, so Power (20x) beats Flex. No leg appears in all three slips."
+  }
+ ]
+}

@@ -1,0 +1,147 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-16-pregame",
+    "model":  "codex",
+    "model_name":  "default",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-16T17:30:04-05:00",
+    "finished_at":  "2026-11-16T17:32:08-05:00",
+    "duration_s":  41.4,
+    "usage":  {
+                  "tokens":  22726
+              },
+    "overall_notes":  "The exact half-point, two-way prices clear the stated break-even thresholds on paper, but morning timestamps and unconfirmed app lines make every keep conditional on matching standard-payout lines and settlement rules. The supplied logs overstate Simons\u0027 under record and Smith\u0027s over record; I cut those plus Sheppard for unresolved workload risk, and would avoid combining Randle with Simons. Confidence reflects estimated outcome likelihood as requested, so a cut can have confidence below 50 when the evidence fails to establish an adequate edge rather than predicting a likely miss.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  61,
+                      "reasoning":  "The exact-line devig and seven unders in ten support the strongest supplied cushion over break-even without relying on blowout minutes. Missing teammates could increase his attempts, and the aggregate attempt range does not establish that recent volume stayed flat. I would cut if updated usage shows a sustained increase or the standard app line differs.",
+                      "risk_flags":  [
+                                         "stale-prices",
+                                         "app-line-unconfirmed",
+                                         "injury",
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  59,
+                      "reasoning":  "The exact-line two-way market supports the under, and the supplied log correctly shows six unders in ten. His wide minutes and attempt ranges create substantial variance, while the morning quote needs confirmation. A recent sustained increase in attempts or a materially weaker updated price would change my vote.",
+                      "risk_flags":  [
+                                         "stale-prices",
+                                         "app-line-unconfirmed",
+                                         "volume-variance",
+                                         "same-game"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "cut",
+                      "confidence":  46,
+                      "reasoning":  "The supplied log contains four games with three or more rebounds, so the under went 6/10 rather than the claimed 7/10. LeBron\u0027s absence and Embiid\u0027s uncertain availability leave material minutes and rebounding-role risk for a player whose minutes already range from 10 to 31. A confirmed rotation and refreshed exact-line market could restore a keep.",
+                      "risk_flags":  [
+                                         "stat-count-error",
+                                         "injury",
+                                         "minutes",
+                                         "stale-prices",
+                                         "app-line-unconfirmed",
+                                         "same-game"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  58,
+                      "reasoning":  "Seven unders in ten and a 2.1-shot average agree with the exact-line market\u0027s under lean. The evidence lacks recent ice-time, power-play role and attempt-volume detail, so ten results alone cannot validate the estimate. I would cut if a role increase or updated market removes the cushion above break-even.",
+                      "risk_flags":  [
+                                         "stale-prices",
+                                         "app-line-unconfirmed",
+                                         "small-sample",
+                                         "role-unverified"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  57,
+                      "reasoning":  "Seven unders in nine and no more than three targets in six games provide baseline volume support independent of a blowout scenario. The missing recent route and snap breakdown limits confidence that this workload remains representative under Brissett. A route-share increase or refreshed exact-line prices near break-even would change my vote; wind remains unverified and receives no credit.",
+                      "risk_flags":  [
+                                         "stale-prices",
+                                         "app-line-unconfirmed",
+                                         "snap-role-unverified",
+                                         "weather-unverified",
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  55,
+                      "reasoning":  "Six unders in ten and a 2.8-rebound average broadly support the exact-line market, although the shaded edge is thin, especially for five-leg Power. Queta\u0027s uncertain status could change Boston\u0027s lineup and White\u0027s rebounding opportunities. I would cut if that uncertainty produces a meaningful role change or updated pricing weakens the under.",
+                      "risk_flags":  [
+                                         "stale-prices",
+                                         "app-line-unconfirmed",
+                                         "injury",
+                                         "thin-edge",
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  55,
+                      "reasoning":  "The supplied log correctly shows seven unders and a 2.2-shot average, consistent with a modest exact-line market edge. The claimed five-game streak is difficult to establish without chronological labeling, and current ice time and shooting opportunities are absent. An increased offensive role or weaker refreshed price would turn this thin keep into a cut.",
+                      "risk_flags":  [
+                                         "stale-prices",
+                                         "app-line-unconfirmed",
+                                         "thin-edge",
+                                         "role-unverified",
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "cut",
+                      "confidence":  46,
+                      "reasoning":  "The listed results show six games with two or more threes, not seven, weakening the claimed empirical support for a narrow market edge. The unexplained seven-minute game adds unresolved workload risk, and adding directional balance does not improve expected value. A documented explanation for that game, stable current minutes and refreshed favorable pricing would change my mind.",
+                      "risk_flags":  [
+                                         "stat-count-error",
+                                         "minutes",
+                                         "stale-prices",
+                                         "app-line-unconfirmed",
+                                         "thin-edge"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "keep",
+                      "confidence":  55,
+                      "reasoning":  "Seven unders in ten support a modest exact-line under lean, and the seven-make outlier should not by itself dictate the rematch projection. However, the 1–9 attempt range and missing chronological attempt data leave open whether his shooting role has expanded. I would cut if recent attempts consistently sit near the high end or refreshed pricing loses its edge.",
+                      "risk_flags":  [
+                                         "stale-prices",
+                                         "app-line-unconfirmed",
+                                         "volume-variance",
+                                         "thin-edge",
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L10",
+                      "decision":  "cut",
+                      "confidence":  48,
+                      "reasoning":  "Six unders in ten offer limited protection against a high-volume shooter gaining minutes, particularly with Smart suspended and Amen questionable. The back-to-back does not establish reduced opportunity, and the morning prices may not reflect the final rotation. Confirmed availability and a stable bench workload, supported by refreshed exact-line pricing, could change this vote.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "minutes",
+                                         "back-to-back",
+                                         "high-attempt-volume",
+                                         "stale-prices",
+                                         "app-line-unconfirmed"
+                                     ]
+                  }
+              ]
+}

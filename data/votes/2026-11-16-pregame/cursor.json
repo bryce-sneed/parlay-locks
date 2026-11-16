@@ -1,0 +1,142 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-16-pregame",
+    "model":  "cursor",
+    "model_name":  "auto",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-16T17:30:04-05:00",
+    "finished_at":  "2026-11-16T17:32:08-05:00",
+    "duration_s":  61.4,
+    "usage":  {
+                  "inputTokens":  16864,
+                  "outputTokens":  3063,
+                  "cacheReadTokens":  19264,
+                  "cacheWriteTokens":  0
+              },
+    "overall_notes":  "Most legs use proper two-way devig at the listed half-point with intentional shading; edges cluster just above pick\u0027em break-even (~54–55% for typical flex slips), so stale 9 AM quotes and unconfirmed app lines are systemic drag. I would keep the clearest price-plus-form unders and the Smith over, and cut legs where recent production or matchup context undermines the drafter’s hit-rate story more than the modest devig edge.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  74,
+                      "reasoning":  "Two-way devig at exactly 1.5 is appropriate and the drafter’s shade addresses best-of-book inflation. The under is supported by only 3/10 games at 2+ makes and low, stable attempt volume despite expanded minutes. I would cut only if the app line moves, becomes Goblin/Demon, or afternoon news spikes his 3PA role.",
+                      "risk_flags":  [
+                                         "stale-quotes",
+                                         "minutes",
+                                         "app-line-unconfirmed",
+                                         "injury-context"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  71,
+                      "reasoning":  "Pricing and settlement at 1.5 look clean, and the under has hit 6/10 with inconsistent make nights and wide but not escalating 3PA. Clowney avoidance rationale is reasonable for role stability. Main risk is a ceiling game from Randle’s occasional 3–4 make outliers, not a thin narrative.",
+                      "risk_flags":  [
+                                         "stale-quotes",
+                                         "app-line-unconfirmed",
+                                         "variance"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  69,
+                      "reasoning":  "Unlike many legs, both sides come from one book with a stated hold, which fits the panel’s pricing rule better than crossed books. Recent games show 7/10 unders with low rebound totals for a bench scorer in variable minutes. PHI frontcourt injuries could alter rebound chances somewhat, but this is not primarily a blowout-bench under.",
+                      "risk_flags":  [
+                                         "minutes",
+                                         "injury-context",
+                                         "stale-quotes",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  68,
+                      "reasoning":  "SOG under at 2.5 aligns with 7/10 under results and ~2.1 average volume, with multiplicative devig above break-even after shading. The 5-SOG spike in the L10 is a tail risk, not the central pattern. Line or role changes for PP1 usage would force a re-check.",
+                      "risk_flags":  [
+                                         "stale-quotes",
+                                         "tail-game",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  61,
+                      "reasoning":  "The under is grounded in target volume with Brissett (6/9 games at 3 or fewer targets) rather than a spread-only blowout script. Devig is fair at 2.5 receptions. Outdoor wind is the main unresolved pregame risk that could cap the passing game further (helping the under) or concentrate targets unpredictably.",
+                      "risk_flags":  [
+                                         "weather",
+                                         "qb-volume",
+                                         "stale-quotes",
+                                         "small-sample",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  63,
+                      "reasoning":  "At 3.5, White’s ~2.8 average and 6/10 unders are coherent, and the drafter correctly avoids a blowout-only thesis. Missing ORL frontcourt pieces might add marginal rebound competition but do not obviously turn White into a 5+ rebound profile. Queta DTD is a minor rotation ripple only.",
+                      "risk_flags":  [
+                                         "injury-context",
+                                         "stale-quotes",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "cut",
+                      "confidence":  64,
+                      "reasoning":  "The season-long 7/10 under narrative is weakened by the latest three games (4, 5, 2 SOG), suggesting recent shot volume is above the priced expectation. After shading, estimated edge (~56%) is too thin to absorb that recency conflict. I would keep only if confirmed lineup/matchup news points to suppressed usage.",
+                      "risk_flags":  [
+                                         "recency",
+                                         "thin-edge",
+                                         "stale-quotes",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  66,
+                      "reasoning":  "This is the strongest game-log over on the slate (7/10 at 2+ on modest attempts) with valid two-way pricing at 1.5. The single low-minute game explains one miss without breaking the role thesis. Edge is still modest after shading, so it is a keep for balance, not a slam.",
+                      "risk_flags":  [
+                                         "minutes-variance",
+                                         "stale-quotes",
+                                         "thin-edge",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "cut",
+                      "confidence":  67,
+                      "reasoning":  "The under hit rate is fine in aggregate, but the same opponent (PHX) produced a 7-make outlier in the cited window, which matters directly on a rematch. At only ~56% shaded win probability, that matchup tail and 1–9 attempt variance are enough to prefer cutting. Confirmation of a lower 3PA role or a softer PHX perimeter defense profile would flip me to keep.",
+                      "risk_flags":  [
+                                         "matchup-rematch",
+                                         "tail-game",
+                                         "variance",
+                                         "stale-quotes",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L10",
+                      "decision":  "keep",
+                      "confidence":  58,
+                      "reasoning":  "Devig and 6/10 under at 2.5 are acceptable, but this is the weakest keep: high 3PA (4–11) makes 3 makes more reachable than on 1.5 unders, and the last listed game had 5 makes. B2B and amen-related minutes uncertainty add role noise. I keep only because price still clears break-even slightly after shading; a tougher app line or Goblin would cut.",
+                      "risk_flags":  [
+                                         "volume-shooter",
+                                         "2.5-line",
+                                         "b2b",
+                                         "injury-context",
+                                         "stale-quotes",
+                                         "app-line-unconfirmed"
+                                     ]
+                  }
+              ]
+}

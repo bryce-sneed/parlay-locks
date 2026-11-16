@@ -1,0 +1,131 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-16-pregame",
+    "model":  "claude",
+    "model_name":  "haiku",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-16T17:30:04-05:00",
+    "finished_at":  "2026-11-16T17:32:08-05:00",
+    "duration_s":  121.5,
+    "usage":  {
+                  "cost_usd":  0.12523499999999999,
+                  "cache_read":  0,
+                  "output_tokens":  12742,
+                  "input_tokens":  9
+              },
+    "overall_notes":  "All 10 legs clear the 54.9% breakeven threshold (ranging 56.0–61.5% shaded), but several are thin (1.1–1.6% edges: L6, L7, L9, L10). The drafter\u0027s WinDaily best-of-book devigs at exact half-point lines and game-log verification are sound; game logs align well with the thesis across the slate. Main risks: unresolved injuries (LeBron OUT for PHI, Embiid DTD, Amen Thompson DTD for HOU, Banchero OUT for ORL) and their impact on minutes/game flow, plus pre-market pricing (9 AM ET Mon) may predate afternoon news and confirmed app lines (all app lines flagged as unconfirmed).",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  72,
+                      "reasoning":  "Herbert Jones U1.5 3PM clears the breakeven with a +6.6% margin (61.5% shaded). Game log is clean: 2+ 3PM in only 3/10 (30% hit rate) on 1–7 attempts, supporting the under thesis despite NO missing Murphy/Murray/Mathurin. The key risk is that Jones\u0027 3PA has not risen despite added NO depth, suggesting his usage hasn\u0027t shifted upward yet. Hold is reasonable at 6.0%; devig to shade ratio is proportional.",
+                      "risk_flags":  [
+                                         "no-minutes-shift-yet",
+                                         "single-team-injury-combo",
+                                         "pre-market-pricing"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  75,
+                      "reasoning":  "Julius Randle U1.5 3PM is a strong leg with +5.1% edge (60.0% shaded). Game log shows 2+ 3PM in 4/10 (40%), under hitting 6/10 times on 1–9 3PA from a steady 24–44 min starter role. Low hold (3.4%) reflects tight devig. No major lineup surprises reported for BKN. This is one of the cleanest game-log fits on the slate.",
+                      "risk_flags":  [
+                                         "none-major"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  62,
+                      "reasoning":  "Anfernee Simons U2.5 reb clears breakeven (+3.6% edge, 58.5% shaded) but is marginal due to 7.5% single-book hold and unresolved PHI injury news. Game log is weak: 3+ reb in 3/10 (30%) on 10–31 min, under hitting 7/10. Risk is LeBron James OUT for PHI could push Simons minutes higher, but Simons is a bench scorer and poor rebounder, so the minute-to-rebound correlation is likely weak. Embiid DTD adds uncertainty. The high hold justifies the 2-point shade.",
+                      "risk_flags":  [
+                                         "lebron-out-could-add-simons-minutes",
+                                         "embiid-dtd-status-unresolved",
+                                         "single-book-pricing",
+                                         "bench-role-volatility"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  73,
+                      "reasoning":  "Mika Zibanejad U2.5 SOG clears with +3.1% edge (58.0% shaded). Game log is clean: 3+ SOG in 3/10 (30%), under hitting 7/10 at ~2.1 SOG average. Hold is tight at 4.6%; SOG unders are typically stable and not blowout-dependent. Zibanejad is a playmaking center with predictable shot volume. No injury concerns flagged.",
+                      "risk_flags":  [
+                                         "pre-market-pricing"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  68,
+                      "reasoning":  "Rashod Bateman U2.5 rec clears with +2.6% edge (57.5% shaded). Game log strongly supports: 3+ rec in only 2/9 (22%) on ≤3 targets in 6/9 games. Volume is constrained by Brissett\u0027s passing game (not a high-volume QB). Weather risk (outdoor Baltimore, potential wind) is flagged by drafter but already accounted for in the shade. The game log aligns cleanly with low-volume thesis.",
+                      "risk_flags":  [
+                                         "weather-outdoor-baltimore",
+                                         "brissett-limited-passing-volume",
+                                         "pre-market-pricing"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  61,
+                      "reasoning":  "Derrick White U3.5 reb clears by narrow margin (+1.6% edge, 56.5% shaded). Game log is solid: 4+ reb in 4/10 (40%), under hitting 6/10 at ~2.8 rebound average. Drafter correctly notes this is not blowout-dependent (White\u0027s role is defensive, not affected by game flow). Banchero OUT for ORL could affect game pace but doesn\u0027t undermine White\u0027s baseline rebound opportunity. The thin edge and modest hold (4.7%) make this marginal but defensible.",
+                      "risk_flags":  [
+                                         "thin-margin-plus-1p6",
+                                         "banchero-out-could-affect-pace",
+                                         "pre-market-pricing"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  70,
+                      "reasoning":  "Vincent Trocheck U2.5 SOG clears marginal edge (+1.1%, 56.0% shaded) but is supported by strong trend data. Game log: 3+ SOG in 3/10 (30%), under hitting 7/10 at ~2.2 average. Five straight games ≤2 SOG before the recent period shows clear underperformance trend. Very low hold (2.7%) means minimal shade needed and high devig confidence. SOG props are stable and less affected by game flow.",
+                      "risk_flags":  [
+                                         "thin-margin-plus-1p1",
+                                         "pre-market-pricing",
+                                         "trend-reversal-risk"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  78,
+                      "reasoning":  "Jalen Smith O1.5 3PM is the strongest leg on the slate despite thin edge (+1.1%, 56.0% shaded). Game log is excellent: 2+ 3PM in 7/10 (70% hit rate) on 3–7 attempts, suggesting this is the baseline behavior. 24–32 min role (excluding one 7-min outlier) is stable. Low hold (3.5%) is clean. This is the only over on the slate and adds valuable directional balance. The game-log strength carries this marginal edge.",
+                      "risk_flags":  [
+                                         "thin-margin-plus-1p1",
+                                         "pre-market-pricing",
+                                         "one-7min-game-excluded"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "keep",
+                      "confidence":  64,
+                      "reasoning":  "Christian Braun U1.5 3PM clears by thin margin (+1.1%, 56.0% shaded) but carries volatility risk. Game log shows 2+ 3PM in 3/10 (30%), under hitting 7/10, on 1–9 attempts. The critical concern is an Oct 31 outlier vs PHX where Braun made 7 threes (massive spike vs. typical 0–3 performance). This outlier signals shooting variance; a repeat would break the under badly. The low hold (3.0%) and typical game-log support it, but the volatility is real.",
+                      "risk_flags":  [
+                                         "thin-margin-plus-1p1",
+                                         "oct-31-7make-outlier-volatility",
+                                         "low-volume-but-variable",
+                                         "pre-market-pricing"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L10",
+                      "decision":  "keep",
+                      "confidence":  58,
+                      "reasoning":  "Reed Sheppard U2.5 3PM clears narrowly (+1.6%, 56.5% shaded) but faces multiple compounding risks. Game log shows 3+ 3PM in 4/10 (40%), under hitting 6/10, but high 3PA volume (4–11 L10) means that shooting efficiency volatility is elevated. HOU is on the second night of a back-to-back (played WSH Sunday), and Amen Thompson is DTD—if Thompson is out, Sheppard could jump to 25+ min and 7+ 3PA attempts, materially increasing the probability of 3+ makes. The shade reflects some DTD uncertainty, but the combination of B2B fatigue, high volume, and unresolved minutes is concerning.",
+                      "risk_flags":  [
+                                         "amen-thompson-dtd-unresolved",
+                                         "back-to-back-second-night",
+                                         "high-volume-shooter-4-11-3pa",
+                                         "thin-margin-plus-1p6",
+                                         "pre-market-pricing"
+                                     ]
+                  }
+              ]
+}

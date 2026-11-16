@@ -1,0 +1,115 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-16-morning",
+    "model":  "codex",
+    "model_name":  "default",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-16T10:30:04-05:00",
+    "finished_at":  "2026-11-16T10:31:19-05:00",
+    "duration_s":  49.8,
+    "usage":  {
+                  "tokens":  22042
+              },
+    "overall_notes":  "The exact half-point, two-sided prices support several provisional keeps, but every keep requires confirmation of the standard app line and matching settlement rules. Two summaries miscount their supplied logs: Brissett has two unders in his last five, and Lafreniere has seven overs in ten. Cuts reflect insufficient confidence in clearing the payout threshold; they do not imply the opposite outcome is more likely than not.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  61,
+                      "reasoning":  "The exact-line market and six unders in nine games support an edge above all listed thresholds, with passing-down work assigned to Hill. Brissett could change the target distribution; evidence of increased routes or passing-down snaps for Henry would change my vote.",
+                      "risk_flags":  [
+                                         "app-line-unconfirmed",
+                                         "quarterback-change",
+                                         "small-sample",
+                                         "same-game-correlation"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  58,
+                      "reasoning":  "The exact-line market, five unders in eight games, and low total support a provisional keep without requiring blowout benching. However, the last five supplied results contain only two unders, contradicting the claimed four; stronger recent passing volume or red-zone usage would erase my remaining confidence.",
+                      "risk_flags":  [
+                                         "app-line-unconfirmed",
+                                         "incorrect-trend-summary",
+                                         "touchdown-variance",
+                                         "same-game-correlation"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "cut",
+                      "confidence":  47,
+                      "reasoning":  "The market supports the under, but the extensive absences create unresolved minutes and shot-volume risk that the mixed-role ten-game sample cannot settle. One 30-minute game with two attempts is insufficient reassurance; several games under the current rotation showing consistently low attempts would change my vote.",
+                      "risk_flags":  [
+                                         "app-line-unconfirmed",
+                                         "minutes",
+                                         "injury-driven-role",
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "cut",
+                      "confidence":  46,
+                      "reasoning":  "The shaded estimate leaves only a small cushion above the strictest threshold, while two absent perimeter players create meaningful workload uncertainty. Four scoreless shooting games do not establish a stable attempt baseline; confirmed comparable rotation conditions and unchanged projected minutes would make this reconsiderable.",
+                      "risk_flags":  [
+                                         "app-line-unconfirmed",
+                                         "minutes",
+                                         "injury-driven-role",
+                                         "back-to-back",
+                                         "shooting-variance"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  57,
+                      "reasoning":  "The exact-line two-sided market supports a modest edge even though the recent outcomes are evenly split. Fewer than seven attempts does not independently establish this under, and the broad minutes range adds uncertainty; increased projected minutes or attempts, or a weaker refreshed market, would change my vote.",
+                      "risk_flags":  [
+                                         "app-line-unconfirmed",
+                                         "minutes",
+                                         "back-to-back",
+                                         "shooting-variance"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  60,
+                      "reasoning":  "The same-book exact-line prices provide the cleanest market evidence here, and the supplied log supports seven overs in ten, rather than the stated eight. That correction weakens the supporting narrative without eliminating the market edge; reduced ice time or a materially weaker refreshed price would change my vote.",
+                      "risk_flags":  [
+                                         "app-line-unconfirmed",
+                                         "incorrect-hit-rate",
+                                         "single-book",
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  58,
+                      "reasoning":  "The same-book exact-line market and seven overs in ten support a provisional keep above the listed thresholds. The back-to-back and depleted supporting lineup could hurt offensive possession as well as concentrate shots; reduced ice time or weaker current pricing would change my vote.",
+                      "risk_flags":  [
+                                         "app-line-unconfirmed",
+                                         "single-book",
+                                         "back-to-back",
+                                         "same-game-correlation"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  58,
+                      "reasoning":  "Seven overs in nine games and the exact-line two-sided market support the over without needing a favorable trailing script. Vancouver\u0027s substantial underdog status can also mean less possession, and the back-to-back adds uncertainty; reduced ice time or a weaker refreshed market would change my vote.",
+                      "risk_flags":  [
+                                         "app-line-unconfirmed",
+                                         "back-to-back",
+                                         "small-sample",
+                                         "cross-book-pricing"
+                                     ]
+                  }
+              ]
+}

@@ -1,0 +1,114 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-16-morning",
+    "model":  "cursor",
+    "model_name":  "auto",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-16T10:30:04-05:00",
+    "finished_at":  "2026-11-16T10:31:19-05:00",
+    "duration_s":  41.2,
+    "usage":  {
+                  "inputTokens":  16675,
+                  "outputTokens":  2276,
+                  "cacheReadTokens":  35392,
+                  "cacheWriteTokens":  0
+              },
+    "overall_notes":  "The slate is reasonably priced at the cited half-point lines with honest shading for cross-book pairing, but every leg carries unconfirmed app lines and several NBA/NHL spots have back-to-back or injury-driven role risk. I would keep most volume- and market-grounded plays and cut the one NBA under where a depleted GSW rotation could still expand a fringe shooter’s minutes despite the drafter’s shade.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  83,
+                      "reasoning":  "Henry’s reception profile is consistently low (0–3 targets, 2+ catches in only 3/9) with a clear passing-down role for Hill, and the cited devig is at the exact 1.5 line with appropriate cross-book shading. Trailing script is the main risk, but he has hit 3+ targets only once all season. I would cut if the pick’em line moves to 0.5 or app shows Goblin/Demon pricing.",
+                      "risk_flags":  [
+                                         "line-unconfirmed",
+                                         "game-script",
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  77,
+                      "reasoning":  "Brissett’s TD distribution (0–1 in four of his last five) fits a low-total, Henry-heavy game rather than a blowout-only under, and the two-way price at 1.5 is correctly scoped. Correlation with L1 is a slip-build issue, not a leg-quality issue. A higher pick’em line or confirmed shootout total would weaken this.",
+                      "risk_flags":  [
+                                         "line-unconfirmed",
+                                         "low-total",
+                                         "correlation-L1"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "cut",
+                      "confidence":  72,
+                      "reasoning":  "The devig math is fine, but with Curry, Butler, Porzingis, and Moody out, Richard’s minutes and attempt floor are not stable enough to trust a 1.5 under at only ~60% after shade. One extra look in a 30-minute role clears the number easily. I would keep only if recent games with similar outs show sustained sub-2 attempt rates.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "minutes",
+                                         "line-unconfirmed",
+                                         "usage-upside"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  65,
+                      "reasoning":  "Four straight games without a make and only 4/10 at 2+ support the under despite Edwards/DiVincenzo outs, and the drafter’s argument that volume already stayed low in a thin rotation is plausible. The edge is thin at 56.9% and wide hold. Cut if his 3PA trend above ~4 in the last two injury games.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "minutes",
+                                         "thin-edge",
+                                         "line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  64,
+                      "reasoning":  "Logs are a true coin flip at 2.5, but sub-7 average attempts and explicit non-reliance on a blowout benching align with pick’em settlement rules. B2B and variable minutes keep this medium-confidence. A spread collapse into heavy blowout rest risk would lower confidence.",
+                      "risk_flags":  [
+                                         "b2b",
+                                         "minutes",
+                                         "market-led",
+                                         "line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  75,
+                      "reasoning":  "8/10 at 2+ SOG is strong baseload shooting, MTL on a back-to-back is a modest opponent fatigue tailwind, and FanDuel two-way devig at 1.5 is internally consistent even if single-book. Opponent quality or line move to 2.5 would change the view.",
+                      "risk_flags":  [
+                                         "single-book",
+                                         "b2b-opponent",
+                                         "line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  70,
+                      "reasoning":  "7/10 at 3+ with top-line usage and missing wing shooters supports an over at 2.5 without needing a NYR blowout. MTL’s second night is fatigue risk but he is the primary shot funnel. Pairing with L6 is low correlation but same-game stack awareness applies.",
+                      "risk_flags":  [
+                                         "b2b",
+                                         "injury-context",
+                                         "line-unconfirmed",
+                                         "same-game-L6"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  68,
+                      "reasoning":  "7/9 at 2+ SOG including a 5-shot recent game gives a solid floor, and potential chase script as a road dog can add attempts rather than suppress them. VAN back-to-back is workload risk but not spread-bench risk. Confirm app line at 1.5 and watch if UTA jumps to heavy favorite with pullback in volume.",
+                      "risk_flags":  [
+                                         "b2b",
+                                         "blowout-chase",
+                                         "line-unconfirmed",
+                                         "injury-context"
+                                     ]
+                  }
+              ]
+}

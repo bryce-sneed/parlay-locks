@@ -1,0 +1,109 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-16-morning",
+    "model":  "claude",
+    "model_name":  "haiku",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-16T10:30:04-05:00",
+    "finished_at":  "2026-11-16T10:31:19-05:00",
+    "duration_s":  72.7,
+    "usage":  {
+                  "cost_usd":  0.08558299999999999,
+                  "cache_read":  0,
+                  "output_tokens":  5566,
+                  "input_tokens":  9
+              },
+    "overall_notes":  "Well-constructed slate with 8 legs all above break-even thresholds (avg 59.3%). Methodology is sound: multiplicative devig at exact half-point lines with appropriate 1.5–3.5 pt shading. Best legs are Henry U1.5 rec (61.9%, clean target-share data) and the two MTL-NYR hockey overs (60.9% / 58.7%, strong 7–8 of 10 SOG baselines). Weakest is TSJ U1.5 3PM (56.9%, barely above 54.3% 5-leg Flex threshold, 0-for-4 recent stretch, thin minutes). Key risks: single-book pricing MTL legs, back-to-back fatigue across four games, shorthanded GSW/MIN could expand bench usage. No hard cuts; all pass sanity checks (no blowout-only unders, exact-line devig confirmed).",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  85,
+                      "reasoning":  "Henry\u0027s target share is minimal (0–3 targets every game, 2+ rec in 3/9) and Justice Hill is the passing-down back; this under does not rely on game script uncertainty. Devig 64.4% → 61.9% shade is appropriate. Low game total (39.5) and run-first BAL offense with Brissett starting support the under. Only risk is an outsized trailing script pushing dump-offs, but season data argues strongly against 2+ receptions.",
+                      "risk_flags":  [
+                                         "low-total",
+                                         "backup-qb",
+                                         "game-script"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  78,
+                      "reasoning":  "Brissett threw 2+ TDs in only 3 of 8 games and 0–1 in 4 of last 5; combined with 39.5 total and run-first gameplan, the under is supported by both volume and TD efficiency data. Devig 61.4% → 59.4% shade is light but justified. Risk: Brissett can randomly spike to 2+ TDs, and this leg correlates with Henry U1.5 rec in the same game (drafter correctly flags not to pair both in one slip).",
+                      "risk_flags":  [
+                                         "same-game-correlation",
+                                         "backup-qb",
+                                         "low-total"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  76,
+                      "reasoning":  "Richard\u0027s usage is marginal (0–6 3PA/game, 2+ 3PM in 4/10), and even at 30 min last game he took only 2 threes. The 3.5 pt shade (63.7% → 60.2%) appropriately buffers the GSW injury risk (Curry, Butler, Porzingis, Moody OUT), which could grow his role. His season profile does not support a sharp rise in 3PM frequency despite expanded minutes. Hold 4.8% confirms edge.",
+                      "risk_flags":  [
+                                         "injuries",
+                                         "usage-risk",
+                                         "bench-player"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  62,
+                      "reasoning":  "TSJ is 0-for-4 to close the last 10 games on thin 18–22 min, and 2+ 3PM in only 4/10 overall; 59.9% devig → 56.9% shade (3.0 pts) reflects this. Leg barely clears 54.3% 5-leg Flex threshold. Risk: Edwards and DiVincenzo OUT could push him to 23–28 min, inflating volume; hold 6.2% suggests wide market uncertainty. MIN on back-to-back adds no edge. Methodology sound, but confidence is modest and he could easily exceed 1.5 if usage normalizes.",
+                      "risk_flags":  [
+                                         "injuries",
+                                         "minutes-risk",
+                                         "low-volume",
+                                         "back-to-back"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  70,
+                      "reasoning":  "Pritchard\u0027s last 10 is literally split 5–5 over/under, so market price (+146/−177) is the edge, not logs. He is a bench guard (18–35 min), which caps 3PA even on a full night. The 3.0 pt shade (61.1% → 58.1%) is appropriate given volatility and BOS back-to-back (19 min Sunday). The 2.5 line is higher than other bench threes, and he is not volume-dependent, so -8.5 spread does not create blowout risk. Edge is marginal but defensible.",
+                      "risk_flags":  [
+                                         "bench-player",
+                                         "back-to-back",
+                                         "split-logs"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  79,
+                      "reasoning":  "Lafreniere\u0027s 2+ SOG in 8/10 is a strong baseline; both prices from FanDuel (clean devig, no pairing risk) with 6.4% hold and only 1.5 pt shade reflects high confidence. MTL on back-to-back after COL is a negative for volume, but NYR is -4 and should control tempo; Lafreniere\u0027s consistency over-indexes the fatigue risk. No other concerning factors.",
+                      "risk_flags":  [
+                                         "single-book",
+                                         "back-to-back"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  76,
+                      "reasoning":  "Caufield is MTL\u0027s top shooter with 3+ SOG in 7/10 and 3.1 avg L10; role grows with Demidov and Kreider on IR. Both FanDuel prices (clean devig, 6.4% hold, 1.5 pt shade). MTL back-to-back is a risk, but his consistency and elevated role offset fatigue. Opposite team from Lafreniere (same game), so low correlation; avoid pairing them. Devig 60.2% → 58.7% is appropriately light given strong baseline.",
+                      "risk_flags":  [
+                                         "single-book",
+                                         "back-to-back",
+                                         "same-game-correlation"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  73,
+                      "reasoning":  "Chytil\u0027s 2+ SOG in 7/9 and 5 SOG last game (Sunday at VGK) is a solid baseline; devig 61.0% → 58.5% shade is appropriate. VAN on back-to-back and UTA -340 favorite creates complexity: VAN may chase and shoot more (helps over) or be blown out and benched (hurts it). The drafter correctly notes this symmetry. Hold 4.3% (cleanest of all legs, two books), no injury flags on Chytil. Volume risk tilts slightly upward in chase script.",
+                      "risk_flags":  [
+                                         "back-to-back",
+                                         "blowout-risk",
+                                         "road-game"
+                                     ]
+                  }
+              ]
+}

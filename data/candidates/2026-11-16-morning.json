@@ -1,0 +1,328 @@
+{
+ "schema": "candidates/v1",
+ "run": "2026-11-16-morning",
+ "date": "2026-11-16",
+ "snapshot": "morning",
+ "created_at": "2026-11-16T09:48:24-05:00",
+ "author": "parlay-locks",
+ "slate_notes": "Morning snapshot. 8 legs across 6 games: NFL MNF x2 (both BAL unders, same game, don't put both in one slip), NBA 3PM x3 (GS@NO, POR@MIN, ORL@BOS), NHL SOG x3 (MTL@NYR x2 on opposite teams, VAN@UTA). No college props. Every est_prob is a multiplicative two-way devig at the exact half-point line using WinDaily best-of-book prices (stamped 9:00 AM ET), shaded down 1.5-3.5 pts. Average est_prob 0.593. Excluded games: HOU@MIA, MEM@WSH, PHX@DEN had no props posted yet, and CHI@CLE/PHI@BKN had only thin one-book markets. Dropped despite good prices because the game logs contradicted them: Zion O2.5 ast (over only 4/10), McDaniels U3.5 ast (over 6/10), Hampton U1.5 rec (2+ in 5/8), Saddiq Bey U2.5 3PM (usage up with Murphy/Murray out), DeBrusk U2.5 SOG, Camara U2.5 3PM, Trocheck O0.5 pts. Also dropped Kuminga/Cissoko/Avdija 3PM because a hold under 2% suggests stale best-of-book quotes. PrizePicks/Underdog app lines are UNCONFIRMED.",
+ "legs": [
+  {
+   "id": "L1",
+   "sport": "NFL",
+   "event": "LAC @ BAL",
+   "start_time": "2026-11-16T20:15:00-05:00",
+   "player": "Derrick Henry",
+   "team": "BAL",
+   "market": "Receptions",
+   "line": 1.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.619,
+   "confidence": 62,
+   "reasoning": "WinDaily best two-way prices at exactly 1.5 (half-point line, no push): O1.5 +167 (DraftKings) / U1.5 -210 (FanDuel), hold 5.2%. Multiplicative devig gives under 64.4%. I shaded that by 2.5 pts to 61.9% because pairing the best price from different books overstates the edge, plus any role risk noted. Prices are stamped Mon 9:00 AM ET. PrizePicks/Underdog app line NOT confirmed: drop the leg if the app line differs or it's a Goblin/Demon. He's caught 2+ passes in only 3 of 9 games (0,2,1,1,1,2,1,3,1), on 0-3 targets per game with 11-26 carries. Justice Hill is the passing-down back. Jacoby Brissett is starting with Lamar Jackson on IR, and the game total is a low 39.5. MNF weather is fine: about 42F, 5 mph wind, 0% rain at kickoff (Open-Meteo). A trailing game script could add a dump-off or two, but he has had 3+ targets only once all season.",
+   "key_stats": [
+    "2+ rec in 3/9 games",
+    "Targets 0-3 every game",
+    "BAL -4.5, total 39.5",
+    "Devig 0.644 at exact line"
+   ],
+   "injury_notes": "BAL: Lamar Jackson IR (Brissett starts). Henry active.",
+   "sources": [
+    {
+     "title": "WinDaily LAC @ BAL props (two-way book prices, 9:00 AM ET)",
+     "url": "https://windailysports.com/nfl-player-props/los-angeles-chargers-vs-baltimore-ravens-2026-11-16/"
+    },
+    {
+     "title": "ESPN Derrick Henry game log",
+     "url": "https://www.espn.com/nfl/player/gamelog/_/id/3043078"
+    },
+    {
+     "title": "ESPN NFL injuries",
+     "url": "https://www.espn.com/nfl/injuries"
+    },
+    {
+     "title": "Open-Meteo Baltimore hourly forecast",
+     "url": "https://open-meteo.com/en/docs?latitude=39.278&longitude=-76.623"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "sport": "NFL",
+   "event": "LAC @ BAL",
+   "start_time": "2026-11-16T20:15:00-05:00",
+   "player": "Jacoby Brissett",
+   "team": "BAL",
+   "market": "Pass TDs",
+   "line": 1.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.594,
+   "confidence": 59,
+   "reasoning": "WinDaily best two-way prices at exactly 1.5 (half-point line, no push): O1.5 +145 (BetRivers) / U1.5 -185 (DraftKings), hold 5.7%. Multiplicative devig gives under 61.4%. I shaded that by 2.0 pts to 59.4% because pairing the best price from different books overstates the edge, plus any role risk noted. Prices are stamped Mon 9:00 AM ET. PrizePicks/Underdog app line NOT confirmed: drop the leg if the app line differs or it's a Goblin/Demon. He threw 2+ TDs in 3 of 8 games (0,1,0,3,2,2,1,1) and has 0 or 1 in 4 of his last 5. BAL is run-first with Henry, and the total is a low 39.5. Weather is calm. This is the same game as the Henry leg, and both unders lean on a slow BAL offense, so don't put both in one slip.",
+   "key_stats": [
+    "2+ pass TD in 3/8",
+    "0-1 TD in 4 of last 5",
+    "Total 39.5",
+    "Devig 0.614 at exact line"
+   ],
+   "injury_notes": "Lamar Jackson IR. LAC: Ladd McConkey OUT (affects LAC offense, not BAL).",
+   "sources": [
+    {
+     "title": "WinDaily LAC @ BAL props (two-way book prices, 9:00 AM ET)",
+     "url": "https://windailysports.com/nfl-player-props/los-angeles-chargers-vs-baltimore-ravens-2026-11-16/"
+    },
+    {
+     "title": "ESPN Jacoby Brissett game log",
+     "url": "https://www.espn.com/nfl/player/gamelog/_/id/2578570"
+    },
+    {
+     "title": "ESPN NFL injuries",
+     "url": "https://www.espn.com/nfl/injuries"
+    },
+    {
+     "title": "Open-Meteo Baltimore hourly forecast",
+     "url": "https://open-meteo.com/en/docs?latitude=39.278&longitude=-76.623"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "sport": "NBA",
+   "event": "GS @ NO",
+   "start_time": "2026-11-16T20:00:00-05:00",
+   "player": "Will Richard",
+   "team": "GSW",
+   "market": "3-PT Made",
+   "line": 1.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.602,
+   "confidence": 60,
+   "reasoning": "WinDaily best two-way prices at exactly 1.5 (half-point line, no push): O1.5 +163 (BetRivers) / U1.5 -201 (DraftKings), hold 4.8%. Multiplicative devig gives under 63.7%. I shaded that by 3.5 pts to 60.2% because pairing the best price from different books overstates the edge, plus any role risk noted. Prices are stamped Mon 9:00 AM ET. PrizePicks/Underdog app line NOT confirmed: drop the leg if the app line differs or it's a Goblin/Demon. He made 2+ threes in 4 of his last 10 (1,2,0,2,2,1,1,0,0,3) on 0-6 attempts per game. RISK: GSW is short-handed (Curry, Butler, Porzingis and Moody all OUT), so his role could grow. He played 30 min last game and still took only 2 threes. I shaded the estimate down from the market for that usage risk.",
+   "key_stats": [
+    "2+ 3PM in 4/10",
+    "3PA 0-6 L10",
+    "12-31 min L10",
+    "Devig 0.637 at exact line"
+   ],
+   "injury_notes": "GSW OUT: Curry, Butler, Porzingis, Moody, B. Williams. Santos DTD. NO OUT: Murphy, Murray, Mathurin.",
+   "sources": [
+    {
+     "title": "WinDaily GS @ NO props (two-way book prices, 9:00 AM ET)",
+     "url": "https://windailysports.com/nba-player-props/golden-state-warriors-vs-new-orleans-pelicans-2026-11-16/"
+    },
+    {
+     "title": "ESPN Will Richard game log",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/4897262"
+    },
+    {
+     "title": "ESPN NBA injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "sport": "NBA",
+   "event": "POR @ MIN",
+   "start_time": "2026-11-16T20:00:00-05:00",
+   "player": "Terrence Shannon Jr.",
+   "team": "MIN",
+   "market": "3-PT Made",
+   "line": 1.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.569,
+   "confidence": 57,
+   "reasoning": "WinDaily best two-way prices at exactly 1.5 (half-point line, no push): O1.5 +135 (DraftKings) / U1.5 -175 (BetMGM), hold 6.2%. Multiplicative devig gives under 59.9%. I shaded that by 3.0 pts to 56.9% because pairing the best price from different books overstates the edge, plus any role risk noted. Prices are stamped Mon 9:00 AM ET. PrizePicks/Underdog app line NOT confirmed: drop the leg if the app line differs or it's a Goblin/Demon. He went 0-for in his last 4 games (0-1, 0-1, 0-3, 0-4) playing 18-22 min, and made 2+ threes in only 4 of his last 10. MIN is on the 2nd night of a back-to-back. RISK: Anthony Edwards and Donte DiVincenzo are OUT, which could push his minutes up, but his recent low volume already reflects that thin rotation. Hold is 6.2%, so the price is wide.",
+   "key_stats": [
+    "0 3PM in last 4",
+    "2+ 3PM in 4/10",
+    "18-27 min L10",
+    "Devig 0.599 at exact line"
+   ],
+   "injury_notes": "MIN OUT: Edwards, DiVincenzo, J. Clark. POR OUT: Morant, Sharpe.",
+   "sources": [
+    {
+     "title": "WinDaily POR @ MIN props (two-way book prices, 9:00 AM ET)",
+     "url": "https://windailysports.com/nba-player-props/portland-trail-blazers-vs-minnesota-timberwolves-2026-11-16/"
+    },
+    {
+     "title": "ESPN Terrence Shannon Jr. game log",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/4432847"
+    },
+    {
+     "title": "ESPN NBA injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "sport": "NBA",
+   "event": "ORL @ BOS",
+   "start_time": "2026-11-16T19:00:00-05:00",
+   "player": "Payton Pritchard",
+   "team": "BOS",
+   "market": "3-PT Made",
+   "line": 2.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.581,
+   "confidence": 58,
+   "reasoning": "WinDaily best two-way prices at exactly 2.5 (half-point line, no push): O2.5 +146 (FanDuel) / U2.5 -177 (DraftKings), hold 4.5%. Multiplicative devig gives under 61.1%. I shaded that by 3.0 pts to 58.1% because pairing the best price from different books overstates the edge, plus any role risk noted. Prices are stamped Mon 9:00 AM ET. PrizePicks/Underdog app line NOT confirmed: drop the leg if the app line differs or it's a Goblin/Demon. His last 10 split evenly at the line, 5 overs and 5 unders (2,2,4,4,4,0,0,0,3,0), so I'm relying on the market price more than his logs. He's a bench guard at 18-35 min, and BOS is on the 2nd night of a back-to-back (played DAL Sun, 19 min). BOS is -8.5, but this under does NOT depend on a blowout: he's averaging fewer than 7 3PA. Medium confidence.",
+   "key_stats": [
+    "3+ 3PM in 5/10",
+    "3PA 0-11 L10",
+    "BOS B2B",
+    "Devig 0.611 at exact line"
+   ],
+   "injury_notes": "ORL OUT: Banchero, Isaac. BOS: none listed.",
+   "sources": [
+    {
+     "title": "WinDaily ORL @ BOS props (two-way book prices, 9:00 AM ET)",
+     "url": "https://windailysports.com/nba-player-props/orlando-magic-vs-boston-celtics-2026-11-16/"
+    },
+    {
+     "title": "ESPN Payton Pritchard game log",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/4066354"
+    },
+    {
+     "title": "ESPN NBA injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L6",
+   "sport": "NHL",
+   "event": "MTL @ NYR",
+   "start_time": "2026-11-16T19:30:00-05:00",
+   "player": "Alexis Lafreniere",
+   "team": "NYR",
+   "market": "Shots on Goal",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.609,
+   "confidence": 61,
+   "reasoning": "WinDaily best two-way prices at exactly 1.5 (half-point line, no push): O1.5 -198 (FanDuel) / U1.5 +150 (FanDuel), hold 6.4%. Multiplicative devig gives over 62.4%. I shaded that by 1.5 pts to 60.9% because pairing the best price from different books overstates the edge, plus any role risk noted. Prices are stamped Mon 9:00 AM ET. PrizePicks/Underdog app line NOT confirmed: drop the leg if the app line differs or it's a Goblin/Demon. He had 2+ SOG in 8 of his last 10 (2,2,0,2,1,2,4,2,7,1), and MTL is on a back-to-back after playing COL Sunday. Both prices come from one book (FanDuel), so the devig is clean, but only 1 book is quoted.",
+   "key_stats": [
+    "2+ SOG in 8/10",
+    "MTL on B2B",
+    "Devig 0.624 at exact line"
+   ],
+   "injury_notes": "NYR: Shesterkin IR. MTL: Matheson OUT, Demidov/Kreider IR.",
+   "sources": [
+    {
+     "title": "WinDaily MTL @ NYR props (two-way book prices, 9:00 AM ET)",
+     "url": "https://windailysports.com/nhl-player-props/montreal-canadiens-vs-new-york-rangers-2026-11-16/"
+    },
+    {
+     "title": "ESPN Alexis Lafreniere game log",
+     "url": "https://www.espn.com/nhl/player/gamelog/_/id/4697382"
+    },
+    {
+     "title": "ESPN NHL injuries",
+     "url": "https://www.espn.com/nhl/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L7",
+   "sport": "NHL",
+   "event": "MTL @ NYR",
+   "start_time": "2026-11-16T19:30:00-05:00",
+   "player": "Cole Caufield",
+   "team": "MTL",
+   "market": "Shots on Goal",
+   "line": 2.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.587,
+   "confidence": 59,
+   "reasoning": "WinDaily best two-way prices at exactly 2.5 (half-point line, no push): O2.5 -178 (FanDuel) / U2.5 +136 (FanDuel), hold 6.4%. Multiplicative devig gives over 60.2%. I shaded that by 1.5 pts to 58.7% because pairing the best price from different books overstates the edge, plus any role risk noted. Prices are stamped Mon 9:00 AM ET. PrizePicks/Underdog app line NOT confirmed: drop the leg if the app line differs or it's a Goblin/Demon. He had 3+ SOG in 7 of his last 10 (4,4,2,3,6,4,2,3,3,0) and is MTL's top shooter. With Demidov and Kreider on IR, more shot volume runs through him. RISK: MTL is on the 2nd night of a back-to-back. He's on the opposite team from the Lafreniere leg (same game), so correlation is low, but avoid pairing them if possible. FanDuel prices only.",
+   "key_stats": [
+    "3+ SOG in 7/10",
+    "Avg ~3.1 SOG L10",
+    "Devig 0.602 at exact line"
+   ],
+   "injury_notes": "MTL: Demidov, Kreider, J. Anderson IR, Matheson OUT. NYR: Shesterkin IR.",
+   "sources": [
+    {
+     "title": "WinDaily MTL @ NYR props (two-way book prices, 9:00 AM ET)",
+     "url": "https://windailysports.com/nhl-player-props/montreal-canadiens-vs-new-york-rangers-2026-11-16/"
+    },
+    {
+     "title": "ESPN Cole Caufield game log",
+     "url": "https://www.espn.com/nhl/player/gamelog/_/id/4565236"
+    },
+    {
+     "title": "ESPN NHL injuries",
+     "url": "https://www.espn.com/nhl/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L8",
+   "sport": "NHL",
+   "event": "VAN @ UTA",
+   "start_time": "2026-11-16T21:30:00-05:00",
+   "player": "Filip Chytil",
+   "team": "VAN",
+   "market": "Shots on Goal",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.585,
+   "confidence": 58,
+   "reasoning": "WinDaily best two-way prices at exactly 1.5 (half-point line, no push): O1.5 -175 (DraftKings) / U1.5 +146 (FanDuel), hold 4.3%. Multiplicative devig gives over 61.0%. I shaded that by 2.5 pts to 58.5% because pairing the best price from different books overstates the edge, plus any role risk noted. Prices are stamped Mon 9:00 AM ET. PrizePicks/Underdog app line NOT confirmed: drop the leg if the app line differs or it's a Goblin/Demon. He had 2+ SOG in 7 of his last 9 (5,2,3,2,3,1,2,2,0), including 5 on Sunday at VGK. RISK: VAN is on the 2nd night of a back-to-back, and UTA is a -340 home favorite, so VAN may chase and shoot more. Four books quote it, and the two sides come from different books.",
+   "key_stats": [
+    "2+ SOG in 7/9",
+    "5 SOG last game",
+    "Devig 0.610 at exact line"
+   ],
+   "injury_notes": "VAN: Demko IR. UTA: Schmaltz OUT, Guenther IR, Cooley DTD.",
+   "sources": [
+    {
+     "title": "WinDaily VAN @ UTA props (two-way book prices, 9:00 AM ET)",
+     "url": "https://windailysports.com/nhl-player-props/vancouver-canucks-vs-utah-mammoth-2026-11-16/"
+    },
+    {
+     "title": "ESPN Filip Chytil game log",
+     "url": "https://www.espn.com/nhl/player/gamelog/_/id/4233643"
+    },
+    {
+     "title": "ESPN NHL injuries",
+     "url": "https://www.espn.com/nhl/injuries"
+    }
+   ]
+  }
+ ]
+}

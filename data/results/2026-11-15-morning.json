@@ -1,7 +1,7 @@
 {
  "schema": "results/v1",
  "run": "2026-11-15-morning",
- "graded_at": "2026-11-15T18:05:00-05:00",
+ "graded_at": "2026-11-16T09:48:24-05:00",
  "author": "parlay-locks",
  "legs": [
   {
@@ -13,22 +13,24 @@
   },
   {
    "leg_id": "L2",
-   "actual": 2,
+   "actual": 5,
    "outcome": "hit",
-   "note": "Dak Prescott 2 pass TDs to George Pickens (35 yd Q1, 39 yd Q2) by halftime; over 1.5 clinched, game still in progress at 6pm.",
-   "source": "https://sportsdata.usatoday.com/football/nfl/summary/2978747"
+   "note": "Dak Prescott 30/51, 343 yds, 5 TD, 1 INT. Final.",
+   "source": "https://www.espn.com/nfl/boxscore/_/gameId/401873063"
   },
   {
    "leg_id": "L3",
-   "actual": null,
-   "outcome": "pending",
-   "note": "LAR @ ARI 4:05pm ET in progress"
+   "actual": 3,
+   "outcome": "miss",
+   "note": "Blake Corum 3 rec on 4 targets, 19 yds (plus 17-100-1 rushing). Final.",
+   "source": "https://www.espn.com/nfl/boxscore/_/gameId/401873061"
   },
   {
    "leg_id": "L4",
-   "actual": null,
-   "outcome": "pending",
-   "note": "SEA @ LV 4:05pm ET in progress"
+   "actual": 1,
+   "outcome": "hit",
+   "note": "Cooper Kupp 1 rec (1 target), 34 yds, 1 TD. Final.",
+   "source": "https://www.espn.com/nfl/boxscore/_/gameId/401873062"
   },
   {
    "leg_id": "L5",
@@ -46,15 +48,17 @@
   },
   {
    "leg_id": "L7",
-   "actual": null,
-   "outcome": "pending",
-   "note": "NY @ TOR 6pm ET not started"
+   "actual": 2,
+   "outcome": "hit",
+   "note": "OG Anunoby 2-6 3PT in 44 min (21 pts). Final.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909990"
   },
   {
    "leg_id": "L8",
-   "actual": null,
-   "outcome": "pending",
-   "note": "HOU @ WSH 7pm ET not started"
+   "actual": 1,
+   "outcome": "hit",
+   "note": "Jabari Smith Jr. 1-7 3PT in 28 min. Final.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909991"
   }
  ],
  "slips": [
@@ -62,31 +66,34 @@
    "id": "2026-11-15-morning-2",
    "size": 2,
    "stake": 1,
-   "outcome": "pending",
-   "payout": null,
-   "pnl": null,
+   "outcome": "loss",
+   "payout": 0,
+   "pnl": -1,
    "platform": "Underdog",
-   "play_type": "standard"
+   "play_type": "standard",
+   "note": "L3 Corum U1.5 rec missed (3 rec)."
   },
   {
    "id": "2026-11-15-morning-3",
    "size": 3,
    "stake": 1,
-   "outcome": "pending",
-   "payout": null,
-   "pnl": null,
+   "outcome": "win",
+   "payout": 6.5,
+   "pnl": 5.5,
    "platform": "Underdog",
-   "play_type": "standard"
+   "play_type": "standard",
+   "note": "L5, L7, L4 all hit; UD Standard 6.5x."
   },
   {
    "id": "2026-11-15-morning-5",
    "size": 5,
    "stake": 1,
-   "outcome": "pending",
-   "payout": null,
-   "pnl": null,
+   "outcome": "loss",
+   "payout": 0,
+   "pnl": -1,
    "platform": "PrizePicks",
-   "play_type": "power"
+   "play_type": "power",
+   "note": "L3 missed (4/5 on Power = loss)."
   }
  ]
 }

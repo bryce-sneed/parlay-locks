@@ -1,0 +1,91 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-17-pregame",
+    "model":  "claude",
+    "model_name":  "haiku",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-17T17:30:04-05:00",
+    "finished_at":  "2026-11-17T17:31:33-05:00",
+    "duration_s":  58.6,
+    "usage":  {
+                  "cost_usd":  0.082298,
+                  "cache_read":  0,
+                  "output_tokens":  4433,
+                  "input_tokens":  9
+              },
+    "overall_notes":  "This recheck spans compliance issues (cross-book devigs now banned, single-book P1 violations, 3PM U1.5 ban) and player performance. Keep legs with strong recent data (Palmieri 10/12 SOG, Cozens 70% at 2 or fewer, Carlsson\u0027s low 1.76 baseline) where staleness is shaded down appropriately; cut compliance failures and weak recent performance (Collins 1/12, Jones 6/10 with two 0-SOG games, James flagged noncompliant).",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "cut",
+                      "confidence":  75,
+                      "reasoning":  "Cross-book devig (FD over + DK under) is P1-noncompliant and tainted; drafter flags it not re-priced at 2+ books. Stats are brutal: 1 of last 12 games at 2+ assists, avg 0.7. Even if Collins plays more due to DET injuries, his role is finishing not creating. 59.5% shading doesn\u0027t overcome the structural compliance failure and anemic baseline.",
+                      "risk_flags":  [
+                                         "cross-book-pricing",
+                                         "P1-noncompliant",
+                                         "tiny-sample",
+                                         "role-mismatch"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  70,
+                      "reasoning":  "Strong recent stat: 10 of 12 games at 2+ SOG (avg 1.95). Pageau GTD is neutral-to-positive. Single-book FD quote is 22 hours old (Mon 7:04 PM to Tue 7 PM game), and shading down from 61.2% to 58.5% properly discounts staleness. Clears 5-leg thresholds (54.3%+ flex, 54.9%+ power) comfortably. P1 compliance flagged but leg merits stand.",
+                      "risk_flags":  [
+                                         "single-book-price",
+                                         "staleness-22h",
+                                         "P1-flagged"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "cut",
+                      "confidence":  65,
+                      "reasoning":  "Cross-book devig (HRB over + DK under) now P1-banned; tainted pricing. Recent stats weaker than other legs: 6 of 10 at 2+ SOG (60% hit rate), not 10/12. Two 0-SOG games within last 15 days (Nov 10, Nov 2). Thin 2.5% cross-book hold hints one side stale. Even shaded to 58%, the weak recent 60% frequency + cross-book taint make this untrustworthy.",
+                      "risk_flags":  [
+                                         "cross-book-pricing",
+                                         "P1-noncompliant",
+                                         "weak-hit-rate",
+                                         "zero-SOG-recent"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  68,
+                      "reasoning":  "Line is U2.5 SOG: Cozens 3+ in only 3 of 10 (30%), so 70% at 2 or fewer. Median 2, avg 2.14 supports the under. Thin cross-book hold (2.5%) hints staleness, shaded from 60% to 57%; OTT injuries could bump minutes slightly, shading accounts for that. 57% clears thresholds. Stats directly support the under structure.",
+                      "risk_flags":  [
+                                         "cross-book-pricing",
+                                         "low-total-5-5",
+                                         "thin-hold"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  72,
+                      "reasoning":  "Line is U2.5 SOG: Carlsson 3+ in 4 of 12 (33%), so 67% at 2 or fewer. Avg 1.76 SOG is very low despite top-line minutes (playmaker role). Single-book FD quote is 14 hours old; shading from 61.2% to 58.0% is prudent. Recent 3-in-6-game clustering near upper range noted but doesn\u0027t override baseline stats. 58% clears thresholds.",
+                      "risk_flags":  [
+                                         "single-book-price",
+                                         "staleness-14h",
+                                         "recent-clustering"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "cut",
+                      "confidence":  85,
+                      "reasoning":  "Drafter explicitly flags this noncompliant post-mortem: (1) single-book FD only (P1 violation, no DK/WinDaily alternative live), (2) fails 3PM U1.5 ban test because rotation teammates (Knueppel, Schroder) OUT and 3PA elevated (5, 2, 6 last 3 games, above 3.0 avg), only 4 makes total in those 3 games despite 32-35 min. No compliant replacement available. Structural ban (rotation volatility + low volume + single-book) overrides 58% shade.",
+                      "risk_flags":  [
+                                         "P1-noncompliant-single-book",
+                                         "3PM-U15-ban",
+                                         "rotation-out",
+                                         "elevated-3PA",
+                                         "low-volume"
+                                     ]
+                  }
+              ]
+}

@@ -1,0 +1,91 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-17-pregame",
+    "model":  "cursor",
+    "model_name":  "auto",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-17T17:30:04-05:00",
+    "finished_at":  "2026-11-17T17:31:33-05:00",
+    "duration_s":  85.9,
+    "usage":  {
+                  "inputTokens":  16549,
+                  "outputTokens":  2295,
+                  "cacheReadTokens":  19200,
+                  "cacheWriteTokens":  0
+              },
+    "overall_notes":  "P2 recheck only: no injury or lineup changes undermine L1–L5, and nothing finished yet. I mirror the morning keeps on those legs with modest confidence where pricing is single-book, cross-book, or stale. L6 fails the post-mortem 3PM U1.5 ban and remains single-book with elevated recent 3PA/minutes—cut as a panel veto aligned with the drafter flag, not as new slip exposure.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  71,
+                      "reasoning":  "The under 1.5 assists rests on a large recent sample (one game at 2+ in 12) and a finish-heavy role that DET’s missing creators do not obviously change. Blowout risk mainly trims minutes, which helps rather than hurts this under. Cross-book morning devig and lack of a fresh 2-book recheck weaken price support but not the volume thesis. I would cut if Collins’ on-ball usage or assist rate spikes materially in the last week.",
+                      "risk_flags":  [
+                                         "cross-book-price",
+                                         "p1-not-repriced",
+                                         "role-minutes",
+                                         "blowout-minutes"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  67,
+                      "reasoning":  "Palmieri’s 2+ SOG rate in 10 of 12 and regular top-nine/PPTOU usage support over 1.5 despite a recent zero. Pageau GTD is more likely to elevate Palmieri’s lane than suppress shots. The FanDuel-only, ~15h-old quote is a pricing weakness, not a line/settlement mismatch. I would cut if Pageau plays and Palmieri is explicitly dropped from PP or a second line.",
+                      "risk_flags":  [
+                                         "stale-single-book",
+                                         "injury-lineup",
+                                         "variance-0-sog"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  61,
+                      "reasoning":  "Jones’ season shooting volume (~2.4 SOG) and heavy minutes fit an over 1.5 in a high-total game with FLA missing key forwards, pushing more offense through defense. Recent 6/10 at 2+ is noisier than season but not contradictory. Cross-book devig and occasional 0-SOG games are the main drag. I would cut if his SOG trend drops over the last two weeks while TOI stays flat.",
+                      "risk_flags":  [
+                                         "cross-book-price",
+                                         "small-sample-recent",
+                                         "0-sog-games",
+                                         "injury-context-opposing"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  59,
+                      "reasoning":  "Cozens profiles as a low-volume shooter (season ~2.14 SOG) on a 5.5 total game, so under 2.5 is anchored in baseline rate rather than a blowout benching. Median recent games at 2 SOG supports the line. Thin cross-book hold and possible modest minute bump from OTT outs are real but already shaded. I would cut if he moves into a primary shot role or 3+ SOG becomes frequent in the last five games.",
+                      "risk_flags":  [
+                                         "thin-hold",
+                                         "minutes-injury-bump",
+                                         "variance-upside"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  57,
+                      "reasoning":  "Season average well under 2.5 (1.76 SOG) and a playmaker profile favor the under despite top-line minutes. The last six include several exactly-3-SOG games, so settlement variance near the number is elevated. Stale single-book pricing adds skepticism but the pick is not spread-blowout-dependent. I would cut if Carlsson’s rolling SOG average clears ~2.5 over a longer window.",
+                      "risk_flags":  [
+                                         "stale-single-book",
+                                         "line-near-recent-highs",
+                                         "variance-3-sog"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "cut",
+                      "confidence":  76,
+                      "reasoning":  "This leg fails the adopted 3PM under-1.5 ban: key rotation teammates have been out while his minutes and attempts (including 5, 2, 6 3PA last three) sit above the safe baseline, so the under is usage-exposed not purely low-volume. Single-book FanDuel is the only live quote, so the cited edge does not meet 2+ book discipline. Recheck does not remove those flags. I would keep only with multi-book confirmation and 3PA/minutes back in a clearly low-volume band without structural teammate outs.",
+                      "risk_flags":  [
+                                         "p1-single-book",
+                                         "3pm-u15-ban",
+                                         "minutes-up",
+                                         "teammate-outs",
+                                         "variance-2make"
+                                     ]
+                  }
+              ]
+}

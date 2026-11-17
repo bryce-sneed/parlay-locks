@@ -1,0 +1,92 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-17-pregame",
+    "model":  "codex",
+    "model_name":  "default",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-17T17:30:04-05:00",
+    "finished_at":  "2026-11-17T17:31:33-05:00",
+    "duration_s":  34.4,
+    "usage":  {
+                  "tokens":  21320
+              },
+    "overall_notes":  "No new slips or replacements should be built, and these rechecks must not count as additional exposure. No new injury veto appears, but all six lack the required current two-book validation and confirmed platform lines; cuts below mean insufficient qualification, while confidence follows your requested probability-of-missing interpretation, not confidence in the compliance finding.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "cut",
+                      "confidence":  41,
+                      "reasoning":  "The baseline assist history supports the under without requiring blowout benching. However, cross-book quotes and an arbitrary haircut do not establish a current probability above break-even, and the platform line remains unconfirmed. Exact platform confirmation and fresh paired prices from two books would change my decision.",
+                      "risk_flags":  [
+                                         "cross-book",
+                                         "stale-price",
+                                         "platform-unconfirmed",
+                                         "rotation"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "cut",
+                      "confidence":  43,
+                      "reasoning":  "The exact-line two-sided FanDuel quote and recent hit history are supportive, but the old single-book price fails current qualification. Pageau\u0027s absence cannot be assumed to improve Palmieri\u0027s shooting role, and the 1.95 season average provides less cushion than the recent streak suggests. Fresh two-book pricing and confirmed deployment could restore a keep.",
+                      "risk_flags":  [
+                                         "single-book",
+                                         "stale-price",
+                                         "platform-unconfirmed",
+                                         "role-assumption"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "cut",
+                      "confidence":  45,
+                      "reasoning":  "Heavy minutes and a 2.41-shot average support consideration, but cross-book pricing does not validate the claimed edge. A high game total and missing forwards do not establish that Jones personally receives more shots, especially with two recent zero-shot games. Fresh exact-line two-book prices and evidence of his shooting role would change my mind.",
+                      "risk_flags":  [
+                                         "cross-book",
+                                         "platform-unconfirmed",
+                                         "role-assumption",
+                                         "shot-variance"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "cut",
+                      "confidence":  44,
+                      "reasoning":  "The recent distribution and season average support a baseline under, without a blowout assumption. However, the cross-book prices and unattributed 11 AM quote do not resolve current qualification, while depleted forward depth leaves workload uncertainty. Confirmed deployment and fresh paired prices at two books could justify keeping it.",
+                      "risk_flags":  [
+                                         "cross-book",
+                                         "price-provenance",
+                                         "platform-unconfirmed",
+                                         "minutes"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "cut",
+                      "confidence":  43,
+                      "reasoning":  "The low season shooting average despite substantial minutes is a reasonable under thesis. Nevertheless, the stale single-book quote cannot establish a current edge, and three threshold-reaching performances in six games warrant attention to recent attempts and deployment. Fresh two-book validation and stable recent shooting volume would change my decision.",
+                      "risk_flags":  [
+                                         "single-book",
+                                         "stale-price",
+                                         "platform-unconfirmed",
+                                         "recent-volume"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "cut",
+                      "confidence":  47,
+                      "reasoning":  "This explicitly fails the adopted 3PM-under rule, with expanded minutes and 13 attempts across the last three games. The live two-sided FanDuel price is useful evidence, but it remains single-book, and the supplied last-12 sequence conflicts with the stated last-three results. A reconciled game log and compliant pricing would be necessary, alongside resolution of the workload-based ban.",
+                      "risk_flags":  [
+                                         "rule-failure",
+                                         "single-book",
+                                         "minutes",
+                                         "workload-shift",
+                                         "conflicting-game-log",
+                                         "platform-unconfirmed"
+                                     ]
+                  }
+              ]
+}

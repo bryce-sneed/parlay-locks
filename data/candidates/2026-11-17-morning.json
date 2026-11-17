@@ -1,0 +1,391 @@
+{
+ "schema": "candidates/v1",
+ "run": "2026-11-17-morning",
+ "date": "2026-11-17",
+ "snapshot": "morning",
+ "created_at": "2026-11-17T10:05:00-05:00",
+ "author": "parlay-locks",
+ "slate_notes": "Morning snapshot. 10 legs across 10 games: NBA x4 (DET@SA, CHA@LAL, POR@MIN, NY@TOR) and NHL SOG x6 (CBJ@NYI, CGY@SJ, OTT@WPG, ANA@STL, TOR@CHI, EDM@FLA), one leg per game. No college props, and no NFL tonight. Every est_prob is a multiplicative two-way devig at the exact half-point line using WinDaily best-of-book prices, shaded down 2-3.2 pts. Average est_prob 0.575 (highest L1 Collins 0.595, lowest L4 KAT 0.555). NHL prices for CBJ@NYI, CGY@SJ, ANA@STL and TOR@CHI are stale Monday-evening FanDuel quotes; EDM@FLA and OTT@WPG are fresh as of 9 AM ET. App lines UNCONFIRMED (PrizePicks API is bot-blocked, Underdog API requires an app version upgrade). Dropped because the game logs contradicted the price: Ja'Kobe Walter U2.5 3PM (3+ in 6/12), Camara U2.5 3PM (6/12), Bridges U2.5 ast (3+ in 7/12), Sam Bennett U2.5 SOG (3+ in 6/10), Fox U1.5 3PM (5/12), Josh Hart U1.5 3PM (6/10 over). Also dropped: Kuminga U1.5 3PM (DTD, same game as L3), Kent Johnson U2.5 SOG and Stenberg O1.5 SOG (same games as L5/L6), and UTAH@LAC (thin Fanatics-only markets). Process note: the last two snapshots went 8-10 on legs and 0-6 on slips, with 3PM unders 1-6. The edges here are modest (55-60%), so keep the 2-leg and 3-leg cores separate.",
+ "legs": [
+  {
+   "id": "L1",
+   "sport": "NBA",
+   "event": "DET @ SA",
+   "start_time": "2026-11-17T20:00:00-05:00",
+   "player": "John Collins",
+   "team": "DET",
+   "market": "Assists",
+   "line": 1.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.595,
+   "confidence": 60,
+   "reasoning": "WinDaily best two-way prices at exactly this half-point line (no push): O1.5 +152 (FanDuel) / U1.5 -187 (DraftKings), hold 4.8%. Multiplicative devig gives under 62.1%. Shaded 2.6 pts to 59.5% because pairing best prices from different books (or a single book's stale quote) overstates the edge. Prices stamped Tue 1:30 AM ET. PrizePicks/Underdog app line NOT confirmed (PrizePicks API is bot-blocked, Underdog API requires app version): drop the leg if the app line differs or it's a Goblin/Demon. He's had 2+ assists in only 1 of his last 12 games (one 3-assist game on Nov 10), averaging about 0.7. That holds across 18-34 minutes, so the under doesn't rely on low minutes. RISK: with Duren and four other DET rotation players OUT he could play more, but his role is finishing plays, not creating them. SA is a 9.5-pt favorite. A blowout would only cut his minutes further, but the under rests on his baseline volume, not on a benching.",
+   "key_stats": [
+    "2+ ast in 1 of last 12 (0,0,3,1,0,1,0,0,1,0,1,1)",
+    "18-34 min L12",
+    "Devig 0.621 at exact line"
+   ],
+   "injury_notes": "DET OUT: Duren, Robinson, Isaiah Joe, Holland, Prince (ESPN). Collins not listed. SA OUT: Harris, Quaintance.",
+   "sources": [
+    {
+     "title": "WinDaily DET @ SA props (two-way book prices, Tue 1:30 AM ET)",
+     "url": "https://windailysports.com/nba-player-props/detroit-pistons-vs-san-antonio-spurs-2026-11-17/"
+    },
+    {
+     "title": "ESPN John Collins game log",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/3908845"
+    },
+    {
+     "title": "ESPN NBA injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "sport": "NBA",
+   "event": "CHA @ LAL",
+   "start_time": "2026-11-17T23:00:00-05:00",
+   "player": "Sion James",
+   "team": "CHA",
+   "market": "3-PT Made",
+   "line": 1.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.58,
+   "confidence": 58,
+   "reasoning": "WinDaily best two-way prices at exactly this half-point line (no push): O1.5 +140 (FanDuel) / U1.5 -188 (FanDuel), hold 6.9%. Multiplicative devig gives under 61.0%. Shaded 3.0 pts to 58.0% because the price is a single-book quote and his usage could grow with Knueppel and Schroder OUT. Prices stamped Tue 2:30 AM ET. PrizePicks/Underdog app line NOT confirmed (PrizePicks API is bot-blocked, Underdog API requires app version): drop the leg if the app line differs or it's a Goblin/Demon. He's made 2+ threes in only 3 of his last 12 games (all 3-make games), shooting low volume at 1-8 attempts. RISK: his minutes rose to 32-35 over the last three with Knueppel and Schroder out, yet he made only 4 threes in those games combined (1-5, 0-2, 3-6). The 3-make games show there's real variance, so I shaded 3 pts. Late tip (11 PM ET).",
+   "key_stats": [
+    "2+ 3PM in 3 of last 12 (1,0,3,3,0,3,0,1,1,1,0,1)",
+    "3PA 1-8 per game",
+    "32-35 min last 3 games, 4 makes total"
+   ],
+   "injury_notes": "CHA OUT: Kon Knueppel, Dennis Schroder. LAL OUT: Austin Reaves, Walker Kessler.",
+   "sources": [
+    {
+     "title": "WinDaily CHA @ LAL props (two-way book prices, Tue 2:30 AM ET)",
+     "url": "https://windailysports.com/nba-player-props/charlotte-hornets-vs-los-angeles-lakers-2026-11-17/"
+    },
+    {
+     "title": "ESPN Sion James game log",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/4602025"
+    },
+    {
+     "title": "ESPN NBA injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "sport": "NBA",
+   "event": "POR @ MIN",
+   "start_time": "2026-11-17T20:00:00-05:00",
+   "player": "Scoot Henderson",
+   "team": "POR",
+   "market": "3-PT Made",
+   "line": 1.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.57,
+   "confidence": 57,
+   "reasoning": "WinDaily best two-way prices at exactly this half-point line (no push): O1.5 +135 (Hard Rock Bet) / U1.5 -167 (BetRivers), hold 5.1%. Multiplicative devig gives under 59.5%. Shaded 2.5 pts to 57.0% because the prices come from different books, and his usage could grow with Morant and Sharpe OUT. Prices stamped Tue 5:00 AM ET. PrizePicks/Underdog app line NOT confirmed (PrizePicks API is bot-blocked, Underdog API requires app version): drop the leg if the app line differs or it's a Goblin/Demon. Rematch the night after POR@MIN, so both teams are on a back-to-back. He made 2+ threes in only 3 of his last 12 (9 unders) and shot 11-of-50 (22%) from three over that span. He has stayed at 19-26 minutes even with Morant and Sharpe out, but with guards missing, his volume is the main risk. A close spread (MIN -2.5) means no blowout dependence.",
+   "key_stats": [
+    "2+ 3PM in 3 of last 12 (0,2,1,3,0,0,1,2,1,1,0,0)",
+    "17-31 min L12",
+    "0-5 3PT vs MIN last night"
+   ],
+   "injury_notes": "POR OUT: Ja Morant, Shaedon Sharpe, Krejci, Youngblood. MIN OUT: Anthony Edwards, DiVincenzo, Jaylen Clark; Kuminga DTD.",
+   "sources": [
+    {
+     "title": "WinDaily POR @ MIN props (two-way book prices, Tue 5:00 AM ET)",
+     "url": "https://windailysports.com/nba-player-props/portland-trail-blazers-vs-minnesota-timberwolves-2026-11-17/"
+    },
+    {
+     "title": "ESPN Scoot Henderson game log",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/4683678"
+    },
+    {
+     "title": "ESPN NBA injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "sport": "NBA",
+   "event": "NY @ TOR",
+   "start_time": "2026-11-17T19:30:00-05:00",
+   "player": "Karl-Anthony Towns",
+   "team": "NYK",
+   "market": "Assists",
+   "line": 3.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.555,
+   "confidence": 56,
+   "reasoning": "WinDaily best two-way prices at exactly this half-point line (no push): O3.5 +123 (BetRivers) / U3.5 -155 (Hard Rock Bet), hold 5.6%. Multiplicative devig gives under 57.5%. Shaded 2.0 pts to 55.5% because pairing best prices from different books (or a single book's stale quote) overstates the edge. Prices stamped Tue 1:30 AM ET. PrizePicks/Underdog app line NOT confirmed (PrizePicks API is bot-blocked, Underdog API requires app version): drop the leg if the app line differs or it's a Goblin/Demon. Lower-confidence fill leg, a modest edge over break-even. His median is 3 assists (7 of the last 12 games at 3 or fewer) while Brunson runs the offense. A close spread (NY -2.5, total 215.5) means no blowout angle. He played these Raptors 2 days ago: 3 assists in 43 min. RISK: the 8-assist game on Nov 12 shows the upside, and the edge is thin, so use him as a 5-leg filler only.",
+   "key_stats": [
+    "4+ ast in 5 of last 12 (3,5,8,3,3,1,5,3,5,3,4,3)",
+    "7 of 12 under",
+    "25-43 min"
+   ],
+   "injury_notes": "No NYK injuries listed on ESPN. TOR OUT: Kawhi Leonard, Nate Bittle; McCullar DTD.",
+   "sources": [
+    {
+     "title": "WinDaily NY @ TOR props (two-way book prices, Tue 1:30 AM ET)",
+     "url": "https://windailysports.com/nba-player-props/new-york-knicks-vs-toronto-raptors-2026-11-17/"
+    },
+    {
+     "title": "ESPN Karl-Anthony Towns game log",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/3136195"
+    },
+    {
+     "title": "ESPN NBA injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "sport": "NHL",
+   "event": "CBJ @ NYI",
+   "start_time": "2026-11-17T19:00:00-05:00",
+   "player": "Kyle Palmieri",
+   "team": "NYI",
+   "market": "Shots on Goal",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.585,
+   "confidence": 58,
+   "reasoning": "WinDaily best two-way prices at exactly this half-point line (no push): O1.5 -188 (FanDuel) / U1.5 +142 (FanDuel), hold 6.6%. Multiplicative devig gives over 61.2%. Shaded 2.7 pts to 58.5% because the quote is about 15 hours old (Mon 7:04 PM ET). Prices stamped Mon 7:04 PM ET. PrizePicks/Underdog app line NOT confirmed (PrizePicks API is bot-blocked, Underdog API requires app version): drop the leg if the app line differs or it's a Goblin/Demon. He's had 2+ SOG in 10 of his last 12 games and was very steady before a 0-SOG game on Nov 14 vs ANA. He's on a regular top-9 role with power-play time. With Pageau DTD he could move up a line. Palmieri is NYI and the CBJ side is untouched, so no same-team overlap with other legs.",
+   "key_stats": [
+    "2+ SOG in 10 of last 12 (0,2,2,2,2,4,2,2,3,1,3,3)",
+    "15-21 min TOI",
+    "avg 1.95 SOG over 19 GP"
+   ],
+   "injury_notes": "NYI DTD: Pageau, Stanley; IR: Ritchie, Romanov. CBJ OUT: Sean Monahan.",
+   "sources": [
+    {
+     "title": "WinDaily CBJ @ NYI props (FanDuel two-way, Mon 7:04 PM ET)",
+     "url": "https://windailysports.com/nhl-player-props/columbus-blue-jackets-vs-new-york-islanders-2026-11-17/"
+    },
+    {
+     "title": "NHL.com Kyle Palmieri",
+     "url": "https://www.nhl.com/player/8475151"
+    },
+    {
+     "title": "ESPN NHL injuries",
+     "url": "https://www.espn.com/nhl/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L6",
+   "sport": "NHL",
+   "event": "CGY @ SJ",
+   "start_time": "2026-11-17T22:00:00-05:00",
+   "player": "Matvei Gridin",
+   "team": "CGY",
+   "market": "Shots on Goal",
+   "line": 2.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.57,
+   "confidence": 57,
+   "reasoning": "WinDaily best two-way prices at exactly this half-point line (no push): O2.5 +134 (FanDuel) / U2.5 -176 (FanDuel), hold 6.5%. Multiplicative devig gives under 59.9%. Shaded 2.9 pts to 57.0% because the quote is about 14 hours old and it's a single book. Prices stamped Mon 7:29 PM ET. PrizePicks/Underdog app line NOT confirmed (PrizePicks API is bot-blocked, Underdog API requires app version): drop the leg if the app line differs or it's a Goblin/Demon. He's had 3+ SOG in only 2 of his last 10 games, at 13-22 min TOI. SJ is a soft opponent (SJ -130 at home, total 5.5). RISK: Zary OUT and Huberdeau IR could give him more top-6 or PP time. Late start (10 PM ET).",
+   "key_stats": [
+    "3+ SOG in 2 of last 10 (0,2,3,2,1,2,1,2,5,1)",
+    "avg 2.1 SOG over 21 GP",
+    "13-22 min TOI"
+   ],
+   "injury_notes": "CGY: Huberdeau, Bahl IR; Zary OUT (could move Gridin up a line). SJ: Wennberg, Sherwood DTD.",
+   "sources": [
+    {
+     "title": "WinDaily CGY @ SJ props (FanDuel two-way, Mon 7:29 PM ET)",
+     "url": "https://windailysports.com/nhl-player-props/calgary-flames-vs-san-jose-sharks-2026-11-17/"
+    },
+    {
+     "title": "NHL.com Matvei Gridin",
+     "url": "https://www.nhl.com/player/8484860"
+    },
+    {
+     "title": "ESPN NHL injuries",
+     "url": "https://www.espn.com/nhl/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L7",
+   "sport": "NHL",
+   "event": "OTT @ WPG",
+   "start_time": "2026-11-17T19:00:00-05:00",
+   "player": "Dylan Cozens",
+   "team": "OTT",
+   "market": "Shots on Goal",
+   "line": 2.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.57,
+   "confidence": 57,
+   "reasoning": "WinDaily best two-way prices at exactly this half-point line (no push): O2.5 +144 (FanDuel) / U2.5 -160 (Hard Rock Bet), hold 2.5%. Multiplicative devig gives under 60.0%. Shaded 3.0 pts to 57.0% because the 2.5% cross-book hold is thin, which hints one side may be stale. Prices stamped Tue 9:00 AM ET. PrizePicks/Underdog app line NOT confirmed (PrizePicks API is bot-blocked, Underdog API requires app version): drop the leg if the app line differs or it's a Goblin/Demon. Freshest price on the board (9 AM). He's had 3+ SOG in 3 of his last 10 games, with a median of 2. The total is a low 5.5. OTT injuries (Eklund, Burakovsky) could push his minutes up a bit, so I shaded 3 pts.",
+   "key_stats": [
+    "3+ SOG in 3 of last 10 (2,3,3,2,0,0,5,2,1,2)",
+    "avg 2.14 SOG over 21 GP",
+    "15-19 min TOI"
+   ],
+   "injury_notes": "OTT IR: Foegele, Burakovsky, Eklund; OUT: Cousins, Hodgson. WPG IR: DeMelo, Namestnikov, Bjugstad, Salomonsson.",
+   "sources": [
+    {
+     "title": "WinDaily OTT @ WPG props (two-way book prices, Tue 9:00 AM ET)",
+     "url": "https://windailysports.com/nhl-player-props/ottawa-senators-vs-winnipeg-jets-2026-11-17/"
+    },
+    {
+     "title": "NHL.com Dylan Cozens",
+     "url": "https://www.nhl.com/player/8481528"
+    },
+    {
+     "title": "ESPN NHL injuries",
+     "url": "https://www.espn.com/nhl/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L8",
+   "sport": "NHL",
+   "event": "ANA @ STL",
+   "start_time": "2026-11-17T20:00:00-05:00",
+   "player": "Leo Carlsson",
+   "team": "ANA",
+   "market": "Shots on Goal",
+   "line": 2.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.58,
+   "confidence": 58,
+   "reasoning": "WinDaily best two-way prices at exactly this half-point line (no push): O2.5 +142 (FanDuel) / U2.5 -188 (FanDuel), hold 6.6%. Multiplicative devig gives under 61.2%. Shaded 3.2 pts to 58.0% because the quote is about 14 hours old and it's a single book. Prices stamped Mon 7:29 PM ET. PrizePicks/Underdog app line NOT confirmed (PrizePicks API is bot-blocked, Underdog API requires app version): drop the leg if the app line differs or it's a Goblin/Demon. He averages only 1.76 SOG over 21 GP despite top-line minutes, with 3+ in 4 of his last 12. He's more of a playmaker than a shooter. RISK: he hit exactly 3 in 3 of the last 6 games, so the line sits near his upper range.",
+   "key_stats": [
+    "3+ SOG in 4 of last 12 (3,1,2,3,1,3,2,2,5,1,2,1)",
+    "avg 1.76 SOG over 21 GP",
+    "17-26 min TOI"
+   ],
+   "injury_notes": "ANA IR: Poehling, Greer. STL: Krug, Dube, Tucker IR; Johnston, Kaskimaki DTD.",
+   "sources": [
+    {
+     "title": "WinDaily ANA @ STL props (FanDuel two-way, Mon 7:29 PM ET)",
+     "url": "https://windailysports.com/nhl-player-props/anaheim-ducks-vs-st-louis-blues-2026-11-17/"
+    },
+    {
+     "title": "NHL.com Leo Carlsson",
+     "url": "https://www.nhl.com/player/8484153"
+    },
+    {
+     "title": "ESPN NHL injuries",
+     "url": "https://www.espn.com/nhl/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L9",
+   "sport": "NHL",
+   "event": "TOR @ CHI",
+   "start_time": "2026-11-17T19:30:00-05:00",
+   "player": "Darren Raddysh",
+   "team": "TOR",
+   "market": "Shots on Goal",
+   "line": 2.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.565,
+   "confidence": 56,
+   "reasoning": "WinDaily best two-way prices at exactly this half-point line (no push): O2.5 +132 (FanDuel) / U2.5 -174 (FanDuel), hold 6.6%. Multiplicative devig gives under 59.6%. Shaded 3.1 pts to 56.5% because the quote is about 15 hours old, and Morgan Rielly is DTD (if he's out, Raddysh's PP1 role and TOI could grow). Prices stamped Mon 7:04 PM ET. PrizePicks/Underdog app line NOT confirmed (PrizePicks API is bot-blocked, Underdog API requires app version): drop the leg if the app line differs or it's a Goblin/Demon. He's had 3+ SOG in 2 of his last 10 games despite heavy defenseman minutes, at 2 or fewer in 8 of those 10. RISK: the 6-SOG game on Nov 3 shows the upside, and if Rielly sits, Raddysh likely takes over the top PP unit. Recheck Rielly's status at 11 AM and drop the leg if Rielly is OUT.",
+   "key_stats": [
+    "3+ SOG in 2 of last 10 (1,2,2,2,1,6,2,1,3,0)",
+    "avg 2.23 SOG over 22 GP",
+    "21-30 min TOI"
+   ],
+   "injury_notes": "TOR: Morgan Rielly DTD (watch it; it matters for Raddysh's role); Domi, Marchenko, Sissons IR. CHI: Byram IR.",
+   "sources": [
+    {
+     "title": "WinDaily TOR @ CHI props (FanDuel two-way, Mon 7:04 PM ET)",
+     "url": "https://windailysports.com/nhl-player-props/toronto-maple-leafs-vs-chicago-blackhawks-2026-11-17/"
+    },
+    {
+     "title": "NHL.com Darren Raddysh",
+     "url": "https://www.nhl.com/player/8478178"
+    },
+    {
+     "title": "ESPN NHL injuries",
+     "url": "https://www.espn.com/nhl/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "sport": "NHL",
+   "event": "EDM @ FLA",
+   "start_time": "2026-11-17T19:00:00-05:00",
+   "player": "Seth Jones",
+   "team": "FLA",
+   "market": "Shots on Goal",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.58,
+   "confidence": 58,
+   "reasoning": "WinDaily best two-way prices at exactly this half-point line (no push): O1.5 -180 (Hard Rock Bet) / U1.5 +140 (DraftKings), hold 6.0%. Multiplicative devig gives over 60.7%. Shaded 2.7 pts to 58.0% because the prices come from different books, and he's at only 6 of 10 recently. Prices stamped Tue 9:00 AM ET. PrizePicks/Underdog app line NOT confirmed (PrizePicks API is bot-blocked, Underdog API requires app version): drop the leg if the app line differs or it's a Goblin/Demon. Workhorse FLA defenseman at 22-27 min TOI, averaging 2.41 SOG. EDM-FLA has the highest total on the board (6.5), and FLA is without Barkov and Marchand, which pushes more shooting onto the blue line. Fresh 9 AM price. RISK: 0-SOG games on Nov 10 and Nov 2, and he's only 6 of his last 10 at 2+.",
+   "key_stats": [
+    "2+ SOG in 6 of last 10 (2,4,2,0,3,1,4,0,1,3)",
+    "avg 2.41 SOG over 22 GP",
+    "22-27 min TOI"
+   ],
+   "injury_notes": "FLA IR: Barkov, Marchand, Gadjovich. EDM: Nugent-Hopkins DTD; Andersen IR.",
+   "sources": [
+    {
+     "title": "WinDaily EDM @ FLA props (two-way book prices, Tue 9:00 AM ET)",
+     "url": "https://windailysports.com/nhl-player-props/edmonton-oilers-vs-florida-panthers-2026-11-17/"
+    },
+    {
+     "title": "NHL.com Seth Jones",
+     "url": "https://www.nhl.com/player/8477495"
+    },
+    {
+     "title": "ESPN NHL injuries",
+     "url": "https://www.espn.com/nhl/injuries"
+    }
+   ]
+  }
+ ]
+}

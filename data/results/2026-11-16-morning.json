@@ -1,0 +1,99 @@
+{
+ "schema": "results/v1",
+ "run": "2026-11-16-morning",
+ "graded_at": "2026-11-17T09:58:00-05:00",
+ "author": "parlay-locks",
+ "legs": [
+  {
+   "leg_id": "L1",
+   "actual": 5,
+   "outcome": "miss",
+   "note": "Derrick Henry 5 rec on 5 targets, 10 yds (10 car, 10 yds, 2 TD). Brissett threw 49 times. Final.",
+   "source": "https://www.espn.com/nfl/boxscore/_/gameId/401873065"
+  },
+  {
+   "leg_id": "L2",
+   "actual": 0,
+   "outcome": "hit",
+   "note": "Jacoby Brissett 33/49, 340 yds, 0 TD, 1 INT. Final.",
+   "source": "https://www.espn.com/nfl/boxscore/_/gameId/401873065"
+  },
+  {
+   "leg_id": "L3",
+   "actual": 2,
+   "outcome": "miss",
+   "note": "Will Richard 2-6 3PT in 23 min. Final.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401910000"
+  },
+  {
+   "leg_id": "L4",
+   "actual": 3,
+   "outcome": "miss",
+   "note": "Terrence Shannon Jr. 3-4 3PT, 34 pts in 35 min. Final.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909999"
+  },
+  {
+   "leg_id": "L5",
+   "actual": 4,
+   "outcome": "miss",
+   "note": "Payton Pritchard 4-11 3PT in 32 min. Final.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909994"
+  },
+  {
+   "leg_id": "L6",
+   "actual": 3,
+   "outcome": "hit",
+   "note": "Alexis Lafreniere 3 SOG in 18:31 TOI. Final.",
+   "source": "https://www.nhl.com/gamecenter/2026020331"
+  },
+  {
+   "leg_id": "L7",
+   "actual": 2,
+   "outcome": "miss",
+   "note": "Cole Caufield 2 SOG in 22:11 TOI. Final.",
+   "source": "https://www.nhl.com/gamecenter/2026020331"
+  },
+  {
+   "leg_id": "L8",
+   "actual": 3,
+   "outcome": "hit",
+   "note": "Filip Chytil 3 SOG (1 G) in 19:04 TOI. Final.",
+   "source": "https://www.nhl.com/gamecenter/2026020332"
+  }
+ ],
+ "slips": [
+  {
+   "id": "2026-11-16-morning-2",
+   "size": 2,
+   "stake": 1,
+   "outcome": "loss",
+   "payout": 0,
+   "pnl": -1,
+   "platform": "Underdog",
+   "play_type": "standard",
+   "note": "L6 hit; L1 Henry 5 rec missed."
+  },
+  {
+   "id": "2026-11-16-morning-3",
+   "size": 3,
+   "stake": 1,
+   "outcome": "loss",
+   "payout": 0,
+   "pnl": -1,
+   "platform": "Underdog",
+   "play_type": "standard",
+   "note": "L2, L8 hit; L7 Caufield 2 SOG missed."
+  },
+  {
+   "id": "2026-11-16-morning-5",
+   "size": 5,
+   "stake": 1,
+   "outcome": "loss",
+   "payout": 0,
+   "pnl": -1,
+   "platform": "PrizePicks",
+   "play_type": "power",
+   "note": "1/5 (L8 hit; L1, L4, L5, L7 missed). Power 20x."
+  }
+ ]
+}

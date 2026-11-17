@@ -1,0 +1,135 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-17-morning",
+    "model":  "cursor",
+    "model_name":  "auto",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-17T10:30:04-05:00",
+    "finished_at":  "2026-11-17T10:32:20-05:00",
+    "duration_s":  45,
+    "usage":  {
+                  "inputTokens":  16933,
+                  "outputTokens":  3747,
+                  "cacheReadTokens":  20032,
+                  "cacheWriteTokens":  0
+              },
+    "overall_notes":  "The slate is a modest-edge morning dry run with unconfirmed app lines and several stale NHL prices from Monday evening. I would keep most volume-backed NBA unders and the stronger NHL SOG plays, but cut legs where unresolved injury role risk or 3PM volume upside dominates the thesis. Overall stance is selective: build cores from L1, L5, L7, and L10 rather than forcing the thin NBA fillers and the Rielly-dependent under.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  74,
+                      "reasoning":  "Collins’s assist under is anchored in a stable low-create role (2+ ast in 1/12, ~0.7 avg) while prices are two-way devigged at the exact 1.5 line with a healthy shaded hold. Extra DET injuries may raise minutes but not primary initiation, and a SA favorite script does not require a blowout bench for the under to win. I would cut only if the pick’em line is not 1.5 or his on-ball usage spikes materially in recent games.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "minutes",
+                                         "unconfirmed-app-line"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  63,
+                      "reasoning":  "James profiles as low-volume from three (2+ makes in 3/12, mostly 1–8 attempts) and the single-book price was shaded aggressively; increased minutes without a matching make spike in the last three games supports the under more than it hurts it. Late tip and 3PM variance are real, and this leg fits the panel’s weak recent 3PM-under track record less badly than higher-usage shooters. I would cut if attempt rate trends above ~5–6 in the injury-driven role.",
+                      "risk_flags":  [
+                                         "single-book",
+                                         "minutes",
+                                         "variance",
+                                         "late-start"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "cut",
+                      "confidence":  58,
+                      "reasoning":  "The devig is fine at 1.5, but with multiple backcourt creators out the main failure mode is added pull-up volume on a B2B rematch, not efficiency alone. Nine unders in twelve is helpful, yet 3PM unders have underperformed in prior snapshots and his 22% stretch still allows 2-make games at low lines. I would keep only if recent attempt counts stay capped near season low-usage patterns.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "usage-upside",
+                                         "back-to-back",
+                                         "3pm-under-track"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  52,
+                      "reasoning":  "KAT at 3.5 is correctly priced as a thin filler: median 3 with Brunson-led offense gives a slight lean under (7/12 at 3 or fewer) in a competitive spread environment without blowout dependence. The Nov 12 eight-assist tail and 5/12 at 4+ keeps this barely above break-even for multi-leg flex math. I would cut if the app line is 3.0 or primary initiation ticks up in the NYK–TOR rematch.",
+                      "risk_flags":  [
+                                         "thin-edge",
+                                         "variance",
+                                         "unconfirmed-app-line"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  67,
+                      "reasoning":  "Palmieri’s 2+ SOG rate (10/12) and steady top-nine PP usage fit a 1.5 over even after shading for a stale FanDuel stamp. CBJ matchup does not require script luck at such a low line, and Pageau DTD is more upside than core risk. I would cut if morning line shopping shows the over repriced past ~-210/-220 equivalent.",
+                      "risk_flags":  [
+                                         "stale-price",
+                                         "line-moved",
+                                         "injury"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  60,
+                      "reasoning":  "Gridin’s 3+ SOG frequency (2/10) and ~2.1 season average support 2.5 under against a soft SJ spot without needing a defensive shell. Zary out is the main counter—possible top-six/PP bump increases shot floor—and the quote is single-book stale. I would cut if lineups show a sustained PP1 look or TOI jumps into the mid-20s.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "role-upside",
+                                         "stale-price",
+                                         "late-start"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  64,
+                      "reasoning":  "Cozens at 2.5 is supported by a 2.14 average and only 3/10 at 3+, with the freshest cross-book price on the slate and a low 5.5 total aiding under pathways. Injury-list thinning on OTT is a modest minutes risk but not a pure blowout-bench under. I would cut if he is clearly elevated to a high-volume shooting line tonight.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "low-total",
+                                         "minutes"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  57,
+                      "reasoning":  "Season-long 1.76 SOG average and playmaker skew favor under 2.5 despite three recent 3-SOG games landing on the wrong side of this half-point. Stale single-book pricing warrants skepticism, but the devig still clears break-even after shading. I would cut if rush volume spikes again in the last two readings above ~2.8 expected.",
+                      "risk_flags":  [
+                                         "stale-price",
+                                         "small-sample",
+                                         "recent-overs"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "cut",
+                      "confidence":  61,
+                      "reasoning":  "Baseline 2 or fewer SOG in 8/10 is attractive, but Morgan Rielly DTD is a direct lever on Raddysh’s PP1 touches and shot rate—the drafter’s own drop rule if Rielly is out. Monday-evening pricing plus that unresolved role swing makes the under too conditional for a marginal 56.5% edge. I would keep only if Rielly is confirmed in and PP usage stays secondary.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "role-upside",
+                                         "stale-price",
+                                         "unresolved-minutes"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L10",
+                      "decision":  "keep",
+                      "confidence":  66,
+                      "reasoning":  "Jones’s 2.41 SOG average on 22–27 minutes is strong against 1.5, and the 6.5 total with FLA forward injuries pushes offense through the blue line in a fresh 9 AM market. Six of ten at 2+ is not elite consistency but well above the number at a low line. I would cut if he is off PP1 or the pick’em line moves to 2.0+.",
+                      "risk_flags":  [
+                                         "variance",
+                                         "injury",
+                                         "0-sog-games"
+                                     ]
+                  }
+              ]
+}

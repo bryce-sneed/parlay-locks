@@ -1,0 +1,138 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-17-morning",
+    "model":  "codex",
+    "model_name":  "default",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-17T10:30:04-05:00",
+    "finished_at":  "2026-11-17T10:32:20-05:00",
+    "duration_s":  47.1,
+    "usage":  {
+                  "tokens":  23757
+              },
+    "overall_notes":  "The quoted two-way devig calculations broadly check out at the stated half-point lines, but the probability haircuts are judgment calls rather than validated adjustments. Keeps are conditional paper candidates pending exact standard app lines and settlement confirmation; cut confidence reflects estimated miss probability, so a cut can still be more likely to hit than miss when its edge is insufficient.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  59,
+                      "reasoning":  "The exact-line devig and consistently low assist production support an edge above the stated thresholds without requiring blowout benching. Detroit\u0027s absences create role risk, but the supplied minutes range supports the baseline case; increased ballhandling duties or an app-line mismatch would change my vote.",
+                      "risk_flags":  [
+                                         "injury-driven-role",
+                                         "app-line-unconfirmed",
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "cut",
+                      "confidence":  47,
+                      "reasoning":  "The recent workload evidence is internally inconsistent: the listed last-three makes are 1, 0, 1, while the narrative reports 1, 0, 3. At the narrative\u0027s 13 attempts across three games, low historical make counts alone do not establish a sufficient under edge after the minutes increase; reconciled logs and attempt rates under the current rotation could change my vote.",
+                      "risk_flags":  [
+                                         "data-inconsistency",
+                                         "minutes-increase",
+                                         "shooting-variance",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "cut",
+                      "confidence":  47,
+                      "reasoning":  "The narrative\u0027s 11-of-50 shooting conflicts with 12 makes in the supplied game log, and its 19–26-minute characterization needs reconciliation with the listed 17–31-minute range. With depleted guards and a back-to-back, the recent low conversion rate is insufficient support for a narrow edge; consistent current-role minutes and attempt data would change my vote.",
+                      "risk_flags":  [
+                                         "data-inconsistency",
+                                         "injury-driven-role",
+                                         "back-to-back",
+                                         "shooting-regression",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "cut",
+                      "confidence":  46,
+                      "reasoning":  "The exact-line market supports a plausible under lean, but the shaded estimate clears the five-leg Power threshold by only 0.6 percentage points. Seven unders in twelve games and one matchup result do little to resolve that uncertainty; a stronger refreshed market edge would change my vote, while needing a fifth leg would not.",
+                      "risk_flags":  [
+                                         "thin-edge",
+                                         "cross-book",
+                                         "small-sample",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  58,
+                      "reasoning":  "The exact-line two-way market and 10-of-12 recent record support the over in an established minutes range. The 1.95 season average and concentration at exactly two shots limit the cushion, so this remains conditional on a refreshed price and unchanged role; material market deterioration would change my vote.",
+                      "risk_flags":  [
+                                         "stale-price",
+                                         "threshold-clustering",
+                                         "small-sample",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "cut",
+                      "confidence":  47,
+                      "reasoning":  "The historical under frequency is encouraging, but the proposed promotion from Zary\u0027s absence directly threatens the volume assumption behind it. An overnight quote and arbitrary haircut do not resolve that role change; confirmed deployment and refreshed exact-line prices could change my vote.",
+                      "risk_flags":  [
+                                         "injury-driven-role",
+                                         "stale-price",
+                                         "power-play-role",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  57,
+                      "reasoning":  "The fresh exact-line devig, 2.14 season average, and seven unders in ten games support a modest baseline edge. A low game total is only secondary evidence, and a thin cross-book hold does not itself prove staleness; a substantial minutes or power-play promotion would change my vote.",
+                      "risk_flags":  [
+                                         "cross-book",
+                                         "injury-driven-role",
+                                         "small-sample",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  57,
+                      "reasoning":  "The low season shot average despite substantial minutes supports an under independent of reduced playing time, and the exact-line market agrees. Three overs in the latest six games weaken confidence in the older baseline; a refreshed market moving against the under or evidence of increased attempts would change my vote.",
+                      "risk_flags":  [
+                                         "stale-price",
+                                         "recent-volume-trend",
+                                         "small-sample",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "cut",
+                      "confidence":  48,
+                      "reasoning":  "Rielly\u0027s unresolved status creates a specific potential increase in Raddysh\u0027s power-play opportunity, and the quoted market predates its resolution. The drafter\u0027s own drop condition remains unresolved, so the historical under rate cannot clear this candidate now; Rielly being confirmed active alongside refreshed prices could change my vote.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "power-play-role",
+                                         "stale-price",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L10",
+                      "decision":  "keep",
+                      "confidence":  57,
+                      "reasoning":  "Fresh exact-line prices, stable heavy minutes, and a 2.41 season shot average support a modest over edge despite the mixed recent results. The claim that missing forwards necessarily redirect shots to defensemen is unproven, so I give it little weight; reduced deployment or an adverse market refresh would change my vote.",
+                      "risk_flags":  [
+                                         "cross-book",
+                                         "shooting-variance",
+                                         "unsupported-role-inference",
+                                         "app-line-unconfirmed"
+                                     ]
+                  }
+              ]
+}

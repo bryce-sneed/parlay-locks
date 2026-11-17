@@ -1,0 +1,129 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-17-morning",
+    "model":  "claude",
+    "model_name":  "haiku",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-17T10:30:04-05:00",
+    "finished_at":  "2026-11-17T10:32:20-05:00",
+    "duration_s":  133.9,
+    "usage":  {
+                  "cost_usd":  0.129195,
+                  "cache_read":  0,
+                  "output_tokens":  13148,
+                  "input_tokens":  9
+              },
+    "overall_notes":  "The 7-leg keeper slate (L1, L2, L3, L5, L7, L8, L10) averages 58.2% est_prob and cleanly clears all pick\u0027em break-even thresholds. Cut L4 (55.5%, drafter flagged \u0027low-confidence filler\u0027), L6 (57% with injury-driven role-elevation risk: Zary OUT/Huberdeau IR could move Gridin up a line; only 2 of 10 at 3+ SOG), and L9 (56.5%, Morgan Rielly DTD unresolved per drafter\u0027s conditional). Best deployed as 2–3 leg core (e.g., L1 + one SOG leg) rather than bundled 7-leg; recent 3PM under underperformance (1–6 last two snapshots) is noted but L2/L3 differentiate via very low volume support.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  80,
+                      "reasoning":  "59.5% edge is solid and rests on baseline volume (0.7 assists, 1 of 12 at 2+), not blowout benching—holds across 18–34 min TOI. Role is finishing not creating. DET\u0027s 9.5-pt favorite spread would only cut Collins\u0027 minutes further, undermining any blowout angle. Empirical support is strong for the under.",
+                      "risk_flags":  [
+                                         "price_age_15h",
+                                         "blowout_spread_noted_controlled"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  75,
+                      "reasoning":  "58% edge with differentiated low-volume profile: 1–8 attempts per game, 2+ makes in only 3 of 12 games (25% hit rate). Even with Knueppel/Schroder OUT, minutes rose to 32–35 yet only 4 makes in 3 games combined. Much lower hit rate than dropped 3PM unders (which went 50–60%). Late tip (23:00 ET) is minor risk.",
+                      "risk_flags":  [
+                                         "3pm_under_1of6_recent",
+                                         "late_tip",
+                                         "variance_shaded_3pts"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  75,
+                      "reasoning":  "57% edge supported by weak 3PT% baseline (22% over 12 games), 2+ in only 3 of 12, and recent 0–5 performance vs MIN. Volume doesn\u0027t depend on low minutes (19–26 min maintained). Morant/Sharpe OUT increases usage risk, but baseline shooting is weak enough to support under despite elevated opportunity.",
+                      "risk_flags":  [
+                                         "morant_sharpe_out_volume_risk",
+                                         "back_to_back_fatigue"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "cut",
+                      "confidence":  75,
+                      "reasoning":  "Marginal 55.5% edge barely clears 5-leg Power threshold (54.9%). Drafter explicitly flagged as \u0027lower-confidence fill leg, modest edge over break-even—use as 5-leg filler only.\u0027 7 of 12 at ≤3 assists supports under, but 8-assist outlier exists (Nov 12) and Brunson controls the offense. Best held for 5-leg configurations only, not core legs.",
+                      "risk_flags":  [
+                                         "marginal_edge",
+                                         "drafter_flagged_lowconf",
+                                         "brunson_offense_cap",
+                                         "outlier_upside"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  80,
+                      "reasoning":  "Strong 58.5% edge with excellent empirical support: 2+ SOG in 10 of 12 games, only 1 recent 0-SOG outlier. Stable top-9 role with power-play time; Pageau DTD could bump him up further. Price is ~24h old but 10-of-12 baseline is robust enough to absorb minor market drift.",
+                      "risk_flags":  [
+                                         "price_24h_old",
+                                         "0_sog_outlier_nov14"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "cut",
+                      "confidence":  70,
+                      "reasoning":  "57% edge with narrow margin: only 2 of 10 games at 3+ SOG. Injury-driven role-elevation risk is material—Zary OUT and Huberdeau IR could move Gridin to top-6 or increased PP time, pushing SOG above 2.5. Market may not have fully priced the role expansion. 14h-old price may underweight the upside.",
+                      "risk_flags":  [
+                                         "injury_role_elevation",
+                                         "zary_out_huberdeau_ir",
+                                         "low_hit_rate_2of10",
+                                         "price_age_14h"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  75,
+                      "reasoning":  "57% edge with freshest price on board (Tue 9 AM ET, ~3h old). 3 of 10 at 3+ SOG with median 2 supports under. Low total (5.5) aligns with under thesis. Defenseman role limits upside despite OTT injuries to Eklund/Burakovsky; minutes may creep up slightly but not enough to push him consistently above 2.5.",
+                      "risk_flags":  [
+                                         "thin_cross_book_hold_2.5pct",
+                                         "ott_injuries_minute_creep"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  75,
+                      "reasoning":  "58% edge, long-term avg 1.76 SOG strongly supports under; only 4 of 12 at 3+ SOG. Playmaker role suggests shot volume is not the focus. Recent uptick (3 of last 6 at exactly 3 SOG) is noted, but drafter shaded 3.2 pts to 58% to account for this shift. Edge remains solid.",
+                      "risk_flags":  [
+                                         "recent_uptick_3of6",
+                                         "line_sits_near_upper_range",
+                                         "price_age_14h"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "cut",
+                      "confidence":  75,
+                      "reasoning":  "Marginal 56.5% edge with critical unresolved condition: Morgan Rielly DTD. Drafter explicitly says \u0027recheck at 11 AM and drop if OUT.\u0027 Only 2 of 10 games at 3+ SOG leaves no margin for error. If Rielly is OUT, Raddysh moves to PP1 and volume increases significantly. Status too uncertain; can re-add if Rielly confirmed playing by 11 AM ET.",
+                      "risk_flags":  [
+                                         "rielly_dtd_unresolved",
+                                         "drafter_conditional_drop",
+                                         "low_hit_rate_2of10",
+                                         "pp1_role_upside_if_rielly_out"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L10",
+                      "decision":  "keep",
+                      "confidence":  80,
+                      "reasoning":  "Solid 58% edge with fresh price (Tue 9 AM ET, ~3h old). 6 of 10 games at 2+ SOG, workhorse role (22–27 min TOI), highest total on board (6.5) supports over. FLA injuries (Barkov, Marchand OUT) shift shooting onto the blue line, favoring Jones. 2 of 10 at 0 SOG are outliers vs. strong baseline.",
+                      "risk_flags":  [
+                                         "two_0_sog_games",
+                                         "price_cross_book_different_books"
+                                     ]
+                  }
+              ]
+}

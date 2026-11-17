@@ -1,0 +1,55 @@
+{
+ "schema": "slips/v1",
+ "run": "2026-11-17-morning",
+ "date": "2026-11-17",
+ "snapshot": "morning",
+ "created_at": "2026-11-17T11:00:00-05:00",
+ "author": "parlay-locks",
+ "paper": true,
+ "notes": "Panel ran (3/3 ok; Cursor 8-2, Claude 7-3, Codex 5-5). Five legs went 3-0 (L1, L5, L10, L7, L8), all one per game. Agreed with the panel cuts of L3, L4, L6, L9. Used L2 (Sion James U1.5 3PM, 2-1; Codex cut it over inconsistent last-3 makes data and a single-book price) only in the 5-leg so that it doesn't nest the 2-leg core; that's a mild overrule of Codex. 11am recheck: Collins not on DET injury report and projected to start; Palmieri on NYI top line w/ Horvat; Carlsson 1C + PP1 vs STL; Seth Jones playing; Sion James no designation; Cozens U2.5 SOG now -165/+126 (fair ~58.5%), confirming L7. No line-threshold mismatches, and no under depends on a blowout benching. 2-leg and 3-leg share no legs. 5-leg avg est_prob 0.581 > 0.566, and the realized slip-leg hit rate to date is 35/58 (60%), so PrizePicks 5-pick Power (20x). App lines are still unconfirmed, so any leg whose app line differs or is a Goblin/Demon is off.",
+ "slips": [
+  {
+   "id": "2026-11-17-morning-2",
+   "size": 2,
+   "platform": "Underdog",
+   "play_type": "standard",
+   "stake": 1,
+   "payout_multiplier": 3.5,
+   "legs": [
+    "L1",
+    "L5"
+   ],
+   "rationale": "Top two 3-0 legs: Collins U1.5 ast (score 71, est 59.5%) + Palmieri O1.5 SOG (score 68.3, est 58.5%). Different sports and games, so no correlation."
+  },
+  {
+   "id": "2026-11-17-morning-3",
+   "size": 3,
+   "platform": "Underdog",
+   "play_type": "standard",
+   "stake": 1,
+   "payout_multiplier": 6.5,
+   "legs": [
+    "L10",
+    "L7",
+    "L8"
+   ],
+   "rationale": "Independent core of the next three 3-0 NHL legs: Seth Jones O1.5 SOG, Cozens U2.5 SOG, Carlsson U2.5 SOG. Three different games, and no overlap with the 2-leg."
+  },
+  {
+   "id": "2026-11-17-morning-5",
+   "size": 5,
+   "platform": "PrizePicks",
+   "play_type": "power",
+   "stake": 1,
+   "payout_multiplier": 20,
+   "legs": [
+    "L1",
+    "L10",
+    "L7",
+    "L8",
+    "L2"
+   ],
+   "rationale": "Avg est 58.1% > 56.6%, so Power. Swapped Palmieri for Sion James U1.5 3PM (2-1) so the 2-leg core isn't fully nested. Five different games."
+  }
+ ]
+}

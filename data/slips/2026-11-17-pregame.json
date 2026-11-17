@@ -1,0 +1,11 @@
+{
+ "schema": "slips/v1",
+ "run": "2026-11-17-pregame",
+ "date": "2026-11-17",
+ "snapshot": "pregame",
+ "created_at": "2026-11-17T18:05:00-05:00",
+ "author": "parlay-locks",
+ "paper": true,
+ "notes": "PREGAME check-and-swap only (rule P2): NO new pregame slips. The candidates file has no fresh-priced legs: WinDaily still showed 9:00 AM ET best-of-book prices at 4:47 PM, and FanDuel was the only live per-book source, so no leg meets P1's 2+ book rule. Morning slips stay locked, with no regrade. Late-news recheck at 4:47 PM ET: no morning slip-leg player is on an injury report, so no dead legs. Panel (Cursor 5-1, Claude 3-3, Codex 0-6) vetoes, used as paper flags only: L6 = morning L2 Sion James U1.5 3PM was cut 0-3 for the 3PM U1.5 ban test plus a single-book price. It's in the morning 5-leg, and no P1-compliant swap exists, so it's noted as a paper flag. L1 = morning L1 Collins U1.5 ast (2-leg + 5-leg) and L3 = morning L10 Seth Jones O1.5 SOG (3-leg + 5-leg) were cut 1-2 by Claude and Codex for cross-book pricing. Those are real P1 errors, but the slips were built before the rules changed, so nothing was swapped. Codex's blanket cuts of L2/L4/L5 cite only generic compliance (stale or single-book price, app line unconfirmed), and those flags don't change the locked slips. Per-model keep/cut on these rechecks gets logged when the morning legs are graded (mirror the morning results, don't double-count).",
+ "slips": []
+}

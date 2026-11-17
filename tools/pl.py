@@ -55,6 +55,23 @@ def cmd_validate(a):
             check(isinstance(l.get("line"), (int, float)), f"leg {i} line must be a number", errs)
             check(l.get("pick") in ("over", "under", "more", "less"), f"leg {i} pick", errs)
             if "est_prob" in l: check(0 <= l["est_prob"] <= 1, f"leg {i} est_prob 0..1", errs)
+            # Optional post-mortem fields (added 2026-11-17); older files without them still validate.
+            if l.get("price_ts") is not None:
+                ok = isinstance(l["price_ts"], str)
+                if ok:
+                    try: datetime.fromisoformat(l["price_ts"])
+                    except ValueError: ok = False
+                check(ok, f"leg {i} price_ts must be an ISO 8601 timestamp with ET offset", errs)
+            if l.get("n_books") is not None:
+                check(isinstance(l["n_books"], int) and not isinstance(l["n_books"], bool) and l["n_books"] >= 0, f"leg {i} n_books must be a non-negative integer", errs)
+            if l.get("price_books") is not None:
+                check(isinstance(l["price_books"], list) and all(isinstance(b, str) for b in l["price_books"]), f"leg {i} price_books must be a list of book names", errs)
+            if l.get("price_method") is not None:
+                check(l["price_method"] in ("per_book_median", "single_book", "cross_book_pair", "other"), f"leg {i} price_method", errs)
+            if l.get("est_prob_raw") is not None:
+                check(isinstance(l["est_prob_raw"], (int, float)) and 0 <= l["est_prob_raw"] <= 1, f"leg {i} est_prob_raw 0..1", errs)
+            if l.get("recent_miss") is not None:
+                check(isinstance(l["recent_miss"], (bool, str)), f"leg {i} recent_miss must be bool or short note", errs)
         check(0 < len(d.get("legs", [])) <= 15, "1-15 legs", errs)
     elif "/slips/" in "/" + rel:
         check(d.get("schema") == "slips/v1", "schema must be slips/v1", errs)

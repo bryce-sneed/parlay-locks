@@ -183,16 +183,23 @@ function Build-Prompt($cand, [string]$extra) {
   $legs = foreach ($l in $cand.legs) {
     [ordered]@{ id = $l.id; sport = $l.sport; event = $l.event; start_time = $l.start_time; player = $l.player; team = $l.team
       market = $l.market; line = $l.line; pick = $l.pick; platforms = $l.platforms; drafter_est_prob = $l.est_prob
-      drafter_reasoning = $l.reasoning; key_stats = $l.key_stats; injury_notes = $l.injury_notes }
+      drafter_reasoning = $l.reasoning; key_stats = $l.key_stats; injury_notes = $l.injury_notes
+      price_ts = $l.price_ts; n_books = $l.n_books; price_books = $l.price_books; price_method = $l.price_method; recent_miss = $l.recent_miss }
   }
   $legJson = ConvertTo-Json -InputObject @($legs) -Depth 6 -Compress
 @"
 You are one member of a 3-model review panel (Claude, Codex, Cursor) for a PAPER-ONLY player-prop dry run (PrizePicks/Underdog pick'em, no real money).
 The drafter (Parlay Locks) researched today's slate ($($cand.date), $($cand.snapshot) snapshot) and proposes the candidate legs below.
-Your job: independently judge each leg against pick'em break-even math (~53.5% for Underdog 2/3-leg Standard, ~54.3% for PrizePicks 5-leg Flex, ~54.9% for 5-leg Power). Be skeptical; cut legs if:
-1. The cited sportsbook/prediction probability is NOT for the exact pick'em line and settlement rule (e.g., citing a 60+ yard price for O66.5, or a pushable book Under 9 for a pick'em Under 8.5), or relies on an un-devigged one-sided price.
-2. An under relies primarily on a spread-driven blowout benching rather than baseline volume/efficiency (competitive games or OT blow up blowout unders).
-3. The reasoning is thin, ignores recent workload/snap shifts, or carries unresolved injury/minutes/weather risk.
+Your job: act as a VETO, not a ranking. Keep every leg by default; vote cut ONLY when you can name a concrete, specific error from the list below (or an equally concrete factual problem). Pick'em break-even for context: ~53.5% for Underdog 2/3-leg Standard, ~54.3% for PrizePicks 5-leg Flex, ~54.9% for 5-leg Power. Your confidence is NOT used to rank legs, so do not cut a leg just because it looks weaker than the others. Cut a leg if:
+1. LINE-MISMATCH: the cited sportsbook/prediction probability is NOT for the exact pick'em line and settlement rule (e.g., citing a 60+ yard price for O66.5, or a pushable book Under 9 for a pick'em Under 8.5), or relies on an un-devigged one-sided price.
+2. SINGLE-BOOK / CROSS-BOOK-PAIRED: the probability comes from only one book (n_books < 2), or from pairing the best over at one book with the best under at another instead of devigging within each book and taking the median across books.
+3. STALE-PRICE: the price timestamp (price_ts) is several hours older than the draft and injury, lineup or role news has come out since (e.g. 9:00 AM prices used for a 5 PM pregame draft after a teammate was ruled out).
+4. 3PM-U1.5-ROLE: a 3-pointers-made UNDER 1.5 where the player does not average <=3.0 3PA over his last 10, or a rotation teammate was ruled out in the last 3 games. Judge by attempts and role, not past makes.
+5. UNDER-ROLE-EXPANSION: any under where a teammate injury or absence in the last ~3 games is expanding the player's minutes, usage, targets or ice time; also any under priced beyond -180 whose reasoning lacks a volume check (attempts, targets or TOI).
+6. RECENT-MISS: the same player + same prop type missed within the last 3 days (see recent_miss or the reasoning) and the line has not moved.
+7. BLOWOUT-UNDER: an under relying primarily on a spread-driven blowout benching rather than baseline volume (competitive games or OT blow these up).
+8. THIN/RISK: reasoning is thin, ignores recent workload/snap shifts, or carries unresolved injury/minutes/weather risk; name the specific gap.
+Every cut MUST name its error: start the reasoning with the tag in capitals (e.g. "STALE-PRICE: ...", "3PM-U1.5-ROLE: ...") and put the same lowercase tag in risk_flags. A cut that names no concrete error will be ignored.
 IMPORTANT: You have no web access and today is $($cand.date). Trust the drafter's 2026 player-team rosters and current injuries as fact unless internally contradictory; do NOT vote cut just because your offline memory has a player on an older team.
 Do not use tools or browse; rely on the data given plus your own analysis.
 
@@ -203,7 +210,7 @@ $legJson
 
 Return ONLY a JSON object, no markdown, exactly this shape:
 {"overall_notes":"2-3 sentences on the slate and your overall stance","votes":[{"leg_id":"L1","decision":"keep|cut","confidence":0-100,"reasoning":"one paragraph (2-4 sentences): why, key risk, what would change your mind","risk_flags":["short tags like injury, minutes, blowout, line-moved, small-sample"]}]}
-Rules: one vote per leg_id, decision is keep or cut, confidence is an integer 0-100 meaning how sure you are that your decision is right (keep = the leg hits, cut = it misses).
+Rules: one vote per leg_id, decision is keep or cut, confidence is an integer 0-100 meaning how sure you are that your decision is right (keep = the leg hits, cut = it misses). Every cut must begin its reasoning with the error tag; per-model keep/cut accuracy is logged and graded after each slate.
 "@
 }
 

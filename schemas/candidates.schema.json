@@ -32,6 +32,12 @@
           "reasoning": { "type": "string", "description": "Drafter's reasoning paragraph" },
           "key_stats": { "type": "array", "items": { "type": "string" } },
           "injury_notes": { "type": "string" },
+          "price_ts": { "type": "string", "description": "Optional (2026-11-17+): ISO 8601 ET timestamp of the book prices used, e.g. 2026-11-17T15:20:00-05:00" },
+          "n_books": { "type": "integer", "minimum": 0, "description": "Optional: number of books with a two-way price at the exact line" },
+          "price_books": { "type": "array", "items": { "type": "string" }, "description": "Optional: books used, e.g. [\"DraftKings\", \"FanDuel\"]" },
+          "price_method": { "enum": ["per_book_median", "single_book", "cross_book_pair", "other"], "description": "Optional: devig method; rule is per-book devig then median" },
+          "est_prob_raw": { "type": "number", "minimum": 0, "maximum": 1, "description": "Optional: devigged probability before shading (unders shaded -3 pts into est_prob)" },
+          "recent_miss": { "type": ["boolean", "string"], "description": "Optional: same player+prop missed in last 3 days (and whether the line moved)" },
           "sources": { "type": "array", "items": { "type": "object", "required": ["url"], "properties": { "title": { "type": "string" }, "url": { "type": "string" } } } }
         }
       }

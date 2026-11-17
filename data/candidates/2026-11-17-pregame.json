@@ -3,7 +3,7 @@
  "run": "2026-11-17-pregame",
  "date": "2026-11-17",
  "snapshot": "pregame",
- "created_at": "2026-11-17T16:55:00-05:00",
+ "created_at": "2026-11-17T16:48:00-05:00",
  "author": "parlay-locks",
  "slate_notes": "no fresh-priced pregame legs. This is a P2 check-and-swap run only. WinDaily (the morning price source) still reads 'Prop prices as of Tue 9:00 AM ET' at 4:47 PM ET and only lists best-of-book single quotes, so it fails P1 and P2. FanDuel IN is the only live per-book source reachable (DraftKings API 403), so no leg can meet the 2+ book rule. NO NEW PREGAME LEGS, so finalize must NOT build new pregame slips. Legs L1-L6 below are the 6 morning slip legs (morning ids in recheck_of), re-listed only for a news recheck and panel veto. They are NOT new exposure: grade them by mirroring the morning results and don't count them twice in scorecards. Recheck (ESPN injuries, 4:47 PM ET): no slip-leg player is listed and no lineup change kills a leg. Pageau (NYI) is a GTD, which is neutral-to-positive for the Palmieri over. RNH (EDM) is out, which is neutral for the Seth Jones over. DET OUT list unchanged. Only flag: L6 = morning L2 (Sion James U1.5 3PM) fails the new P1 rules (single-book price, 3PM U1.5 ban test). No compliant replacement is possible at 2+ books. Nothing has finished yet tonight, and all earlier runs are fully graded.",
  "legs": [

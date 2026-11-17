@@ -3,7 +3,7 @@
  "run": "2026-11-17-morning",
  "date": "2026-11-17",
  "snapshot": "morning",
- "created_at": "2026-11-17T10:05:00-05:00",
+ "created_at": "2026-11-17T09:51:00-05:00",
  "author": "parlay-locks",
  "slate_notes": "Morning snapshot. 10 legs across 10 games: NBA x4 (DET@SA, CHA@LAL, POR@MIN, NY@TOR) and NHL SOG x6 (CBJ@NYI, CGY@SJ, OTT@WPG, ANA@STL, TOR@CHI, EDM@FLA), one leg per game. No college props, and no NFL tonight. Every est_prob is a multiplicative two-way devig at the exact half-point line using WinDaily best-of-book prices, shaded down 2-3.2 pts. Average est_prob 0.575 (highest L1 Collins 0.595, lowest L4 KAT 0.555). NHL prices for CBJ@NYI, CGY@SJ, ANA@STL and TOR@CHI are stale Monday-evening FanDuel quotes; EDM@FLA and OTT@WPG are fresh as of 9 AM ET. App lines UNCONFIRMED (PrizePicks API is bot-blocked, Underdog API requires an app version upgrade). Dropped because the game logs contradicted the price: Ja'Kobe Walter U2.5 3PM (3+ in 6/12), Camara U2.5 3PM (6/12), Bridges U2.5 ast (3+ in 7/12), Sam Bennett U2.5 SOG (3+ in 6/10), Fox U1.5 3PM (5/12), Josh Hart U1.5 3PM (6/10 over). Also dropped: Kuminga U1.5 3PM (DTD, same game as L3), Kent Johnson U2.5 SOG and Stenberg O1.5 SOG (same games as L5/L6), and UTAH@LAC (thin Fanatics-only markets). Process note: the last two snapshots went 8-10 on legs and 0-6 on slips, with 3PM unders 1-6. The edges here are modest (55-60%), so keep the 2-leg and 3-leg cores separate.",
  "legs": [

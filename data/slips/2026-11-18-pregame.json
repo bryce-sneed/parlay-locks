@@ -1,0 +1,39 @@
+{
+ "schema": "slips/v1",
+ "run": "2026-11-18-pregame",
+ "date": "2026-11-18",
+ "snapshot": "pregame",
+ "created_at": "2026-11-18T18:10:00-05:00",
+ "author": "parlay-locks",
+ "paper": true,
+ "notes": "Pregame check-and-swap (P2). Morning legs: no dead legs, no swaps (Huerter's ast line moved up to 3.5 at books with Cunningham questionable, which helps the morning O2.5; Suggs off ORL report; 76ers' Jaylen Brown out is neutral for Suggs ast). New legs priced 4:49-4:51 PM ET (after 3 PM), all overs, 5 new games, no morning players or theses, so new slips allowed. Panel veto (P3): dropped L3 Goodwin O1.5 ast, as Claude and Codex both named THIN/RISK (10 and 14 min in 2 of last 10, no rotation change shown); Cursor kept. Other 4 legs 3-0 keep, and the votes weren't used to rank. 6 PM recheck: Sportsnet reports RJ Barrett now ruled out too, which comes after Walter's 4:49 price but supports the over (more on-ball creation), so kept. No 5-leg: only 4 legs survived the veto. 2-leg and 3-leg share 1 leg (L1).",
+ "slips": [
+  {
+   "id": "2026-11-18-pregame-2",
+   "size": 2,
+   "platform": "Underdog",
+   "play_type": "standard",
+   "stake": 1,
+   "payout_multiplier": 3.5,
+   "legs": [
+    "L4",
+    "L1"
+   ],
+   "rationale": "Overs only (P4): Walter O1.5 ast (60.0%, 4 books; Barnes and now Barrett out) + Meleek Thomas O1.5 ast (59.3%, 6 books; thin CLE backcourt). Different games. Est joint 35.6% vs 28.6% BE."
+  },
+  {
+   "id": "2026-11-18-pregame-3",
+   "size": 3,
+   "platform": "Underdog",
+   "play_type": "flex",
+   "stake": 1,
+   "payout_multiplier": 3.25,
+   "legs": [
+    "L2",
+    "L5",
+    "L1"
+   ],
+   "rationale": "UD 3-Flex (3.25x/1.09x): Seider O1.5 SOG (60.4%, DET missing 2 D-men) + Flagg O5.5 ast (58.6%, GS without Curry) + Thomas O1.5 ast. Shares only L1 with the 2-leg. Each leg clears the 55.4% BE."
+  }
+ ]
+}

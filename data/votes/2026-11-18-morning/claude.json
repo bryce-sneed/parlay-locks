@@ -1,0 +1,104 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-18-morning",
+    "model":  "claude",
+    "model_name":  "haiku",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-18T10:30:04-05:00",
+    "finished_at":  "2026-11-18T10:31:58-05:00",
+    "duration_s":  111.8,
+    "usage":  {
+                  "cost_usd":  0.11232600000000001,
+                  "cache_read":  0,
+                  "output_tokens":  10199,
+                  "input_tokens":  9
+              },
+    "overall_notes":  "Clean, well-devigged slate with fresh 9:47 AM prices (5-6 books per leg), no RECENT-MISS or pricing-method issues, and proper accounting for injury-driven role changes. All legs reflect solid recent form or clear situational factors. No concrete veto errors identified.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  82,
+                      "reasoning":  "Myles Turner shows consistent 2+ assist form (8/10 L10) on steady 22-36 minutes as Milwaukee\u0027s offensive hub. Five-book median devigging at 59.4% reflects steady role and recent baseline. No intervening injuries or role changes. The only risk is foul trouble or an occasional 0-1 dud, which is priced in.",
+                      "risk_flags":  [
+                                         "foul-trouble"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  80,
+                      "reasoning":  "Jalen Smith\u0027s last 4 games (3,3,3,2 ast on 28-32 min) show strong consistency even before the recent loss of Awaka and Wilson. With two frontcourt players out, his starter-level load is secure. Four-book -175 to -200 range, 60.4% devig. Recent form + role boost is solid.",
+                      "risk_flags":  [
+                                         "small-book-count"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  78,
+                      "reasoning":  "Jesper Bratt\u0027s 7/10 at 2+ SOG and top-line/PP1 role is stable. Montreal\u0027s loss of Matheson (defenseman) supports NJ\u0027s offensive intensity. Five books, -160 to -185, 59.9% devig. No role compression or injury spillover to Bratt.",
+                      "risk_flags":  [
+                                         "opponent-injury-context"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  75,
+                      "reasoning":  "Logan Cooley\u0027s 8/10 at 2+ SOG baseline is strong, and Schmaltz/Guenther out definitively elevates his top-six usage. Colorado\u0027s Makar/MacKinnon absence adds secondary context for game openness. Four books, -170 to -190, 59.9% devig. Role boost is the core driver.",
+                      "risk_flags":  [
+                                         "secondary-reasoning"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  72,
+                      "reasoning":  "Aaron Gordon\u0027s last two were 1s, confirming recent weakness, but drafter\u0027s cooldown check asserts no RECENT-MISS within 3 days (prior misses \u003e3 days old). Edge rests on five-book devigging (59.6%), not trend. Probability reflects baseline break-even form. Books have priced in the recent 1-assist games.",
+                      "risk_flags":  [
+                                         "recent-weakness",
+                                         "trend-dependent"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  73,
+                      "reasoning":  "Luguentz Dort\u0027s 7/10 at 3+ rebounds holds even though recent minutes dipped to 18-20 in 3 of last 4. The rebound opportunity stack (ATL missing 4 bigs, OKC missing Holmgren/J.Williams) supports high per-minute rates. Four books, -159 to -174, 58.8% devig already factors low-minute risk.",
+                      "risk_flags":  [
+                                         "minutes-volatility"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  70,
+                      "reasoning":  "Jalen Suggs is 5/7 at 4+ assists on return (71% hit rate), with the 2 coming in a 13-min outlier. Banchero out boosts creation load. Small sample (7 games) and return status justify the modest 56.9% devig vs. recent rate, but no explicit minutes cap or role risk flagged.",
+                      "risk_flags":  [
+                                         "small-sample",
+                                         "return-status"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  76,
+                      "reasoning":  "Kevin Huerter\u0027s elevated minutes (33-38 in 4 of last 5) are driven by concrete Detroit rotation losses (Joe, Robinson, Prince, Holland, Duren out). His 1,7,3,5 assist line in those big-minute games confirms the role is real, not circumstantial. Five books, -156 to -167, 57.6% devig.",
+                      "risk_flags":  [
+                                         "injury-dependent-minutes"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "keep",
+                      "confidence":  76,
+                      "reasoning":  "Alperen Sengun\u0027s 7/10 at 7+ assists and recent 9,10,10,9,9 streak show consistent role as Houston\u0027s offensive hub on 28-39 minutes. Capela out and Indiana guards weakened (Haliburton out, Nembhard/McConnell day-to-day) reduce defensive pressure. Six books, -149 to -158, 56.3% devig.",
+                      "risk_flags":  [
+                                         "one-low-game"
+                                     ]
+                  }
+              ]
+}

@@ -1,0 +1,112 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-18-morning",
+    "model":  "codex",
+    "model_name":  "default",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-18T10:30:04-05:00",
+    "finished_at":  "2026-11-18T10:31:58-05:00",
+    "duration_s":  30.2,
+    "usage":  {
+                  "tokens":  22220
+              },
+    "overall_notes":  "The supplied pricing uses exact-line, within-book devigging across multiple books, so there is no demonstrated pricing veto. I keep eight legs and cut Dort for an unresolved recent minutes decline; all keeps remain conditional on confirming the stated lines and settlement rules in the apps.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  59,
+                      "reasoning":  "Five paired book prices and eight qualifying results in ten games support keeping Turner. His minutes vary considerably, but no current restriction is identified; a confirmed minutes reduction would change my decision.",
+                      "risk_flags":  [
+                                         "minutes",
+                                         "line-confirmation"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  60,
+                      "reasoning":  "Smith\u0027s recent 28–32 minutes and four consecutive qualifying assist totals support the stated expanded role. Four books corroborate the price; a returning frontcourt teammate or reduced starting role would change my decision.",
+                      "risk_flags":  [
+                                         "role",
+                                         "line-confirmation"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  60,
+                      "reasoning":  "Bratt\u0027s top-line and PP1 assignments support the over, with five books supplying paired prices. Shot volume can fluctuate, but no specific role reduction is supplied; losing either assignment would warrant reconsideration.",
+                      "risk_flags":  [
+                                         "shot-volume",
+                                         "line-confirmation"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  60,
+                      "reasoning":  "Cooley\u0027s eight qualifying games and expanded offensive role support keeping this leg. Missing teammates can also weaken offensive production, but that possibility alone does not establish a veto; reduced PP1 usage would change my decision.",
+                      "risk_flags":  [
+                                         "teammate-absences",
+                                         "line-confirmation"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  60,
+                      "reasoning":  "Five-book pricing supports this leg despite Gordon\u0027s two latest one-assist games. Those misses lack dates establishing a cooldown violation, so I cannot apply RECENT-MISS; confirmation that either occurred within three days at this unchanged line would change my decision.",
+                      "risk_flags":  [
+                                         "recent-form",
+                                         "cooldown-verification",
+                                         "line-confirmation"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "cut",
+                      "confidence":  54,
+                      "reasoning":  "THIN/RISK: Dort played only 18–20 minutes in three of his last four games, and the reasoning does not explain that decline or establish tonight\u0027s expected workload. Frontcourt absences may increase rebound opportunities but do not resolve his playing time; confirmation of restored minutes would change my decision.",
+                      "risk_flags":  [
+                                         "thin/risk",
+                                         "minutes"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  57,
+                      "reasoning":  "Suggs has cleared this line in five of seven games back, with Banchero\u0027s absence supporting additional creation. The 13-minute appearance deserves attention, but no ongoing restriction is established; a confirmed cap or unresolved injury designation would change my decision.",
+                      "risk_flags":  [
+                                         "minutes",
+                                         "small-sample",
+                                         "line-confirmation"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  58,
+                      "reasoning":  "Huerter\u0027s recent 33–38-minute workload provides a concrete basis for the over alongside five-book pricing. His assist production remains variable even in extended minutes; returning rotation players or a reduced workload would change my decision.",
+                      "risk_flags":  [
+                                         "role",
+                                         "assist-variance",
+                                         "line-confirmation"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "keep",
+                      "confidence":  56,
+                      "reasoning":  "Sengun\u0027s established workload and six paired book prices support keeping the over despite his latest two-assist game. That game\u0027s date is unspecified, and Amen Thompson\u0027s availability introduces some role uncertainty; a confirmed unchanged-line miss within three days or a material role reduction would change my decision.",
+                      "risk_flags":  [
+                                         "cooldown-verification",
+                                         "teammate-status",
+                                         "line-confirmation"
+                                     ]
+                  }
+              ]
+}

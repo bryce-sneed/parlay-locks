@@ -1,0 +1,114 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-18-morning",
+    "model":  "cursor",
+    "model_name":  "auto",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-18T10:30:04-05:00",
+    "finished_at":  "2026-11-18T10:31:58-05:00",
+    "duration_s":  72.9,
+    "usage":  {
+                  "inputTokens":  29405,
+                  "outputTokens":  2731,
+                  "cacheReadTokens":  22592,
+                  "cacheWriteTokens":  0
+              },
+    "overall_notes":  "Morning-priced slate with uniform per-book devig and 4–6 books on every leg; no leg triggers a hard veto on pricing methodology or recent-miss cooldown. L6 has a possible roster/team label inconsistency (Dort listed ATL while the narrative reads OKC), but the injury and rebound logic is still spelled out. Default keep on all nine; weakest pure form legs are L5 and L7 where the edge is mostly market rather than trend.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  74,
+                      "reasoning":  "Turner O1.5 assists is backed by 8/10 at 2+ on stable minutes and a 5-book median near 59.4%, with no line-mismatch or single-book pricing. Foul trouble or a true 0–1 outlier are the main miss paths, not a structural pricing or role error. A cut would require stale post-9:47 lineup news that removes him as the hub big or a confirmed pick\u0027em line above 1.5.",
+                      "risk_flags":  [
+                                         "foul-trouble",
+                                         "low-minute-outlier"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  73,
+                      "reasoning":  "Smith O1.5 fits P1-compliant pricing (4 books, median devig 60.4%) and recent 3,3,3,2 on 28–32 minutes with frontcourt outs that support more touch volume, not a forbidden under role-expansion case. The one 7-minute game slightly clouds L10 rate but is acknowledged. Would rethink if Wilson/Awaka returns unexpectedly or minutes snap back under ~24.",
+                      "risk_flags":  [
+                                         "minutes-variance",
+                                         "injury-minutes-up"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  75,
+                      "reasoning":  "Bratt O1.5 SOG has 7/10 at 2+ with PP1 usage and 5-book median ~59.9%; pricing and book count clear the bar. Matheson out is a plus for shot volume context, not a stale or mismatched line issue. A quiet 0–1 SOG night in a trap game would be the miss mode.",
+                      "risk_flags":  [
+                                         "off-night-variance",
+                                         "pp1-role"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  76,
+                      "reasoning":  "Cooley O1.5 SOG is an over with elevated usage from Schmaltz/Guenther IR and 8/10 at 2+; 4-book median 59.9% is methodology-clean. Missing COL stars points to a more open game, which helps overs, not blowout-bench risk on an under. Line or role regression would be the change factor.",
+                      "risk_flags":  [
+                                         "usage-up",
+                                         "defensive-context"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  62,
+                      "reasoning":  "Gordon O1.5 is price-led (5-book median 59.6%) with only 6/10 at 2+ and back-to-back 1-assist games, but that is weak form—not a listed veto error, and the over is not subject to under role-expansion rules. Edge lives in the book, so confidence is moderate. Two more sub-2 games without line softening would weaken keep rationale.",
+                      "risk_flags":  [
+                                         "recent-form",
+                                         "price-dependent"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  58,
+                      "reasoning":  "Dort O2.5 rebounds has 7/10 at 3+ and plausible wing rebound uptick with ATL frontcourt outs, plus 4-book median 58.8%. Low minutes in 3 of last 4 is a real but named risk, not thin reasoning. Team label vs. narrative may confuse readers but does not meet a concrete pricing or cooldown veto.",
+                      "risk_flags":  [
+                                         "minutes",
+                                         "frontcourt-outs",
+                                         "label-noise"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  66,
+                      "reasoning":  "Suggs O3.5 assists with Banchero out supports creation load; 5/7 at 4+ with the 2s in a 13-minute game is reasonable sample handling and 4-book median 56.9% still clears typical 2-leg break-even. No recent miss or single-book issue cited. Return to low-minute bursts without 4+ would be concerning.",
+                      "risk_flags":  [
+                                         "banchero-out",
+                                         "minutes-spike",
+                                         "creation-role"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  71,
+                      "reasoning":  "Huerter O2.5 aligns elevated minutes (33–38) with multiple DET outs and 6/10 at 3+ in L10 when minutes are there; 5-book median 57.6% is properly sourced. Zeros came in 16–24 minute games, which the writeup separates. A sudden rotation reset with Duren/Joe returning would flip the thesis.",
+                      "risk_flags":  [
+                                         "injury-minutes-up",
+                                         "rotation-volatility"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "keep",
+                      "confidence":  70,
+                      "reasoning":  "Sengun O6.5 has 7/10 at 7+ as Houston\u0027s hub with weak IND backcourt pressure and 6-book median 56.3%. The lone 2-assist game is flagged; it is not a RECENT-MISS cooldown hit. Capela out and possible guard absences for IND support the over narrative rather than an under-expansion veto.",
+                      "risk_flags":  [
+                                         "recent-outlier",
+                                         "ind-guard-absences",
+                                         "hub-usage"
+                                     ]
+                  }
+              ]
+}

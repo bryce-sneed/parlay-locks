@@ -1,0 +1,69 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-18-pregame",
+    "model":  "codex",
+    "model_name":  "default",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-18T17:30:06-05:00",
+    "finished_at":  "2026-11-18T17:31:54-05:00",
+    "duration_s":  43.9,
+    "usage":  {
+                  "tokens":  20812
+              },
+    "overall_notes":  "The supplied prices use paired sides within each book, multiple books, and fresh timestamps, so there is no demonstrated pricing veto. I would cut only Goodwin for unresolved minutes risk; Flagg’s recent misses deserve attention, but their dates do not establish a cooldown violation against the explicit clean check.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  59,
+                      "reasoning":  "Six paired book markets support the exact 1.5 line, while recent minutes and Cleveland’s absences support his opportunity. The remaining risk is whether those minutes produce enough creation; a reduced rotation role or a different app line would change my decision.",
+                      "risk_flags":  [
+                                         "line-unconfirmed",
+                                         "role"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  60,
+                      "reasoning":  "Three paired markets support over 1.5, and substantial TOI plus defensive absences support continued opportunity. The recent zero-shot games show volatility, but no concrete veto; reduced deployment or an app-line mismatch would change my decision.",
+                      "risk_flags":  [
+                                         "shot-volatility",
+                                         "line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "cut",
+                      "confidence":  54,
+                      "reasoning":  "THIN/RISK: His minutes range from 10 to 31, including two appearances of only 10 and 14 minutes, without an identified rotation change or projected workload that resolves that downside tonight. At the cited rate of approximately one assist per 10 minutes, those short appearances materially threaten two assists. A confirmed rotation role supporting roughly 20-plus minutes would remove this veto.",
+                      "risk_flags":  [
+                                         "thin/risk",
+                                         "minutes"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  60,
+                      "reasoning":  "Barnes’s confirmed absence supplies a concrete role change, and all cited prices follow that announcement. Barrett’s availability affects the size of the opportunity, but the confirmed absence already supports the thesis; evidence that Walter loses creation duties would change my decision.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "usage",
+                                         "line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  59,
+                      "reasoning":  "Four paired markets support the exact line, and the supplied heavy workload supports keeping it despite three consecutive games below six assists. Those games lack dates, so they do not establish a RECENT-MISS violation given the explicit clean cooldown check. A dated unchanged-line miss on November 15–17 would trigger a cut.",
+                      "risk_flags":  [
+                                         "recent-form",
+                                         "line-unconfirmed"
+                                     ]
+                  }
+              ]
+}

@@ -1,0 +1,73 @@
+{
+    "schema":  "panel/v1",
+    "run":  "2026-11-18-pregame",
+    "host":  "SNEED_PC",
+    "started_at":  "2026-11-18T17:30:06-05:00",
+    "finished_at":  "2026-11-18T17:31:54-05:00",
+    "second_pass":  false,
+    "models":  {
+                   "cursor":  {
+                                  "status":  "ok",
+                                  "keep":  5,
+                                  "cut":  0,
+                                  "abstain":  0,
+                                  "duration_s":  44.8
+                              },
+                   "claude":  {
+                                  "status":  "ok",
+                                  "keep":  4,
+                                  "cut":  1,
+                                  "abstain":  0,
+                                  "duration_s":  106.1
+                              },
+                   "codex":  {
+                                 "status":  "ok",
+                                 "keep":  4,
+                                 "cut":  1,
+                                 "abstain":  0,
+                                 "duration_s":  43.9
+                             }
+               },
+    "consensus":  [
+                      {
+                          "leg_id":  "L1",
+                          "keep":  3,
+                          "cut":  0,
+                          "abstain":  0,
+                          "avg_conf":  67.7,
+                          "score":  67.7
+                      },
+                      {
+                          "leg_id":  "L2",
+                          "keep":  3,
+                          "cut":  0,
+                          "abstain":  0,
+                          "avg_conf":  64,
+                          "score":  64
+                      },
+                      {
+                          "leg_id":  "L4",
+                          "keep":  3,
+                          "cut":  0,
+                          "abstain":  0,
+                          "avg_conf":  63.7,
+                          "score":  63.7
+                      },
+                      {
+                          "leg_id":  "L5",
+                          "keep":  3,
+                          "cut":  0,
+                          "abstain":  0,
+                          "avg_conf":  58.7,
+                          "score":  58.7
+                      },
+                      {
+                          "leg_id":  "L3",
+                          "keep":  1,
+                          "cut":  2,
+                          "abstain":  0,
+                          "avg_conf":  61,
+                          "score":  -21.7
+                      }
+                  ]
+}

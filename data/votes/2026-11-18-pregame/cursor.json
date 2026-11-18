@@ -1,0 +1,76 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-18-pregame",
+    "model":  "cursor",
+    "model_name":  "auto",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-18T17:30:06-05:00",
+    "finished_at":  "2026-11-18T17:31:54-05:00",
+    "duration_s":  44.8,
+    "usage":  {
+                  "inputTokens":  14915,
+                  "outputTokens":  2019,
+                  "cacheReadTokens":  35968,
+                  "cacheWriteTokens":  0
+              },
+    "overall_notes":  "All five afternoon legs use fresh 4:49–4:51 PM ET devigged medians at the stated lines with at least three books each, and none trigger the hard veto rules (no stale pricing relative to Barnes/CLE news, no single-book pricing, no recent-miss cooldown hits). Role and injury context mostly supports the overs rather than conflicting with them. I would default keep on every leg; L3 minutes volatility and L5 recent sub-line form are the main watch items but are already flagged in the writeups.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  74,
+                      "reasoning":  "Six-book median at the exact 1.5 assist line with no pricing-method red flags, and CLE’s backcourt/wing absences give a concrete path to 28+ minutes and on-ball reps that matches the 6/10 and last-three assist tape. Main risk is a tighter rotation or blowout if MEM folds early; a cut would need evidence Thomas’s minutes or creation role shrank after the 4:51 PM snapshot.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "minutes",
+                                         "blowout"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  67,
+                      "reasoning":  "Pricing is valid at 1.5 SOG across three devigged books with a fresh timestamp, and Detroit losing two defensemen supports stable or elevated Seider TOI rather than contradicting an over. The 0-SOG spikes in two of the last six are real variance, not a veto-class gap, since baseline 2+ rate and role expansion are documented. Would reconsider only on a true line-mismatch reprice or evidence Seider’s pair/PP usage dropped post-snapshot.",
+                      "risk_flags":  [
+                                         "variance",
+                                         "toi",
+                                         "injury"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  59,
+                      "reasoning":  "Market work is clean (three books, exact 1.5, post-3 PM stamp) and the hit rate at 2+ in 8/10—including recent games—is strong for this low line. The drafter already centers the real issue (10–14 minute floors) instead of ignoring workload, so this is not THIN/RISK in the veto sense. A change of mind would require a post-snapshot minutes/rotation downgrade, not weaker historical makes alone.",
+                      "risk_flags":  [
+                                         "minutes",
+                                         "rotation",
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  66,
+                      "reasoning":  "Barnes out and Barrett questionable are reflected in a 4:49 PM four-book median, so STALE-PRICE does not apply, and the usage bump story is the stated edge over a 5/10 baseline. Injury news expands Walter’s creation role rather than arguing against this over. Risk is Barrett playing heavy and a thin 5/10 hit rate without the bump; would cut only on line-mismatch or if reasoning relied on pre-Barnes pricing.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "usage-bump",
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  57,
+                      "reasoning":  "Four-book devig at 5.5 assists is methodologically sound, and the dossier openly notes the last three games below the line while still citing heavy-minute 6+ in six of ten. That is caution, not an omitted volume check or role-expansion under trap (this is an over). Main risk is cold recent form and Christie/GSW rotation noise; confidence is lower but no named veto error applies.",
+                      "risk_flags":  [
+                                         "recent-form",
+                                         "minutes",
+                                         "injury"
+                                     ]
+                  }
+              ]
+}

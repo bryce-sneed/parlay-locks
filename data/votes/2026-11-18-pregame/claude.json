@@ -1,0 +1,66 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-18-pregame",
+    "model":  "claude",
+    "model_name":  "haiku",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-18T17:30:06-05:00",
+    "finished_at":  "2026-11-18T17:31:54-05:00",
+    "duration_s":  106.1,
+    "usage":  {
+                  "cost_usd":  0.101331,
+                  "cache_read":  0,
+                  "output_tokens":  9108,
+                  "input_tokens":  9
+              },
+    "overall_notes":  "Five fresh overs from new games, all 59-60% EV with 3-6 book coverage and prices stamped at 4:49-4:51 PM ET against the latest ESPN injury feed. CLE\u0027s thin backcourt/wings and DET\u0027s missing defensemen provide solid role support; Scottie Barnes ruled out and Curry absent are real game-context shifts. One leg relies on unresolved minutes for a bench guard—that\u0027s the veto.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  70,
+                      "reasoning":  "Meleek Thomas has strong recent form (3,2,3 ast in last 3 on 30-34 min), is at a 1 ast per 10 min rate, and CLE\u0027s injuries (Tyson out, Watson doubtful, Merrill out/questionable, Mobley out) should lock in 28+ minutes. Six-book coverage at -155 to -186, priced fresh at 4:49 PM ET and reflecting the injury depth. This is the best-covered leg on the board; cooldown check clean.",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  65,
+                      "reasoning":  "Moritz Seider\u0027s 60.4% devigged median across 3 books is solid, backed by 2+ SOG in 6 of his last 10 (24-30 min TOI) and DET\u0027s loss of two defensemen (Wallinder, Johansson out) expanding his top-pair workload. Variance risk is real—0 SOG in 2 of the last 6—but defensemen depth ensures ice time holds or grows. Price fresh, cooldown clean.",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "cut",
+                      "confidence":  70,
+                      "reasoning":  "THIN/RISK: Goodwin\u0027s 59.4% relies entirely on a 1 ast per 10 min rate, but minutes are volatile (10, 14 in 2 of his last 10), and there is no roster/injury context explaining why he should lock into 20+ min tonight. The drafter acknowledges the risk—\u0027he played 10 and 14 in two of his last 10\u0027—but provides no PT projection or role-expansion catalyst (SAC\u0027s loss of Raynaud alone doesn\u0027t guarantee Goodwin\u0027s 20+ min). Edge is conditional and unresolved; cooldown is clean, so no recent miss, but the conditional edge lacks baseline support.",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  65,
+                      "reasoning":  "Scottie Barnes ruled out (~12:46 PM) is concrete and fresh; RJ Barrett questionable. Ja\u0027Kobe Walter\u0027s 27-36 min baseline should hold or expand with Barnes gone and on-ball reps increasing. L10 rate at 2+ is modest (5/10), but the usage bump is real and reflected in the 4:49 PM prices (4-book devig at 60.0%, range -162 to -200). Edge is conditional on usage shift, but shift is factual.",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  60,
+                      "reasoning":  "Cooper Flagg\u0027s 58.6% is rooted in a strong L10 rate (6+ ast in 6/10, 27-40 min), and Golden State\u0027s loss of Curry and Green/Horford questionable weakens the opponent defensively. Flagg should get more perimeter space and on-ball opportunities. Recent form (last 3 went 4,5,3) is below the 5.5 line and concerning, but the cooldown check is clean—meaning he didn\u0027t miss O5.5 on Nov 15-17—so the form predates the Curry injury news. The opponent context shift justifies the line despite recent underperformance; 4-book devig median is 58.6%, modest but above break-even.",
+                      "risk_flags":  [
+
+                                     ]
+                  }
+              ]
+}

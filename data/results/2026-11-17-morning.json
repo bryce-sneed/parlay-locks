@@ -1,0 +1,114 @@
+{
+ "schema": "results/v1",
+ "run": "2026-11-17-morning",
+ "graded_at": "2026-11-18T09:55:00-05:00",
+ "author": "parlay-locks",
+ "notes": "Legs 7/10 (unders 6/8, overs 1/2: L5 hit, L10 missed). Panel keep/cut accuracy: Claude 8/10 (keeps 6/7 hit, cuts 2/3 missed), Cursor 7/10 (keeps 6/8, cuts 1/2), Codex 6/10 (keeps 4/5, cuts 2/5). Unanimous keeps 4/5 (L10 missed); unanimous cut L9 missed (correct). Slips: 2-leg won +$2.50; 3-leg and 5-leg Power each lost by one leg (Seth Jones 1 SOG). Snapshot P/L +$0.50.",
+ "legs": [
+  {
+   "leg_id": "L1",
+   "actual": 0,
+   "outcome": "hit",
+   "note": "John Collins 0 ast in 23 min. Final.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401910004"
+  },
+  {
+   "leg_id": "L2",
+   "actual": 0,
+   "outcome": "hit",
+   "note": "Sion James 0-2 3PT in 30 min. Final.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401910005"
+  },
+  {
+   "leg_id": "L3",
+   "actual": 0,
+   "outcome": "hit",
+   "note": "Scoot Henderson 0-4 3PT in 21 min. Final.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401910003"
+  },
+  {
+   "leg_id": "L4",
+   "actual": 8,
+   "outcome": "miss",
+   "note": "Karl-Anthony Towns 8 ast in 36 min. Final.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401910002"
+  },
+  {
+   "leg_id": "L5",
+   "actual": 3,
+   "outcome": "hit",
+   "note": "Kyle Palmieri 3 SOG in 14:46 TOI. Final.",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892731"
+  },
+  {
+   "leg_id": "L6",
+   "actual": 2,
+   "outcome": "hit",
+   "note": "Matvei Gridin 2 SOG in 15:26 TOI. Final.",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892738"
+  },
+  {
+   "leg_id": "L7",
+   "actual": 0,
+   "outcome": "hit",
+   "note": "Dylan Cozens 0 SOG (2 missed) in 17:19 TOI. Final.",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892736"
+  },
+  {
+   "leg_id": "L8",
+   "actual": 2,
+   "outcome": "hit",
+   "note": "Leo Carlsson 2 SOG (3 missed) in 26:16 TOI. Final.",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892734"
+  },
+  {
+   "leg_id": "L9",
+   "actual": 3,
+   "outcome": "miss",
+   "note": "Darren Raddysh 3 SOG in 19:43 TOI. Final.",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892733"
+  },
+  {
+   "leg_id": "L10",
+   "actual": 1,
+   "outcome": "miss",
+   "note": "Seth Jones 1 SOG in 24:27 TOI. Final.",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892730"
+  }
+ ],
+ "slips": [
+  {
+   "id": "2026-11-17-morning-2",
+   "size": 2,
+   "stake": 1,
+   "outcome": "win",
+   "payout": 3.5,
+   "pnl": 2.5,
+   "platform": "Underdog",
+   "play_type": "standard",
+   "note": "L1 Collins 0 ast and L5 Palmieri 3 SOG both hit. 3.5x."
+  },
+  {
+   "id": "2026-11-17-morning-3",
+   "size": 3,
+   "stake": 1,
+   "outcome": "loss",
+   "payout": 0,
+   "pnl": -1,
+   "platform": "Underdog",
+   "play_type": "standard",
+   "note": "L7, L8 hit; L10 Seth Jones 1 SOG missed."
+  },
+  {
+   "id": "2026-11-17-morning-5",
+   "size": 5,
+   "stake": 1,
+   "outcome": "loss",
+   "payout": 0,
+   "pnl": -1,
+   "platform": "PrizePicks",
+   "play_type": "power",
+   "note": "4/5 (L1, L2, L7, L8 hit; L10 missed). Power 20x pays nothing at 4/5 (Flex would have paid 2x)."
+  }
+ ]
+}

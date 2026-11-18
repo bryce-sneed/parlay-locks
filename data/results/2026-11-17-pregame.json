@@ -1,0 +1,52 @@
+{
+ "schema": "results/v1",
+ "run": "2026-11-17-pregame",
+ "graded_at": "2026-11-18T09:55:00-05:00",
+ "author": "parlay-locks",
+ "notes": "Recheck-only run, no slips (P2). Legs 5/6 (duplicates of morning legs, not new exposure). Panel keep/cut accuracy: Claude 4/6 (keeps 3/3 hit, cuts 1/3 missed), Cursor 4/6 (keeps 4/5, cuts 0/1), Codex 1/6 (blanket cuts, 1/6 missed). Unanimous cut L6 (Sion James 3PM U1.5) hit.",
+ "legs": [
+  {
+   "leg_id": "L1",
+   "actual": 0,
+   "outcome": "hit",
+   "note": "Same as morning L1: Collins 0 ast. Final.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401910004"
+  },
+  {
+   "leg_id": "L2",
+   "actual": 3,
+   "outcome": "hit",
+   "note": "Same as morning L5: Palmieri 3 SOG. Final.",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892731"
+  },
+  {
+   "leg_id": "L3",
+   "actual": 1,
+   "outcome": "miss",
+   "note": "Same as morning L10: Seth Jones 1 SOG. Final.",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892730"
+  },
+  {
+   "leg_id": "L4",
+   "actual": 0,
+   "outcome": "hit",
+   "note": "Same as morning L7: Cozens 0 SOG. Final.",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892736"
+  },
+  {
+   "leg_id": "L5",
+   "actual": 2,
+   "outcome": "hit",
+   "note": "Same as morning L8: Carlsson 2 SOG. Final.",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892734"
+  },
+  {
+   "leg_id": "L6",
+   "actual": 0,
+   "outcome": "hit",
+   "note": "Same as morning L2: Sion James 0-2 3PT. Final.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401910005"
+  }
+ ],
+ "slips": []
+}

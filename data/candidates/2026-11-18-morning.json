@@ -1,0 +1,447 @@
+{
+ "schema": "candidates/v1",
+ "run": "2026-11-18-morning",
+ "date": "2026-11-18",
+ "snapshot": "morning",
+ "created_at": "2026-11-18T10:05:00-05:00",
+ "author": "parlay-locks",
+ "slate_notes": "Morning snapshot, last day of the dry run. 9 legs across 9 games, one per game: NBA x7 (MIL@MIA, CHI@BKN, BOS@DEN, ATL@OKC, PHI@ORL, DET@NO, HOU@IND) and NHL SOG x2 (MTL@NJ, COL@UTA). All overs. Every under that cleared the price bar failed a P1 role-expansion test (VanVleet: Capela out; Peterka: Hagens IR) or relied on one Day-To-Day (Hunter). First run fully P1-compliant on pricing: per-book two-way devig (multiplicative) at the exact line from The Odds API (US books: DK, FD, MGM, BetRivers, BetOnline, Bovada), median across books, 4-6 books per leg, prices stamped 9:47 AM ET. Cooldown check: no player+prop miss in the last 3 days. No college props. Caveat: books' lines are assumed to match the PrizePicks/Underdog lines. Confirm each line on the app before you play, and treat a Goblin/Demon line as a different line.",
+ "legs": [
+  {
+   "id": "L1",
+   "sport": "NBA",
+   "event": "MIL @ MIA",
+   "start_time": "2026-11-18T19:00:00-05:00",
+   "player": "Myles Turner",
+   "team": "MIL",
+   "market": "Assists",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.594,
+   "est_prob_raw": 0.594,
+   "confidence": 61,
+   "reasoning": "Turner has 2+ assists in 8 of his last 10 (1,3,2,7,0,6,2,2,2,4) on steady 22-36 min as Milwaukee's hub big. Five books price O1.5 between -170 and -190, and the median devig is 59.4%. The only thin outcomes are a foul-trouble night or a 0-1 dud like his 2 misses. It's an over, so no shade.",
+   "key_stats": [
+    "L10 assists: 1,3,2,7,0,6,2,2,2,4 (8/10 at 2+)",
+    "Minutes L10: 22-36",
+    "5-book median fair 59.4%"
+   ],
+   "injury_notes": "MIL: Ousmane Dieng out (no effect). MIA: Adebayo/Jovic day-to-day.",
+   "price_ts": "2026-11-18T09:47:00-05:00",
+   "n_books": 5,
+   "price_books": [
+    "betrivers -175/+125",
+    "draftkings -175/+132",
+    "betonlineag -172/+131",
+    "betmgm -190/+140",
+    "bovada -170/+130"
+   ],
+   "price_method": "per_book_median",
+   "sources": [
+    {
+     "title": "The Odds API event props (per-book two-way prices, 9:47 AM ET)",
+     "url": "https://the-odds-api.com/"
+    },
+    {
+     "title": "ESPN game log",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/3133628"
+    },
+    {
+     "title": "ESPN NBA injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "sport": "NBA",
+   "event": "CHI @ BKN",
+   "start_time": "2026-11-18T19:30:00-05:00",
+   "player": "Jalen Smith",
+   "team": "CHI",
+   "market": "Assists",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.604,
+   "est_prob_raw": 0.604,
+   "confidence": 60,
+   "reasoning": "Smith has 2+ assists in 6 of his last 10, but 6 of 9 when he played real minutes (one 7-min game), and he's at 3,3,3,2 over his last 4 on 28-32 min. With Tobe Awaka and Caleb Wilson out, Smith keeps a starter-level frontcourt load. Four books price -175 to -200, and the median devig is 60.4%.",
+   "key_stats": [
+    "Last 4: 3,3,3,2 ast on 28-32 min",
+    "L10 at 2+: 6/10 (one 7-min game)",
+    "4-book median fair 60.4%"
+   ],
+   "injury_notes": "CHI: Awaka and Wilson out, Patrick Williams day-to-day (more frontcourt minutes for Smith).",
+   "price_ts": "2026-11-18T09:47:00-05:00",
+   "n_books": 4,
+   "price_books": [
+    "betonlineag -175/+134",
+    "betrivers -190/+138",
+    "betmgm -175/+130",
+    "bovada -200/+150"
+   ],
+   "price_method": "per_book_median",
+   "sources": [
+    {
+     "title": "The Odds API event props (per-book two-way prices, 9:47 AM ET)",
+     "url": "https://the-odds-api.com/"
+    },
+    {
+     "title": "ESPN game log",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/4397189"
+    },
+    {
+     "title": "ESPN NBA injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "sport": "NHL",
+   "event": "MTL @ NJ",
+   "start_time": "2026-11-18T19:30:00-05:00",
+   "player": "Jesper Bratt",
+   "team": "NJ",
+   "market": "Shots on Goal",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.599,
+   "est_prob_raw": 0.599,
+   "confidence": 60,
+   "reasoning": "Bratt has 2+ SOG in 7 of his last 10 (1,2,2,4,4,2,4,0,2,0) as NJ's top-line and PP1 winger. Montreal is thin on D with Matheson out. Five books price -160 to -185, and the median devig is 59.9%.",
+   "key_stats": [
+    "L10 SOG: 1,2,2,4,4,2,4,0,2,0 (7/10 at 2+)",
+    "PP1 role",
+    "5-book median fair 59.9%"
+   ],
+   "injury_notes": "MTL: Matheson out, Kreider/Anderson/Demidov IR. NJ: Mantha IR.",
+   "price_ts": "2026-11-18T09:47:00-05:00",
+   "n_books": 5,
+   "price_books": [
+    "draftkings -180/+135",
+    "betonlineag -172/+132",
+    "fanduel -160/+122",
+    "betmgm -185/+135",
+    "bovada -175/+135"
+   ],
+   "price_method": "per_book_median",
+   "sources": [
+    {
+     "title": "The Odds API event props (per-book two-way prices, 9:47 AM ET)",
+     "url": "https://the-odds-api.com/"
+    },
+    {
+     "title": "ESPN game log",
+     "url": "https://www.espn.com/nhl/player/gamelog/_/id/4268771"
+    },
+    {
+     "title": "ESPN NHL injuries",
+     "url": "https://www.espn.com/nhl/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "sport": "NHL",
+   "event": "COL @ UTA",
+   "start_time": "2026-11-18T22:00:00-05:00",
+   "player": "Logan Cooley",
+   "team": "UTA",
+   "market": "Shots on Goal",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.599,
+   "est_prob_raw": 0.599,
+   "confidence": 61,
+   "reasoning": "Cooley has 2+ SOG in 8 of his last 10 (0,2,3,3,2,5,3,0,2,2). With Schmaltz and Guenther on IR, his top-six and PP1 usage goes up, not down. Colorado is without Makar and MacKinnon, which should make for a more open game. Four books price -170 to -190, and the median devig is 59.9%.",
+   "key_stats": [
+    "L10 SOG: 0,2,3,3,2,5,3,0,2,2 (8/10 at 2+)",
+    "Schmaltz, Guenther IR (usage up)",
+    "4-book median fair 59.9%"
+   ],
+   "injury_notes": "UTA: Schmaltz, Guenther, Marino, Schmidt IR. COL: Makar and MacKinnon out.",
+   "price_ts": "2026-11-18T09:47:00-05:00",
+   "n_books": 4,
+   "price_books": [
+    "draftkings -180/+130",
+    "fanduel -178/+136",
+    "betmgm -190/+140",
+    "bovada -170/+130"
+   ],
+   "price_method": "per_book_median",
+   "sources": [
+    {
+     "title": "The Odds API event props (per-book two-way prices, 9:47 AM ET)",
+     "url": "https://the-odds-api.com/"
+    },
+    {
+     "title": "ESPN game log",
+     "url": "https://www.espn.com/nhl/player/gamelog/_/id/5080143"
+    },
+    {
+     "title": "ESPN NHL injuries",
+     "url": "https://www.espn.com/nhl/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "sport": "NBA",
+   "event": "BOS @ DEN",
+   "start_time": "2026-11-18T21:30:00-05:00",
+   "player": "Aaron Gordon",
+   "team": "DEN",
+   "market": "Assists",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.596,
+   "est_prob_raw": 0.596,
+   "confidence": 57,
+   "reasoning": "Gordon has 2+ assists in 6 of his last 10 (1,1,2,2,0,0,2,5,3,2) on 24-33 min. The last two were 1s, so this is a market-driven leg: five books price -165 to -185, and the median devig is 59.6%. Recent form is about break-even, so the edge rests on the price, not the trend.",
+   "key_stats": [
+    "L10 ast: 1,1,2,2,0,0,2,5,3,2 (6/10 at 2+)",
+    "5-book median fair 59.6%"
+   ],
+   "injury_notes": "DEN: Strawther out. Gordon not listed.",
+   "price_ts": "2026-11-18T09:47:00-05:00",
+   "n_books": 5,
+   "price_books": [
+    "betonlineag -172/+133",
+    "draftkings -185/+139",
+    "betmgm -165/+125",
+    "betrivers -175/+125",
+    "bovada -185/+140"
+   ],
+   "price_method": "per_book_median",
+   "sources": [
+    {
+     "title": "The Odds API event props (per-book two-way prices, 9:47 AM ET)",
+     "url": "https://the-odds-api.com/"
+    },
+    {
+     "title": "ESPN game log",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/3064290"
+    },
+    {
+     "title": "ESPN NBA injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L6",
+   "sport": "NBA",
+   "event": "ATL @ OKC",
+   "start_time": "2026-11-18T20:00:00-05:00",
+   "player": "Luguentz Dort",
+   "team": "ATL",
+   "market": "Rebounds",
+   "line": 2.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.588,
+   "est_prob_raw": 0.588,
+   "confidence": 60,
+   "reasoning": "Dort has 3+ rebounds in 7 of his last 10. Atlanta has four frontcourt players out (Landale, Newell, Gueye, Veesaar), which pushes rebounds toward the wings. OKC is missing Holmgren and Jaylin Williams, so there's less size on the other side too. Four books price -159 to -174, and the median devig is 58.8%. The one risk is low minutes (18-20 in 3 of his last 4).",
+   "key_stats": [
+    "L10 reb: 4,1,3,2,7,3,2,3,3,3 (7/10 at 3+)",
+    "ATL bigs out: Landale, Newell, Gueye, Veesaar",
+    "4-book median fair 58.8%"
+   ],
+   "injury_notes": "ATL: Landale, Newell, Gueye, Veesaar, McCollum, Flemings out. OKC: Holmgren, J. Williams, Jalen Williams, Wallace out.",
+   "price_ts": "2026-11-18T09:47:00-05:00",
+   "n_books": 4,
+   "price_books": [
+    "betmgm -165/+125",
+    "betrivers -159/+118",
+    "draftkings -174/+131",
+    "bovada -170/+130"
+   ],
+   "price_method": "per_book_median",
+   "sources": [
+    {
+     "title": "The Odds API event props (per-book two-way prices, 9:47 AM ET)",
+     "url": "https://the-odds-api.com/"
+    },
+    {
+     "title": "ESPN game log",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/4397020"
+    },
+    {
+     "title": "ESPN NBA injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L7",
+   "sport": "NBA",
+   "event": "PHI @ ORL",
+   "start_time": "2026-11-18T19:00:00-05:00",
+   "player": "Jalen Suggs",
+   "team": "ORL",
+   "market": "Assists",
+   "line": 3.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.569,
+   "est_prob_raw": 0.569,
+   "confidence": 57,
+   "reasoning": "Suggs has 4+ assists in 5 of his 7 games back (4,3,6,6,5,4,2), and the 2 came in a 13-min game. With Banchero out, Suggs carries more of the creation. Four books price -152 to -160, and the median devig is 56.9%.",
+   "key_stats": [
+    "Last 7 ast: 4,3,6,6,5,4,2 (5/7 at 4+)",
+    "Banchero out",
+    "4-book median fair 56.9%"
+   ],
+   "injury_notes": "ORL: Banchero, Isaac, Penda out. PHI: Jaylen Brown, Bona out.",
+   "price_ts": "2026-11-18T09:47:00-05:00",
+   "n_books": 4,
+   "price_books": [
+    "fanduel -152/+114",
+    "betrivers -152/+112",
+    "draftkings -160/+121",
+    "bovada -160/+120"
+   ],
+   "price_method": "per_book_median",
+   "sources": [
+    {
+     "title": "The Odds API event props (per-book two-way prices, 9:47 AM ET)",
+     "url": "https://the-odds-api.com/"
+    },
+    {
+     "title": "ESPN game log",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/4432165"
+    },
+    {
+     "title": "ESPN NBA injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L8",
+   "sport": "NBA",
+   "event": "DET @ NO",
+   "start_time": "2026-11-18T20:00:00-05:00",
+   "player": "Kevin Huerter",
+   "team": "DET",
+   "market": "Assists",
+   "line": 2.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.576,
+   "est_prob_raw": 0.576,
+   "confidence": 56,
+   "reasoning": "Detroit is missing Joe, Robinson, Prince, Holland and Duren, and Huerter's minutes have jumped (36, 38, 33, 35 in 4 of his last 5). In those big-minute games he went 1,7,3,5. L10 at 3+ is 6/10, with the 0s in 16-24 min games. Five books price -156 to -167, and the median devig is 57.6%.",
+   "key_stats": [
+    "L10 ast: 1,7,0,3,5,0,3,3,3,0 (6/10 at 3+)",
+    "Minutes up to 33-38 with 5 DET rotation players out",
+    "5-book median fair 57.6%"
+   ],
+   "injury_notes": "DET: Joe, Robinson, Prince, Holland II, Duren out. NO: Murphy, Murray, Mathurin out.",
+   "price_ts": "2026-11-18T09:47:00-05:00",
+   "n_books": 5,
+   "price_books": [
+    "fanduel -166/+124",
+    "betonlineag -156/+121",
+    "betrivers -167/+123",
+    "draftkings -160/+121",
+    "bovada -160/+120"
+   ],
+   "price_method": "per_book_median",
+   "sources": [
+    {
+     "title": "The Odds API event props (per-book two-way prices, 9:47 AM ET)",
+     "url": "https://the-odds-api.com/"
+    },
+    {
+     "title": "ESPN game log",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/4066372"
+    },
+    {
+     "title": "ESPN NBA injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L9",
+   "sport": "NBA",
+   "event": "HOU @ IND",
+   "start_time": "2026-11-18T19:00:00-05:00",
+   "player": "Alperen Sengun",
+   "team": "HOU",
+   "market": "Assists",
+   "line": 6.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.563,
+   "est_prob_raw": 0.563,
+   "confidence": 58,
+   "reasoning": "Sengun has 7+ assists in 7 of his last 10 (2,8,5,9,8,5,10,10,9,9) on 28-39 min as Houston's offensive hub. Indiana is missing Haliburton and may be without Nembhard and McConnell, so there's little defensive pressure on the ball. Six books price -149 to -158, and the median devig is 56.3%. The 2 last game is the risk flag.",
+   "key_stats": [
+    "L10 ast: 2,8,5,9,8,5,10,10,9,9 (7/10 at 7+)",
+    "6-book median fair 56.3%"
+   ],
+   "injury_notes": "HOU: Capela out, Amen Thompson day-to-day. IND: Haliburton out, Nembhard/McConnell day-to-day.",
+   "price_ts": "2026-11-18T09:47:00-05:00",
+   "n_books": 6,
+   "price_books": [
+    "fanduel -158/+118",
+    "betonlineag -149/+115",
+    "draftkings -150/+114",
+    "betmgm -155/+115",
+    "betrivers -141/+105",
+    "bovada -150/+115"
+   ],
+   "price_method": "per_book_median",
+   "sources": [
+    {
+     "title": "The Odds API event props (per-book two-way prices, 9:47 AM ET)",
+     "url": "https://the-odds-api.com/"
+    },
+    {
+     "title": "ESPN game log",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/4871144"
+    },
+    {
+     "title": "ESPN NBA injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    }
+   ]
+  }
+ ]
+}

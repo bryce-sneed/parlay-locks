@@ -3,7 +3,7 @@
  "run": "2026-11-18-morning",
  "date": "2026-11-18",
  "snapshot": "morning",
- "created_at": "2026-11-18T10:05:00-05:00",
+ "created_at": "2026-11-18T09:49:00-05:00",
  "author": "parlay-locks",
  "slate_notes": "Morning snapshot, last day of the dry run. 9 legs across 9 games, one per game: NBA x7 (MIL@MIA, CHI@BKN, BOS@DEN, ATL@OKC, PHI@ORL, DET@NO, HOU@IND) and NHL SOG x2 (MTL@NJ, COL@UTA). All overs. Every under that cleared the price bar failed a P1 role-expansion test (VanVleet: Capela out; Peterka: Hagens IR) or relied on one Day-To-Day (Hunter). First run fully P1-compliant on pricing: per-book two-way devig (multiplicative) at the exact line from The Odds API (US books: DK, FD, MGM, BetRivers, BetOnline, Bovada), median across books, 4-6 books per leg, prices stamped 9:47 AM ET. Cooldown check: no player+prop miss in the last 3 days. No college props. Caveat: books' lines are assumed to match the PrizePicks/Underdog lines. Confirm each line on the app before you play, and treat a Goblin/Demon line as a different line.",
  "legs": [

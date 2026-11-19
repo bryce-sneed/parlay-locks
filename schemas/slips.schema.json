@@ -9,6 +9,29 @@
     "created_at": { "type": "string" }, "author": { "type": "string" },
     "paper": { "const": true },
     "notes": { "type": "string" },
+    "lock_ts": { "type": "string", "description": "Optional (2026-11-19+): ISO 8601 ET timestamp when lock-time prices were stamped, for later closing-line value" },
+    "lock_source": { "type": "string", "description": "Optional: where lock prices came from, e.g. candidates" },
+    "lock_candidates": { "type": "string", "description": "Optional: candidates file used to stamp lock prices" },
+    "lock_prices": {
+      "type": "object",
+      "description": "Optional: per-leg price snapshot at slip lock (line, pick, est_prob, est_prob_raw, price_ts, n_books, price_books, price_method, source)",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "player": { "type": "string" },
+          "market": { "type": "string" },
+          "line": { "type": "number" },
+          "pick": { "enum": ["over", "under", "more", "less"] },
+          "est_prob": { "type": "number", "minimum": 0, "maximum": 1 },
+          "est_prob_raw": { "type": "number", "minimum": 0, "maximum": 1 },
+          "price_ts": { "type": "string" },
+          "n_books": { "type": "integer", "minimum": 0 },
+          "price_books": { "type": "array", "items": { "type": "string" } },
+          "price_method": { "enum": ["per_book_median", "single_book", "cross_book_pair", "other"] },
+          "source": { "type": "string" }
+        }
+      }
+    },
     "slips": {
       "type": "array",
       "items": {

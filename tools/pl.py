@@ -5,7 +5,12 @@
   pl.py validate data/candidates/2026-11-12-morning.json      # light schema check by file location
   pl.py status [RUN]                                          # what exists for a run (candidates/votes/panel/slips/results)
   pl.py publish -m "parlay-locks: candidates 2026-11-12-morning"   # git add data, commit, pull --rebase, push (retries)
-Env: PL_REPO (default /home/box/parlay-locks/repo)
+  pl.py events --sport NBA                                    # list upcoming Odds API events (free)
+  pl.py price --sport NBA --event "GSW @ MEM" --market Assists [--player NAME] [--line 1.5] [--pick over]
+  pl.py lock data/slips/2026-11-19-pregame.json               # stamp lock-time prices from the candidates file (no API)
+  pl.py budget                                                # Odds API credits used today vs daily cap
+  pl.py applines data/candidates/2026-11-19-pregame.json      # match legs to public PrizePicks/Underdog boards
+Env: PL_REPO (default /home/box/parlay-locks/repo), ODDS_API_KEY, PL_ODDS_DAILY_BUDGET (default 45)
 """
 import argparse, json, os, re, subprocess, sys, time
 from datetime import datetime
@@ -78,6 +83,22 @@ def cmd_validate(a):
         for s in d.get("slips", []):
             for k in ("id", "size", "platform", "stake", "payout_multiplier", "legs"): check(k in s, f"slip missing {k}", errs)
             check(s.get("size") in (2, 3, 5) and len(s.get("legs", [])) == s.get("size"), f"slip {s.get('id')} size/legs mismatch", errs)
+        # Optional lock-time prices (added 2026-11-19) for closing-line value later. Older files still validate.
+        if d.get("lock_ts") is not None:
+            ok = isinstance(d["lock_ts"], str)
+            if ok:
+                try: datetime.fromisoformat(d["lock_ts"])
+                except ValueError: ok = False
+            check(ok, "lock_ts must be an ISO 8601 timestamp", errs)
+        if d.get("lock_prices") is not None:
+            check(isinstance(d["lock_prices"], dict), "lock_prices must be an object keyed by leg id", errs)
+            if isinstance(d.get("lock_prices"), dict):
+                for lid, lp in d["lock_prices"].items():
+                    check(isinstance(lid, str) and isinstance(lp, dict), f"lock_prices.{lid} must be an object", errs)
+                    if isinstance(lp, dict) and lp.get("est_prob") is not None:
+                        check(isinstance(lp["est_prob"], (int, float)) and 0 <= lp["est_prob"] <= 1, f"lock_prices.{lid} est_prob 0..1", errs)
+                    if isinstance(lp, dict) and lp.get("n_books") is not None:
+                        check(isinstance(lp["n_books"], int) and not isinstance(lp["n_books"], bool) and lp["n_books"] >= 0, f"lock_prices.{lid} n_books", errs)
     elif "/results/" in "/" + rel:
         check(d.get("schema") == "results/v1", "schema must be results/v1", errs)
         for l in d.get("legs", []): check(l.get("outcome") in ("hit", "miss", "push", "void", "pending"), f"leg {l.get('leg_id')} outcome", errs)
@@ -106,10 +127,89 @@ def cmd_publish(a):
         time.sleep(4 * i)
     sys.exit("push failed: " + p.stderr)
 
+def _tools_dir():
+    return os.path.dirname(os.path.abspath(__file__))
+
+def _odds():
+    sys.path.insert(0, _tools_dir())
+    import odds
+    return odds
+
+def _applines():
+    sys.path.insert(0, _tools_dir())
+    import applines
+    return applines
+
+def cmd_events(a):
+    odds = _odds()
+    try:
+        rc = odds.cmd_events(a)
+    except odds.OddsError as e:
+        print(json.dumps({"ok": False, "error": str(e)}, ensure_ascii=False), file=sys.stderr); sys.exit(1)
+    sys.exit(rc)
+
+def cmd_price(a):
+    odds = _odds()
+    try:
+        rc = odds.cmd_price(a)
+    except odds.OddsError as e:
+        print(json.dumps({"ok": False, "error": str(e)}, ensure_ascii=False), file=sys.stderr); sys.exit(1)
+    sys.exit(rc)
+
+def cmd_lock(a):
+    odds = _odds()
+    try:
+        rc = odds.cmd_lock(a)
+    except odds.OddsError as e:
+        print(json.dumps({"ok": False, "error": str(e)}, ensure_ascii=False), file=sys.stderr); sys.exit(1)
+    sys.exit(rc)
+
+def cmd_budget(a):
+    odds = _odds()
+    try:
+        rc = odds.cmd_budget(a)
+    except odds.OddsError as e:
+        print(json.dumps({"ok": False, "error": str(e)}, ensure_ascii=False), file=sys.stderr); sys.exit(1)
+    sys.exit(rc)
+
+def cmd_applines(a):
+    al = _applines()
+    try:
+        rc = al.cmd_check(a)
+    except Exception as e:
+        print(json.dumps({"ok": False, "error": str(e)}, ensure_ascii=False), file=sys.stderr); sys.exit(1)
+    sys.exit(rc)
+
 ap = argparse.ArgumentParser(); sp = ap.add_subparsers(dest="cmd", required=True)
 f = sp.add_parser("feed"); f.add_argument("--agent", default="parlay-locks"); f.add_argument("--action", required=True); f.add_argument("--text", required=True)
 f.add_argument("--to"); f.add_argument("--run"); f.add_argument("--ref"); f.set_defaults(fn=cmd_feed)
 v = sp.add_parser("validate"); v.add_argument("path"); v.set_defaults(fn=cmd_validate)
 s = sp.add_parser("status"); s.add_argument("run", nargs="?"); s.set_defaults(fn=cmd_status)
 p = sp.add_parser("publish"); p.add_argument("-m", "--message", required=True); p.set_defaults(fn=cmd_publish)
+ev = sp.add_parser("events", help="list upcoming Odds API events (free)")
+ev.add_argument("--sport", required=True); ev.add_argument("--event", help="optional filter")
+ev.set_defaults(fn=cmd_events)
+pr = sp.add_parser("price", help="devig median player-prop price from The Odds API")
+pr.add_argument("--sport", required=True)
+pr.add_argument("--event", help="AWAY @ HOME or a team name")
+pr.add_argument("--event-id")
+pr.add_argument("--market", help="Assists, SOG, receptions, …")
+pr.add_argument("--markets", help="comma-separated markets (1 credit each)")
+pr.add_argument("--player")
+pr.add_argument("--line", type=float)
+pr.add_argument("--pick", choices=["over", "under", "more", "less"])
+pr.add_argument("--no-cache", action="store_true")
+pr.add_argument("--ok-only", action="store_true")
+pr.set_defaults(fn=cmd_price)
+lk = sp.add_parser("lock", help="stamp lock-time prices onto a slips file from its candidates (no API)")
+lk.add_argument("path")
+lk.add_argument("--candidates")
+lk.add_argument("--dry-run", action="store_true")
+lk.set_defaults(fn=cmd_lock)
+bd = sp.add_parser("budget", help="show daily Odds API credit budget")
+bd.set_defaults(fn=cmd_budget)
+aplines = sp.add_parser("applines", help="match legs to public PrizePicks/Underdog boards (read-only)")
+aplines.add_argument("path", nargs="?", help="candidates JSON")
+aplines.add_argument("--player"); aplines.add_argument("--market"); aplines.add_argument("--line", type=float); aplines.add_argument("--pick")
+aplines.set_defaults(fn=cmd_applines)
 a = ap.parse_args(); a.fn(a)

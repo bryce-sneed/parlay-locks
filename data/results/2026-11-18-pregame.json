@@ -1,7 +1,7 @@
 {
  "schema": "results/v1",
  "run": "2026-11-18-pregame",
- "graded_at": "2026-11-19T11:15:00-05:00",
+ "graded_at": "2026-11-19T11:01:00-05:00",
  "author": "parlay-locks",
  "notes": "Legs 4/5, all overs (only miss: L2 Seider 0 SOG). Panel keep/cut accuracy: Claude 3/5 (keeps 3/4 hit, cuts 0/1 missed), Codex 3/5 (keeps 3/4 hit, cuts 0/1 missed), Cursor 4/5 (keeps 4/5 hit, no cuts). The 2-1 veto of L3 Goodwin was wrong (3 ast hit). Unanimous keeps 3/4 hit (L2 missed); no unanimous cuts. Slips: 2-leg UD Standard won +$2.50. 3-leg UD Flex went 2/3 (Seider missed), paying 1.09x for +$0.09. No 5-leg. Snapshot P/L +$2.59. The morning legs carried over unchanged and are graded in 2026-11-18-morning. Graded at the drafted book lines; app lines weren't confirmed.",
  "legs": [

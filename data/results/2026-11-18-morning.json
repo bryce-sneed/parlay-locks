@@ -1,7 +1,7 @@
 {
  "schema": "results/v1",
  "run": "2026-11-18-morning",
- "graded_at": "2026-11-19T11:15:00-05:00",
+ "graded_at": "2026-11-19T11:01:00-05:00",
  "author": "parlay-locks",
  "notes": "Legs 8/9, all overs (only miss: L9 Sengun 1 ast, left in the 2nd quarter with an injury after 14 min). Panel keep/cut accuracy: Claude 8/9 (keeps 8/9 hit, no cuts), Cursor 8/9 (keeps 8/9 hit, no cuts), Codex 7/9 (keeps 7/8 hit, cuts 0/1 missed: the L6 Dort veto was wrong, 3 reb hit). Unanimous keeps 8/9 hit (L9 missed); no unanimous cuts. Slips: 2-leg UD Standard won +$2.50; 3-leg UD Flex went 2/3 (Sengun missed), paying 1.09x for +$0.09; 5-leg PP Power went 5/5, paying 20x for +$19.00. Snapshot P/L +$21.59. Graded at the drafted book lines; app lines weren't confirmed. Sengun played, so this is a miss, not a DNP. A UD Rescue is discretionary and isn't modeled.",
  "legs": [

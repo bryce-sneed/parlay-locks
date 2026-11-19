@@ -13,8 +13,8 @@
     "models": { "type": "object", "additionalProperties": { "type": "object", "properties": { "status": { "type": "string" }, "keep": { "type": "integer" }, "cut": { "type": "integer" }, "abstain": { "type": "integer" }, "duration_s": { "type": "number" } } } },
     "consensus": {
       "type": "array",
-      "description": "Sorted best-first. score = mean over voting models of (+conf if keep, -conf if cut), range -100..100",
-      "items": { "type": "object", "properties": { "leg_id": { "type": "string" }, "keep": { "type": "integer" }, "cut": { "type": "integer" }, "abstain": { "type": "integer" }, "avg_conf": { "type": "number" }, "score": { "type": "number" } } }
+      "description": "Sorted best-first. score = mean over voting models of (+conf if keep, -conf if cut), range -100..100. veto (optional, 2026-11-19+) is true when any voting model cut; one cut is enough to drop the leg. Older files without veto still validate; treat cut>=1 as a veto.",
+      "items": { "type": "object", "properties": { "leg_id": { "type": "string" }, "keep": { "type": "integer" }, "cut": { "type": "integer" }, "abstain": { "type": "integer" }, "avg_conf": { "type": "number" }, "score": { "type": "number" }, "veto": { "type": "boolean", "description": "Optional: true if any voting model cut this leg" } } }
     }
   }
 }

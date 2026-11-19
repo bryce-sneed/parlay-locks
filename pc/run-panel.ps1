@@ -1,24 +1,29 @@
 <#
-  Parlay Locks - multi-model panel (Claude Code, Codex, Cursor Agent)
-  PAPER dry run only. Runs on Sneed_PC via Task Scheduler at 10:30 and 17:30 ET.
+  Parlay Locks - multi-model panel (default: Claude Code + Cursor Agent)
+  PAPER only. Runs on Sneed_PC via Task Scheduler at 10:30 and 17:30 ET.
+
+  Default panel (from 2026-11-19): Claude and Cursor. Codex is still wired up
+  and can be added back with -Models claude,cursor,codex or panel-config.json
+  {"Models":["claude","cursor","codex"]}. A named-error cut from either
+  default model vetoes the leg (see consensus.veto).
 
   Flow: git pull -> find newest candidates file with no data/votes/<run>/_panel.json
         -> one concise prompt per model (in parallel) -> validate strict JSON
         -> write data/votes/<run>/<model>.json + _panel.json + feed lines -> commit + push.
 
   Usage:
-    powershell -ExecutionPolicy Bypass -File C:\parlay-locks\run-panel.ps1            # normal scheduled run
+    powershell -ExecutionPolicy Bypass -File C:\parlay-locks\run-panel.ps1            # normal scheduled run (Claude + Cursor)
     ... -Test                     # tiny prompt to each CLI, no repo writes
     ... -Run 2026-11-12-morning   # specific run
     ... -Force                    # re-vote even if voted / past finalize time
     ... -SecondPass               # each model sees the others' votes and may revise (costs ~2x)
-    ... -Models claude,codex      # subset
+    ... -Models claude,cursor,codex  # include Codex (or any subset)
     ... -NoPush                   # write locally only
-  Optional overrides: C:\parlay-locks\panel-config.json  e.g. {"ClaudeModel":"sonnet","SecondPass":true}
+  Optional overrides: C:\parlay-locks\panel-config.json  e.g. {"ClaudeModel":"sonnet","SecondPass":true,"Models":["claude","cursor","codex"]}
 #>
 param(
   [string]$Run = "",
-  [string[]]$Models = @("claude", "codex", "cursor"),
+  [string[]]$Models = @(),       # empty = Claude + Cursor, or Cfg.Models; pass -Models to override
   [switch]$SecondPass,
   [switch]$Force,
   [switch]$NoPush,
@@ -50,7 +55,23 @@ if (Test-Path $cfgPath) {
   foreach ($p in $o.PSObject.Properties) { $Cfg[$p.Name] = $p.Value }
 }
 if ($SecondPass) { $Cfg.SecondPass = $true }
-if ($Models.Count -eq 1 -and $Models[0] -like "*,*") { $Models = $Models[0].Split(",") | ForEach-Object { $_.Trim() } }
+function Split-ModelList($raw) {
+  $arr = @($raw)
+  if ($arr.Count -eq 1 -and [string]$arr[0] -like "*,*") {
+    $arr = ([string]$arr[0]).Split(",") | ForEach-Object { $_.Trim() }
+  }
+  @($arr | ForEach-Object { ([string]$_).ToLower().Trim() } | Where-Object { $_ })
+}
+if ($Models.Count -eq 0) {
+  if ($Cfg.ContainsKey("Models") -and $Cfg.Models) { $Models = Split-ModelList $Cfg.Models }
+  else { $Models = @("claude", "cursor") }
+} else {
+  $Models = Split-ModelList $Models
+}
+$KnownModels = @("claude", "codex", "cursor")
+$bad = @($Models | Where-Object { $KnownModels -notcontains $_ })
+if ($bad.Count) { throw "Unknown model(s): $($bad -join ', '). Use claude, cursor, and optionally codex." }
+if ($Models.Count -lt 1) { throw "No panel models selected." }
 
 New-Item -ItemType Directory -Force $Work, $LogDir | Out-Null
 $LogFile = Join-Path $LogDir ("run-" + (Get-Date -Format "yyyyMMdd-HHmmss") + ".log")
@@ -187,8 +208,12 @@ function Build-Prompt($cand, [string]$extra) {
       price_ts = $l.price_ts; n_books = $l.n_books; price_books = $l.price_books; price_method = $l.price_method; recent_miss = $l.recent_miss }
   }
   $legJson = ConvertTo-Json -InputObject @($legs) -Depth 6 -Compress
+  $labels = @($Models | ForEach-Object { if ($ModelLabel.ContainsKey($_)) { $ModelLabel[$_] } else { $_ } })
+  if ($labels.Count -le 1) { $panelNames = [string]$labels[0] }
+  elseif ($labels.Count -eq 2) { $panelNames = "$($labels[0]) and $($labels[1])" }
+  else { $panelNames = (($labels[0..($labels.Count - 2)] -join ", ") + ", and " + $labels[-1]) }
 @"
-You are one member of a 3-model review panel (Claude, Codex, Cursor) for a PAPER-ONLY player-prop dry run (PrizePicks/Underdog pick'em, no real money).
+You are one member of a review panel ($panelNames) for a PAPER-ONLY player-prop dry run (PrizePicks/Underdog pick'em, no real money).
 The drafter (Parlay Locks) researched today's slate ($($cand.date), $($cand.snapshot) snapshot) and proposes the candidate legs below.
 Your job: act as a VETO, not a ranking. Keep every leg by default; vote cut ONLY when you can name a concrete, specific error from the list below (or an equally concrete factual problem). Pick'em break-even for context: ~53.5% for Underdog 2/3-leg Standard, ~54.3% for PrizePicks 5-leg Flex, ~54.9% for 5-leg Power. Your confidence is NOT used to rank legs, so do not cut a leg just because it looks weaker than the others. Cut a leg if:
 1. LINE-MISMATCH: the cited sportsbook/prediction probability is NOT for the exact pick'em line and settlement rule (e.g., citing a 60+ yard price for O66.5, or a pushable book Under 9 for a pick'em Under 8.5), or relies on an un-devigged one-sided price.
@@ -377,7 +402,10 @@ try {
     }
     $avg = 0; if ($confs.Count) { $avg = [Math]::Round(($confs | Measure-Object -Average).Average, 1) }
     $score = 0; if ($n) { $score = [Math]::Round($sc / $n, 1) }
-    [ordered]@{ leg_id = [string]$leg.id; keep = $k; cut = $c; abstain = $ab; avg_conf = $avg; score = $score }
+    # Veto: a cut from any voting model drops the leg (2-model default: one cut is enough).
+    # Score is still recorded but is not used to rank or override a veto.
+    $veto = $c -ge 1
+    [ordered]@{ leg_id = [string]$leg.id; keep = $k; cut = $c; abstain = $ab; avg_conf = $avg; score = $score; veto = [bool]$veto }
   }
   $cons = @($cons | Sort-Object { -$_.score })
   $modelsOut = [ordered]@{}
@@ -386,10 +414,10 @@ try {
   $relPanel = "data/votes/$runId/_panel.json"
   Write-Utf8 (Join-Path $Repo ($relPanel -replace "/", "\")) (To-Json $panel)
 
-  $top = @($cons | Where-Object { $_.score -gt 0 } | Select-Object -First 5 | ForEach-Object { "$($_.leg_id) ($($_.keep)-$($_.cut), score $($_.score))" }) -join ", "
-  $cuts = @($cons | Where-Object { $_.score -lt 0 } | ForEach-Object { $_.leg_id }) -join ", "
-  if (-not $top) { $top = "none" }; if (-not $cuts) { $cuts = "none" }
-  Add-Feed "panel" "consensus" "Panel consensus ready for Parlay Locks. Strongest: $top. Panel cuts: $cuts." "parlay-locks" $runId $relPanel
+  $kept = @($cons | Where-Object { -not $_.veto } | Select-Object -First 5 | ForEach-Object { "$($_.leg_id) ($($_.keep)-$($_.cut), score $($_.score))" }) -join ", "
+  $cuts = @($cons | Where-Object { $_.veto } | ForEach-Object { "$($_.leg_id) ($($_.keep)-$($_.cut))" }) -join ", "
+  if (-not $kept) { $kept = "none" }; if (-not $cuts) { $cuts = "none" }
+  Add-Feed "panel" "consensus" "Panel consensus ready for Parlay Locks (veto from any voting model cuts the leg). Eligible: $kept. Vetoed: $cuts." "parlay-locks" $runId $relPanel
   $ok = Git-Sync "panel: votes for $runId"
   if (-not $ok) { exit 2 }
   Log "done"

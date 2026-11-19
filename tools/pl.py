@@ -99,6 +99,31 @@ def cmd_validate(a):
                         check(isinstance(lp["est_prob"], (int, float)) and 0 <= lp["est_prob"] <= 1, f"lock_prices.{lid} est_prob 0..1", errs)
                     if isinstance(lp, dict) and lp.get("n_books") is not None:
                         check(isinstance(lp["n_books"], int) and not isinstance(lp["n_books"], bool) and lp["n_books"] >= 0, f"lock_prices.{lid} n_books", errs)
+    elif rel.endswith("/_panel.json") or "/votes/" in "/" + rel and os.path.basename(rel) == "_panel.json":
+        # 1+ models is valid (default panel is 2 from 2026-11-19). Older 3-model files still validate.
+        check(d.get("schema") == "panel/v1", "schema must be panel/v1", errs)
+        check(isinstance(d.get("models"), dict) and len(d.get("models") or {}) >= 1, "models must be a non-empty object", errs)
+        if isinstance(d.get("models"), dict):
+            for m, info in d["models"].items():
+                check(m in ("claude", "codex", "cursor"), f"unknown panel model {m}", errs)
+                if isinstance(info, dict) and info.get("status") is not None:
+                    check(info["status"] in ("ok", "partial", "error", "skipped"), f"models.{m}.status", errs)
+        for i, c in enumerate(d.get("consensus") or []):
+            check(isinstance(c, dict) and c.get("leg_id"), f"consensus[{i}] missing leg_id", errs)
+            if isinstance(c, dict):
+                if c.get("keep") is not None: check(isinstance(c["keep"], int) and c["keep"] >= 0, f"consensus[{i}] keep", errs)
+                if c.get("cut") is not None: check(isinstance(c["cut"], int) and c["cut"] >= 0, f"consensus[{i}] cut", errs)
+                if c.get("veto") is not None: check(isinstance(c["veto"], bool), f"consensus[{i}] veto must be a boolean", errs)
+                # If veto is present, it must match "any cut": cut>=1.
+                if isinstance(c, dict) and isinstance(c.get("veto"), bool) and isinstance(c.get("cut"), int):
+                    check(c["veto"] == (c["cut"] >= 1), f"consensus[{i}] veto must be true iff cut>=1", errs)
+    elif "/votes/" in "/" + rel:
+        check(d.get("schema") == "votes/v1", "schema must be votes/v1", errs)
+        check(d.get("model") in ("claude", "codex", "cursor"), "model must be claude, codex, or cursor", errs)
+        check(d.get("status") in ("ok", "partial", "error", "skipped"), "status", errs)
+        for i, v in enumerate(d.get("votes") or []):
+            check(v.get("leg_id"), f"vote {i} missing leg_id", errs)
+            check(v.get("decision") in ("keep", "cut", "abstain"), f"vote {i} decision", errs)
     elif "/results/" in "/" + rel:
         check(d.get("schema") == "results/v1", "schema must be results/v1", errs)
         for l in d.get("legs", []): check(l.get("outcome") in ("hit", "miss", "push", "void", "pending"), f"leg {l.get('leg_id')} outcome", errs)

@@ -7,9 +7,10 @@ const CFG = (() => {
     const seg = location.pathname.split('/').filter(Boolean)[0];
     if (seg) repo = seg;
   }
-  return { owner, repo, branch: 'main', tz: 'America/New_York', bankroll: 20, start: '2026-11-12', end: '2026-11-18' };
+  return { owner, repo, branch: 'main', tz: 'America/New_York', bankroll: 20, start: '2026-11-12', end: '2026-11-25' };
 })();
-const MODELS = ['claude', 'codex', 'cursor'];
+const MODELS = ['claude', 'codex', 'cursor']; // all known panelists (historical + optional Codex)
+const DEFAULT_PANEL = ['claude', 'cursor']; // default daily panel from 2026-11-19
 const AG = {
   'parlay-locks': { name: 'Parlay Locks', role: 'Grok Bot · researcher & drafter', s: 'PL', c: '--pl' },
   claude: { name: 'Claude', role: 'Claude Code CLI · panelist', s: 'CL', c: '--claude' },
@@ -141,8 +142,18 @@ function pipeline(run, snap) {
     <span class="step ${done(s)}">③ Slips ${s ? '✓ ' + fmtTime(s.created_at) : '· ~' + t[2]}</span>
     <span class="step ${done(r)}">④ Graded ${r ? '✓ ' + fmtTime(r.graded_at) : '· ' + t[3]}</span></div>`;
 }
+function modelsForRun(run) {
+  // Show whoever actually voted (so week-1 Codex columns remain). If no votes yet, show the current default panel.
+  const present = MODELS.filter((m) => finalVotes(run, m) || (run && run.panel && run.panel.models && run.panel.models[m]));
+  return present.length ? present : DEFAULT_PANEL;
+}
+function isVeto(c) {
+  if (!c) return false;
+  if (typeof c.veto === 'boolean') return c.veto;
+  return (c.cut || 0) >= 1; // older _panel.json files have no veto field
+}
 function voteDots(run, legId) {
-  return `<span class="dots">${MODELS.map((m) => { const v = voteFor(finalVotes(run, m), legId); const d = v ? v.decision : 'none'; return `<span class="dot ${d}" title="${AG[m].name}: ${v ? esc(v.decision + ' ' + v.confidence) : 'no vote'}">${AG[m].s[0]}${AG[m].s[1].toLowerCase()}</span>`; }).join('')}</span>`;
+  return `<span class="dots">${modelsForRun(run).map((m) => { const v = voteFor(finalVotes(run, m), legId); const d = v ? v.decision : 'none'; return `<span class="dot ${d}" title="${AG[m].name}: ${v ? esc(v.decision + ' ' + v.confidence) : 'no vote'}">${AG[m].s[0]}${AG[m].s[1].toLowerCase()}</span>`; }).join('')}</span>`;
 }
 function outcomeTag(o) { return o ? `<span class="outcome o-${esc(o)}">${esc(o)}</span>` : ''; }
 
@@ -181,15 +192,16 @@ function renderSlips() {
 function renderPanel() {
   const el = $('#tab-panel'); let h = '';
   const rs = runsFor(S.date).filter((r) => r.cand);
-  if (!rs.length) { el.innerHTML = empty('No candidate legs for ' + fmtDate(S.date) + ' yet', 'Parlay Locks drafts candidates around 10:15 AM and 5:15 PM ET; Claude, Codex and Cursor vote 15 minutes later. Every vote and its reasoning shows up here.'); return; }
+  if (!rs.length) { el.innerHTML = empty('No candidate legs for ' + fmtDate(S.date) + ' yet', 'Parlay Locks drafts candidates around 10:15 AM and 5:15 PM ET; Claude and Cursor vote 15 minutes later (Codex is optional). Every vote and its reasoning shows up here.'); return; }
   for (const run of rs) {
     const legs = run.cand.legs || [];
     const cons = run.panel ? Object.fromEntries((run.panel.consensus || []).map((c) => [c.leg_id, c])) : {};
     h += `<h2>${run.snapshot === 'morning' ? '☀️ Morning' : '🌙 Pregame'} panel <span class="mute small">${legs.length} legs · drafted ${fmtTime(run.cand.created_at)}</span></h2>`;
     if (run.cand.slate_notes) h += `<div class="card reason bl-parlay-locks"><div class="who a-parlay-locks">Parlay Locks · slate notes</div>${esc(run.cand.slate_notes)}</div>`;
+    const panelModels = modelsForRun(run);
     // model status cards
     h += '<div class="grid">';
-    for (const m of MODELS) {
+    for (const m of panelModels) {
       const v1 = run.votes[m] && run.votes[m].r1, v2 = run.votes[m] && run.votes[m].r2;
       if (!v1) { h += `<div class="card reason bl-${m}"><div class="who a-${m}">${AG[m].name}</div><span class="mute small">${run.panel ? 'Did not run' : 'Waiting for the 10:30 / 5:30 panel run'}</span></div>`; continue; }
       const f = v2 && v2.status !== 'error' ? v2 : v1;
@@ -202,20 +214,20 @@ function renderPanel() {
     }
     h += '</div>';
     // matrix
-    h += `<div class="card" style="overflow-x:auto"><table class="matrix"><thead><tr><th>Leg</th><th>PL est.</th>${MODELS.map((m) => `<th class="a-${m}">${AG[m].name}</th>`).join('')}<th>Consensus</th><th>Result</th></tr></thead><tbody>`;
+    h += `<div class="card" style="overflow-x:auto"><table class="matrix"><thead><tr><th>Leg</th><th>PL est.</th>${panelModels.map((m) => `<th class="a-${m}">${AG[m].name}</th>`).join('')}<th>Consensus</th><th>Result</th></tr></thead><tbody>`;
     const onSlip = new Set(run.slips ? run.slips.slips.flatMap((s) => s.legs) : []);
     for (const l of legs) {
       const c = cons[l.id]; const lr = legResult(run, l.id);
       h += `<tr><td><b>${esc(l.id)}</b> ${onSlip.has(l.id) ? '🎟️' : ''}<br>${legLabel(l)}<div class="small mute">${esc(l.sport)} · ${esc(l.event)}</div></td>
         <td class="v">${l.est_prob != null ? pct(l.est_prob) : (l.confidence != null ? esc(l.confidence) : '—')}</td>`;
-      for (const m of MODELS) {
+      for (const m of panelModels) {
         const f = finalVotes(run, m); const v = voteFor(f, l.id); const v1 = voteFor(run.votes[m] && run.votes[m].r1, l.id);
         const changed = run.votes[m] && run.votes[m].r2 && v && v1 && v1.decision !== v.decision;
         h += `<td class="v"><span class="cell ${v ? v.decision : 'none'} ${changed ? 'changed' : ''}">${v ? (v.decision === 'abstain' ? '—' : v.decision.toUpperCase() + ' ' + v.confidence) : '·'}</span></td>`;
       }
-      h += `<td class="v">${c ? `<b class="${sgn(c.score)}">${c.score > 0 ? '+' : ''}${esc(c.score)}</b><div class="small mute">${c.keep}-${c.cut}</div>` : '—'}</td><td class="v">${lr ? outcomeTag(lr.outcome) : ''}</td></tr>`;
+      h += `<td class="v">${c ? `${isVeto(c) ? '<b class="neg">VETO</b>' : '<b class="' + sgn(c.score) + '">' + (c.score > 0 ? '+' : '') + esc(c.score) + '</b>'}<div class="small mute">${c.keep}-${c.cut}${isVeto(c) ? ' veto' : ''}</div>` : '—'}</td><td class="v">${lr ? outcomeTag(lr.outcome) : ''}</td></tr>`;
     }
-    h += '</tbody></table><div class="small dim" style="margin-top:6px">Cells show decision + confidence (0–100). Consensus = average of +conf (keep) / −conf (cut). Dashed = changed in round 2. 🎟️ = made a final slip.</div></div>';
+    h += '</tbody></table><div class="small dim" style="margin-top:6px">Cells show decision + confidence (0–100). A VETO means any voting model cut the leg (one cut is enough). Score is the average of +conf (keep) / −conf (cut) and is not used to rank. Dashed = changed in round 2. 🎟️ = made a final slip.</div></div>';
     // reasoning
     h += '<div class="card"><h3>Reasoning by leg — tap to expand</h3>';
     for (const l of legs) {
@@ -224,7 +236,7 @@ function renderPanel() {
         ${l.key_stats && l.key_stats.length ? `<ul class="small">${l.key_stats.map((s) => `<li>${esc(s)}</li>`).join('')}</ul>` : ''}
         ${l.injury_notes ? `<div class="small amb">Injury/news: ${esc(l.injury_notes)}</div>` : ''}
         ${l.sources && l.sources.length ? `<div class="small">${l.sources.map((s) => `<a href="${safeUrl(s.url)}" target="_blank" rel="noopener">${esc(s.title || s.url)}</a>`).join(' · ')}</div>` : ''}</div>`;
-      for (const m of MODELS) {
+      for (const m of panelModels) {
         for (const rnd of ['r1', 'r2']) {
           const doc = run.votes[m] && run.votes[m][rnd]; const v = voteFor(doc, l.id); if (!v) continue;
           h += `<div class="reason bl-${m}"><div class="who a-${m}">${AG[m].name}${rnd === 'r2' ? ' · round 2' : ''} → <span class="cell ${v.decision}">${esc(v.decision.toUpperCase())} ${esc(v.confidence)}</span></div>${esc(v.reasoning)}
@@ -282,7 +294,7 @@ function computeModelStats() {
       const ds = {};
       for (const m of MODELS) { const v = voteFor(finalVotes(run, m), l.id); if (v && v.decision !== 'abstain') { add(m, v.decision, v.confidence, hit); ds[m] = v.decision; } }
       const c = run.panel && (run.panel.consensus || []).find((x) => x.leg_id === l.id);
-      if (c && (c.keep + c.cut)) add('consensus', c.score >= 0 ? 'keep' : 'cut', Math.min(100, 50 + Math.abs(c.score) / 2), hit);
+      if (c && (c.keep + c.cut)) add('consensus', isVeto(c) ? 'cut' : 'keep', Math.min(100, 50 + Math.abs(c.score) / 2), hit);
       MODELS.forEach((a) => MODELS.forEach((b) => { if (a < b && ds[a] && ds[b]) { pair[a + b].n++; if (ds[a] === ds[b]) pair[a + b].agree++; } }));
     }
   }
@@ -358,7 +370,7 @@ function renderAbout() {
     <li>The <b class="a-panel">panel runner</b> on Sneed_PC hands the same legs to <b class="a-claude">Claude</b>, <b class="a-codex">Codex</b> and <b class="a-cursor">Cursor</b> at 10:30 AM / 5:30 PM ET. Each votes keep/cut independently with a confidence and a reasoning paragraph (one short prompt per model to keep usage low; optional round 2 lets them read each other's votes and revise).</li>
     <li>Parlay Locks reads the consensus and finalizes 2-, 3- and 5-leg paper slips at 11:00 AM / 6:00 PM ET.</li>
     <li>After games, every candidate leg and slip is graded so each agent's track record and calibration build up.</li>
-  </ol><div class="small mute">Paper only: $20 bankroll, flat $1 per slip, Nov 12–18, 2026. Nothing here is a real wager.</div></div>
+  </ol><div class="small mute">Paper only: $20 starting bankroll, flat $1 per slip, week 1 Nov 12–18 and week 2 Nov 19–25, 2026. Nothing here is a real wager.</div></div>
   <div class="card small">Data lives in <a href="https://github.com/${CFG.owner}/${CFG.repo}/tree/${CFG.branch}/data" target="_blank" rel="noopener">github.com/${CFG.owner}/${CFG.repo}/data</a> · schemas in <a href="https://github.com/${CFG.owner}/${CFG.repo}/tree/${CFG.branch}/schemas" target="_blank" rel="noopener">/schemas</a>.<br>
   Add to iPad home screen: Safari → Share → Add to Home Screen. The page refreshes itself every 90 seconds.
   ${S.errors.length ? `<div class="amb" style="margin-top:8px">Load warnings: ${esc(S.errors.slice(0, 5).join(' · '))}</div>` : ''}</div>`;

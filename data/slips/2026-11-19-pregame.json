@@ -1,0 +1,156 @@
+{
+  "schema": "slips/v1",
+  "run": "2026-11-19-pregame",
+  "date": "2026-11-19",
+  "snapshot": "pregame",
+  "created_at": "2026-11-19T18:15:00-05:00",
+  "author": "parlay-locks",
+  "paper": true,
+  "notes": "Pregame, week 2 day 1. No 2026-11-19-morning slips existed, so there was nothing to check or swap. All 6 candidate legs were priced 4:45-4:47 PM ET (after 3 PM) at 4-5 books, all overs, 6 different games, so new slips are allowed under P2. Panel: Claude 6-0 keep, Cursor 6-0 keep. Codex was dropped from the default panel but still ran on SNEED_PC (logged, not counted). It cut L6 Hertl because the lineup was unconfirmed. The 6 PM recheck resolved that: NHL.com's Nov 19 projected lineup has Hertl centering VGK's 3rd line (Barbashev-Hertl-Olofsson), so no leg was vetoed. 6 PM news: CBS has HOU's Marvin Harrison Jr. out Thursday, which supports Collins' target share. ESPN/SportCrow show no flags for Dunn, Boozer, Jaquez, or Shannon. 5-leg is PP Power because the average leg probability is 57.1%, above the 56.6% threshold. I left L2 out of the 5-leg so that the 2-leg shares only L6 with it, which limits nesting. I skipped the 3-leg because the only leg outside the 5-leg is L5, so any 3-leg would reuse 5-leg legs and stack the same anchors across every slip (week 1 skip-3-leg what-if: +$30.00 vs +$25.68).",
+  "slips": [
+    {
+      "id": "2026-11-19-pregame-5",
+      "size": 5,
+      "platform": "PrizePicks",
+      "play_type": "power",
+      "stake": 1,
+      "payout_multiplier": 20,
+      "legs": [
+        "L1",
+        "L3",
+        "L4",
+        "L5",
+        "L6"
+      ],
+      "rationale": "PP 5-pick Power (avg est 57.1% > 56.6%): Collins O4.5 rec, Boozer O4.5 ast, Jaquez O4.5 reb, Shannon O2.5 reb, Hertl O1.5 SOG. Five games, all overs. Est joint 6.0% vs 5.0% BE."
+    },
+    {
+      "id": "2026-11-19-pregame-2",
+      "size": 2,
+      "platform": "Underdog",
+      "play_type": "standard",
+      "stake": 1,
+      "payout_multiplier": 3.5,
+      "legs": [
+        "L2",
+        "L6"
+      ],
+      "rationale": "Overs only (P4): Dunn O2.5 reb (59.4%, 4 books; Ingram/Beal out) + Hertl O1.5 SOG (59.4%, 5 books). Different games. Est joint 35.3% vs 28.6% BE. Shares only L6 with the 5-leg."
+    }
+  ],
+  "lock_ts": "2026-11-19T18:05:39-05:00",
+  "lock_source": "candidates",
+  "lock_candidates": "data/candidates/2026-11-19-pregame.json",
+  "lock_prices": {
+    "L1": {
+      "player": "Nico Collins",
+      "market": "Receptions",
+      "line": 4.5,
+      "pick": "over",
+      "est_prob": 0.564,
+      "est_prob_raw": 0.564,
+      "price_ts": "2026-11-19T16:45:19-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betonlineag -152/+117",
+        "bovada -150/+115",
+        "draftkings -149/+117",
+        "fanduel -148/+112"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L3": {
+      "player": "Cameron Boozer",
+      "market": "Assists",
+      "line": 4.5,
+      "pick": "over",
+      "est_prob": 0.573,
+      "est_prob_raw": 0.573,
+      "price_ts": "2026-11-19T16:45:32-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betmgm -160/+120",
+        "betrivers -148/+108",
+        "bovada -180/+135",
+        "fanduel -154/+120"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L4": {
+      "player": "Jaime Jaquez Jr",
+      "market": "Rebounds",
+      "line": 4.5,
+      "pick": "over",
+      "est_prob": 0.563,
+      "est_prob_raw": 0.563,
+      "price_ts": "2026-11-19T16:45:33-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betmgm -155/+115",
+        "betonlineag -145/+112",
+        "bovada -165/+125",
+        "fanduel -146/+114"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L5": {
+      "player": "Terrence Shannon Jr.",
+      "market": "Rebounds",
+      "line": 2.5,
+      "pick": "over",
+      "est_prob": 0.559,
+      "est_prob_raw": 0.559,
+      "price_ts": "2026-11-19T16:45:33-05:00",
+      "n_books": 5,
+      "price_books": [
+        "betonlineag -147/+114",
+        "betrivers -155/+112",
+        "bovada -145/+110",
+        "draftkings -143/+108",
+        "fanduel -146/+114"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L6": {
+      "player": "Tomas Hertl",
+      "market": "Shots on Goal",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.594,
+      "est_prob_raw": 0.594,
+      "price_ts": "2026-11-19T16:46:51-05:00",
+      "n_books": 5,
+      "price_books": [
+        "betmgm -185/+135",
+        "betonlineag -172/+131",
+        "bovada -170/+130",
+        "draftkings -170/+125",
+        "fanduel -178/+136"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L2": {
+      "player": "Kris Dunn",
+      "market": "Rebounds",
+      "line": 2.5,
+      "pick": "over",
+      "est_prob": 0.594,
+      "est_prob_raw": 0.594,
+      "price_ts": "2026-11-19T16:45:33-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betmgm -190/+140",
+        "betonlineag -167/+128",
+        "bovada -170/+130",
+        "fanduel -172/+134"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    }
+  }
+}

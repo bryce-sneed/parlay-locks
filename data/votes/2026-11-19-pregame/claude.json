@@ -1,0 +1,79 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-19-pregame",
+    "model":  "claude",
+    "model_name":  "haiku",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-19T17:30:04-05:00",
+    "finished_at":  "2026-11-19T17:32:14-05:00",
+    "duration_s":  127.6,
+    "usage":  {
+                  "cost_usd":  0.125307,
+                  "cache_read":  0,
+                  "output_tokens":  13590,
+                  "input_tokens":  9
+              },
+    "overall_notes":  "Six new legs priced 4:45-4:47 PM ET with 4-5 books each, all overs with proper per-book devig medians taken. No line-mismatches, single-book pairs, or multiple-day recent misses. All six clear the 54.3% 5-leg Flex break-even threshold. Main risks are small 7-10 game samples for L1/L3/L4 and potential timing gaps on 11/19 injury confirmations—if Turner/Kuzma/Jerome/Pippen Jr./Edwards injuries confirmed after 4:45 PM price snapshot, market may not have adjusted fully. L6\u0027s Hertl lineup status is noted \u0027confirm before lock,\u0027 which assumes pre-lock verification; L4 carries the thinnest margin but drafter explicitly notes it clears threshold.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  75,
+                      "reasoning":  "Nico Collins is HOU\u0027s alpha WR with 9 catches on 16 targets last week. Receptions log (9,4,2,3,5,7,7) shows 4/7 over 4.5 (57% hit rate). TE Brevin Jordan OUT concentrates short targets. Four books at exact O4.5 line (-148 to -152) devigge to 56.4%, modest edge. Risk: only 7 games of logged data and thesis pivots primarily on target-share thesis; if game script shifts away from HOU passing, volume could contract.",
+                      "risk_flags":  [
+                                         "small-sample",
+                                         "game-script-dependent"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  80,
+                      "reasoning":  "Kris Dunn cleared 2.5 boards in 8/10 (5,3,3,2,5,5,4,2,5,3) on 18-35 min. Brandon Ingram OUT (Achilles, 11/18) expands Dunn\u0027s role; Beal also remains out. Four books at exact O2.5 line (-167 to -190) devigge to 59.4%, solid edge. Very low line needs only 3 boards and hit rate is 80%.",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  72,
+                      "reasoning":  "Cameron Boozer cleared 4.5 assists in 6/10 (5,7,5,3,5,8,4,4,5,3) on 25-38 min. MEM loses guards Ty Jerome (OUT hip, 11/19) and Scotty Pippen Jr. (OUT back) plus Edey, concentrating offense through Boozer. Four books at exact O4.5 line (-148 to -180) devigge to 57.3%. Risk: MEM\u0027s key guard losses dated 11/19; if Jerome/Pippen Jr. ruled OUT after 4:45 PM price snapshot, market may undervalue the role shift.",
+                      "risk_flags":  [
+                                         "injury-timing",
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  68,
+                      "reasoning":  "Jaime Jaquez Jr. cleared 4.5 rebounds in 6/10 (2,5,6,5,5,2,3,2,8,7) on 23-31 min. MIL loses both bigs Myles Turner and Kyle Kuzma (OUT shoulder, 11/19), expanding frontcourt minutes and defensive rebound chances. Four books at exact O4.5 line (-145 to -165) devigge to 56.3%. Drafter explicitly notes this is the thinnest margin of the six but clears 54.3% threshold. Risk: narrow 3.7% edge and role-expansion dependency; if Turner/Kuzma confirmation came after 4:45 PM, pricing may lag.",
+                      "risk_flags":  [
+                                         "injury-timing",
+                                         "thin-edge",
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  82,
+                      "reasoning":  "Terrence Shannon Jr. cleared 2.5 boards in 8/10 (1,3,6,2,3,3,3,6,4,4), 80% hit rate, on 18-35 min. Anthony Edwards (knee), DiVincenzo, and Jaylen Clark all OUT, securing Shannon\u0027s wing minutes. Five books at exact O2.5 line (-143 to -155) devigge to 55.9%. Very low line, strong hit rate, and role expansion all support. Kuminga DTD but not confirmed OUT.",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  75,
+                      "reasoning":  "Tomas Hertl cleared 1.5 SOG in 9/10 (3,3,3,1,4,2,3,4,2,2), 90% hit rate, on 13-20 min TOI. Recent game vs DAL was 3 SOG. Top-6 center role sustains shot volume independent of game script. Five books at exact O1.5 line (-170 to -185) devigge to 59.4%. Line is very low, needs only 2 shots. Risk: drafter notes \u0027confirm Hertl in VGK lineup before lock\u0027—assumes pre-lock verification; NHL injury data was not pulled this run.",
+                      "risk_flags":  [
+                                         "lineup-unconfirmed"
+                                     ]
+                  }
+              ]
+}

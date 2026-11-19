@@ -1,0 +1,87 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-19-pregame",
+    "model":  "cursor",
+    "model_name":  "auto",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-19T17:30:04-05:00",
+    "finished_at":  "2026-11-19T17:32:14-05:00",
+    "duration_s":  31.5,
+    "usage":  {
+                  "inputTokens":  15428,
+                  "outputTokens":  2336,
+                  "cacheReadTokens":  35968,
+                  "cacheWriteTokens":  0
+              },
+    "overall_notes":  "Six afternoon-priced overs across TNF, four NBA games, and one NHL leg; pricing methodology and book count look consistent on every leg. No line-mismatch, stale snapshot, recent-miss, or under-specific role rules apply because all picks are overs with fresh 4:45–4:47 PM ET medians. I would keep the full board; L4 is the weakest on hit rate margin but still clears Flex break-even with a coherent injury-driven rebound path.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  74,
+                      "reasoning":  "Collins is priced at the exact O4.5 reception line across four devigged books and the Jordan absence supports concentrated short-area volume rather than a script-only thesis. Hit risk is a low-volume spike game on the 2-of-7 unders in the log, but the target series (including 16 last week) anchors the over. I would reconsider only if a late downgrade moved him to limited or the reception line ticked up without a corresponding target bump.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "game_script",
+                                         "low_line_clear"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  76,
+                      "reasoning":  "Dunn at O2.5 rebounds matches the pick\u0027em line with four-book median pricing and an 8/10 recent clear rate with stable minutes. Out guards on LAC support the over side of role math, not an under-expansion trap. Main risk is a low-minute night if rotation tightens unexpectedly. A cut would need evidence of minutes restriction or a material line move against him.",
+                      "risk_flags":  [
+                                         "minutes",
+                                         "rotation",
+                                         "injury"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  71,
+                      "reasoning":  "Boozer O4.5 assists is on-market at four books with guard absences routing more creation through him and a 6/10 assist log on starter minutes. The softer GSW defensive context is acknowledged and does not rely on a blowout under mechanism. Risk is assist variance in a 4-assist cluster of games. Would flip only with a late scratch among the absent guards returning or a big negative line move.",
+                      "risk_flags":  [
+                                         "assist_variance",
+                                         "pace",
+                                         "injury"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  63,
+                      "reasoning":  "Jaquez O4.5 rebounds still clears the stated 54.3% Flex hurdle on four-book median pricing, with Turner and Kuzma out as a concrete frontcourt-minute and rebound-chance tailwind. The L10 log is choppier than the other NBA legs but 6/10 at 5+ with recent 7 and 8 boards supports the thesis. I would worry if either big were upgraded to active or minutes snapped back to a pure wing role.",
+                      "risk_flags":  [
+                                         "thin_margin",
+                                         "rebound_variance",
+                                         "injury"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  69,
+                      "reasoning":  "Shannon O2.5 rebounds is five-book priced at the exact line with 8/10 clears and wing minutes supported by multiple MIN outs. Role expansion here favors the over. One-game floor at one rebound is the main downside. A late Edwards or DiVincenzo upgrade shrinking his role would be the main mind-changer.",
+                      "risk_flags":  [
+                                         "minutes",
+                                         "injury",
+                                         "low_line_clear"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  70,
+                      "reasoning":  "Hertl O1.5 SOG is five books at the exact line with 9/10 on shot volume and stable top-six TOI, including a recent 3 SOG vs DAL. The missing NHL injury pull is a pre-lock checklist item, not a pricing or line error in the snapshot. Would cut only with a confirmed scratch or meaningful line-up injury news after the price timestamp.",
+                      "risk_flags":  [
+                                         "lineup_confirm",
+                                         "injury",
+                                         "low_line_clear"
+                                     ]
+                  }
+              ]
+}

@@ -1,0 +1,80 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-19-pregame",
+    "model":  "codex",
+    "model_name":  "default",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-19T17:30:04-05:00",
+    "finished_at":  "2026-11-19T17:32:14-05:00",
+    "duration_s":  28.2,
+    "usage":  {
+                  "tokens":  21619
+              },
+    "overall_notes":  "The supplied prices support keeping L1–L5: each uses the exact half-point line and a median of within-book devigged probabilities across multiple books. L6 has a concrete unresolved lineup and injury check; all retained legs remain conditional on confirming the standard lines in the app.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  56,
+                      "reasoning":  "Four paired book prices support the exact over 4.5 receptions, and the supplied target history supports the volume thesis. The claim that Collins maintains 7+ targets even in a lopsided game is stronger than the logs justify; a confirmed target restriction or different app line would change my vote.",
+                      "risk_flags":  [
+                                         "target-variance",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  59,
+                      "reasoning":  "The exact-line market support and eight clears in ten games provide sufficient grounds to retain this over. Minutes have varied substantially, but the listed absences support opportunity; a confirmed reduced rotation role would change my vote.",
+                      "risk_flags":  [
+                                         "minutes-variance",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  57,
+                      "reasoning":  "The paired prices support the stated probability, and six clears in ten games align with the proposed expanded creation role. Missing teammates can also reduce assist conversion through weaker finishing; a confirmed reduction in Boozer\u0027s minutes or handling responsibilities would change my vote.",
+                      "risk_flags":  [
+                                         "assist-conversion",
+                                         "role-change",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  56,
+                      "reasoning":  "The exact-line prices and six recent clears support keeping the leg despite its modest estimated edge. The frontcourt absences create opportunity without guaranteeing Jaquez receives those minutes or rebounds; a lineup assigning him a materially smaller role would change my vote.",
+                      "risk_flags":  [
+                                         "minutes-allocation",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  56,
+                      "reasoning":  "Five paired book prices and eight clears in ten games support retaining the over. Kuminga\u0027s availability could affect the distribution of wing minutes, but the supplied absences do not establish a concrete role problem; a confirmed minutes reduction would change my vote.",
+                      "risk_flags":  [
+                                         "minutes-allocation",
+                                         "app-line-unconfirmed"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "cut",
+                      "confidence":  41,
+                      "reasoning":  "THIN/RISK: The draft explicitly lacks an NHL injury check and leaves Hertl\u0027s lineup status unconfirmed, so the top-six and power-play role underlying the shot-volume thesis remains unverified. The recent shots and paired prices otherwise support the over; confirmation that he is active without a workload restriction would remove this veto.",
+                      "risk_flags":  [
+                                         "thin/risk",
+                                         "lineup-unconfirmed",
+                                         "injury-status-unchecked"
+                                     ]
+                  }
+              ]
+}

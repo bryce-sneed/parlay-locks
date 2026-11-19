@@ -1,0 +1,294 @@
+{
+ "schema": "candidates/v1",
+ "run": "2026-11-19-pregame",
+ "date": "2026-11-19",
+ "snapshot": "pregame",
+ "created_at": "2026-11-19T16:47:39-05:00",
+ "author": "parlay-locks",
+ "slate_notes": "Pregame, Nov 19 (week 2 day 1). There was no 2026-11-19-morning run, so there were no morning legs to recheck or swap. Nothing was pending to grade (all runs through 11-18-pregame are graded). Six new legs under P2, all priced 4:45-4:47 PM ET today (after 3:00 PM) at 4-5 books, per-book devig median: NFL TNF x1 (IND @ HOU), NBA x4 (one per game: LAC@SAS, GSW@MEM, POR@MIL, NYK@MIN), NHL x1 (DAL@VGK). All overs, so no under shading applies. One leg per game, no shared game thesis. None of these player+prop pairs had a miss in the last 3 days. Passed despite good prices because recent logs disagreed: Dosunmu O3.5 ast (4/10), Wells O2.5 reb, Cissoko O1.5 ast, Herro O3.5 reb, Fox O3.5 reb, Brunson O2.5 reb, Deion Burks O1.5 rec (1/10, unexplained role change). Also passed on Boutte U2.5 rec (beyond -180 and shares the HOU target thesis with Collins). Confirm every line in the app (the public boards are blocked from the box); skip any Goblin/Demon versions.",
+ "legs": [
+  {
+   "id": "L1",
+   "sport": "NFL",
+   "event": "IND @ HOU",
+   "start_time": "2026-11-19T20:15:00-05:00",
+   "player": "Nico Collins",
+   "team": "HOU",
+   "market": "Receptions",
+   "line": 4.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.564,
+   "est_prob_raw": 0.564,
+   "confidence": 62,
+   "price_ts": "2026-11-19T16:45:19-05:00",
+   "n_books": 4,
+   "price_books": [
+    "betonlineag -152/+117",
+    "bovada -150/+115",
+    "draftkings -149/+117",
+    "fanduel -148/+112"
+   ],
+   "price_method": "per_book_median",
+   "reasoning": "HOU's alpha WR: 16, 4, 5, 5, 7, 8, 10 targets in 2026 games logged, 9 catches on 16 targets last week vs CLE. TE Brevin Jordan is OUT (foot), which concentrates more short targets on Collins. Four books price O4.5 between -148 and -152 at the exact line (per-book devig median 56.4%). Volume, not game script, carries this one: even a lopsided game keeps Collins at 7+ targets. Thesis is HOU target share and is independent of the NBA/NHL legs.",
+   "key_stats": [
+    "Receptions 2026 logged games: 9,4,2,3,5,7,7 (4/7 over 4.5)",
+    "Targets: 16,4,5,5,7,8,10",
+    "HOU TE Brevin Jordan OUT"
+   ],
+   "injury_notes": "HOU OUT: Danielle Hunter (DE), Brevin Jordan (TE). Questionable: Teller (G), Hummel, J. Smith. Collins not listed. IND OUT: Ward, Mallory, Travis, Tillery; Gardner Q.",
+   "sources": [
+    {
+     "title": "ESPN Nico Collins game log",
+     "url": "https://www.espn.com/nfl/player/gamelog/_/id/4258173"
+    },
+    {
+     "title": "ESPN IND @ HOU game page / injuries",
+     "url": "https://www.espn.com/nfl/game/_/gameId/401873066"
+    },
+    {
+     "title": "The Odds API per-book prices (pl price, regions=us)",
+     "url": "https://the-odds-api.com/liveapi/guides/v4/"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "sport": "NBA",
+   "event": "LAC @ SAS",
+   "start_time": "2026-11-19T20:10:00-05:00",
+   "player": "Kris Dunn",
+   "team": "LAC",
+   "market": "Rebounds",
+   "line": 2.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.594,
+   "est_prob_raw": 0.594,
+   "confidence": 64,
+   "price_ts": "2026-11-19T16:45:33-05:00",
+   "n_books": 4,
+   "price_books": [
+    "betmgm -190/+140",
+    "betonlineag -167/+128",
+    "bovada -170/+130",
+    "fanduel -172/+134"
+   ],
+   "price_method": "per_book_median",
+   "reasoning": "Dunn cleared 2.5 boards in 8 of his last 10 (5,3,3,2,5,5,4,2,5,3) with 18-35 min. Brandon Ingram was ruled OUT (Achilles) on Nov 18 and Beal remains out, so Dunn's minutes are secure or up. Low line; it needs only 3 boards. Four books at the exact 2.5 line (-167 to -190) give a 59.4% median. Over, so the P1 role-expansion under rule doesn't apply.",
+   "key_stats": [
+    "L10 REB 5,3,3,2,5,5,4,2,5,3 (8/10 over 2.5)",
+    "L10 MIN 18-35",
+    "LAC OUT: Ingram, Beal, J. Miller"
+   ],
+   "injury_notes": "LAC OUT: Ingram (Achilles, 11/18), Beal, J. Miller. SA OUT: Dylan Harper (hip, 11/19), T. Harris, Quaintance. Dunn not listed.",
+   "sources": [
+    {
+     "title": "ESPN Kris Dunn game log",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/2991139"
+    },
+    {
+     "title": "ESPN LAC @ SAS game page / injuries",
+     "url": "https://www.espn.com/nba/game/_/gameId/401910022"
+    },
+    {
+     "title": "The Odds API per-book prices (pl price, regions=us)",
+     "url": "https://the-odds-api.com/liveapi/guides/v4/"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "sport": "NBA",
+   "event": "GSW @ MEM",
+   "start_time": "2026-11-19T20:10:00-05:00",
+   "player": "Cameron Boozer",
+   "team": "MEM",
+   "market": "Assists",
+   "line": 4.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.573,
+   "est_prob_raw": 0.573,
+   "confidence": 60,
+   "price_ts": "2026-11-19T16:45:32-05:00",
+   "n_books": 4,
+   "price_books": [
+    "betmgm -160/+120",
+    "betrivers -148/+108",
+    "bovada -180/+135",
+    "fanduel -154/+120"
+   ],
+   "price_method": "per_book_median",
+   "reasoning": "Boozer had 5+ assists in 6 of his last 10 (5,7,5,3,5,8,4,4,5,3) on 25-38 min. MEM is down guards Ty Jerome (OUT hip, 11/19) and Scotty Pippen Jr. (OUT back), plus Edey is out, so more of the offense runs through Boozer. GSW is without Curry, Draymond (rest) and Porzingis. That lowers the pace/quality of the opponent but doesn't depend on a blowout. Four books at the exact 4.5 line (-148 to -180) give a 57.3% median.",
+   "key_stats": [
+    "L10 AST 5,7,5,3,5,8,4,4,5,3 (6/10 over 4.5)",
+    "L10 MIN 25-38",
+    "MEM OUT: Edey, Jerome, Pippen Jr., GG Jackson; Stewart DTD"
+   ],
+   "injury_notes": "MEM OUT: Edey, Ty Jerome, GG Jackson, Pippen Jr.; Isaiah Stewart DTD (illness). GSW OUT: Curry, Draymond (rest), Porzingis, B. Williams; Cryer DTD. Boozer not listed.",
+   "sources": [
+    {
+     "title": "ESPN Cameron Boozer game log",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/5041935"
+    },
+    {
+     "title": "ESPN GSW @ MEM game page / injuries",
+     "url": "https://www.espn.com/nba/game/_/gameId/401910019"
+    },
+    {
+     "title": "The Odds API per-book prices (pl price, regions=us)",
+     "url": "https://the-odds-api.com/liveapi/guides/v4/"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "sport": "NBA",
+   "event": "POR @ MIL",
+   "start_time": "2026-11-19T20:10:00-05:00",
+   "player": "Jaime Jaquez Jr",
+   "team": "MIL",
+   "market": "Rebounds",
+   "line": 4.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.563,
+   "est_prob_raw": 0.563,
+   "confidence": 58,
+   "price_ts": "2026-11-19T16:45:33-05:00",
+   "n_books": 4,
+   "price_books": [
+    "betmgm -155/+115",
+    "betonlineag -145/+112",
+    "bovada -165/+125",
+    "fanduel -146/+114"
+   ],
+   "price_method": "per_book_median",
+   "reasoning": "Jaquez has 5+ rebounds in 6 of his last 10 (2,5,6,5,5,2,3,2,8,7) on 23-31 min. MIL is down both bigs Myles Turner and Kyle Kuzma tonight (both OUT shoulder, 11/19), which frees up frontcourt minutes and defensive-rebound chances. Four books at the exact 4.5 line (-145 to -165) give a 56.3% median. It's the thinnest margin of the six, but it clears the 54.3% 5-Flex break-even.",
+   "key_stats": [
+    "L10 REB 2,5,6,5,5,2,3,2,8,7 (6/10 over 4.5)",
+    "MIL OUT: Turner, Kuzma (both 11/19)"
+   ],
+   "injury_notes": "MIL OUT: Kuzma, Turner, Dieng. POR OUT: Youngblood, R. Williams III (rest), Krejci; Avdija and Camara DTD. Jaquez not listed.",
+   "sources": [
+    {
+     "title": "ESPN Jaime Jaquez Jr game log",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/4432848"
+    },
+    {
+     "title": "ESPN POR @ MIL game page / injuries",
+     "url": "https://www.espn.com/nba/game/_/gameId/401910020"
+    },
+    {
+     "title": "The Odds API per-book prices (pl price, regions=us)",
+     "url": "https://the-odds-api.com/liveapi/guides/v4/"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "sport": "NBA",
+   "event": "NYK @ MIN",
+   "start_time": "2026-11-19T20:10:00-05:00",
+   "player": "Terrence Shannon Jr.",
+   "team": "MIN",
+   "market": "Rebounds",
+   "line": 2.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.559,
+   "est_prob_raw": 0.559,
+   "confidence": 60,
+   "price_ts": "2026-11-19T16:45:33-05:00",
+   "n_books": 5,
+   "price_books": [
+    "betonlineag -147/+114",
+    "betrivers -155/+112",
+    "bovada -145/+110",
+    "draftkings -143/+108",
+    "fanduel -146/+114"
+   ],
+   "price_method": "per_book_median",
+   "reasoning": "Shannon cleared 2.5 boards in 8 of his last 10 (1,3,6,2,3,3,3,6,4,4) with 18-35 min. Anthony Edwards (knee), DiVincenzo and Jaylen Clark are all OUT, so Shannon's wing minutes are secure; Kuminga is only DTD. Five books at the exact 2.5 line (-143 to -155) give a 55.9% median. It's an over, so expanding role works in our favor.",
+   "key_stats": [
+    "L10 REB 1,3,6,2,3,3,3,6,4,4 (8/10 over 2.5)",
+    "MIN OUT: Edwards, DiVincenzo, J. Clark; Kuminga DTD"
+   ],
+   "injury_notes": "MIN OUT: Edwards, DiVincenzo, Jaylen Clark; Kuminga DTD (shoulder). NYK: no injuries listed by ESPN. Shannon not listed.",
+   "sources": [
+    {
+     "title": "ESPN Terrence Shannon Jr. game log",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/4432847"
+    },
+    {
+     "title": "ESPN NYK @ MIN game page / injuries",
+     "url": "https://www.espn.com/nba/game/_/gameId/401910021"
+    },
+    {
+     "title": "The Odds API per-book prices (pl price, regions=us)",
+     "url": "https://the-odds-api.com/liveapi/guides/v4/"
+    }
+   ]
+  },
+  {
+   "id": "L6",
+   "sport": "NHL",
+   "event": "DAL @ VGK",
+   "start_time": "2026-11-19T22:10:00-05:00",
+   "player": "Tomas Hertl",
+   "team": "VGK",
+   "market": "Shots on Goal",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.594,
+   "est_prob_raw": 0.594,
+   "confidence": 62,
+   "price_ts": "2026-11-19T16:46:51-05:00",
+   "n_books": 5,
+   "price_books": [
+    "betmgm -185/+135",
+    "betonlineag -172/+131",
+    "bovada -170/+130",
+    "draftkings -170/+125",
+    "fanduel -178/+136"
+   ],
+   "price_method": "per_book_median",
+   "reasoning": "Hertl has 2+ SOG in 9 of his last 10 (3,3,3,1,4,2,3,4,2,2) on 13-20 min TOI, including 3 in his most recent game vs DAL. Five books at the exact 1.5 line (-170 to -185) give a 59.4% median. Shot volume as a top-6/PP center is the thesis; it's independent of the other five legs (different sport/games).",
+   "key_stats": [
+    "L10 SOG 3,3,3,1,4,2,3,4,2,2 (9/10 over 1.5)",
+    "L10 TOI 12:56-20:03"
+   ],
+   "injury_notes": "No ESPN NHL injury pull this run (kept to one fetch per player); confirm Hertl in the VGK lineup before lock.",
+   "sources": [
+    {
+     "title": "ESPN Tomas Hertl game log",
+     "url": "https://www.espn.com/nhl/player/gamelog/_/id/2976844"
+    },
+    {
+     "title": "The Odds API per-book prices (pl price, regions=us)",
+     "url": "https://the-odds-api.com/liveapi/guides/v4/"
+    }
+   ]
+  }
+ ]
+}

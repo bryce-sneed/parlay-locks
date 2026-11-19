@@ -1,0 +1,107 @@
+{
+ "schema": "results/v1",
+ "run": "2026-11-18-morning",
+ "graded_at": "2026-11-19T11:15:00-05:00",
+ "author": "parlay-locks",
+ "notes": "Legs 8/9, all overs (only miss: L9 Sengun 1 ast, left in the 2nd quarter with an injury after 14 min). Panel keep/cut accuracy: Claude 8/9 (keeps 8/9 hit, no cuts), Cursor 8/9 (keeps 8/9 hit, no cuts), Codex 7/9 (keeps 7/8 hit, cuts 0/1 missed: the L6 Dort veto was wrong, 3 reb hit). Unanimous keeps 8/9 hit (L9 missed); no unanimous cuts. Slips: 2-leg UD Standard won +$2.50; 3-leg UD Flex went 2/3 (Sengun missed), paying 1.09x for +$0.09; 5-leg PP Power went 5/5, paying 20x for +$19.00. Snapshot P/L +$21.59. Graded at the drafted book lines; app lines weren't confirmed. Sengun played, so this is a miss, not a DNP. A UD Rescue is discretionary and isn't modeled.",
+ "legs": [
+  {
+   "leg_id": "L1",
+   "actual": 4,
+   "outcome": "hit",
+   "note": "Myles Turner 4 ast in 21 min. Final.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401910009"
+  },
+  {
+   "leg_id": "L2",
+   "actual": 3,
+   "outcome": "hit",
+   "note": "Jalen Smith 3 ast in 21 min. Final.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401910011"
+  },
+  {
+   "leg_id": "L3",
+   "actual": 2,
+   "outcome": "hit",
+   "note": "Jesper Bratt 2 SOG (1 missed) in 16:59 TOI. Final.",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892740"
+  },
+  {
+   "leg_id": "L4",
+   "actual": 3,
+   "outcome": "hit",
+   "note": "Logan Cooley 3 SOG in 20:35 TOI. Final.",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892741"
+  },
+  {
+   "leg_id": "L5",
+   "actual": 2,
+   "outcome": "hit",
+   "note": "Aaron Gordon 2 ast in 31 min. Final.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401910015"
+  },
+  {
+   "leg_id": "L6",
+   "actual": 3,
+   "outcome": "hit",
+   "note": "Luguentz Dort 3 reb in 31 min. Final. Vetoed by Codex (minutes) and not played.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401910014"
+  },
+  {
+   "leg_id": "L7",
+   "actual": 4,
+   "outcome": "hit",
+   "note": "Jalen Suggs 4 ast in 31 min. Final.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401910010"
+  },
+  {
+   "leg_id": "L8",
+   "actual": 7,
+   "outcome": "hit",
+   "note": "Kevin Huerter 7 ast in 36 min. Final. Also cleared the moved 3.5 book line.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401910013"
+  },
+  {
+   "leg_id": "L9",
+   "actual": 1,
+   "outcome": "miss",
+   "note": "Alperen Sengun 1 ast in 14 min. He left in the 2nd quarter with an injury (AP recap: 'despite losing Sengun to injury'). He played, so it grades as a miss. Final.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401910008"
+  }
+ ],
+ "slips": [
+  {
+   "id": "2026-11-18-morning-2",
+   "size": 2,
+   "stake": 1,
+   "outcome": "win",
+   "payout": 3.5,
+   "pnl": 2.5,
+   "platform": "Underdog",
+   "play_type": "standard",
+   "note": "L2 J. Smith 3 ast and L3 Bratt 2 SOG both hit. 3.5x."
+  },
+  {
+   "id": "2026-11-18-morning-3",
+   "size": 3,
+   "stake": 1,
+   "outcome": "partial",
+   "payout": 1.09,
+   "pnl": 0.09,
+   "platform": "Underdog",
+   "play_type": "flex",
+   "note": "2/3 (L7 Suggs 4 ast and L5 Gordon 2 ast hit; L9 Sengun 1 ast missed after leaving injured). UD 3-Flex pays 1.09x at 2/3."
+  },
+  {
+   "id": "2026-11-18-morning-5",
+   "size": 5,
+   "stake": 1,
+   "outcome": "win",
+   "payout": 20,
+   "pnl": 19,
+   "platform": "PrizePicks",
+   "play_type": "power",
+   "note": "5/5 (Turner 4 ast, J. Smith 3 ast, Bratt 2 SOG, Cooley 3 SOG, Huerter 7 ast). PP 5-Power pays 20x."
+  }
+ ]
+}

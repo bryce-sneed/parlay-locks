@@ -1,0 +1,68 @@
+{
+ "schema": "results/v1",
+ "run": "2026-11-18-pregame",
+ "graded_at": "2026-11-19T11:15:00-05:00",
+ "author": "parlay-locks",
+ "notes": "Legs 4/5, all overs (only miss: L2 Seider 0 SOG). Panel keep/cut accuracy: Claude 3/5 (keeps 3/4 hit, cuts 0/1 missed), Codex 3/5 (keeps 3/4 hit, cuts 0/1 missed), Cursor 4/5 (keeps 4/5 hit, no cuts). The 2-1 veto of L3 Goodwin was wrong (3 ast hit). Unanimous keeps 3/4 hit (L2 missed); no unanimous cuts. Slips: 2-leg UD Standard won +$2.50. 3-leg UD Flex went 2/3 (Seider missed), paying 1.09x for +$0.09. No 5-leg. Snapshot P/L +$2.59. The morning legs carried over unchanged and are graded in 2026-11-18-morning. Graded at the drafted book lines; app lines weren't confirmed.",
+ "legs": [
+  {
+   "leg_id": "L1",
+   "actual": 2,
+   "outcome": "hit",
+   "note": "Meleek Thomas 2 ast in 22 min. Final.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401910007"
+  },
+  {
+   "leg_id": "L2",
+   "actual": 0,
+   "outcome": "miss",
+   "note": "Moritz Seider 0 SOG (2 missed) in 24:12 TOI. Final.",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892739"
+  },
+  {
+   "leg_id": "L3",
+   "actual": 3,
+   "outcome": "hit",
+   "note": "Jordan Goodwin 3 ast in 17 min. Final. Vetoed 2-1 (Claude and Codex) and not played.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401910018"
+  },
+  {
+   "leg_id": "L4",
+   "actual": 6,
+   "outcome": "hit",
+   "note": "Ja'Kobe Walter 6 ast in 38 min. Final.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401910012"
+  },
+  {
+   "leg_id": "L5",
+   "actual": 9,
+   "outcome": "hit",
+   "note": "Cooper Flagg 9 ast in 34 min. Final.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401910016"
+  }
+ ],
+ "slips": [
+  {
+   "id": "2026-11-18-pregame-2",
+   "size": 2,
+   "stake": 1,
+   "outcome": "win",
+   "payout": 3.5,
+   "pnl": 2.5,
+   "platform": "Underdog",
+   "play_type": "standard",
+   "note": "L4 Walter 6 ast and L1 M. Thomas 2 ast both hit. 3.5x."
+  },
+  {
+   "id": "2026-11-18-pregame-3",
+   "size": 3,
+   "stake": 1,
+   "outcome": "partial",
+   "payout": 1.09,
+   "pnl": 0.09,
+   "platform": "Underdog",
+   "play_type": "flex",
+   "note": "2/3 (L5 Flagg 9 ast and L1 Thomas 2 ast hit; L2 Seider 0 SOG missed). UD 3-Flex pays 1.09x at 2/3."
+  }
+ ]
+}

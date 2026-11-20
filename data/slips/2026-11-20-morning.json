@@ -1,0 +1,189 @@
+{
+  "schema": "slips/v1",
+  "run": "2026-11-20-morning",
+  "date": "2026-11-20",
+  "snapshot": "morning",
+  "created_at": "2026-11-20T11:10:00-05:00",
+  "author": "parlay-locks",
+  "paper": true,
+  "notes": "Morning, week 2 day 2. NBA only (no NFL or NHL today). The panel ran (Claude 9-0 keep, Cursor 8-1). Cursor cut L6 Sabonis O4.5 ast with a named gap: the write-up says his short-minute games still clear 4.5, but one of those two games had 3 assists. That is a veto (P3), so L6 is dropped. 11:05 AM ET ESPN injury recheck: no changes on any leg since the draft (Capela out and Sengun/Adams questionable for HOU; Nembhard questionable for IND; Caruso questionable for OKC; Nelson out for BKN; Wilson out for CHI). No new outs on any team that would expand the only under (L9 Brown Jr. reb). 5-leg is PP Power because the average leg prob is 59.7% (all overs, so no shading), above the 56.6% threshold. 3-leg is UD Flex with L7/L9/L2, sharing no legs with the 2-leg. 2-leg is the two strongest overs (L1, L3). No leg is in all three slips. L8 Bane (55.7%, thinnest) is unused. Cooldown: no conflicts.",
+  "slips": [
+    {
+      "id": "2026-11-20-morning-5",
+      "size": 5,
+      "platform": "PrizePicks",
+      "play_type": "power",
+      "stake": 1,
+      "payout_multiplier": 20,
+      "legs": [
+        "L1",
+        "L3",
+        "L4",
+        "L5",
+        "L2"
+      ],
+      "rationale": "PP 5-pick Power (avg est 59.7% > 56.6%): Mara O1.5 ast, Okoro O1.5 ast, Poeltl O1.5 ast, Nesmith O1.5 ast, Durant O3.5 ast. Five games, all overs, 4-5 books each. Est joint 7.5% vs 5.0% BE. Panel 2-0 keep on all five."
+    },
+    {
+      "id": "2026-11-20-morning-3",
+      "size": 3,
+      "platform": "Underdog",
+      "play_type": "flex",
+      "stake": 1,
+      "payout_multiplier": 3.25,
+      "legs": [
+        "L7",
+        "L9",
+        "L2"
+      ],
+      "rationale": "UD 3-pick Flex (3.25x / 1.09x): Sion James O3.5 reb (57.0%), Mikel Brown Jr. U2.5 reb (57.6% shaded, volume-based under, not a blowout under), Durant O3.5 ast (58.2%). Three games, 1 under. Avg 57.6% vs 55.4% BE. Shares no legs with the 2-leg. Panel 2-0 keep on all three."
+    },
+    {
+      "id": "2026-11-20-morning-2",
+      "size": 2,
+      "platform": "Underdog",
+      "play_type": "standard",
+      "stake": 1,
+      "payout_multiplier": 3.5,
+      "legs": [
+        "L1",
+        "L3"
+      ],
+      "rationale": "Overs only (P4): Mara O1.5 ast (61.5%, 4 books) + Okoro O1.5 ast (60.8%, 5 books). Different games. Est joint 37.4% vs 28.6% BE. Panel 2-0 keep on both."
+    }
+  ],
+  "lock_ts": "2026-11-20T11:04:24-05:00",
+  "lock_source": "candidates",
+  "lock_candidates": "data/candidates/2026-11-20-morning.json",
+  "lock_prices": {
+    "L1": {
+      "player": "Aday Mara",
+      "market": "Assists",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.615,
+      "est_prob_raw": 0.615,
+      "price_ts": "2026-11-20T09:52:57-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betmgm -190/+140",
+        "betonlineag -189/+143",
+        "bovada -190/+145",
+        "draftkings -194/+146"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L3": {
+      "player": "Isaac Okoro",
+      "market": "Assists",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.608,
+      "est_prob_raw": 0.608,
+      "price_ts": "2026-11-20T09:52:57-05:00",
+      "n_books": 5,
+      "price_books": [
+        "betmgm -190/+140",
+        "betonlineag -182/+139",
+        "betrivers -177/+128",
+        "bovada -185/+140",
+        "draftkings -184/+139"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L4": {
+      "player": "Jakob Poeltl",
+      "market": "Assists",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.597,
+      "est_prob_raw": 0.597,
+      "price_ts": "2026-11-20T09:52:57-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betmgm -160/+120",
+        "betonlineag -169/+129",
+        "betrivers -186/+135",
+        "bovada -220/+165"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L5": {
+      "player": "Aaron Nesmith",
+      "market": "Assists",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.583,
+      "est_prob_raw": 0.583,
+      "price_ts": "2026-11-20T09:52:57-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betonlineag -156/+120",
+        "betrivers -175/+125",
+        "bovada -165/+125",
+        "draftkings -164/+124"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L2": {
+      "player": "Kevin Durant",
+      "market": "Assists",
+      "line": 3.5,
+      "pick": "over",
+      "est_prob": 0.582,
+      "est_prob_raw": 0.582,
+      "price_ts": "2026-11-20T09:52:58-05:00",
+      "n_books": 5,
+      "price_books": [
+        "betmgm -165/+125",
+        "betonlineag -161/+124",
+        "betrivers -162/+120",
+        "bovada -165/+125",
+        "draftkings -164/+124"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L7": {
+      "player": "Sion James",
+      "market": "Rebounds",
+      "line": 3.5,
+      "pick": "over",
+      "est_prob": 0.57,
+      "est_prob_raw": 0.57,
+      "price_ts": "2026-11-20T09:52:56-05:00",
+      "n_books": 5,
+      "price_books": [
+        "betmgm -155/+115",
+        "betonlineag -154/+119",
+        "betrivers -139/+102",
+        "bovada -165/+125",
+        "fanduel -172/+128"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L9": {
+      "player": "Mikel Brown Jr.",
+      "market": "Rebounds",
+      "line": 2.5,
+      "pick": "under",
+      "est_prob": 0.576,
+      "est_prob_raw": 0.606,
+      "price_ts": "2026-11-20T09:52:57-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betmgm +145/-200",
+        "betonlineag +141/-185",
+        "bovada +135/-180",
+        "draftkings +136/-180"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    }
+  }
+}

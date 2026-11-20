@@ -1,0 +1,75 @@
+{
+  "schema": "results/v1",
+  "run": "2026-11-19-pregame",
+  "graded_at": "2026-11-20T09:58:00-05:00",
+  "author": "parlay-locks",
+  "notes": "Legs 3/6, all overs (misses: L1 Collins 3 rec, L2 Dunn 2 reb, L4 Jaquez 1 reb). Panel keep/cut accuracy: Claude 3/6 (keeps 3/6 hit, no cuts), Cursor 3/6 (keeps 3/6 hit, no cuts), Codex (off default panel) 2/6 (keeps 2/5 hit, cut L6 which hit). Slips: 5-leg PP Power lost (L1, L4 missed), 2-leg UD Standard lost (L2 missed). Snapshot P/L -$2.00. No ties/DNPs. Graded at the drafted book lines; app lines weren't confirmed.",
+  "legs": [
+    {
+      "leg_id": "L1",
+      "actual": 3,
+      "outcome": "miss",
+      "note": "Nico Collins 3 rec (5 tgts), 58 yds, 1 TD. Final.",
+      "source": "https://www.espn.com/nfl/boxscore/_/gameId/401873066"
+    },
+    {
+      "leg_id": "L2",
+      "actual": 2,
+      "outcome": "miss",
+      "note": "Kris Dunn 2 reb in 20 min. Final.",
+      "source": "https://www.espn.com/nba/boxscore/_/gameId/401910022"
+    },
+    {
+      "leg_id": "L3",
+      "actual": 5,
+      "outcome": "hit",
+      "note": "Cameron Boozer 5 ast in 27 min. Final.",
+      "source": "https://www.espn.com/nba/boxscore/_/gameId/401910019"
+    },
+    {
+      "leg_id": "L4",
+      "actual": 1,
+      "outcome": "miss",
+      "note": "Jaime Jaquez Jr. 1 reb in 22 min. Final.",
+      "source": "https://www.espn.com/nba/boxscore/_/gameId/401910020"
+    },
+    {
+      "leg_id": "L5",
+      "actual": 4,
+      "outcome": "hit",
+      "note": "Terrence Shannon Jr. 4 reb in 21 min. Final.",
+      "source": "https://www.espn.com/nba/boxscore/_/gameId/401910021"
+    },
+    {
+      "leg_id": "L6",
+      "actual": 2,
+      "outcome": "hit",
+      "note": "Tomas Hertl 2 SOG (3 missed) in 16:10 TOI. Final.",
+      "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892753"
+    }
+  ],
+  "slips": [
+    {
+      "id": "2026-11-19-pregame-5",
+      "size": 5,
+      "stake": 1,
+      "outcome": "loss",
+      "payout": 0,
+      "pnl": -1,
+      "platform": "PrizePicks",
+      "play_type": "power",
+      "note": "3/5 (L1, L4 missed). Power pays only 5/5."
+    },
+    {
+      "id": "2026-11-19-pregame-2",
+      "size": 2,
+      "stake": 1,
+      "outcome": "loss",
+      "payout": 0,
+      "pnl": -1,
+      "platform": "Underdog",
+      "play_type": "standard",
+      "note": "L6 hit, L2 Dunn 2 reb missed."
+    }
+  ]
+}

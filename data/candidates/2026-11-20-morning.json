@@ -1,0 +1,448 @@
+{
+  "schema": "candidates/v1",
+  "run": "2026-11-20-morning",
+  "date": "2026-11-20",
+  "snapshot": "morning",
+  "created_at": "2026-11-20T10:05:00-05:00",
+  "author": "parlay-locks",
+  "slate_notes": "Friday Nov 20: NBA only (9 games). There's no NFL game today (next is Sunday) and no NHL games on the board. I priced rebounds and assists for all 9 NBA games with pl price (18 credits; per-book devig median, 2+ books, unders shaded -3 pts), then checked each candidate against ESPN L10 game logs and the injury report. 9 legs in 8 games: 8 overs and 1 under. Only ORL@BKN has two legs, on different theses. PHX@UTA was skipped (no clean spot). Skipped: Braun U2.5 ast and J. Smith U2.5 ast (L10 contradicts the price), Battle U1.5 ast and Eason U1.5 ast (role expansion or L10 contradicts), Bey and B. Miller unders (teammates out, so role expanding), Mitchell/McCain/Gordon (game concentration). No cooldown conflicts (recent misses: Collins rec, Dunn reb, Jaquez reb, Seider SOG, Sengun ast). Confirm each line in the app and skip Goblin/Demon lines.",
+  "legs": [
+    {
+      "id": "L1",
+      "sport": "NBA",
+      "event": "NO @ OKC",
+      "start_time": "2026-11-20T20:10:00-05:00",
+      "player": "Aday Mara",
+      "team": "OKC",
+      "market": "Assists",
+      "line": 1.5,
+      "pick": "over",
+      "platforms": [
+        "prizepicks",
+        "underdog"
+      ],
+      "est_prob": 0.615,
+      "est_prob_raw": 0.615,
+      "confidence": 61,
+      "price_ts": "2026-11-20T09:52:57-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betmgm -190/+140",
+        "betonlineag -189/+143",
+        "bovada -190/+145",
+        "draftkings -194/+146"
+      ],
+      "price_method": "per_book_median",
+      "reasoning": "OKC is down Jalen Williams, Holmgren, Wallace and Sorber, so Mara has been a steady 18-32 min big who works as a hub out of the post/short roll. 7 of his last 10 cleared 1.5 ast (8, 3, 0, 2, 2, 3, 0, 2, 0, 3). The 4-book median devig of 61.5% at the exact 1.5 line is the estimate. Risk: OKC -11.5 vs a depleted NO side, so a blowout could trim his 4th-quarter minutes, but 2 ast is a low bar. This is the only OKC leg (Mitchell and McCain were also priced over, but I skipped them to avoid stacking one game).",
+      "key_stats": [
+        "L10 AST: 8,3,0,2,2,3,0,2,0,3 (7/10 >=2)",
+        "L10 MIN 18-32",
+        "OKC out: J. Williams, Holmgren, Wallace, Sorber; Caruso questionable"
+      ],
+      "injury_notes": "ESPN NBA injuries page checked 9:55 AM ET Nov 20; recheck at pregame.",
+      "sources": [
+        {
+          "title": "ESPN Aday Mara game log",
+          "url": "https://www.espn.com/nba/player/gamelog/_/id/5174983"
+        },
+        {
+          "title": "ESPN NBA injuries",
+          "url": "https://www.espn.com/nba/injuries"
+        },
+        {
+          "title": "The Odds API per-book prices (pl price)",
+          "url": "https://the-odds-api.com/"
+        }
+      ]
+    },
+    {
+      "id": "L2",
+      "sport": "NBA",
+      "event": "HOU @ DEN",
+      "start_time": "2026-11-20T22:10:00-05:00",
+      "player": "Kevin Durant",
+      "team": "HOU",
+      "market": "Assists",
+      "line": 3.5,
+      "pick": "over",
+      "platforms": [
+        "prizepicks",
+        "underdog"
+      ],
+      "est_prob": 0.582,
+      "est_prob_raw": 0.582,
+      "confidence": 58,
+      "price_ts": "2026-11-20T09:52:58-05:00",
+      "n_books": 5,
+      "price_books": [
+        "betmgm -165/+125",
+        "betonlineag -161/+124",
+        "betrivers -162/+120",
+        "bovada -165/+125",
+        "draftkings -164/+124"
+      ],
+      "price_method": "per_book_median",
+      "reasoning": "With Capela out and Sengun (eye) and Adams questionable, HOU has fewer big-man hubs, so more of the offense runs through Durant. Over his last 10 he has 5 games of 4+ ast (3,3,5,6,5,8,3,2,3,4) on 27-38 min. 5-book median devig 58.2%. DEN is 8-5 and the spread is a near pick'em (-1.5), so he should play full minutes. Only HOU@DEN leg (Gordon O1.5 ast was also priced at 59.3%, skipped for game concentration).",
+      "key_stats": [
+        "L10 AST: 3,3,5,6,5,8,3,2,3,4 (5/10 >=4)",
+        "L10 MIN 27-38",
+        "HOU: Capela out, Sengun/Adams questionable; DEN -1.5, total 226.5"
+      ],
+      "injury_notes": "ESPN NBA injuries page checked 9:55 AM ET Nov 20; recheck at pregame.",
+      "sources": [
+        {
+          "title": "ESPN Kevin Durant game log",
+          "url": "https://www.espn.com/nba/player/gamelog/_/id/3202"
+        },
+        {
+          "title": "ESPN NBA injuries",
+          "url": "https://www.espn.com/nba/injuries"
+        },
+        {
+          "title": "The Odds API per-book prices (pl price)",
+          "url": "https://the-odds-api.com/"
+        }
+      ]
+    },
+    {
+      "id": "L3",
+      "sport": "NBA",
+      "event": "WSH @ CHI",
+      "start_time": "2026-11-20T20:10:00-05:00",
+      "player": "Isaac Okoro",
+      "team": "CHI",
+      "market": "Assists",
+      "line": 1.5,
+      "pick": "over",
+      "platforms": [
+        "prizepicks",
+        "underdog"
+      ],
+      "est_prob": 0.608,
+      "est_prob_raw": 0.608,
+      "confidence": 61,
+      "price_ts": "2026-11-20T09:52:57-05:00",
+      "n_books": 5,
+      "price_books": [
+        "betmgm -190/+140",
+        "betonlineag -182/+139",
+        "betrivers -177/+128",
+        "bovada -185/+140",
+        "draftkings -184/+139"
+      ],
+      "price_method": "per_book_median",
+      "reasoning": "Okoro's minutes have climbed (25, 32, 31, 41 in his last 4) with Caleb Wilson out 4-6 weeks, and he's cleared 1.5 ast in 6 of the last 10, 4 of the last 5. WSH @ CHI has the slate's highest total (239.5, CHI -2.5), so pace and possessions help. 5-book median devig 60.8%.",
+      "key_stats": [
+        "L10 AST: 4,2,4,2,4,1,0,0,2,1 (6/10, 4/5 L5)",
+        "L4 MIN 25/32/31/41",
+        "CHI: Caleb Wilson out; total 239.5"
+      ],
+      "injury_notes": "ESPN NBA injuries page checked 9:55 AM ET Nov 20; recheck at pregame.",
+      "sources": [
+        {
+          "title": "ESPN Isaac Okoro game log",
+          "url": "https://www.espn.com/nba/player/gamelog/_/id/4432822"
+        },
+        {
+          "title": "ESPN NBA injuries",
+          "url": "https://www.espn.com/nba/injuries"
+        },
+        {
+          "title": "The Odds API per-book prices (pl price)",
+          "url": "https://the-odds-api.com/"
+        }
+      ]
+    },
+    {
+      "id": "L4",
+      "sport": "NBA",
+      "event": "TOR @ DET",
+      "start_time": "2026-11-20T19:40:00-05:00",
+      "player": "Jakob Poeltl",
+      "team": "TOR",
+      "market": "Assists",
+      "line": 1.5,
+      "pick": "over",
+      "platforms": [
+        "prizepicks",
+        "underdog"
+      ],
+      "est_prob": 0.597,
+      "est_prob_raw": 0.597,
+      "confidence": 60,
+      "price_ts": "2026-11-20T09:52:57-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betmgm -160/+120",
+        "betonlineag -169/+129",
+        "betrivers -186/+135",
+        "bovada -220/+165"
+      ],
+      "price_method": "per_book_median",
+      "reasoning": "TOR is thin (Barrett, Leonard, Murray-Boyles, Bittle out), so Poeltl is the main hub big. He went 5 ast in 29 min last game. L10 is 5/10 at 2+, but the low-minute games (10, 17, 18) drag that down; in games with 23+ min he is 4/6. 4-book median devig 59.7% at the exact 1.5 line. Risk: DET -6.5, and Duren is out, so the matchup is softer on the glass but Poeltl's minutes could be capped if TOR trails big. Thinnest of the set, so the panel should scrutinize it.",
+      "key_stats": [
+        "L10 AST: 5,1,1,3,1,2,2,1,3,0 (5/10 >=2)",
+        "Last game 29 min, 5 ast",
+        "TOR out: Barrett, Leonard, Murray-Boyles, Bittle"
+      ],
+      "injury_notes": "ESPN NBA injuries page checked 9:55 AM ET Nov 20; recheck at pregame.",
+      "sources": [
+        {
+          "title": "ESPN Jakob Poeltl game log",
+          "url": "https://www.espn.com/nba/player/gamelog/_/id/3134908"
+        },
+        {
+          "title": "ESPN NBA injuries",
+          "url": "https://www.espn.com/nba/injuries"
+        },
+        {
+          "title": "The Odds API per-book prices (pl price)",
+          "url": "https://the-odds-api.com/"
+        }
+      ]
+    },
+    {
+      "id": "L5",
+      "sport": "NBA",
+      "event": "IND @ CLE",
+      "start_time": "2026-11-20T19:40:00-05:00",
+      "player": "Aaron Nesmith",
+      "team": "IND",
+      "market": "Assists",
+      "line": 1.5,
+      "pick": "over",
+      "platforms": [
+        "prizepicks",
+        "underdog"
+      ],
+      "est_prob": 0.583,
+      "est_prob_raw": 0.583,
+      "confidence": 58,
+      "price_ts": "2026-11-20T09:52:57-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betonlineag -156/+120",
+        "betrivers -175/+125",
+        "bovada -165/+125",
+        "draftkings -164/+124"
+      ],
+      "price_method": "per_book_median",
+      "reasoning": "With Haliburton and Sheppard out and Nembhard questionable (hip), IND needs secondary playmaking. Nesmith has 2+ ast in 6 of his last 10 on 21-36 min. IND @ CLE has a 232.5 total, and CLE is without Mobley and Tyson. 4-book median devig 58.3%. If Nembhard sits, his on-ball share goes up.",
+      "key_stats": [
+        "L10 AST: 3,4,1,1,2,1,2,4,2,1 (6/10 >=2)",
+        "L10 MIN 21-36",
+        "IND: Haliburton, Sheppard out, Nembhard/B. Smith questionable"
+      ],
+      "injury_notes": "ESPN NBA injuries page checked 9:55 AM ET Nov 20; recheck at pregame.",
+      "sources": [
+        {
+          "title": "ESPN Aaron Nesmith game log",
+          "url": "https://www.espn.com/nba/player/gamelog/_/id/4396909"
+        },
+        {
+          "title": "ESPN NBA injuries",
+          "url": "https://www.espn.com/nba/injuries"
+        },
+        {
+          "title": "The Odds API per-book prices (pl price)",
+          "url": "https://the-odds-api.com/"
+        }
+      ]
+    },
+    {
+      "id": "L6",
+      "sport": "NBA",
+      "event": "SAC @ LAL",
+      "start_time": "2026-11-20T22:10:00-05:00",
+      "player": "Domantas Sabonis",
+      "team": "SAC",
+      "market": "Assists",
+      "line": 4.5,
+      "pick": "over",
+      "platforms": [
+        "prizepicks",
+        "underdog"
+      ],
+      "est_prob": 0.572,
+      "est_prob_raw": 0.572,
+      "confidence": 57,
+      "price_ts": "2026-11-20T09:52:58-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betonlineag -154/+118",
+        "betrivers -159/+117",
+        "bovada -160/+120",
+        "draftkings -158/+119"
+      ],
+      "price_method": "per_book_median",
+      "reasoning": "Sabonis has 5+ ast in 7 of his last 10 (8,3,5,5,5,1,4,8,7,8), and SAC (1-13) runs everything through him. With Achiuwa doubtful and Hunter questionable, there are fewer other options. LAL -14.5 is a blowout risk, but Sabonis's baseline is above the line even at 24-29 min (8 and 3 ast in those two). 4-book median devig 57.2%.",
+      "key_stats": [
+        "L10 AST: 8,3,5,5,5,1,4,8,7,8 (7/10 >=5)",
+        "L10 MIN 24-40",
+        "SAC: Achiuwa doubtful, Hunter questionable; LAL -14.5 (blowout-minutes risk)"
+      ],
+      "injury_notes": "ESPN NBA injuries page checked 9:55 AM ET Nov 20; recheck at pregame.",
+      "sources": [
+        {
+          "title": "ESPN Domantas Sabonis game log",
+          "url": "https://www.espn.com/nba/player/gamelog/_/id/3155942"
+        },
+        {
+          "title": "ESPN NBA injuries",
+          "url": "https://www.espn.com/nba/injuries"
+        },
+        {
+          "title": "The Odds API per-book prices (pl price)",
+          "url": "https://the-odds-api.com/"
+        }
+      ]
+    },
+    {
+      "id": "L7",
+      "sport": "NBA",
+      "event": "CHA @ ATL",
+      "start_time": "2026-11-20T19:10:00-05:00",
+      "player": "Sion James",
+      "team": "CHA",
+      "market": "Rebounds",
+      "line": 3.5,
+      "pick": "over",
+      "platforms": [
+        "prizepicks",
+        "underdog"
+      ],
+      "est_prob": 0.57,
+      "est_prob_raw": 0.57,
+      "confidence": 57,
+      "price_ts": "2026-11-20T09:52:56-05:00",
+      "n_books": 5,
+      "price_books": [
+        "betmgm -155/+115",
+        "betonlineag -154/+119",
+        "betrivers -139/+102",
+        "bovada -165/+125",
+        "fanduel -172/+128"
+      ],
+      "price_method": "per_book_median",
+      "reasoning": "CHA is missing Knueppel, Schroder, Grayson Allen and Grant Williams, which pushes James to 30-35 min lately (4+ reb in 4 of his last 4 at 30+ min: 6, 8, 8, 4). Overall 6/10 at 4+. ATL is without Landale, Newell and Veesaar, so their frontcourt rebounding is thinner. 5-book median devig 57.0%.",
+      "key_stats": [
+        "L10 REB: 6,8,8,4,3,2,4,2,5,2 (6/10 >=4)",
+        "L4 MIN 30/35/32/33",
+        "CHA out: Knueppel, Schroder, Allen, G. Williams; ATL out: Landale, Newell, Veesaar"
+      ],
+      "injury_notes": "ESPN NBA injuries page checked 9:55 AM ET Nov 20; recheck at pregame.",
+      "sources": [
+        {
+          "title": "ESPN Sion James game log",
+          "url": "https://www.espn.com/nba/player/gamelog/_/id/4602025"
+        },
+        {
+          "title": "ESPN NBA injuries",
+          "url": "https://www.espn.com/nba/injuries"
+        },
+        {
+          "title": "The Odds API per-book prices (pl price)",
+          "url": "https://the-odds-api.com/"
+        }
+      ]
+    },
+    {
+      "id": "L8",
+      "sport": "NBA",
+      "event": "ORL @ BKN",
+      "start_time": "2026-11-20T19:40:00-05:00",
+      "player": "Desmond Bane",
+      "team": "ORL",
+      "market": "Assists",
+      "line": 2.5,
+      "pick": "over",
+      "platforms": [
+        "prizepicks",
+        "underdog"
+      ],
+      "est_prob": 0.557,
+      "est_prob_raw": 0.557,
+      "confidence": 56,
+      "price_ts": "2026-11-20T09:52:57-05:00",
+      "n_books": 6,
+      "price_books": [
+        "betmgm -140/+105",
+        "betonlineag -147/+113",
+        "betrivers -159/+117",
+        "bovada -145/+110",
+        "draftkings -145/+110",
+        "fanduel -166/+124"
+      ],
+      "price_method": "per_book_median",
+      "reasoning": "With Banchero out 4-6 weeks, Bane is playing 32-40 min as a primary creator and has 3+ ast in 7 of his last 10. BKN (3-11) is also without Grant Nelson. 6-book median devig 55.7%, the thinnest margin in the set but still above 54.3% Flex break-even.",
+      "key_stats": [
+        "L10 AST: 3,5,3,2,4,0,3,1,6,4 (7/10 >=3)",
+        "L10 MIN 32-40",
+        "ORL: Banchero, Isaac, Penda out"
+      ],
+      "injury_notes": "ESPN NBA injuries page checked 9:55 AM ET Nov 20; recheck at pregame.",
+      "sources": [
+        {
+          "title": "ESPN Desmond Bane game log",
+          "url": "https://www.espn.com/nba/player/gamelog/_/id/4066320"
+        },
+        {
+          "title": "ESPN NBA injuries",
+          "url": "https://www.espn.com/nba/injuries"
+        },
+        {
+          "title": "The Odds API per-book prices (pl price)",
+          "url": "https://the-odds-api.com/"
+        }
+      ]
+    },
+    {
+      "id": "L9",
+      "sport": "NBA",
+      "event": "ORL @ BKN",
+      "start_time": "2026-11-20T19:40:00-05:00",
+      "player": "Mikel Brown Jr.",
+      "team": "BKN",
+      "market": "Rebounds",
+      "line": 2.5,
+      "pick": "under",
+      "platforms": [
+        "prizepicks",
+        "underdog"
+      ],
+      "est_prob": 0.576,
+      "est_prob_raw": 0.606,
+      "confidence": 58,
+      "price_ts": "2026-11-20T09:52:57-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betmgm +145/-200",
+        "betonlineag +141/-185",
+        "bovada +135/-180",
+        "draftkings +136/-180"
+      ],
+      "price_method": "per_book_median",
+      "reasoning": "This is a volume under, not a blowout under. Brown is a small rookie guard playing 18-28 min who has 2 or fewer reb in 8 of his last 10 (1,1,1,1,2,2,0,5,2,3). His role is on-ball (3-5 ast), not on the glass. The only BKN absence is Grant Nelson (F), which doesn't shift guard rebounding much. Raw 4-book median under 60.6% (about -154, inside -180), shaded -3 pts to 57.6%. Different thesis from the Bane leg in the same game (ORL creation vs BKN guard rebounding).",
+      "key_stats": [
+        "L10 REB: 1,1,1,1,2,2,0,5,2,3 (8/10 <=2)",
+        "L10 MIN 18-28",
+        "BKN: Grant Nelson out (F)"
+      ],
+      "injury_notes": "ESPN NBA injuries page checked 9:55 AM ET Nov 20; recheck at pregame.",
+      "sources": [
+        {
+          "title": "ESPN Mikel Brown Jr. game log",
+          "url": "https://www.espn.com/nba/player/gamelog/_/id/5101761"
+        },
+        {
+          "title": "ESPN NBA injuries",
+          "url": "https://www.espn.com/nba/injuries"
+        },
+        {
+          "title": "The Odds API per-book prices (pl price)",
+          "url": "https://the-odds-api.com/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schema": "slips/v1",
+  "run": "2026-11-20-pregame",
+  "date": "2026-11-20",
+  "snapshot": "pregame",
+  "created_at": "2026-11-20T18:08:00-05:00",
+  "author": "parlay-locks",
+  "paper": true,
+  "notes": "Pregame check-and-swap (P2). The panel did not vote on this run (no data/votes/2026-11-20-pregame; the PC appears offline), so this was finalized from my own research. 6:05 PM ET recheck (NBA 4 PM injury report + projected lineups): SGA, Mara, Murray and Harden all available and projected to start; no new outs affecting any morning or pregame leg. Morning swap (paper adjustment, morning slips not regraded): Mara O1.5 ast is degraded (most books moved to 2.5; only BetMGM at 1.5, fails P1 2-book rule) -> replacement SGA O3.5 reb if the app has moved Mara to 2.5. Other morning legs unchanged. New pregame legs are priced 4:48 PM ET at 4-5 books and reuse no morning player or game thesis. Built ONE slip: 2-leg UD Standard from the two strongest overs. 5-leg skipped (only 3 fresh legs/games). 3-leg skipped: it would share 2 legs with the 2-leg (anti-nesting), and L3 Harden (56.0%, L10 5/10) is the thinnest; 3-leg Flex EV ~1.07 vs 2-leg ~1.17, and pregame slips are 0/16 so exposure stays minimal.",
+  "slips": [
+    {
+      "id": "2026-11-20-pregame-2",
+      "size": 2,
+      "platform": "Underdog",
+      "play_type": "standard",
+      "stake": 1,
+      "payout_multiplier": 3.5,
+      "legs": [
+        "L2",
+        "L1"
+      ],
+      "rationale": "Overs only (P4): Jamal Murray O3.5 reb (58.3%, 4 books; HOU without Capela) + SGA O3.5 reb (57.3%, 5 books; OKC thin up front, Topic out). Different games. Est joint 33.4% vs 28.6% BE. No panel vote this run."
+    }
+  ],
+  "lock_ts": "2026-11-20T18:01:33-05:00",
+  "lock_source": "candidates",
+  "lock_candidates": "data/candidates/2026-11-20-pregame.json",
+  "lock_prices": {
+    "L2": {
+      "player": "Jamal Murray",
+      "market": "Rebounds",
+      "line": 3.5,
+      "pick": "over",
+      "est_prob": 0.583,
+      "est_prob_raw": 0.583,
+      "price_ts": "2026-11-20T16:48:12-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betrivers -162/+118",
+        "bovada -165/+125",
+        "draftkings -165/+125",
+        "fanduel -174/+130"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L1": {
+      "player": "Shai Gilgeous-Alexander",
+      "market": "Rebounds",
+      "line": 3.5,
+      "pick": "over",
+      "est_prob": 0.573,
+      "est_prob_raw": 0.573,
+      "price_ts": "2026-11-20T16:48:11-05:00",
+      "n_books": 5,
+      "price_books": [
+        "betmgm -155/+115",
+        "betonlineag -156/+120",
+        "betrivers -157/+116",
+        "bovada -165/+125",
+        "fanduel -164/+128"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    }
+  }
+}

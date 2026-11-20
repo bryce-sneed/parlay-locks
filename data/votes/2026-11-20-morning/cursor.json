@@ -1,0 +1,114 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-20-morning",
+    "model":  "cursor",
+    "model_name":  "auto",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-20T10:30:04-05:00",
+    "finished_at":  "2026-11-20T10:32:09-05:00",
+    "duration_s":  32.3,
+    "usage":  {
+                  "inputTokens":  20546,
+                  "outputTokens":  3309,
+                  "cacheReadTokens":  31808,
+                  "cacheWriteTokens":  0
+              },
+    "overall_notes":  "Nine NBA assist/rebound legs with solid multi-book devig pricing and morning injury checks; nothing obvious on line-mismatch, single-book, or stale pricing for this snapshot. I would cut only one leg where the write-up misstates supporting game logs while leaning on a large spread script.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  72,
+                      "reasoning":  "Mara’s 1.5 assist line matches the cited books, pricing is a four-book median from a fresh morning snapshot, and seven of ten games cleared two assists with expanded big minutes amid OKC absences. Blowout risk versus New Orleans is real but two assists is a low volume bar and the thesis is role-based, not fade-the-star. I’d reconsider if late injury news sharply cuts his projected minutes.",
+                      "risk_flags":  [
+                                         "blowout",
+                                         "minutes",
+                                         "injury"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  76,
+                      "reasoning":  "Five-book median at the exact 3.5 line, competitive spread, and Durant has five of ten at four-plus assists with Houston short on interior playmaking. Questionable bigs are a pregame watch but fit the over thesis rather than an unresolved under-volume gap. A Nembhard-style last-minute full-health pivot for all hubs would soften the edge.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "minutes"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  78,
+                      "reasoning":  "Okoro’s minutes trend up with Wilson out and he’s hit the line in six of ten and four of five recently on a high-total game. Pricing uses five books with proper devig; role expansion supports an over, not a forbidden under expansion pattern. A surprise Wilson return or minute cap would change the view.",
+                      "risk_flags":  [
+                                         "minutes",
+                                         "injury"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  58,
+                      "reasoning":  "This is the weakest keep: raw L10 is only five of ten at two-plus with blowout minutes risk, but the leg uses four books at 1.5 with a coherent hub-big thesis and acknowledges spread risk. The 23+ minute subset is selective yet disclosed; I don’t see a pricing-method or stale-data error warranting veto. A live line move down or confirmed blowout script would drop confidence further.",
+                      "risk_flags":  [
+                                         "blowout",
+                                         "minutes",
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  74,
+                      "reasoning":  "Secondary creation need with Haliburton and Sheppard out matches six of ten at two-plus on realistic minutes, and four books price the exact 1.5. Nembhard questionable is upside for touches if he sits, not an under-expansion cut case. Full Pacers availability shrinking his on-ball share would argue against the leg.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "minutes"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "cut",
+                      "confidence":  71,
+                      "reasoning":  "THIN/RISK: the case leans on a 14.5-point dog blowout script while claiming sub-30-minute samples still clear 4.5 assists, but one cited game had only three assists—below the line—so the volume justification is internally wrong for the exact pick’em number. Pricing is otherwise fine; the miss is mis-stated hit support in the reasoning, not break-even alone. I\u0027d keep only if updated logs show repeated 5+ ast in sub-30 blowout minutes.",
+                      "risk_flags":  [
+                                         "thin-risk",
+                                         "blowout",
+                                         "minutes"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  75,
+                      "reasoning":  "CHA absences push 30+ minute games with four straight four-plus rebound games recently and six of ten overall at four-plus. Five-book median at 3.5 with thinner opponent frontcourt availability fits a rebound over. Regression to shorter runs if rotation tightens would be the main flip signal.",
+                      "risk_flags":  [
+                                         "minutes",
+                                         "injury"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  65,
+                      "reasoning":  "Banchero out elevates Bane’s creation minutes and seven of ten cleared three-plus against a weak BKN team; six books devig above Flex break-even at 2.5. Margin is thin versus 54.3% but that’s not a veto category without a pricing or role error. Cold shooting nights with low assist volume would be the miss path.",
+                      "risk_flags":  [
+                                         "small-sample",
+                                         "minutes"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "keep",
+                      "confidence":  77,
+                      "reasoning":  "This is a volume under with eight of ten at two or fewer boards for a guard in 18–28 minutes, explicit rebound attempt/role framing, and shaded pricing still inside minus-180. Nelson out doesn’t materially expand guard glass share; it’s not a blowout-fade under. ORL frontcourt misses that steal defensive boards could add noise but don’t meet under-role-expansion.",
+                      "risk_flags":  [
+                                         "small-sample",
+                                         "role"
+                                     ]
+                  }
+              ]
+}

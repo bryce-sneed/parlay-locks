@@ -1,0 +1,103 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-20-morning",
+    "model":  "claude",
+    "model_name":  "haiku",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-20T10:30:04-05:00",
+    "finished_at":  "2026-11-20T10:32:09-05:00",
+    "duration_s":  123.2,
+    "usage":  {
+                  "cost_usd":  0.11925,
+                  "cache_read":  0,
+                  "output_tokens":  11443,
+                  "input_tokens":  9
+              },
+    "overall_notes":  "Well-researched slate with solid multi-book devigged pricing and careful attention to role expansions from recent injuries. All 9 legs are above break-even, include 4-6 book medians, have same-morning timestamps relative to injury checks, and avoid stacking. No concrete veto errors identified across the candidate set.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  72,
+                      "reasoning":  "Mara is a steady 18-32 min hub big for an injury-decimated OKC backcourt. L10 shows 7/10 cleared 1.5 ast; the bar is low enough to survive heavy blowout benching. Blowout risk (OKC -11.5 vs depleted NO) is acknowledged and reasonably priced at 61.5% by 4 books. 2 ast is an achievable baseline even on reduced minutes.",
+                      "risk_flags":  [
+                                         "blowout"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  76,
+                      "reasoning":  "Durant shows 5/10 at 4+ ast, 7/10 at 3+, on 27-38 min with more offense flowing through him as Capela is out and Sengun/Adams are questionable. Tight spread (-1.5) suggests full-minute expectation. 5-book devigged median at 58.2% is solid.",
+                      "risk_flags":  [
+                                         "injury-dependent"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  79,
+                      "reasoning":  "Okoro\u0027s minutes have climbed from 25→32→31→41 with Caleb Wilson out 4-6 weeks, and he\u0027s hit 1.5 ast in 6/10 (4/5 L5). CHI-WSH has slate\u0027s highest total (239.5) with CHI favored, aiding pace and volume. 5-book devig at 60.8% reflects this cleanly.",
+                      "risk_flags":  [
+                                         "none"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  67,
+                      "reasoning":  "Poeltl is TOR\u0027s main hub big with Barrett, Leonard, Murray-Boyles, and Bittle all out. L10 is 5/10 at 1.5+, but filters to 4/6 at 23+ min given low-minute games. Last game 5 ast in 29 min. Bar is very low; 1.5 ast survives DET -6.5 blowout risk even on shortened minutes. Acknowledged as thinnest leg; 59.7% by 4 books still above break-even.",
+                      "risk_flags":  [
+                                         "blowout",
+                                         "minutes"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  74,
+                      "reasoning":  "Nesmith moves into secondary playmaking role with Haliburton and Sheppard out, Nembhard questionable. L10 shows 6/10 at 2+ ast on 21-36 min. Reasonable line fit at 1.5; on-ball share expands if Nembhard sits. 4-book devig at 58.3% and game total 232.5 support volume.",
+                      "risk_flags":  [
+                                         "injury-dependent"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  69,
+                      "reasoning":  "Sabonis runs SAC\u0027s offense and cleared 5+ ast in 7/10 (8,3,5,5,5,1,4,8,7,8), with Achiuwa doubtful and Hunter questionable. Drafter correctly notes he posted 8 and 3 ast in his two shortest recent games (24-29 min), so baseline clears 4.5 even on benching. LAL -14.5 is real blowout risk but the hub role and 4+ baseline mitigate. 4-book devig 57.2%.",
+                      "risk_flags":  [
+                                         "blowout"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  74,
+                      "reasoning":  "James sees minutes jump (30→35→32→33 L4) with four CHA players out (Knueppel, Schroder, Allen, G. Williams). Hit 4+ reb in all four of those 30+ min games (6,8,8,4) and 6/10 overall. ATL frontcourt thinner too (Landale, Newell, Veesaar out). 5-book devig 57.0% reflects solid role expansion.",
+                      "risk_flags":  [
+                                         "none"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  67,
+                      "reasoning":  "Bane rises to primary creator with Banchero out 4-6 weeks and now plays 32-40 min. L10 shows 7/10 at 3+ ast, so line of 2.5 is comfortably hit. BKN is 3-11 without Grant Nelson, aiding offensive pace for ORL. Drafter correctly flags this as thinnest margin (55.7%), but it stays above 54.3% Flex break-even and reasoning is sound.",
+                      "risk_flags":  [
+                                         "thin-margin"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "keep",
+                      "confidence":  71,
+                      "reasoning":  "Brown Jr. is a small on-ball guard (3-5 ast per game), not a rebounder. L10 shows 8/10 at ≤2 reb on 18-28 min. Grant Nelson (F) absence for BKN doesn\u0027t expand guard rebounding role. Drafter provides explicit volume check (role is assists, not glass) and correctly labels this a baseline under, not blowout-driven. 4-book devig 57.6% (raw -154, inside -180 threshold) is well-justified.",
+                      "risk_flags":  [
+                                         "aggressive-pricing"
+                                     ]
+                  }
+              ]
+}

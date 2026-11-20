@@ -1,0 +1,156 @@
+{
+ "schema": "candidates/v1",
+ "run": "2026-11-20-pregame",
+ "date": "2026-11-20",
+ "snapshot": "pregame",
+ "created_at": "2026-11-20T16:49:47-05:00",
+ "author": "parlay-locks",
+ "slate_notes": "Pregame, Fri Nov 20 (week 2 day 2), check-and-swap under P2. Nothing pending to grade: every run through 2026-11-19-pregame is graded, and the 11-20 morning games tip 7:10 PM ET or later. MORNING RECHECK (ESPN injuries 4:50 PM ET; fresh Odds API prices 4:48 PM ET for NO@OKC, HOU@DEN, IND@CLE rebounds+assists): Mara O1.5 ast (morning L1, in the 5-leg and 2-leg) is DEGRADED. The market moved up to 2.5 at most books, and only BetMGM still has 1.5 (-185). That fails P1's 2-book rule, so swap it for SGA O3.5 reb (L1 here, same game) if the app has moved Mara to 2.5; even at 1.5 it can't be priced under P1 right now. Durant O3.5 ast is still fine: 2 books at 3.5 (median 59.0%), most books moved up to 4.5, which supports the over. Nesmith O1.5 ast is still fine (5 books, median 59.9%, up from 58.3%). News since the morning with no change to any leg: Topic OUT (OKC), Jalen Smith downgraded to Q (CHI; Okoro O1.5 ast unaffected), Holland doubtful (DET; Poeltl unaffected), Achiuwa OUT (SAC; L6 was already vetoed), Haliburton multi-week (already out). Okoro, Poeltl, Sion James, Bane and Mikel Brown Jr. were not repriced (no news, saving credits). NEW LEGS (P2, all priced after 3 PM at 4-5 books): 3 overs, one per game, no morning player reused, and no shared morning game thesis (the morning legs in these games were passing props for other players). Points were also priced for PHX@UTA, SAC@LAL, IND@CLE, WSH@CHI and TOR@DET; every main line devigged at 47-53%, so there were no points legs. Passed: Gordon O1.5 ast 59.0% (L10 only 6/10 with a lot of exact 2s, and the same game as Murray), VanVleet O2.5 reb/O4.5 ast (third HOU@DEN leg), Bey O4.5 reb and McCain U3.5 reb (same game as SGA), Proctor U3.5 ast (shaded 55.3%, thin). Credits: 13 spent this run (5 points, 6 reb/ast, 2 line checks); 31/45 used today, 389 left this month. Confirm each line in the app (public boards are blocked from the box) and skip Goblin/Demon lines.",
+ "legs": [
+  {
+   "id": "L1",
+   "sport": "NBA",
+   "event": "NO @ OKC",
+   "start_time": "2026-11-20T20:10:00-05:00",
+   "player": "Shai Gilgeous-Alexander",
+   "team": "OKC",
+   "market": "Rebounds",
+   "line": 3.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.573,
+   "est_prob_raw": 0.573,
+   "confidence": 60,
+   "price_ts": "2026-11-20T16:48:11-05:00",
+   "n_books": 5,
+   "price_books": [
+    "betmgm -155/+115",
+    "betonlineag -156/+120",
+    "betrivers -157/+116",
+    "bovada -165/+125",
+    "fanduel -164/+128"
+   ],
+   "price_method": "per_book_median",
+   "reasoning": "Proposed REPLACEMENT for morning L1 Aday Mara O1.5 ast (same game, different thesis). Since the morning draft the Mara assists market moved up to 2.5 at most books; only BetMGM still hangs 1.5, so the morning leg no longer meets P1's 2-book exact-line rule. SGA O3.5 reb is priced at 5 books (-155 to -165, per-book devig median 57.3%, stamped 4:48 PM ET). He is playing 29-39 min nightly; OKC is thin up front with Holmgren, Sorber and J. Williams out, and Topic was ruled out today, which keeps SGA on the ball for heavy minutes. L10 boards 5,2,4,4,8,2,3,4,3,4 (6/10 over 3.5, avg 3.9). Note OKC is on the second night of a back-to-back (played ATL Nov 19). The thesis is OKC guard rebounding/minutes, not the morning Mara passing thesis.",
+   "key_stats": [
+    "L10 REB: 5,2,4,4,8,2,3,4,3,4 (6/10 over 3.5, avg 3.9)",
+    "Minutes L10: 29-39",
+    "5 books -155 to -165 at 3.5"
+   ],
+   "injury_notes": "OKC OUT: Topic (ruled out today), Sorber, Wallace, Holmgren, J. Williams; Caruso Q. NOP OUT: McGowens, Watford, Mathurin, Murray; Murphy III listed Q/out.",
+   "sources": [
+    {
+     "title": "ESPN Shai Gilgeous-Alexander game log",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/4278073"
+    },
+    {
+     "title": "ESPN NBA injury report (checked 4:50 PM ET)",
+     "url": "https://www.espn.com/nba/injuries"
+    },
+    {
+     "title": "The Odds API per-book prices (pl price, regions=us)",
+     "url": "https://the-odds-api.com/liveapi/guides/v4/"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "sport": "NBA",
+   "event": "HOU @ DEN",
+   "start_time": "2026-11-20T22:10:00-05:00",
+   "player": "Jamal Murray",
+   "team": "DEN",
+   "market": "Rebounds",
+   "line": 3.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.583,
+   "est_prob_raw": 0.583,
+   "confidence": 62,
+   "price_ts": "2026-11-20T16:48:12-05:00",
+   "n_books": 4,
+   "price_books": [
+    "betrivers -162/+118",
+    "bovada -165/+125",
+    "draftkings -165/+125",
+    "fanduel -174/+130"
+   ],
+   "price_method": "per_book_median",
+   "reasoning": "New pregame leg (P2, priced 4:48 PM ET at 4 books, -162 to -174, per-book devig median 58.3%). Murray is playing 32-39 min and has 4+ boards in 8 of his last 10. Houston is short on bigs tonight: Capela OUT and Adams questionable, so the long-rebound/guard-board environment should be friendly. Different thesis from the morning Durant O3.5 ast leg (HOU creation) in the same game. Risk: DEN is on a back-to-back (played BOS Nov 19), though Murray played 38 min last night.",
+   "key_stats": [
+    "L10 REB: 7,4,7,4,2,6,5,5,8,1 (8/10 over 3.5, avg 4.9)",
+    "Minutes L10: 28-39",
+    "4 books -162 to -174 at 3.5"
+   ],
+   "injury_notes": "HOU OUT: Capela; Q: Adams, Sengun (eye). DEN OUT: Strawther. Murray not listed.",
+   "sources": [
+    {
+     "title": "ESPN Jamal Murray game log",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/3936299"
+    },
+    {
+     "title": "ESPN NBA injury report (checked 4:50 PM ET)",
+     "url": "https://www.espn.com/nba/injuries"
+    },
+    {
+     "title": "The Odds API per-book prices (pl price, regions=us)",
+     "url": "https://the-odds-api.com/liveapi/guides/v4/"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "sport": "NBA",
+   "event": "IND @ CLE",
+   "start_time": "2026-11-20T19:40:00-05:00",
+   "player": "James Harden",
+   "team": "CLE",
+   "market": "Rebounds",
+   "line": 4.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.56,
+   "est_prob_raw": 0.56,
+   "confidence": 58,
+   "price_ts": "2026-11-20T16:48:11-05:00",
+   "n_books": 4,
+   "price_books": [
+    "betmgm -150/+110",
+    "betonlineag -145/+111",
+    "bovada -150/+115",
+    "draftkings -151/+114"
+   ],
+   "price_method": "per_book_median",
+   "reasoning": "New pregame leg (P2, priced 4:48 PM ET at 4 books, -145 to -151, per-book devig median 56.0%). Harden is playing 33-36 min since Evan Mobley went out (toe, Nov 16) and pulled 6,4,6 boards in those three games; Tyson is also out tonight, so CLE leans on its guards on the glass. L10 is 5/10 over 4.5 (avg 4.8), so this rests mostly on the price and the Mobley-less role. Different thesis from the morning Nesmith O1.5 ast leg (IND side) in the same game.",
+   "key_stats": [
+    "L10 REB: 6,4,6,2,3,2,6,9,4,6 (5/10 over 4.5, avg 4.8)",
+    "Last 3 (Mobley out): 6,4,6",
+    "4 books -145 to -151 at 4.5"
+   ],
+   "injury_notes": "CLE OUT: Mobley, Tyson, Tomlin; Watson Q. IND OUT: Haliburton, Sheppard, Furphy; Nembhard and B. Smith Q; McConnell probable.",
+   "sources": [
+    {
+     "title": "ESPN James Harden game log",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/3992"
+    },
+    {
+     "title": "ESPN NBA injury report (checked 4:50 PM ET)",
+     "url": "https://www.espn.com/nba/injuries"
+    },
+    {
+     "title": "The Odds API per-book prices (pl price, regions=us)",
+     "url": "https://the-odds-api.com/liveapi/guides/v4/"
+    }
+   ]
+  }
+ ]
+}

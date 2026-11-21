@@ -1,0 +1,53 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-21-pregame",
+    "model":  "claude",
+    "model_name":  "haiku",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-21T17:30:04-05:00",
+    "finished_at":  "2026-11-21T17:31:54-05:00",
+    "duration_s":  108.7,
+    "usage":  {
+                  "cost_usd":  0.11604500000000001,
+                  "cache_read":  0,
+                  "output_tokens":  11376,
+                  "input_tokens":  9
+              },
+    "overall_notes":  "Three fresh NHL SOG overs priced at 4:50 PM ET postgame injury updates, each from a game with no morning coverage. Carlsson (L1) is a sound replacement for the degraded Coyle leg; Stenberg (L2) faces favorable opponent context (SJ rested vs. SEA on second night of B2B); Tippett (L3) shows recent solid form (3,4,2 SOG last three) despite role demotion. No disqualifying errors detected across all three legs.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  72,
+                      "reasoning":  "Carlsson is a sound replacement for Coyle at 1.5 (Coyle lost multi-book coverage, now only BetMGM at that line). Four books confirm 1.5 SOG at 60.7%, fresh 4:50 PM timestamps, per-book devig. L10 volume is solid: 1,2,3,1,2,3,1,3,2,2 (2.0 avg, 7/10 over 1.5), and Sennecke\u0027s IR today concentrates top-six offense. Anaheim\u0027s 17–26 min top-line center role is stable. Back-to-back (second night for ANA) is a real risk—three of his ten games were exactly 1 SOG—but volume and role are established enough to justify.",
+                      "risk_flags":  [
+                                         "back-to-back",
+                                         "exact-line-misses"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  58,
+                      "reasoning":  "Stenberg at 58.3% is marginal but defensible on matchup context: SJ is rested (last played Nov 18) while SEA is on the second night of a back-to-back, typically leading to passive play and extended zone time for San Jose. L10 shows 1,1,2,4,4,2,0,4,2,1 (6/10 over, 2.1 avg) with Sherwood, Chernyshov, Musty out for SJ, keeping Stenberg in a top-six role at 19–22 min. Recent low output (last two games 1 SOG each) is concerning, but the fixture context has shifted enough to reprrice. Volatility in the L10 data remains the primary risk.",
+                      "risk_flags":  [
+                                         "recent-low-volume",
+                                         "small-sample",
+                                         "volatility"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  73,
+                      "reasoning":  "Tippett at 61.1% is well-grounded in recent performance: 3, 4, 2 SOG in the last three games despite role demotion to third line/PP2 and reduced TOI to 12–15 min lately. His shot rate has held steady (2.3 L10 avg) even as minutes compressed. Montreal is thin (Matheson out 2–3 weeks, Anderson and Kreider out), creating shooting volume for all Philly forwards. The 0-shot games in the L10 occurred at earlier dates when TOI was higher; recent three games all over 1.5. 61.1% is not excessive given the matchup help and demonstrated floor.",
+                      "risk_flags":  [
+                                         "back-to-back",
+                                         "reduced-role",
+                                         "dipped-minutes"
+                                     ]
+                  }
+              ]
+}

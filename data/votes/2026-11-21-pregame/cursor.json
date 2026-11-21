@@ -1,0 +1,54 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-21-pregame",
+    "model":  "cursor",
+    "model_name":  "auto",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-21T17:30:04-05:00",
+    "finished_at":  "2026-11-21T17:31:54-05:00",
+    "duration_s":  19.7,
+    "usage":  {
+                  "inputTokens":  15402,
+                  "outputTokens":  1287,
+                  "cacheReadTokens":  36416,
+                  "cacheWriteTokens":  0
+              },
+    "overall_notes":  "All three P2 NHL SOG overs use fresh 4:50–4:51 PM ET prices at the exact 1.5 line with per-book devig medians and at least three books, so none trigger line-mismatch, single-book, or stale-price vetoes. The drafter flags B2B, recent cold streaks, and Tippett’s minutes without hiding them; those are priced risks, not reasoning gaps. Default veto stance: keep all legs.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  65,
+                      "reasoning":  "Carlsson’s 1.5 SOG over is backed by four books near -180 with a 60.7% median devig, Sennecke IR concentrating top-six offense, and 7/10 L10 clears with 2.0 SOG average. Back-to-back and three 1-shot games are real but explicitly in the write-up. I’d cut only if the app line diverges from 1.5 or repricing drops below two exact-line books.",
+                      "risk_flags":  [
+                                         "back-to-back",
+                                         "floor-at-1",
+                                         "injury-benefit"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  58,
+                      "reasoning":  "Stenberg meets the multi-book rule at 1.5 with a 58.3% median and a rested SJ matchup vs SEA on a B2B, with forward absences supporting his top-six role. The last two 1-SOG games are the main miss path but are called out. A cut would need a stale or single-book price, or a same-player recent miss with an unchanged line—none apply.",
+                      "risk_flags":  [
+                                         "recent-cold",
+                                         "small-n-books",
+                                         "opponent-b2b"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  60,
+                      "reasoning":  "Tippett’s volume profile (6/10 over 1.5, 2.3 avg, hot last three) and thin MTL defense support the over despite PHI B2B and 11–15 minute TOI dips that the drafter already weighs. Three books at -190 on 1.5 with 61.1% median is not a methodology error. Role or ice-time collapse pre-game would be the main reason to reconsider, not a panel veto tag.",
+                      "risk_flags":  [
+                                         "minutes-dip",
+                                         "back-to-back",
+                                         "volatile-floor"
+                                     ]
+                  }
+              ]
+}

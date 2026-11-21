@@ -1,0 +1,53 @@
+{
+    "schema":  "panel/v1",
+    "run":  "2026-11-21-pregame",
+    "host":  "SNEED_PC",
+    "started_at":  "2026-11-21T17:30:04-05:00",
+    "finished_at":  "2026-11-21T17:31:54-05:00",
+    "second_pass":  false,
+    "models":  {
+                   "cursor":  {
+                                  "status":  "ok",
+                                  "keep":  3,
+                                  "cut":  0,
+                                  "abstain":  0,
+                                  "duration_s":  19.7
+                              },
+                   "claude":  {
+                                  "status":  "ok",
+                                  "keep":  3,
+                                  "cut":  0,
+                                  "abstain":  0,
+                                  "duration_s":  108.7
+                              }
+               },
+    "consensus":  [
+                      {
+                          "leg_id":  "L1",
+                          "keep":  2,
+                          "cut":  0,
+                          "abstain":  0,
+                          "avg_conf":  68.5,
+                          "score":  68.5,
+                          "veto":  false
+                      },
+                      {
+                          "leg_id":  "L3",
+                          "keep":  2,
+                          "cut":  0,
+                          "abstain":  0,
+                          "avg_conf":  66.5,
+                          "score":  66.5,
+                          "veto":  false
+                      },
+                      {
+                          "leg_id":  "L2",
+                          "keep":  2,
+                          "cut":  0,
+                          "abstain":  0,
+                          "avg_conf":  58,
+                          "score":  58,
+                          "veto":  false
+                      }
+                  ]
+}

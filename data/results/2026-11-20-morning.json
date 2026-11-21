@@ -1,0 +1,107 @@
+{
+  "schema": "results/v1",
+  "run": "2026-11-20-morning",
+  "graded_at": "2026-11-21T09:58:00-05:00",
+  "author": "parlay-locks",
+  "notes": "Legs 6/9 (overs 5/8, unders 1/1). Misses: L3 Okoro 1 ast, L6 Sabonis 1 ast (vetoed), L7 Sion James 1 reb. Panel keep/cut accuracy: Claude 6/9 (keeps 6/9 hit, no cuts); Cursor 7/9 (keeps 6/8 hit, cut L6 which missed - correct veto). Slips: 5-leg PP Power lost 4/5 (L3), 3-leg UD Flex 2/3 paid 1.09x (+$0.09), 2-leg UD Standard lost (L3). Snapshot P/L -$1.91. No ties/DNPs. Mara graded at the drafted 1.5; the pregame paper swap to SGA O3.5 reb (missed, 3 reb) would not have changed any slip outcome.",
+  "legs": [
+    {
+      "leg_id": "L1",
+      "actual": 2,
+      "outcome": "hit",
+      "note": "Aday Mara 2 ast (16 reb) in 29 min. Final. Graded at drafted 1.5; most books had moved to 2.5 by pregame (would miss at 2.5).",
+      "source": "https://www.espn.com/nba/boxscore/_/gameId/401909310"
+    },
+    {
+      "leg_id": "L2",
+      "actual": 4,
+      "outcome": "hit",
+      "note": "Kevin Durant 4 ast in 35 min. Final.",
+      "source": "https://www.espn.com/nba/boxscore/_/gameId/401909312"
+    },
+    {
+      "leg_id": "L3",
+      "actual": 1,
+      "outcome": "miss",
+      "note": "Isaac Okoro 1 ast in 29 min. Final.",
+      "source": "https://www.espn.com/nba/boxscore/_/gameId/401909309"
+    },
+    {
+      "leg_id": "L4",
+      "actual": 3,
+      "outcome": "hit",
+      "note": "Jakob Poeltl 3 ast in 32 min. Final.",
+      "source": "https://www.espn.com/nba/boxscore/_/gameId/401909308"
+    },
+    {
+      "leg_id": "L5",
+      "actual": 7,
+      "outcome": "hit",
+      "note": "Aaron Nesmith 7 ast in 29 min. Final.",
+      "source": "https://www.espn.com/nba/boxscore/_/gameId/401909307"
+    },
+    {
+      "leg_id": "L6",
+      "actual": 1,
+      "outcome": "miss",
+      "note": "Domantas Sabonis 1 ast (16 reb) in 38 min. Final. Vetoed by Cursor, not played.",
+      "source": "https://www.espn.com/nba/boxscore/_/gameId/401909313"
+    },
+    {
+      "leg_id": "L7",
+      "actual": 1,
+      "outcome": "miss",
+      "note": "Sion James 1 reb in 32 min. Final.",
+      "source": "https://www.espn.com/nba/boxscore/_/gameId/401909305"
+    },
+    {
+      "leg_id": "L8",
+      "actual": 3,
+      "outcome": "hit",
+      "note": "Desmond Bane 3 ast in 31 min. Final. Unused.",
+      "source": "https://www.espn.com/nba/boxscore/_/gameId/401909306"
+    },
+    {
+      "leg_id": "L9",
+      "actual": 1,
+      "outcome": "hit",
+      "note": "Mikel Brown Jr. 1 reb in 24 min (under 2.5). Final.",
+      "source": "https://www.espn.com/nba/boxscore/_/gameId/401909306"
+    }
+  ],
+  "slips": [
+    {
+      "id": "2026-11-20-morning-5",
+      "size": 5,
+      "stake": 1,
+      "outcome": "loss",
+      "payout": 0,
+      "pnl": -1,
+      "platform": "PrizePicks",
+      "play_type": "power",
+      "note": "4/5 (L3 Okoro missed). Power pays only 5/5."
+    },
+    {
+      "id": "2026-11-20-morning-3",
+      "size": 3,
+      "stake": 1,
+      "outcome": "partial",
+      "payout": 1.09,
+      "pnl": 0.09,
+      "platform": "Underdog",
+      "play_type": "flex",
+      "note": "2/3 (L7 missed); UD 3-Flex 2/3 pays 1.09x."
+    },
+    {
+      "id": "2026-11-20-morning-2",
+      "size": 2,
+      "stake": 1,
+      "outcome": "loss",
+      "payout": 0,
+      "pnl": -1,
+      "platform": "Underdog",
+      "play_type": "standard",
+      "note": "L1 hit, L3 Okoro 1 ast missed."
+    }
+  ]
+}

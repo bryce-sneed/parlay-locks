@@ -1,0 +1,543 @@
+{
+  "schema": "candidates/v1",
+  "run": "2026-11-21-morning",
+  "date": "2026-11-21",
+  "snapshot": "morning",
+  "created_at": "2026-11-21T10:02:00-05:00",
+  "author": "parlay-locks",
+  "slate_notes": "Saturday Nov 21: NBA (6 games) + NHL (14 games). No NFL today; Saturday isn't an NFL slate day under the slate rule. Priced assists + rebounds for all 6 NBA games and SOG for 9 NHL games with pl price (21 credits; per-book devig median, 2+ books, unders shaded -3 pts), then checked each against ESPN L10 game logs and injury reports. 11 legs in 11 different games: 10 overs and 1 under (DJJ U1.5 ast, a volume under). Skipped: Cissoko O1.5 ast (5/10 L10 vs 60.8% price), Cam Spencer O2.5 reb (3/10 L10), Embiid O3.5 ast (4/10), Batherson/Pinto O1.5 SOG (5/10), Hischier U2.5 SOG (NJ's Mantha ruled out Nov 17, a role-expansion flag), Tavares U2.5 (TOR Marchenko IR Nov 20), Benson U2.5 (L10 contradicts), Fiala U2.5 (only 4 games of data), Sabonis O4.5 ast (cooldown, missed Nov 20), and K. Dunn O2.5 ast / Hachimura O4.5 reb (same game as the DJJ leg). Cooldown: no conflicts. Back-to-backs flagged: NO and SAC (both played Nov 20). Simons is a 1:10 PM tip and Maxey is Q, so recheck at finalize. Confirm each line in the app and skip Goblin/Demon lines.",
+  "legs": [
+    {
+      "id": "L1",
+      "sport": "NBA",
+      "event": "MIL @ PHI",
+      "start_time": "2026-11-21T13:10:00-05:00",
+      "player": "Anfernee Simons",
+      "team": "PHI",
+      "market": "Assists",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.609,
+      "est_prob_raw": 0.609,
+      "confidence": 60,
+      "price_ts": "2026-11-21T09:54:08-05:00",
+      "n_books": 5,
+      "price_books": [
+        "betmgm -175/+130",
+        "betonlineag -179/+136",
+        "betrivers -190/+138",
+        "bovada -185/+140",
+        "draftkings -188/+141"
+      ],
+      "reasoning": "Simons has 2 assists in 6 of his last 10, including 3 of the last 4. His minutes jumped to 38 at ORL on Nov 18 with the PHI guard room thin: Jaylen Brown (hamstring) and Dean Wade are out, and Maxey (foot) is questionable. If Maxey sits, Simons gets more on-ball time, which pushes this up. The 5-book median is 60.9% with tight agreement (-175 to -190). The risk is the low ceiling (he never tops 2 in the L10), so it's a volume-and-minutes over, not a role-upside bet. Matinee tip at 1:10 PM ET.",
+      "key_stats": [
+        "L10 AST: 2,2,0,2,0,2,2,0,1,2 (6/10 >=2)",
+        "L10 MIN 10-38; 38 min last game",
+        "PHI out: J. Brown, Wade; Maxey Q"
+      ],
+      "injury_notes": "Maxey (foot) Q; recheck before 1:10 PM tip. ESPN injuries checked 9:50 AM ET.",
+      "sources": [
+        {
+          "title": "ESPN Anfernee Simons game log",
+          "url": "https://www.espn.com/nba/player/gamelog/_/id/4351851"
+        },
+        {
+          "title": "ESPN NBA injuries",
+          "url": "https://www.espn.com/nba/injuries"
+        },
+        {
+          "title": "The Odds API per-book prices (pl price)",
+          "url": "https://the-odds-api.com/"
+        }
+      ],
+      "platforms": [
+        "prizepicks",
+        "underdog"
+      ],
+      "price_method": "per_book_median"
+    },
+    {
+      "id": "L2",
+      "sport": "NBA",
+      "event": "POR @ NYK",
+      "start_time": "2026-11-21T19:40:00-05:00",
+      "player": "Damian Lillard",
+      "team": "POR",
+      "market": "Assists",
+      "line": 3.5,
+      "pick": "over",
+      "est_prob": 0.583,
+      "est_prob_raw": 0.583,
+      "confidence": 58,
+      "price_ts": "2026-11-21T09:54:08-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betmgm -165/+125",
+        "betrivers -167/+123",
+        "bovada -180/+135",
+        "fanduel -160/+120"
+      ],
+      "reasoning": "Lillard is POR's primary creator with Morant and Sharpe out and Youngblood ruled out tonight. He has 4+ assists in 7 of his last 10 (avg 4.3). Nov 19 at MIL (0 ast in 35 min) is the outlier. If Avdija (foot, questionable) sits, more creation goes to Lillard. POR is rested (last played Nov 19). The 4-book median is 58.3%. Clarkson is out for NYK, so the opponent is a bit thinner.",
+      "key_stats": [
+        "L10 AST: 0,5,4,6,3,3,7,4,5,6 (7/10 >=4), avg 4.3",
+        "L10 MIN 20-37",
+        "POR out: Morant, Sharpe, Youngblood, Krejci; Avdija Q"
+      ],
+      "injury_notes": "Avdija Q (upside if out). ESPN injuries checked 9:50 AM ET.",
+      "sources": [
+        {
+          "title": "ESPN Damian Lillard game log",
+          "url": "https://www.espn.com/nba/player/gamelog/_/id/6606"
+        },
+        {
+          "title": "ESPN NBA injuries",
+          "url": "https://www.espn.com/nba/injuries"
+        },
+        {
+          "title": "The Odds API per-book prices (pl price)",
+          "url": "https://the-odds-api.com/"
+        }
+      ],
+      "platforms": [
+        "prizepicks",
+        "underdog"
+      ],
+      "price_method": "per_book_median"
+    },
+    {
+      "id": "L3",
+      "sport": "NBA",
+      "event": "LAC @ DAL",
+      "start_time": "2026-11-21T20:10:00-05:00",
+      "player": "Derrick Jones Jr.",
+      "team": "LAC",
+      "market": "Assists",
+      "line": 1.5,
+      "pick": "under",
+      "est_prob": 0.596,
+      "est_prob_raw": 0.626,
+      "confidence": 58,
+      "price_ts": "2026-11-21T09:54:09-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betmgm +125/-165",
+        "betonlineag +144/-189",
+        "bovada +160/-215",
+        "draftkings +158/-211"
+      ],
+      "reasoning": "This is a volume under, not a blowout under. Jones is a low-usage defensive wing and corner spacer with 1 or fewer assists in 9 of his last 10 (avg 0.9) despite steady 24-37 min, including 37 min with 1 ast. Two books price the under beyond -180 (-211/-215). The volume justification: his role doesn't generate assists (0.9 per game over 27.6 min), and the only LAC absences (Ingram, Beal, J. Miller) are long-term, not new, so there's no recent role expansion. Ingram is not expected back until Monday. The raw 4-book median is 62.6% (about -167 fair), shaded -3 pts to 59.6%. A competitive game or OT doesn't hurt the thesis.",
+      "key_stats": [
+        "L10 AST: 1,1,1,0,0,3,1,1,1,0 (9/10 <=1), avg 0.9",
+        "L10 MIN 24-37 (avg 27.6)",
+        "LAC out: Ingram (returns Mon), Beal, J. Miller, all long-term"
+      ],
+      "injury_notes": "No new LAC outs in the last 3 games. ESPN injuries checked 9:50 AM ET.",
+      "sources": [
+        {
+          "title": "ESPN Derrick Jones Jr. game log",
+          "url": "https://www.espn.com/nba/player/gamelog/_/id/3936099"
+        },
+        {
+          "title": "ESPN NBA injuries",
+          "url": "https://www.espn.com/nba/injuries"
+        },
+        {
+          "title": "The Odds API per-book prices (pl price)",
+          "url": "https://the-odds-api.com/"
+        }
+      ],
+      "platforms": [
+        "prizepicks",
+        "underdog"
+      ],
+      "price_method": "per_book_median"
+    },
+    {
+      "id": "L4",
+      "sport": "NBA",
+      "event": "MEM @ MIN",
+      "start_time": "2026-11-21T20:10:00-05:00",
+      "player": "Jaden McDaniels",
+      "team": "MIN",
+      "market": "Assists",
+      "line": 2.5,
+      "pick": "over",
+      "est_prob": 0.574,
+      "est_prob_raw": 0.574,
+      "confidence": 58,
+      "price_ts": "2026-11-21T09:54:09-05:00",
+      "n_books": 5,
+      "price_books": [
+        "betonlineag -156/+120",
+        "betrivers -175/+125",
+        "bovada -160/+120",
+        "draftkings -158/+120",
+        "fanduel -154/+116"
+      ],
+      "reasoning": "With Anthony Edwards (knee), DiVincenzo, and Jaylen Clark out, McDaniels is playing 31-40 min and has 3+ assists in 9 of his last 10 (avg 3.5). MEM is very short-handed (Grant, Boozer, Small, Pippen, Jackson out), which should mean a faster, scrappier game and more MIN possessions. Both teams last played Nov 19, so neither is on a back-to-back. The 5-book median is 57.4%. The risk: Nov 19 vs NY had 1 ast in 39 min.",
+      "key_stats": [
+        "L10 AST: 1,4,3,6,3,3,5,4,3,3 (9/10 >=3), avg 3.5",
+        "L10 MIN 25-40",
+        "MIN out: Edwards, DiVincenzo, Clark; MEM out: Grant, Boozer, Small, Pippen"
+      ],
+      "injury_notes": "ESPN injuries checked 9:50 AM ET.",
+      "sources": [
+        {
+          "title": "ESPN Jaden McDaniels game log",
+          "url": "https://www.espn.com/nba/player/gamelog/_/id/4431671"
+        },
+        {
+          "title": "ESPN NBA injuries",
+          "url": "https://www.espn.com/nba/injuries"
+        },
+        {
+          "title": "The Odds API per-book prices (pl price)",
+          "url": "https://the-odds-api.com/"
+        }
+      ],
+      "platforms": [
+        "prizepicks",
+        "underdog"
+      ],
+      "price_method": "per_book_median"
+    },
+    {
+      "id": "L5",
+      "sport": "NBA",
+      "event": "NO @ SA",
+      "start_time": "2026-11-21T20:10:00-05:00",
+      "player": "Devin Vassell",
+      "team": "SA",
+      "market": "Rebounds",
+      "line": 3.5,
+      "pick": "over",
+      "est_prob": 0.58,
+      "est_prob_raw": 0.58,
+      "confidence": 57,
+      "price_ts": "2026-11-21T09:54:09-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betmgm -150/+110",
+        "betonlineag -154/+118",
+        "bovada -170/+130",
+        "fanduel -172/+128"
+      ],
+      "reasoning": "Dylan Harper (hip, 2-3 weeks) and Tobias Harris (calf) are out, so Vassell's minutes are up: 32, 36, 32 in the last three games with 4, 5, 6 rebounds. He has 4+ in 6 of his last 10 overall, and the low games came in 21-27 min before the injuries. NO is on the second night of a back-to-back (at OKC Nov 20) and is missing Mathurin, Murray, Watford, and McGowens, so it should give up long rebounds. The 4-book median is 58.0%.",
+      "key_stats": [
+        "L10 REB: 4,5,6,2,2,2,7,2,5,5 (6/10 >=4); last 3: 4,5,6",
+        "MIN last 3: 32,36,32",
+        "SA out: Harper, Harris; NO back-to-back"
+      ],
+      "injury_notes": "ESPN injuries checked 9:50 AM ET.",
+      "sources": [
+        {
+          "title": "ESPN Devin Vassell game log",
+          "url": "https://www.espn.com/nba/player/gamelog/_/id/4395630"
+        },
+        {
+          "title": "ESPN NBA injuries",
+          "url": "https://www.espn.com/nba/injuries"
+        },
+        {
+          "title": "The Odds API per-book prices (pl price)",
+          "url": "https://the-odds-api.com/"
+        }
+      ],
+      "platforms": [
+        "prizepicks",
+        "underdog"
+      ],
+      "price_method": "per_book_median"
+    },
+    {
+      "id": "L6",
+      "sport": "NBA",
+      "event": "BOS @ SAC",
+      "start_time": "2026-11-21T22:10:00-05:00",
+      "player": "Zach LaVine",
+      "team": "SAC",
+      "market": "Rebounds",
+      "line": 2.5,
+      "pick": "over",
+      "est_prob": 0.592,
+      "est_prob_raw": 0.592,
+      "confidence": 58,
+      "price_ts": "2026-11-21T09:54:09-05:00",
+      "n_books": 3,
+      "price_books": [
+        "betrivers -162/+120",
+        "bovada -170/+130",
+        "draftkings -172/+130"
+      ],
+      "reasoning": "LaVine has 3+ rebounds in 9 of his last 10 (avg 3.7), with 7 and 5 in his last two. SAC's frontcourt is depleted (Achiuwa, Raynaud, Simmons out), so wings are picking up more boards. Minutes are steady at 25-39. SAC is on the second night of a back-to-back (at LAL Nov 20, 39 min), which is the main risk. A low line with 3 books agreeing (-162 to -172) gives a median of 59.2%.",
+      "key_stats": [
+        "L10 REB: 7,5,3,3,4,4,4,4,0,3 (9/10 >=3), avg 3.7",
+        "L10 MIN 21-39",
+        "SAC out: Achiuwa, Raynaud, Simmons; back-to-back"
+      ],
+      "injury_notes": "Tatum (rest) and White (shoulder) questionable for BOS. ESPN injuries checked 9:50 AM ET.",
+      "sources": [
+        {
+          "title": "ESPN Zach LaVine game log",
+          "url": "https://www.espn.com/nba/player/gamelog/_/id/3064440"
+        },
+        {
+          "title": "ESPN NBA injuries",
+          "url": "https://www.espn.com/nba/injuries"
+        },
+        {
+          "title": "The Odds API per-book prices (pl price)",
+          "url": "https://the-odds-api.com/"
+        }
+      ],
+      "platforms": [
+        "prizepicks",
+        "underdog"
+      ],
+      "price_method": "per_book_median"
+    },
+    {
+      "id": "L7",
+      "sport": "NHL",
+      "event": "VGK @ WPG",
+      "start_time": "2026-11-21T19:00:00-05:00",
+      "player": "Tomas Hertl",
+      "team": "VGK",
+      "market": "Shots on Goal",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.605,
+      "est_prob_raw": 0.605,
+      "confidence": 60,
+      "price_ts": "2026-11-21T09:54:42-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betonlineag -182/+138",
+        "bovada -175/+135",
+        "draftkings -185/+135",
+        "fanduel -184/+140"
+      ],
+      "reasoning": "Hertl has 2+ SOG in 9 of his last 10 (avg 2.7) on 14-20 min TOI with PP time. He went 2 SOG Nov 19 (hit). WPG is missing D Dylan DeMelo (4-6 weeks), which weakens their shot suppression. The 4-book median is 60.5% with tight agreement.",
+      "key_stats": [
+        "L10 SOG: 2,3,3,3,1,4,2,3,4,2 (9/10 >=2), avg 2.7",
+        "TOI 13:48-20:03",
+        "WPG out: DeMelo (D)"
+      ],
+      "injury_notes": "ESPN NHL injuries checked 9:55 AM ET.",
+      "sources": [
+        {
+          "title": "ESPN Tomas Hertl game log",
+          "url": "https://www.espn.com/nhl/player/gamelog/_/id/2976844"
+        },
+        {
+          "title": "ESPN NHL injuries",
+          "url": "https://www.espn.com/nhl/injuries"
+        },
+        {
+          "title": "The Odds API per-book prices (pl price)",
+          "url": "https://the-odds-api.com/"
+        }
+      ],
+      "platforms": [
+        "prizepicks",
+        "underdog"
+      ],
+      "price_method": "per_book_median"
+    },
+    {
+      "id": "L8",
+      "sport": "NHL",
+      "event": "CBJ @ TOR",
+      "start_time": "2026-11-21T19:00:00-05:00",
+      "player": "Charlie Coyle",
+      "team": "CBJ",
+      "market": "Shots on Goal",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.594,
+      "est_prob_raw": 0.594,
+      "confidence": 58,
+      "price_ts": "2026-11-21T09:54:40-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betmgm -175/+130",
+        "betonlineag -169/+130",
+        "bovada -200/+150",
+        "draftkings -175/+130"
+      ],
+      "reasoning": "Coyle has 2+ SOG in 9 of his last 10 (avg 2.9) on 18-24 min TOI. Sean Monahan is out, which keeps Coyle in a top-six/PP role. TOR's blue line is thin (McWard on IR, plus Blankenburg and others). CBJ last played Nov 19 (6 SOG at CHI), so they're rested. The 4-book median is 59.4%.",
+      "key_stats": [
+        "L10 SOG: 6,2,5,3,2,2,1,3,2,3 (9/10 >=2), avg 2.9",
+        "TOI 15:15-23:57",
+        "CBJ out: Monahan"
+      ],
+      "injury_notes": "ESPN NHL injuries checked 9:55 AM ET.",
+      "sources": [
+        {
+          "title": "ESPN Charlie Coyle game log",
+          "url": "https://www.espn.com/nhl/player/gamelog/_/id/2555315"
+        },
+        {
+          "title": "ESPN NHL injuries",
+          "url": "https://www.espn.com/nhl/injuries"
+        },
+        {
+          "title": "The Odds API per-book prices (pl price)",
+          "url": "https://the-odds-api.com/"
+        }
+      ],
+      "platforms": [
+        "prizepicks",
+        "underdog"
+      ],
+      "price_method": "per_book_median"
+    },
+    {
+      "id": "L9",
+      "sport": "NHL",
+      "event": "NYI @ DET",
+      "start_time": "2026-11-21T19:00:00-05:00",
+      "player": "Emmitt Finnie",
+      "team": "DET",
+      "market": "Shots on Goal",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.59,
+      "est_prob_raw": 0.59,
+      "confidence": 58,
+      "price_ts": "2026-11-21T09:54:41-05:00",
+      "n_books": 5,
+      "price_books": [
+        "betmgm -175/+130",
+        "betonlineag -169/+129",
+        "bovada -165/+125",
+        "draftkings -180/+130",
+        "fanduel -170/+128"
+      ],
+      "reasoning": "With Dylan Larkin on IR, Finnie is playing a steady 18-21 min and has 2+ SOG in 8 of his last 10 (avg 2.3). NYI D Pulock and Stanley are day-to-day and Romanov is on IR, so the NYI back end is thinner. The 5-book median is 59.0% (-165 to -180).",
+      "key_stats": [
+        "L10 SOG: 2,2,3,2,1,2,0,2,5,4 (8/10 >=2), avg 2.3",
+        "TOI 18:02-21:27",
+        "DET out: Larkin; NYI D Pulock/Stanley DTD"
+      ],
+      "injury_notes": "ESPN NHL injuries checked 9:55 AM ET.",
+      "sources": [
+        {
+          "title": "ESPN Emmitt Finnie game log",
+          "url": "https://www.espn.com/nhl/player/gamelog/_/id/5188599"
+        },
+        {
+          "title": "ESPN NHL injuries",
+          "url": "https://www.espn.com/nhl/injuries"
+        },
+        {
+          "title": "The Odds API per-book prices (pl price)",
+          "url": "https://the-odds-api.com/"
+        }
+      ],
+      "platforms": [
+        "prizepicks",
+        "underdog"
+      ],
+      "price_method": "per_book_median"
+    },
+    {
+      "id": "L10",
+      "sport": "NHL",
+      "event": "WSH @ BOS",
+      "start_time": "2026-11-21T19:00:00-05:00",
+      "player": "JJ Peterka",
+      "team": "BOS",
+      "market": "Shots on Goal",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.602,
+      "est_prob_raw": 0.602,
+      "confidence": 57,
+      "price_ts": "2026-11-21T09:54:40-05:00",
+      "n_books": 5,
+      "price_books": [
+        "betmgm -210/+155",
+        "betonlineag -185/+140",
+        "bovada -170/+130",
+        "draftkings -175/+130",
+        "fanduel -178/+136"
+      ],
+      "reasoning": "Peterka has 2+ SOG in 7 of his last 10 (avg 2.6) as a volume shooter on BOS's top six, with James Hagens on IR. He's rested (last played Nov 18). The two zeros came in 17-19 min games, and his TOI dipped to 14:24 last game, which is the main risk. The 5-book median is 60.2%.",
+      "key_stats": [
+        "L10 SOG: 2,0,5,2,7,1,0,4,3,2 (7/10 >=2), avg 2.6",
+        "TOI 14:24-21:15",
+        "BOS out: Hagens"
+      ],
+      "injury_notes": "ESPN NHL injuries checked 9:55 AM ET.",
+      "sources": [
+        {
+          "title": "ESPN JJ Peterka game log",
+          "url": "https://www.espn.com/nhl/player/gamelog/_/id/4697438"
+        },
+        {
+          "title": "ESPN NHL injuries",
+          "url": "https://www.espn.com/nhl/injuries"
+        },
+        {
+          "title": "The Odds API per-book prices (pl price)",
+          "url": "https://the-odds-api.com/"
+        }
+      ],
+      "platforms": [
+        "prizepicks",
+        "underdog"
+      ],
+      "price_method": "per_book_median"
+    },
+    {
+      "id": "L11",
+      "sport": "NHL",
+      "event": "NJ @ STL",
+      "start_time": "2026-11-21T19:00:00-05:00",
+      "player": "Luke Evangelista",
+      "team": "NJ",
+      "market": "Shots on Goal",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.602,
+      "est_prob_raw": 0.602,
+      "confidence": 57,
+      "price_ts": "2026-11-21T09:54:42-05:00",
+      "n_books": 5,
+      "price_books": [
+        "betmgm -185/+135",
+        "betonlineag -175/+134",
+        "bovada -170/+130",
+        "draftkings -190/+140",
+        "fanduel -178/+136"
+      ],
+      "reasoning": "Evangelista has 2+ SOG in 7 of his last 10 (avg 2.3) on 15-19 min. Anthony Mantha (neck, about a month) went on IR Nov 17, opening more top-nine/PP shooting time. STL is missing McMichael, Krug, Tucker, and Dube. The 5-book median is 60.2%. The risk is 1 SOG last game.",
+      "key_stats": [
+        "L10 SOG: 1,2,0,3,3,5,4,2,3,0 (7/10 >=2), avg 2.3",
+        "TOI 14:56-18:40",
+        "NJ out: Mantha (Nov 17), Kovacevic, Casey"
+      ],
+      "injury_notes": "ESPN NHL injuries checked 9:55 AM ET. (Hischier U2.5 was skipped because Mantha's absence is a recent role-expansion flag.)",
+      "sources": [
+        {
+          "title": "ESPN Luke Evangelista game log",
+          "url": "https://www.espn.com/nhl/player/gamelog/_/id/4697446"
+        },
+        {
+          "title": "ESPN NHL injuries",
+          "url": "https://www.espn.com/nhl/injuries"
+        },
+        {
+          "title": "The Odds API per-book prices (pl price)",
+          "url": "https://the-odds-api.com/"
+        }
+      ],
+      "platforms": [
+        "prizepicks",
+        "underdog"
+      ],
+      "price_method": "per_book_median"
+    }
+  ]
+}

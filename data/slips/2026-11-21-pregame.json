@@ -1,0 +1,65 @@
+{
+  "schema": "slips/v1",
+  "run": "2026-11-21-pregame",
+  "date": "2026-11-21",
+  "snapshot": "pregame",
+  "created_at": "2026-11-21T18:05:00-05:00",
+  "author": "parlay-locks",
+  "paper": true,
+  "notes": "Pregame check-and-swap (P2). Panel voted (Claude 3-0 keep, Cursor 3-0 keep; no cuts, no vetoes, nothing overruled). ~6:00 PM ET recheck: NHL.com projected lineups have Tippett on PHI's 2nd line (Barkey-Martone) and Carlsson centering ANA's top line (Gauthier-Colangelo); no new outs affecting any leg since the 4:50 PM draft recheck. Morning swap (paper adjustment, morning slips not regraded): Coyle O1.5 SOG is degraded (only BetMGM still at 1.5, fails P1 2-book rule) -> replacement Carlsson O1.5 SOG if the app has moved Coyle to 2.5. Other live morning legs (Finnie, Lillard, Vassell, LaVine) unchanged. Morning 5-leg already lost (Simons 1 ast). New pregame legs priced 4:50 PM ET at 3-4 books, no morning player or game thesis reused. Built ONE slip: 2-leg UD Standard from the two strongest overs. 5-leg skipped (only 3 fresh legs/games). 3-leg skipped: it would share 2 legs with the 2-leg (anti-nesting), and L2 Stenberg (58.3%, 3 books, cold recent volume) is the thinnest; 2-leg EV ~1.30 vs 3-leg Flex ~1.17, and pregame slips have been weak so exposure stays minimal.",
+  "slips": [
+    {
+      "id": "2026-11-21-pregame-2",
+      "size": 2,
+      "platform": "Underdog",
+      "play_type": "standard",
+      "stake": 1,
+      "payout_multiplier": 3.5,
+      "legs": [
+        "L3",
+        "L1"
+      ],
+      "rationale": "Overs only (P4): Owen Tippett O1.5 SOG (61.1%, 3 books; volume shooter, 3/4/2 SOG last three, thin MTL defense) + Leo Carlsson O1.5 SOG (60.7%, 4 books; top-line C, Sennecke on IR concentrates top-six shots). Different games. Est joint 37.1% vs 28.6% BE. Panel 2-0 keep on both."
+    }
+  ],
+  "lock_ts": "2026-11-21T17:58:34-05:00",
+  "lock_source": "candidates",
+  "lock_candidates": "data/candidates/2026-11-21-pregame.json",
+  "lock_prices": {
+    "L3": {
+      "player": "Owen Tippett",
+      "market": "Shots on Goal",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.611,
+      "est_prob_raw": 0.611,
+      "price_ts": "2026-11-21T16:50:27-05:00",
+      "n_books": 3,
+      "price_books": [
+        "betmgm -190/+140",
+        "bovada -190/+145",
+        "draftkings -190/+140"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L1": {
+      "player": "Leo Carlsson",
+      "market": "Shots on Goal",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.607,
+      "est_prob_raw": 0.607,
+      "price_ts": "2026-11-21T16:50:28-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betonlineag -179/+137",
+        "bovada -185/+140",
+        "draftkings -185/+135",
+        "fanduel -188/+142"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    }
+  }
+}

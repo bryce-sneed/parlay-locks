@@ -1,0 +1,243 @@
+{
+  "schema": "slips/v1",
+  "run": "2026-11-21-morning",
+  "date": "2026-11-21",
+  "snapshot": "morning",
+  "created_at": "2026-11-21T11:08:00-05:00",
+  "author": "parlay-locks",
+  "paper": true,
+  "notes": "Morning, week 2 day 3. NBA and NHL. No NFL (Saturday isn't an NFL slate day). The panel ran: Claude 11-0 keep, Cursor 11-0 keep. No cuts, so no vetoes and nothing was overruled. 11:05 AM ET ESPN NBA injury recheck: no changes since the draft (Maxey still Q, Wade and Brown out for PHI; Avdija Q for POR; White Q for BOS; Anunoby Q for NYK; Small and Boozer out for MEM; no new LAC outs, so the DJJ volume under keeps its role). All 11 legs pass P1 (2+ books, per-book median, exact lines, one under shaded -3). 5-leg is PP Power because the shaded average is 60.3%, above the 56.6% threshold. The 3-leg is UD Flex (L9/L2/L5) and the 2-leg is UD Standard with overs only (L8/L6). The 5-leg shares no legs with either smaller slip, and the 2-leg and 3-leg share none with each other. L4 McDaniels (57.4%, thinnest) is unused. Simons tips at 1:10 PM ET with Maxey Q (upside if Maxey sits). Cooldown: no conflicts.",
+  "slips": [
+    {
+      "id": "2026-11-21-morning-5",
+      "size": 5,
+      "platform": "PrizePicks",
+      "play_type": "power",
+      "stake": 1,
+      "payout_multiplier": 20,
+      "legs": [
+        "L1",
+        "L7",
+        "L10",
+        "L11",
+        "L3"
+      ],
+      "rationale": "PP 5-pick Power (shaded avg 60.3% > 56.6%): Simons O1.5 ast, Hertl O1.5 SOG, Peterka O1.5 SOG, Evangelista O1.5 SOG, Derrick Jones Jr. U1.5 ast (volume under, 59.6% shaded, 62.6% raw). Five games, 1 under, 4-5 books each. Est joint 8.0% vs 5.0% BE. Panel 2-0 keep on all five."
+    },
+    {
+      "id": "2026-11-21-morning-3",
+      "size": 3,
+      "platform": "Underdog",
+      "play_type": "flex",
+      "stake": 1,
+      "payout_multiplier": 3.25,
+      "legs": [
+        "L9",
+        "L2",
+        "L5"
+      ],
+      "rationale": "UD 3-pick Flex (3.25x / 1.09x): Finnie O1.5 SOG (59.0%), Lillard O3.5 ast (58.3%), Vassell O3.5 reb (58.0%). Three games, all overs. Avg 58.4% vs 55.4% BE. Shares no legs with the 2-leg or 5-leg. Panel 2-0 keep on all three."
+    },
+    {
+      "id": "2026-11-21-morning-2",
+      "size": 2,
+      "platform": "Underdog",
+      "play_type": "standard",
+      "stake": 1,
+      "payout_multiplier": 3.5,
+      "legs": [
+        "L8",
+        "L6"
+      ],
+      "rationale": "Overs only (P4): Coyle O1.5 SOG (59.4%, 4 books) + LaVine O2.5 reb (59.2%, 3 books; SAC on a back-to-back is the main risk). Different games and sports. Est joint 35.2% vs 28.6% BE. Panel 2-0 keep on both."
+    }
+  ],
+  "lock_ts": "2026-11-21T11:00:53-05:00",
+  "lock_source": "candidates",
+  "lock_candidates": "data/candidates/2026-11-21-morning.json",
+  "lock_prices": {
+    "L1": {
+      "player": "Anfernee Simons",
+      "market": "Assists",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.609,
+      "est_prob_raw": 0.609,
+      "price_ts": "2026-11-21T09:54:08-05:00",
+      "n_books": 5,
+      "price_books": [
+        "betmgm -175/+130",
+        "betonlineag -179/+136",
+        "betrivers -190/+138",
+        "bovada -185/+140",
+        "draftkings -188/+141"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L7": {
+      "player": "Tomas Hertl",
+      "market": "Shots on Goal",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.605,
+      "est_prob_raw": 0.605,
+      "price_ts": "2026-11-21T09:54:42-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betonlineag -182/+138",
+        "bovada -175/+135",
+        "draftkings -185/+135",
+        "fanduel -184/+140"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L10": {
+      "player": "JJ Peterka",
+      "market": "Shots on Goal",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.602,
+      "est_prob_raw": 0.602,
+      "price_ts": "2026-11-21T09:54:40-05:00",
+      "n_books": 5,
+      "price_books": [
+        "betmgm -210/+155",
+        "betonlineag -185/+140",
+        "bovada -170/+130",
+        "draftkings -175/+130",
+        "fanduel -178/+136"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L11": {
+      "player": "Luke Evangelista",
+      "market": "Shots on Goal",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.602,
+      "est_prob_raw": 0.602,
+      "price_ts": "2026-11-21T09:54:42-05:00",
+      "n_books": 5,
+      "price_books": [
+        "betmgm -185/+135",
+        "betonlineag -175/+134",
+        "bovada -170/+130",
+        "draftkings -190/+140",
+        "fanduel -178/+136"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L3": {
+      "player": "Derrick Jones Jr.",
+      "market": "Assists",
+      "line": 1.5,
+      "pick": "under",
+      "est_prob": 0.596,
+      "est_prob_raw": 0.626,
+      "price_ts": "2026-11-21T09:54:09-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betmgm +125/-165",
+        "betonlineag +144/-189",
+        "bovada +160/-215",
+        "draftkings +158/-211"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L9": {
+      "player": "Emmitt Finnie",
+      "market": "Shots on Goal",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.59,
+      "est_prob_raw": 0.59,
+      "price_ts": "2026-11-21T09:54:41-05:00",
+      "n_books": 5,
+      "price_books": [
+        "betmgm -175/+130",
+        "betonlineag -169/+129",
+        "bovada -165/+125",
+        "draftkings -180/+130",
+        "fanduel -170/+128"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L2": {
+      "player": "Damian Lillard",
+      "market": "Assists",
+      "line": 3.5,
+      "pick": "over",
+      "est_prob": 0.583,
+      "est_prob_raw": 0.583,
+      "price_ts": "2026-11-21T09:54:08-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betmgm -165/+125",
+        "betrivers -167/+123",
+        "bovada -180/+135",
+        "fanduel -160/+120"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L5": {
+      "player": "Devin Vassell",
+      "market": "Rebounds",
+      "line": 3.5,
+      "pick": "over",
+      "est_prob": 0.58,
+      "est_prob_raw": 0.58,
+      "price_ts": "2026-11-21T09:54:09-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betmgm -150/+110",
+        "betonlineag -154/+118",
+        "bovada -170/+130",
+        "fanduel -172/+128"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L8": {
+      "player": "Charlie Coyle",
+      "market": "Shots on Goal",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.594,
+      "est_prob_raw": 0.594,
+      "price_ts": "2026-11-21T09:54:40-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betmgm -175/+130",
+        "betonlineag -169/+130",
+        "bovada -200/+150",
+        "draftkings -175/+130"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L6": {
+      "player": "Zach LaVine",
+      "market": "Rebounds",
+      "line": 2.5,
+      "pick": "over",
+      "est_prob": 0.592,
+      "est_prob_raw": 0.592,
+      "price_ts": "2026-11-21T09:54:09-05:00",
+      "n_books": 3,
+      "price_books": [
+        "betrivers -162/+120",
+        "bovada -170/+130",
+        "draftkings -172/+130"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    }
+  }
+}

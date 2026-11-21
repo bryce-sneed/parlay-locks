@@ -1,0 +1,122 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-21-morning",
+    "model":  "claude",
+    "model_name":  "haiku",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-21T10:30:04-05:00",
+    "finished_at":  "2026-11-21T10:31:26-05:00",
+    "duration_s":  80.2,
+    "usage":  {
+                  "cost_usd":  0.107187,
+                  "cache_read":  0,
+                  "output_tokens":  9242,
+                  "input_tokens":  9
+              },
+    "overall_notes":  "This is a well-researched 11-leg slate with solid underlying data: 10 overs and 1 volume-based under, all priced at 57-61% median across 4-5 books. No line mismatches, single-book prices, or stale data detected. The drafter has explicitly flagged known risks (Maxey Q for finalization, back-to-back minutes, TOI variance, recent missed games) and is managing them appropriately.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  85,
+                      "reasoning":  "Simons has 6/10 games with 2+ assists at an average of 1.6, with 38 minutes in the most recent game. Five books agree tightly on a 60.9% median. The main risk is Maxey\u0027s Q status, but the drafter has explicitly flagged this for recheck before the 1:10 PM matinee tip, so it\u0027s a managed contingency rather than a hidden issue.",
+                      "risk_flags":  [
+                                         "injury-maxey-q",
+                                         "matinee-recheck"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  88,
+                      "reasoning":  "Lillard\u0027s 7/10 games with 4+ assists at an average of 4.3 is strong and consistent. The Nov 19 outlier (0 assists in 35 min vs MIL) occurred in a loss to a strong opponent and is acceptable within normal variance. POR is rested with multiple creators sidelined, so creation should flow through Lillard. Four books at 58.3% median is fair value.",
+                      "risk_flags":  [
+                                         "nov-19-outlier"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  82,
+                      "reasoning":  "This is a pure volume-based under backed by 9/10 games with 1 or fewer assists at an average of 0.9. DJJ\u0027s role as a defensive wing and corner spacer does not generate assists regardless of his steady 24-37 minute allocation. No new LAC absences in the last 3 games means no recent role expansion to inflate usage. The median of 59.6% after a -3 shade is fair for his baseline.",
+                      "risk_flags":  [
+                                         "aggressive-two-books-beyond-180"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  86,
+                      "reasoning":  "McDaniels has 9/10 games with 3+ assists and averages 3.5, with elevated minutes (31-40) after Edwards, DiVincenzo, and Clark went out. The Nov 19 outlier (1 assist in 39 min vs NY) is an acceptable anomaly. Five books agree on 57.4%, and MIN\u0027s matchup against a heavily depleted MEM roster should mean faster pace and more MIN possessions.",
+                      "risk_flags":  [
+                                         "nov-19-outlier-1ast-39min"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  84,
+                      "reasoning":  "Vassell\u0027s minutes jumped to 32-36 after Harper (hip, out 2-3 weeks) and Harris (calf) went out, and his rebounding production rose to 4-6 in the last three games. His L10 shows 6/10 at 4+ rebounds, and the low games all came in 21-27 minutes before the recent minutes increase. NO is on the second night of a back-to-back and missing four rotation players, so SA should control the glass.",
+                      "risk_flags":  [
+                                         "recent-role-expansion"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  80,
+                      "reasoning":  "LaVine has 9/10 games with 3+ rebounds at an average of 3.7 on steady 25-39 minutes. The one miss (0 rebounds) is an outlier; low games came in sub-21-minute efforts. The main risk is SAC playing the second night of a back-to-back after 39 minutes at LAL the prior game, which could affect minutes or fatigue. Three books at 59.2% is reasonable.",
+                      "risk_flags":  [
+                                         "back-to-back-after-39min"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  87,
+                      "reasoning":  "Hertl has 9/10 games with 2+ SOG at an average of 2.7 on steady 14-20 minute TOI with power-play time. The one miss (1 SOG) is a dip from his baseline. WPG is missing DeMelo (defenseman, 4-6 weeks), which weakens their shot suppression. Four books at 60.5% with tight agreement (-182 to -185) is solid.",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  81,
+                      "reasoning":  "Coyle has 9/10 games with 2+ SOG at an average of 2.9 on a top-six/power-play role with Monahan out. TOI ranges widely (15:15-23:57, an 8-minute swing), which introduces volatility, but his hit rate is strong. TOR\u0027s thin blue line (McWard on IR, etc.) and CBJ\u0027s rest advantage support the thesis. Four books at 59.4% is fair.",
+                      "risk_flags":  [
+                                         "toi-volatility-8min-range"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "keep",
+                      "confidence":  83,
+                      "reasoning":  "Finnie has 8/10 games with 2+ SOG at an average of 2.3 on a steady 18-21 minute role after Larkin went on IR. NYI is missing or day-to-day on three defensemen (Pulock, Stanley DTD; Romanov on IR), weakening their defensive structure. Five books at 59% with reasonable agreement suggests fair value.",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L10",
+                      "decision":  "keep",
+                      "confidence":  78,
+                      "reasoning":  "Peterka has 7/10 games with 2+ SOG at an average of 2.6 as a volume shooter on BOS\u0027s top six with Hagens on IR. The main concern is TOI volatility: his last game dipped to 14:24, well below his 17-21 minute average, suggesting recent role uncertainty or a game-specific sit. Five books at 60.2% prices his ceiling fairly, but the dip adds downside risk.",
+                      "risk_flags":  [
+                                         "toi-dipped-14-24-last-game",
+                                         "role-uncertainty"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L11",
+                      "decision":  "keep",
+                      "confidence":  79,
+                      "reasoning":  "Evangelista has 7/10 games with 2+ SOG at an average of 2.3 on 15-19 minute TOI elevated by Mantha\u0027s Nov 17 absence (opening top-nine/power-play opportunity). The last game (0 SOG) is a recent miss, but it represents one miss against a 70% hit rate. STL is missing four rotation players. Five books at 60.2% reflects reasonable value for the baseline despite the last-game dip.",
+                      "risk_flags":  [
+                                         "recent-miss-0-sog-last-game"
+                                     ]
+                  }
+              ]
+}

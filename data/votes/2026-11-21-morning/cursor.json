@@ -1,0 +1,141 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-21-morning",
+    "model":  "cursor",
+    "model_name":  "auto",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-21T10:30:04-05:00",
+    "finished_at":  "2026-11-21T10:31:26-05:00",
+    "duration_s":  28.8,
+    "usage":  {
+                  "inputTokens":  30866,
+                  "outputTokens":  3050,
+                  "cacheReadTokens":  6784,
+                  "cacheWriteTokens":  0
+              },
+    "overall_notes":  "Eleven legs, all with 2+ books and morning price_ts aligned with the injury check; pricing and volume reasoning look consistent with the veto rules. I would not cut any leg on concrete rule violations. Main live risks are L1 (Maxey Q, early tip) and L6 (SAC back-to-back), but those are noted in the drafter copy rather than pricing or thesis errors.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  72,
+                      "reasoning":  "Simons O1.5 ast is supported by 6/10 at 2+ assists, elevated minutes, and thin PHI guard depth with Maxey still questionable rather than ruled out after the 9:54 price snapshot. Five-book median devig and explicit matinee recheck limit LINE-MISMATCH and STALE-PRICE concerns for this morning draft. Key risk is the hard 2-assist ceiling in L10 if minutes do not stay high. Would cut only if Maxey is out and prices or on-ball redistribution materially change before lock.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "minutes",
+                                         "matinee",
+                                         "low-ceiling"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  76,
+                      "reasoning":  "Lillard O3.5 ast matches primary-creator usage with 7/10 at 4+ and a single zero-outlier game, and four books on a 3.5 pick\u0027em assists line with per-book median pricing. Absence stack and optional Avdija sit are framed as creation upside, not an under-style role-expansion veto. Key risk is another low-assist night if pace or NYK defense stalls the half court. Would reconsider if Avdija plays full minutes and books move the line up without a matching form bump.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "minutes",
+                                         "outlier-game"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  81,
+                      "reasoning":  "DJJ U1.5 ast is a explicit volume under with 9/10 at one or fewer assists and steady minutes, and long-term LAC outs are not flagged as recent role expansion in the last three games. Under side beyond -180 is paired with attempt-style justification, satisfying UNDER-ROLE-EXPANSION volume expectations. Competitive game risk is acknowledged and does not rely on blowout benching. Would cut only if a new wing injury suddenly pushes Jones into primary playmaking.",
+                      "risk_flags":  [
+                                         "under-volume",
+                                         "minutes"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  78,
+                      "reasoning":  "McDaniels O2.5 ast fits expanded role with MIN injuries and 9/10 at 3+ assists on heavy minutes. Five-book median pricing and no recent_miss on a standard 2.5 line avoid the structural cuts. Key risk is the 1-assist floor game in 39 minutes Nov 19 against NYK. Would flip to cut if Edwards or other creators return and minutes regress before tip.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "minutes",
+                                         "single-floor"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  77,
+                      "reasoning":  "Vassell O3.5 reb ties recent Harper and Harris absences to 32–36 minutes and 4–6 boards in the last three, with six of ten at 4+ overall. Four-book median and NO back-to-back opponent context support the over without blowout-only logic. Key risk is regression if Harris returns or pace stays low. Would reconsider on a sharp line move up without matching rebound volume.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "minutes",
+                                         "opponent-fatigue"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  70,
+                      "reasoning":  "LaVine O2.5 reb has strong L10 hit rate and depleted SAC frontcourt minutes narrative with three books still meeting the n_books\u003e=2 bar. Pricing method is per-book median, not cross-book paired extremes. Key risk is SAC second night of a back-to-back after 39 minutes, which is workload not a veto error. Would cut on STALE-PRICE only if Tatum/White status changes prices without a recheck.",
+                      "risk_flags":  [
+                                         "back-to-back",
+                                         "injury",
+                                         "n_books_3"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  79,
+                      "reasoning":  "Hertl O1.5 SOG shows 9/10 at 2+ with stable TOI and PP usage, plus opponent D absence framed as shot-suppression relief. Four tight books around 60% fair avoid single-book and line-mismatch issues. Key risk is a single-SOG night in low-event game script. Would reconsider if DeMelo status changes or books steam down sharply.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "opponent-defense",
+                                         "low-event"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  77,
+                      "reasoning":  "Coyle O1.5 SOG is backed by 9/10 at 2+ shots and top-six/PP stability with Monahan out, against a thin TOR blue line. Four-book median at 1.5 SOG is appropriate for pick\u0027em settlement. Key risk is road game pace below CBJ’s Nov 19 six-SOG spike. No under-style role-expansion or stale-price flag for this morning snapshot.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "opponent-defense",
+                                         "rest"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "keep",
+                      "confidence":  75,
+                      "reasoning":  "Finnie O1.5 SOG leverages Larkin IR minutes with 8/10 at 2+ and weakened NYI defensive availability. Five-book median satisfies pricing rules and recent_miss is null. Key risk is Pulock/Stanley playing limits the soft matchup edge. Would cut only if Larkin returns or Finnie’s TOI drops materially in late scratches.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "minutes",
+                                         "defense-matchup"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L10",
+                      "decision":  "keep",
+                      "confidence":  74,
+                      "reasoning":  "Peterka O1.5 SOG has 7/10 at 2+ with Hagens IR keeping top-six volume, and five books near 60% on the 1.5 line. Recent TOI dip to 14:24 is flagged in the thesis, not ignored. Key risk is another sub-18-minute game with zero shots. Would reconsider if Hagens returns or books move without line adjustment.",
+                      "risk_flags":  [
+                                         "minutes",
+                                         "small-sample-zeros"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L11",
+                      "decision":  "keep",
+                      "confidence":  76,
+                      "reasoning":  "Evangelista O1.5 SOG uses Mantha’s Nov 17 IR as shooting-role upside for an over, distinct from the skipped Hischier under on the same injury. Seven of ten at 2+ and five-book median pricing pass structural checks. Key risk is last-game one-SOG regression in 15–19 minute band. Would cut on UNDER-ROLE-EXPANSION logic only if this were an under; as an over the absence supports volume.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "role-upside",
+                                         "last-game-low"
+                                     ]
+                  }
+              ]
+}

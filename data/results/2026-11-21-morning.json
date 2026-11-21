@@ -1,0 +1,111 @@
+{
+ "schema": "results/v1",
+ "run": "2026-11-21-morning",
+ "graded_at": "2026-11-21T16:58:00-05:00",
+ "author": "parlay-locks",
+ "legs": [
+  {
+   "leg_id": "L1",
+   "actual": 1,
+   "outcome": "miss",
+   "note": "Anfernee Simons 1 ast in 26 min (18 pts, 4-10 3PT); PHI won. Partial grade at pregame; L2-L11 still pending.",
+   "source": "https://site.api.espn.com/apis/site/v2/sports/basketball/nba/summary?event=401910023"
+  },
+  {
+   "leg_id": "L2",
+   "actual": null,
+   "outcome": "pending",
+   "note": "Game not started at pregame grading.",
+   "source": ""
+  },
+  {
+   "leg_id": "L3",
+   "actual": null,
+   "outcome": "pending",
+   "note": "Game not started at pregame grading.",
+   "source": ""
+  },
+  {
+   "leg_id": "L4",
+   "actual": null,
+   "outcome": "pending",
+   "note": "Game not started at pregame grading.",
+   "source": ""
+  },
+  {
+   "leg_id": "L5",
+   "actual": null,
+   "outcome": "pending",
+   "note": "Game not started at pregame grading.",
+   "source": ""
+  },
+  {
+   "leg_id": "L6",
+   "actual": null,
+   "outcome": "pending",
+   "note": "Game not started at pregame grading.",
+   "source": ""
+  },
+  {
+   "leg_id": "L7",
+   "actual": null,
+   "outcome": "pending",
+   "note": "Game not started at pregame grading.",
+   "source": ""
+  },
+  {
+   "leg_id": "L8",
+   "actual": null,
+   "outcome": "pending",
+   "note": "Game not started at pregame grading.",
+   "source": ""
+  },
+  {
+   "leg_id": "L9",
+   "actual": null,
+   "outcome": "pending",
+   "note": "Game not started at pregame grading.",
+   "source": ""
+  },
+  {
+   "leg_id": "L10",
+   "actual": null,
+   "outcome": "pending",
+   "note": "Game not started at pregame grading.",
+   "source": ""
+  },
+  {
+   "leg_id": "L11",
+   "actual": null,
+   "outcome": "pending",
+   "note": "Game not started at pregame grading.",
+   "source": ""
+  }
+ ],
+ "slips": [
+  {
+   "id": "2026-11-21-morning-5",
+   "size": 5,
+   "stake": 1,
+   "outcome": "loss",
+   "payout": 0,
+   "pnl": -1
+  },
+  {
+   "id": "2026-11-21-morning-3",
+   "size": 3,
+   "stake": 1,
+   "outcome": "pending",
+   "payout": 0,
+   "pnl": 0
+  },
+  {
+   "id": "2026-11-21-morning-2",
+   "size": 2,
+   "stake": 1,
+   "outcome": "pending",
+   "payout": 0,
+   "pnl": 0
+  }
+ ]
+}

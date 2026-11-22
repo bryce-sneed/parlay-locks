@@ -1,0 +1,79 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-22-pregame",
+    "model":  "cursor",
+    "model_name":  "auto",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-22T17:30:03-05:00",
+    "finished_at":  "2026-11-22T17:31:14-05:00",
+    "duration_s":  26,
+    "usage":  {
+                  "inputTokens":  15992,
+                  "outputTokens":  2826,
+                  "cacheReadTokens":  19456,
+                  "cacheWriteTokens":  0
+              },
+    "overall_notes":  "P2 evening slate is priced coherently at 4:54 PM ET across multiple books with role-driven overs; nothing here looks like stale morning lines or obvious under-role traps. I would cut only where the write-up contradicts itself on material football facts. McCaffrey, Bailey, Nembhard, and McTavish pass veto review; Hockenson does not because the QB injury story is wrong for Minnesota.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  74,
+                      "reasoning":  "Five-book devig median on O3.5 receptions at pick\u0027em line, fresh 4:54 PM pricing, and SF\u0027s depleted WR room (Aiyuk, Kirk, Stribling out) supports concentrated short targets to CMC. The erroneous Mike Evans mention is sloppy but not load-bearing for SF\u0027s actual depth chart. Main risk is game script or Kittle eating overlapping targets; a move to 4.5 or a sharp over price jump would make me reconsider.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "game-script",
+                                         "target-share"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "cut",
+                      "confidence":  71,
+                      "reasoning":  "THIN/RISK: The core thesis cites Kyler Murray being out to justify backup-QB short throws to Hockenson, but Murray is not Minnesota\u0027s quarterback, so that injury linkage is internally wrong for this event. First-game-back snap/workload after wrist is also unresolved, and the market edge may be pricing Addison\u0027s absence more than a mis-specified passing-game setup. I would keep only if the leg reasoning were corrected to the actual Vikings QB situation and recent snap/target data backed full TE volume.",
+                      "risk_flags":  [
+                                         "thin-risk",
+                                         "minutes",
+                                         "misstated-injury",
+                                         "first-game-back"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  73,
+                      "reasoning":  "O1.5 assists with Markkanen, Jackson Jr., and Nurkic out is a low bar with clear on-ball role expansion, and five books devig to ~60.8% at a current timestamp. Competitive DAL frontcourt injuries support pace rather than a blowout fade. Risk is Bailey\u0027s assist variance as a young player in a new primary role; a Siakam-style questionable ramp that steals creation would worry me.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "role-expansion",
+                                         "low-line",
+                                         "variance"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  72,
+                      "reasoning":  "With Haliburton and McConnell out, Nembhard is the obvious primary creator and O6.5 is priced at five books near 56% devig—role expansion argues for the over, not an under veto. NY missing Anunoby and Clarkson should keep game competitive enough for full assist volume. Siakam or Towns game-time swings could redistribute usage; a line bump toward 7.5 without a corresponding price move would change my view.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "usage",
+                                         "questionable-teammates"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  66,
+                      "reasoning":  "Three books still clears the n_books≥2 rule with consistent O1.5 SOG two-way prices and 4:54 PM timestamp; NH out and Hyman day-to-day support top-six shot volume for McTavish. Missing team field is a data hygiene gap, not a pricing-method violation. Thin book count means confirm pick\u0027em line in-app; PPP deployment or a quiet road game would be the miss path.",
+                      "risk_flags":  [
+                                         "small-book-count",
+                                         "line-confirm",
+                                         "pp-unit",
+                                         "variance"
+                                     ]
+                  }
+              ]
+}

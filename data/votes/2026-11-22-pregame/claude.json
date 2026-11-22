@@ -1,0 +1,70 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-22-pregame",
+    "model":  "claude",
+    "model_name":  "haiku",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-22T17:30:03-05:00",
+    "finished_at":  "2026-11-22T17:31:14-05:00",
+    "duration_s":  68.4,
+    "usage":  {
+                  "cost_usd":  0.092945,
+                  "cache_read":  0,
+                  "output_tokens":  7498,
+                  "input_tokens":  9
+              },
+    "overall_notes":  "Solid pregame slate with proper multi-book devigging (3-5 books each), fresh pricing at 4:54 PM ET for 7-8 PM ET starts, and clear role expansion narratives from key injuries. All five legs target new games (no morning thesis repeated); overs ranging 55–63% devigged median probability across books. No concrete veto-level errors identified.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  85,
+                      "reasoning":  "5 books, fresh 4:54 PM pricing for 8:20 PM game, strong role expansion (Aiyuk, Kirk, Stribling out; Evans Q with Achilles). McCaffrey is SF\u0027s every-down back and core short-route target. 3.5 receptions is a reasonable bar even without game-log review. Devigging and cross-book median (55.6%) is properly executed.",
+                      "risk_flags":  [
+                                         "no_game_log_pull",
+                                         "verify_app_line"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  75,
+                      "reasoning":  "5 books, fresh 4:54 PM pricing, snap shift explicitly addressed (Bartholomew returns to backup, Hockenson back in role). \u0027No injury designation\u0027 suggests cleared to play. Addison out concentrates short targets on Hockenson; backup QB (Murray out) favors short throws to TE. 4.5 receptions achievable. First-game-back snap count is a judgment call, but reasoning does not ignore the role shift.",
+                      "risk_flags":  [
+                                         "first_game_back",
+                                         "minutes_unquantified"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  85,
+                      "reasoning":  "5 books, 4:54 PM pricing for 7 PM game, explicit role expansion from three UTAH starters out (Markkanen hand fracture, JJJ MCL, Nurkic). Bailey\u0027s on-ball usage and assists reps increase; 1.5 line is low and competitive game script expected (DAL missing Lively, Washington doubtful). Devigged median 60.8% supports the over.",
+                      "risk_flags":  [
+                                         "no_game_log_pull"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  90,
+                      "reasoning":  "5 books, 4:54 PM pricing for 8 PM game, strongest role expansion: Haliburton out 2+ weeks (hamstring), McConnell out (hamstring), making Nembhard IND\u0027s primary ball-handler. Siakam is Q (props avoided). NY also missing two contributors (Anunoby, Clarkson). 6.5 assists is achievable for primary PG with elevated creation load. 55.9% median across 5 books is fair.",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  70,
+                      "reasoning":  "3 books (above 2-book floor), 4:54 PM pricing for 7 pm game. Nugent-Hopkins out for EDM supports top-six/PP minutes for McTavish. Drafter flags it as \u0027strongest priced SOG over on the board\u0027 (62.7% devigged median). 1.5 line is low and achievable for forward with expanded ice time. Only 3 books and no game-log review, but role expansion from injury is concrete.",
+                      "risk_flags":  [
+                                         "thin_books",
+                                         "no_game_log_pull",
+                                         "verify_app_line"
+                                     ]
+                  }
+              ]
+}

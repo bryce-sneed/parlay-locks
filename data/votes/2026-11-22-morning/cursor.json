@@ -1,0 +1,151 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-22-morning",
+    "model":  "cursor",
+    "model_name":  "auto",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-22T10:30:03-05:00",
+    "finished_at":  "2026-11-22T10:32:06-05:00",
+    "duration_s":  35.1,
+    "usage":  {
+                  "inputTokens":  18867,
+                  "outputTokens":  3103,
+                  "cacheReadTokens":  35648,
+                  "cacheWriteTokens":  0
+              },
+    "overall_notes":  "Morning prices (~9:49 ET) line up with the slate snapshot, and every leg uses per-book devig medians from at least three books on the correct pick\u0027em sides. Volume is explicit on both unders (Fant receptions, Benn SOG), and the drafter flags the main soft spots (Dowdle usage dip, Pritchard/Boeser B2B, Fant catch-up script) without internal contradictions. I find no concrete LINE-MISMATCH, stale-price, role-expansion-on-under, or recent-miss violations worth a veto—default keep on all twelve.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  72,
+                      "reasoning":  "Lead-back checkdown profile with 7/8 at 2+ catches and stable 2–4 targets fits O1.5 in a rainy road-favorite script. Five-book median 60.9% clears break-even without methodology red flags. A full game-script pivot to pure between-the-tackles runs would be the main miss path.",
+                      "risk_flags":  [
+                                         "weather",
+                                         "game-script",
+                                         "favorite"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  68,
+                      "reasoning":  "This is a target-volume under (1–2 targets in five straight) with the required attempts check on a line priced past -180, not a spread-only benching story. Trailing pass volume is the honest lose condition and is already in the thesis. A sudden route or TE usage spike would change the view.",
+                      "risk_flags":  [
+                                         "catch-up-script",
+                                         "underdog",
+                                         "weather"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  70,
+                      "reasoning":  "Gibbs has 6/8 at 4+ catches with 6–8 targets in most recent games, and the competitive spread/total supports full receiving involvement indoors. Four-book pricing at 57% is modest but methodologically sound. A one-target blowout or early script that removes him from pass routes is the swing factor.",
+                      "risk_flags":  [
+                                         "competitive-spread",
+                                         "dome"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  66,
+                      "reasoning":  "Receiving floor is strong (4+ in 5/8) and a large spread underdog plus possible Bowers absence supports checkdown volume on O3.5. Five books and median 57% pass pricing hygiene. If Bowers plays and soaks short targets or LV falls behind without targeting the back, it can fail.",
+                      "risk_flags":  [
+                                         "injury-uncertainty",
+                                         "large-spread",
+                                         "altitude"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  61,
+                      "reasoning":  "Five-book median 61.4% and 5/6 at 2+ with multi-target games support O1.5 in a low-total rainy spot. The Nov 16 zero-target game is a real variance flag but is named, not ignored. Another low-snap or zero-target game would be what flips this to a miss.",
+                      "risk_flags":  [
+                                         "role-variance",
+                                         "weather",
+                                         "low-total"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  69,
+                      "reasoning":  "8/10 at 2+ assists with expanded backcourt minutes due to multiple outs fits O1.5, and three-book devig median clears the bar. Cunningham game-time status is upside rather than a pricing error. Heavy minutes without playmaking or a Cade return that shrinks on-ball reps would be the worry.",
+                      "risk_flags":  [
+                                         "injury-cluster",
+                                         "game-time",
+                                         "early-tip"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  67,
+                      "reasoning":  "Five straight games at 3+ boards on rising minutes with frontcourt injuries protecting role is a solid O2.5 case. Assists miss Nov 20 is a different market, so no recent-miss conflict. If Powell/Williams play full roles and shrink his rebounding slice, confidence drops.",
+                      "risk_flags":  [
+                                         "minutes",
+                                         "injury-questionable",
+                                         "same-player-other-prop"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  71,
+                      "reasoning":  "Banchero/Isaac absences keep Bane in a primary creator role with 7/10 at 3+ assists in a pace-friendly matchup. Four-book median 58.4% is clean. A slow half or blowout that limits his on-ball time would be the main failure mode.",
+                      "risk_flags":  [
+                                         "injury-driven-role",
+                                         "pace",
+                                         "blowout"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "keep",
+                      "confidence":  58,
+                      "reasoning":  "Expanded minutes without Tatum/White support 3+ boards in 6/10, including last night, and pricing is from three books. B2B fatigue is the clearest risk but does not meet a veto category when disclosed. A tired-leg night with reduced rebounding effort would miss.",
+                      "risk_flags":  [
+                                         "b2b",
+                                         "minutes",
+                                         "weak-nba-leg"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L10",
+                      "decision":  "keep",
+                      "confidence":  73,
+                      "reasoning":  "9/10 at 2+ SOG with stable 18–21 TOI and rest since Nov 17 is strong for O1.5 at an early start. Four-book median 61% and no stale-news flag between 9:49 AM pricing and puck drop. A low-event game or line mismatch with PP deployment would be the hedge.",
+                      "risk_flags":  [
+                                         "early-start",
+                                         "lock-timing"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L11",
+                      "decision":  "keep",
+                      "confidence":  70,
+                      "reasoning":  "Volume under is backed by 7/10 at ≤1 SOG, 10–16 min, and zero PP time with explicit TOI justification beyond -180. Myers out does not expand a bottom-six forward’s shot role. If he draws unexpected PP or top-line reps, the under breaks.",
+                      "risk_flags":  [
+                                         "volume-under",
+                                         "toi",
+                                         "lineup-flip"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L12",
+                      "decision":  "keep",
+                      "confidence":  64,
+                      "reasoning":  "Pettersson out pushed TOI and PP1 usage with 2+ SOG in 6/10 and a weak CHI opponent supports O1.5 despite B2B. Four-book median ~60% and role expansion favors the over side. Back-to-back fatigue or Pettersson-related lineup normalization could cap shots.",
+                      "risk_flags":  [
+                                         "b2b",
+                                         "role-expansion",
+                                         "injury-driven-role"
+                                     ]
+                  }
+              ]
+}

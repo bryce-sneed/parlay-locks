@@ -1,0 +1,130 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-22-morning",
+    "model":  "claude",
+    "model_name":  "haiku",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-22T10:30:03-05:00",
+    "finished_at":  "2026-11-22T10:32:06-05:00",
+    "duration_s":  120.8,
+    "usage":  {
+                  "cost_usd":  0.122692,
+                  "cache_read":  0,
+                  "output_tokens":  12067,
+                  "input_tokens":  9
+              },
+    "overall_notes":  "Tight slate with solid research and appropriate risk flagging by drafter. All 12 legs have concrete volume or role justification with fresh pricing (09:48-09:49 AM ET). No line-mismatch or single-book errors detected; injury/role data fresh as of 09:50 AM ET. Main risks are L2 blowout-script uncertainty (NO -11.5 underdog) and L9/L12 back-to-back fatigue, but all three have volume-based reasoning within break-even thresholds.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  72,
+                      "reasoning":  "Tuten is JAX\u0027s lead back with 7/8 L8 at 2+ catches and consistent 2-4 targets per game. Rain at MetLife and favorable 6-pt road-favorite script support RB checkdowns. No injury role changes. Fresh price from 5 books at -173 to -200 (60.9% devig) beats break-even.",
+                      "risk_flags":  [
+                                         "none"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  58,
+                      "reasoning":  "Volume-based under priced -243/-250 is justified by Fant\u0027s 1-2 targets per game (5/5 L5 at ≤1 catches). Rain at Soldier Field supports passing suppression. Main risk: NO is 11.5-pt underdog, so trailing script could add pass volume beyond baseline 1.4 targets/game; drafter correctly flags volume thesis as separate from game-flow risk. Even shaded to 63.9%, still above break-even, but blowout variance is material.",
+                      "risk_flags":  [
+                                         "blowout_risk"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  68,
+                      "reasoning":  "Gibbs is DET\u0027s every-down back with 6/8 L8 at 4+ catches and 6-8 targets consistently. Dome, competitive total (48.5), and only -3.5 spread keep him involved as receiver. 4-book devig median 57.0% meets thresholds. Vaki Q (backup) doesn\u0027t expand Gibbs\u0027 role.",
+                      "risk_flags":  [
+                                         "none"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  65,
+                      "reasoning":  "Jeanty\u0027s receiving role is steady (3-8 catches every game, 4+ in 5/8 L8) despite rushing bottleneck. Trailing script (10.5-pt underdog) pushes checkdowns, and TE Bowers Q potentially adds short-target opportunity. Dry 44F weather is clean. 5-book median 57.0% adequate.",
+                      "risk_flags":  [
+                                         "none"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  62,
+                      "reasoning":  "Dowdle 5/6 L6 at 2+ catches with 2-6 targets per game. Rain at Lincoln Financial and 37.5 total favor short RB routes. Only concern: snap share dipped Nov 16 (5 carries), so leg is role-variance rather than lock. Drafter transparent on risk. 5-book median 61.4% clears break-even.",
+                      "risk_flags":  [
+                                         "snap_share_variance"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  70,
+                      "reasoning":  "Wiggins 8/10 L10 at 2+ assists on 23-34 min. DET backcourt decimated (Cunningham DTD, Holland/Okorie/Prince/Robinson/Duren out), so ball-handling role clearly expanded. Favorable to reach 2+ in this setup. 3:40 PM ET tip gives scheduling buffer. 3-book median 60.4%.",
+                      "risk_flags":  [
+                                         "cunnigham_dtd"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  69,
+                      "reasoning":  "Okoro 5/5 L5 at 3+ rebounds (7,3,6,7,3), well above threshold. CHI wing/frontcourt decimated (Williams/Powell/Smith DTD, Awaka/Wilson out), protecting Okoro\u0027s minutes and board share. Fresh prop (rebounds, not Nov 20 assists miss). 4-book median 57.8%.",
+                      "risk_flags":  [
+                                         "none"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  67,
+                      "reasoning":  "Bane 7/10 L10 at 3+ assists (avg 3.6 when scoring). Secondary creator role solidified with Banchero and Isaac both out. Washington\u0027s fast pace and weak defense favor assists. 4-book median 58.4%.",
+                      "risk_flags":  [
+                                         "none"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "keep",
+                      "confidence":  56,
+                      "reasoning":  "Pritchard 6/10 L10 at 3+ rebounds (30-34 min in last 3 games), elevated from earlier 18-25 min role due to Tatum/White/Robinson out. Last night\u0027s 34-min, 6-rebound game is fresh data. Main risk: back-to-back (played SAC Nov 21) could reduce minutes/energy on 2nd night. Drafter appropriately flags as weakest NBA leg, but volume justifies over in recent games.",
+                      "risk_flags":  [
+                                         "back_to_back"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L10",
+                      "decision":  "keep",
+                      "confidence":  73,
+                      "reasoning":  "Miller 9/10 L10 at 2+ SOG (avg 2.7) on 18-21 min TOI. Very strong recent trend. NYR well-rested (no game since Nov 17), minimizing injury/lineup surprises. Early 12:40 PM ET start is a lock risk (must confirm line before puck drop) but adds scheduling edge. 4-book median 61.0%.",
+                      "risk_flags":  [
+                                         "early_start_lock_risk"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L11",
+                      "decision":  "keep",
+                      "confidence":  64,
+                      "reasoning":  "Benn 7/10 L10 at ≤1 SOG (avg 1.1) on 10-16 min TOI, 0 PP time. Pure volume under justified by low ice time and role. D injury (Myers) does not expand bottom-six forward usage. Priced -175 to -205; drafter correctly notes 10:02-13:52 L5 TOI as volume justification for beyond -180 pricing. Not a blowout thesis.",
+                      "risk_flags":  [
+                                         "none"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L12",
+                      "decision":  "keep",
+                      "confidence":  60,
+                      "reasoning":  "Boeser role expansion from Pettersson out (Nov 21) is very recent; TOI jumped to 24:09 with 3 assists, PP1 time expanded. Recent 2+ SOG in 4 of L5 per drafter (rate confirmed). Chicago without Bedard is weak opponent. Price set after news (09:49 AM vs Nov 21 ruling), so reflects context. Main risk: back-to-back (played MIN Nov 21) on 2nd night could reduce TOI or energy. Volume is there, but B2B fatigue is material variance factor.",
+                      "risk_flags":  [
+                                         "back_to_back",
+                                         "very_recent_role_expansion"
+                                     ]
+                  }
+              ]
+}

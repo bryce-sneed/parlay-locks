@@ -1,15 +1,15 @@
 {
  "schema": "results/v1",
  "run": "2026-11-22-morning",
- "graded_at": "2026-11-22T17:05:00-05:00",
+ "graded_at": "2026-11-22T16:55:00-05:00",
  "author": "parlay-locks",
- "notes": "PARTIAL (pregame run, 5:05 PM ET): 4 of 12 legs final, 3 hit / 1 miss. L2 Fant U1.5 rec MISS (2 rec on 5 tgt), L3 Gibbs O3.5 rec HIT (4), L5 Dowdle O1.5 rec HIT (4), L10 J.T. Miller O1.5 SOG HIT (2). Pending: L1 Tuten, L4 Jeanty (4:25 games in progress), L6 Wiggins (DET@ATL at halftime), L7 Okoro, L8 Bane, L9 Pritchard, L11 Benn, L12 Boeser (evening). Slip: 5-leg PP Power is already LOST (Fant miss; Power needs 5/5, no tie/DNP on Fant) -$1.00. 3-leg UD Flex and 2-leg UD Standard pending. Panel so far: Claude keep 4/4 graded -> 3 hit; Cursor keep 4/4 -> 3 hit; no cuts. The finalize run should regrade the remaining legs.",
+ "notes": "PARTIAL (pregame run, 4:55 PM ET): 4 of 12 legs final, 3 hit / 1 miss. L2 Fant U1.5 rec MISS (2 rec on 5 tgt), L3 Gibbs O3.5 rec HIT (4), L5 Dowdle O1.5 rec HIT (4), L10 J.T. Miller O1.5 SOG HIT (2). Pending: L1 Tuten, L4 Jeanty (4:25 games in progress), L6 Wiggins (DET@ATL at halftime), L7 Okoro, L8 Bane, L9 Pritchard, L11 Benn, L12 Boeser (evening). Slip: 5-leg PP Power is already LOST (Fant miss; Power needs 5/5, no tie/DNP on Fant) -$1.00. 3-leg UD Flex and 2-leg UD Standard pending. Panel so far: Claude keep 4/4 graded -> 3 hit; Cursor keep 4/4 -> 3 hit; no cuts. The finalize run should regrade the remaining legs.",
  "legs": [
   {
    "leg_id": "L1",
    "actual": null,
    "outcome": "pending",
-   "note": "JAX @ NYG in progress at 5:05 PM ET."
+   "note": "JAX @ NYG in progress at 4:55 PM ET."
   },
   {
    "leg_id": "L2",
@@ -42,7 +42,7 @@
    "leg_id": "L6",
    "actual": null,
    "outcome": "pending",
-   "note": "DET @ ATL at halftime at 5:00 PM ET."
+   "note": "DET @ ATL at halftime at 4:53 PM ET."
   },
   {
    "leg_id": "L7",

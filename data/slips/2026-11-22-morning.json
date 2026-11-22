@@ -1,0 +1,241 @@
+{
+  "schema": "slips/v1",
+  "run": "2026-11-22-morning",
+  "date": "2026-11-22",
+  "snapshot": "morning",
+  "created_at": "2026-11-22T11:12:00-05:00",
+  "author": "parlay-locks",
+  "paper": true,
+  "notes": "Morning, week 2 day 4. First full NFL Sunday slate plus NBA/NHL. Panel ran: Claude 12-0 keep, Cursor 12-0 keep; no cuts, no vetoes, nothing overruled. ~11:10 AM ET recheck: Cade Cunningham upgraded to PROBABLE (NBA 10 AM report; Duren out, Holland Q) - Wiggins kept but only in the Flex 3-leg since the 'Cade DTD' upside is mostly gone. Baker Mayfield reported playing through plantar fasciitis (no change for Gibbs). Brock Bowers still a 4:25 game-time decision (TE Runyon elevated) - Jeanty not used since it can't be confirmed before lock. Saints inactives match the draft (no NO pass-catchers out; Juwan Johnson active), so no role expansion for Fant. Pritchard listed day-to-day (eye abrasion) by one feed on top of the back-to-back - left out. Pettersson still out for VAN (supports Boeser over). No line-threshold, single-book, cross-book-pairing, 3PM U1.5, or blowout-only issues found. Used 10 of 12 legs across three independent slips (no shared legs). Odds API: 0 credits spent at finalize (lock prices copied from candidates).",
+  "slips": [
+    {
+      "id": "2026-11-22-morning-5",
+      "size": 5,
+      "platform": "PrizePicks",
+      "play_type": "power",
+      "stake": 1,
+      "payout_multiplier": 20,
+      "legs": [
+        "L2",
+        "L5",
+        "L10",
+        "L1",
+        "L12"
+      ],
+      "rationale": "PP 5-pick Power (shaded avg 61.5% > 56.6%): Noah Fant U1.5 rec (volume under, 63.9% shaded / 66.9% raw, 1-2 targets a game), Rico Dowdle O1.5 rec (61.4%), J.T. Miller O1.5 SOG (61.0%), Bhayshul Tuten O1.5 rec (60.9%), Brock Boeser O1.5 SOG (60.1%, Pettersson out). Five games, 1 under, 4-5 books each. Est joint 8.8% vs 5.0% BE. Panel 2-0 keep on all five. Miller's game starts 12:40 PM ET."
+    },
+    {
+      "id": "2026-11-22-morning-3",
+      "size": 3,
+      "platform": "Underdog",
+      "play_type": "flex",
+      "stake": 1,
+      "payout_multiplier": 3.25,
+      "legs": [
+        "L6",
+        "L11",
+        "L8"
+      ],
+      "rationale": "UD 3-pick Flex (3.25x / 1.09x): Aaron Wiggins O1.5 ast (60.4%, 3 books; Cade now probable, so baseline 8/10 at 2+ carries it), Jamie Benn U1.5 SOG (volume under, 59.1% shaded; 10-16 min, no PP), Desmond Bane O2.5 ast (58.4%). Three games, 1 under. Avg 59.3% vs 55.4% BE. Shares no legs with the 2-leg or 5-leg. Panel 2-0 keep on all three."
+    },
+    {
+      "id": "2026-11-22-morning-2",
+      "size": 2,
+      "platform": "Underdog",
+      "play_type": "standard",
+      "stake": 1,
+      "payout_multiplier": 3.5,
+      "legs": [
+        "L7",
+        "L3"
+      ],
+      "rationale": "Overs only (P4): Isaac Okoro O2.5 reb (57.8%, 4 books; 3+ in each of last 5) + Jahmyr Gibbs O3.5 rec (57.0%, 4 books; 6-8 targets in 6 of 8, competitive indoor game). Different games and sports. Est joint 32.9% vs 28.6% BE. Panel 2-0 keep on both."
+    }
+  ],
+  "lock_ts": "2026-11-22T11:03:45-05:00",
+  "lock_source": "candidates",
+  "lock_candidates": "data/candidates/2026-11-22-morning.json",
+  "lock_prices": {
+    "L2": {
+      "player": "Noah Fant",
+      "market": "Receptions",
+      "line": 1.5,
+      "pick": "under",
+      "est_prob": 0.639,
+      "est_prob_raw": 0.669,
+      "price_ts": "2026-11-22T09:48:56-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betmgm +180/-250",
+        "betonlineag +182/-244",
+        "bovada +185/-250",
+        "draftkings +187/-243"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L5": {
+      "player": "Rico Dowdle",
+      "market": "Receptions",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.614,
+      "est_prob_raw": 0.614,
+      "price_ts": "2026-11-22T09:48:56-05:00",
+      "n_books": 5,
+      "price_books": [
+        "betmgm -185/+135",
+        "betonlineag -189/+143",
+        "bovada -200/+150",
+        "draftkings -194/+151",
+        "fanduel -192/+142"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L10": {
+      "player": "J.T. Miller",
+      "market": "Shots on Goal",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.61,
+      "est_prob_raw": 0.61,
+      "price_ts": "2026-11-22T09:49:08-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betmgm -190/+140",
+        "bovada -185/+140",
+        "draftkings -195/+140",
+        "fanduel -170/+130"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L1": {
+      "player": "Bhayshul Tuten",
+      "market": "Receptions",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.609,
+      "est_prob_raw": 0.609,
+      "price_ts": "2026-11-22T09:48:57-05:00",
+      "n_books": 5,
+      "price_books": [
+        "betmgm -200/+150",
+        "betonlineag -185/+140",
+        "bovada -180/+135",
+        "draftkings -173/+135",
+        "fanduel -188/+140"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L12": {
+      "player": "Brock Boeser",
+      "market": "Shots on Goal",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.601,
+      "est_prob_raw": 0.601,
+      "price_ts": "2026-11-22T09:49:09-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betonlineag -179/+137",
+        "bovada -175/+135",
+        "draftkings -175/+130",
+        "fanduel -196/+148"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L6": {
+      "player": "Aaron Wiggins",
+      "market": "Assists",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.604,
+      "est_prob_raw": 0.604,
+      "price_ts": "2026-11-22T09:49:10-05:00",
+      "n_books": 3,
+      "price_books": [
+        "betonlineag -189/+144",
+        "bovada -180/+135",
+        "draftkings -181/+137"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L11": {
+      "player": "Jamie Benn",
+      "market": "Shots on Goal",
+      "line": 1.5,
+      "pick": "under",
+      "est_prob": 0.591,
+      "est_prob_raw": 0.621,
+      "price_ts": "2026-11-22T09:49:09-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betmgm +130/-175",
+        "betonlineag +144/-189",
+        "bovada +155/-205",
+        "draftkings +150/-205"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L8": {
+      "player": "Desmond Bane",
+      "market": "Assists",
+      "line": 2.5,
+      "pick": "over",
+      "est_prob": 0.584,
+      "est_prob_raw": 0.584,
+      "price_ts": "2026-11-22T09:49:11-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betmgm -140/+105",
+        "betonlineag -159/+122",
+        "bovada -170/+130",
+        "draftkings -172/+130"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L7": {
+      "player": "Isaac Okoro",
+      "market": "Rebounds",
+      "line": 2.5,
+      "pick": "over",
+      "est_prob": 0.578,
+      "est_prob_raw": 0.578,
+      "price_ts": "2026-11-22T09:49:10-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betmgm -150/+110",
+        "betonlineag -152/+116",
+        "bovada -185/+140",
+        "fanduel -172/+128"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L3": {
+      "player": "Jahmyr Gibbs",
+      "market": "Receptions",
+      "line": 3.5,
+      "pick": "over",
+      "est_prob": 0.57,
+      "est_prob_raw": 0.57,
+      "price_ts": "2026-11-22T09:48:56-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betonlineag -154/+119",
+        "bovada -160/+120",
+        "draftkings -152/+119",
+        "fanduel -154/+116"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    }
+  }
+}

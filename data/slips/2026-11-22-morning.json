@@ -3,10 +3,10 @@
   "run": "2026-11-22-morning",
   "date": "2026-11-22",
   "snapshot": "morning",
-  "created_at": "2026-11-22T11:12:00-05:00",
+  "created_at": "2026-11-22T11:04:00-05:00",
   "author": "parlay-locks",
   "paper": true,
-  "notes": "Morning, week 2 day 4. First full NFL Sunday slate plus NBA/NHL. Panel ran: Claude 12-0 keep, Cursor 12-0 keep; no cuts, no vetoes, nothing overruled. ~11:10 AM ET recheck: Cade Cunningham upgraded to PROBABLE (NBA 10 AM report; Duren out, Holland Q) - Wiggins kept but only in the Flex 3-leg since the 'Cade DTD' upside is mostly gone. Baker Mayfield reported playing through plantar fasciitis (no change for Gibbs). Brock Bowers still a 4:25 game-time decision (TE Runyon elevated) - Jeanty not used since it can't be confirmed before lock. Saints inactives match the draft (no NO pass-catchers out; Juwan Johnson active), so no role expansion for Fant. Pritchard listed day-to-day (eye abrasion) by one feed on top of the back-to-back - left out. Pettersson still out for VAN (supports Boeser over). No line-threshold, single-book, cross-book-pairing, 3PM U1.5, or blowout-only issues found. Used 10 of 12 legs across three independent slips (no shared legs). Odds API: 0 credits spent at finalize (lock prices copied from candidates).",
+  "notes": "Morning, week 2 day 4. First full NFL Sunday slate plus NBA/NHL. Panel ran: Claude 12-0 keep, Cursor 12-0 keep; no cuts, no vetoes, nothing overruled. ~11:00 AM ET recheck: Cade Cunningham upgraded to PROBABLE (NBA 10 AM report; Duren out, Holland Q) - Wiggins kept but only in the Flex 3-leg since the 'Cade DTD' upside is mostly gone. Baker Mayfield reported playing through plantar fasciitis (no change for Gibbs). Brock Bowers still a 4:25 game-time decision (TE Runyon elevated) - Jeanty not used since it can't be confirmed before lock. Saints inactives match the draft (no NO pass-catchers out; Juwan Johnson active), so no role expansion for Fant. Pritchard listed day-to-day (eye abrasion) by one feed on top of the back-to-back - left out. Pettersson still out for VAN (supports Boeser over). No line-threshold, single-book, cross-book-pairing, 3PM U1.5, or blowout-only issues found. Used 10 of 12 legs across three independent slips (no shared legs). Odds API: 0 credits spent at finalize (lock prices copied from candidates).",
   "slips": [
     {
       "id": "2026-11-22-morning-5",

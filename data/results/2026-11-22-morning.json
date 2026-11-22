@@ -1,0 +1,120 @@
+{
+ "schema": "results/v1",
+ "run": "2026-11-22-morning",
+ "graded_at": "2026-11-22T17:05:00-05:00",
+ "author": "parlay-locks",
+ "notes": "PARTIAL (pregame run, 5:05 PM ET): 4 of 12 legs final, 3 hit / 1 miss. L2 Fant U1.5 rec MISS (2 rec on 5 tgt), L3 Gibbs O3.5 rec HIT (4), L5 Dowdle O1.5 rec HIT (4), L10 J.T. Miller O1.5 SOG HIT (2). Pending: L1 Tuten, L4 Jeanty (4:25 games in progress), L6 Wiggins (DET@ATL at halftime), L7 Okoro, L8 Bane, L9 Pritchard, L11 Benn, L12 Boeser (evening). Slip: 5-leg PP Power is already LOST (Fant miss; Power needs 5/5, no tie/DNP on Fant) -$1.00. 3-leg UD Flex and 2-leg UD Standard pending. Panel so far: Claude keep 4/4 graded -> 3 hit; Cursor keep 4/4 -> 3 hit; no cuts. The finalize run should regrade the remaining legs.",
+ "legs": [
+  {
+   "leg_id": "L1",
+   "actual": null,
+   "outcome": "pending",
+   "note": "JAX @ NYG in progress at 5:05 PM ET."
+  },
+  {
+   "leg_id": "L2",
+   "actual": 2,
+   "outcome": "miss",
+   "note": "Noah Fant 2 rec, 19 yds on 5 targets. Final, NO @ CHI. Under 1.5 lost.",
+   "source": "https://www.espn.com/nfl/boxscore/_/gameId/401873071"
+  },
+  {
+   "leg_id": "L3",
+   "actual": 4,
+   "outcome": "hit",
+   "note": "Jahmyr Gibbs 4 rec, 20 yds on 5 targets (23 car, 98 yds, 2 TD). Final, TB @ DET.",
+   "source": "https://www.espn.com/nfl/boxscore/_/gameId/401873072"
+  },
+  {
+   "leg_id": "L4",
+   "actual": null,
+   "outcome": "pending",
+   "note": "LV @ DEN in progress."
+  },
+  {
+   "leg_id": "L5",
+   "actual": 4,
+   "outcome": "hit",
+   "note": "Rico Dowdle 4 rec, 19 yds on 5 targets (5 car, 15 yds). Final, PIT @ PHI.",
+   "source": "https://www.espn.com/nfl/boxscore/_/gameId/401873076"
+  },
+  {
+   "leg_id": "L6",
+   "actual": null,
+   "outcome": "pending",
+   "note": "DET @ ATL at halftime at 5:00 PM ET."
+  },
+  {
+   "leg_id": "L7",
+   "actual": null,
+   "outcome": "pending",
+   "note": "DEN @ CHI 7:00 PM ET."
+  },
+  {
+   "leg_id": "L8",
+   "actual": null,
+   "outcome": "pending",
+   "note": "ORL @ WSH 7:00 PM ET."
+  },
+  {
+   "leg_id": "L9",
+   "actual": null,
+   "outcome": "pending",
+   "note": "BOS @ GS 8:30 PM ET."
+  },
+  {
+   "leg_id": "L10",
+   "actual": 2,
+   "outcome": "hit",
+   "note": "J.T. Miller 2 SOG (1 G, 1 A) in 22:20 TOI. Final, CAR @ NYR.",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892768"
+  },
+  {
+   "leg_id": "L11",
+   "actual": null,
+   "outcome": "pending",
+   "note": "PIT @ DAL 7:00 PM ET."
+  },
+  {
+   "leg_id": "L12",
+   "actual": null,
+   "outcome": "pending",
+   "note": "CHI @ VAN 8:00 PM ET."
+  }
+ ],
+ "slips": [
+  {
+   "id": "2026-11-22-morning-5",
+   "size": 5,
+   "stake": 1,
+   "outcome": "loss",
+   "payout": 0,
+   "pnl": -1,
+   "platform": "PrizePicks",
+   "play_type": "power",
+   "note": "Fant U1.5 (L2) missed with 2 rec; Power needs 5/5. Dowdle and Miller hit; Tuten and Boeser still pending but cannot change the result."
+  },
+  {
+   "id": "2026-11-22-morning-3",
+   "size": 3,
+   "stake": 1,
+   "outcome": "pending",
+   "payout": 0,
+   "pnl": 0,
+   "platform": "Underdog",
+   "play_type": "flex",
+   "note": "Wiggins, Benn, Bane pending."
+  },
+  {
+   "id": "2026-11-22-morning-2",
+   "size": 2,
+   "stake": 1,
+   "outcome": "pending",
+   "payout": 0,
+   "pnl": 0,
+   "platform": "Underdog",
+   "play_type": "standard",
+   "note": "Gibbs hit; Okoro pending."
+  }
+ ]
+}

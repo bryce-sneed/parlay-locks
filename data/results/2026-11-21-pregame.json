@@ -1,0 +1,43 @@
+{
+ "schema": "results/v1",
+ "run": "2026-11-21-pregame",
+ "graded_at": "2026-11-22T09:58:00-05:00",
+ "author": "parlay-locks",
+ "notes": "Legs 1/3, all overs. L1 Carlsson 1 SOG (goal on it, but only 6:04 TOI / 9 shifts, appears to have left early; NHL has no reboot, graded as played), L2 Stenberg 2 SOG hit (unused), L3 Tippett 1 SOG miss. Panel: Claude keep 3/0 -> 1/3 hit; Cursor keep 3/0 -> 1/3 hit; no cuts. Slip: 2-leg UD Standard lost. Snapshot P/L -$1.00. Nov 21 day total -$4.00.",
+ "legs": [
+  {
+   "leg_id": "L1",
+   "actual": 1,
+   "outcome": "miss",
+   "note": "Leo Carlsson 1 SOG (scored) in only 6:04 TOI, 9 shifts; did not finish. Final, ANA won 3-2.",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892765"
+  },
+  {
+   "leg_id": "L2",
+   "actual": 2,
+   "outcome": "hit",
+   "note": "Ivar Stenberg 2 SOG (1 G, 1 A) in 16:36 TOI. Final.",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892767"
+  },
+  {
+   "leg_id": "L3",
+   "actual": 1,
+   "outcome": "miss",
+   "note": "Owen Tippett 1 SOG (2 missed) in 15:16 TOI. Final.",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892760"
+  }
+ ],
+ "slips": [
+  {
+   "id": "2026-11-21-pregame-2",
+   "size": 2,
+   "stake": 1,
+   "outcome": "loss",
+   "payout": 0,
+   "pnl": -1,
+   "platform": "Underdog",
+   "play_type": "standard",
+   "note": "Tippett (L3) and Carlsson (L1) both missed."
+  }
+ ]
+}

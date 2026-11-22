@@ -1,7 +1,7 @@
 {
  "schema": "results/v1",
  "run": "2026-11-21-morning",
- "graded_at": "2026-11-21T16:52:00-05:00",
+ "graded_at": "2026-11-22T09:58:00-05:00",
  "author": "parlay-locks",
  "legs": [
   {
@@ -13,73 +13,73 @@
   },
   {
    "leg_id": "L2",
-   "actual": null,
-   "outcome": "pending",
-   "note": "Game not started at pregame grading.",
-   "source": ""
+   "actual": 3,
+   "outcome": "miss",
+   "note": "Damian Lillard 3 ast in 33 min (1-9 3PT). Final.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401910024"
   },
   {
    "leg_id": "L3",
-   "actual": null,
-   "outcome": "pending",
-   "note": "Game not started at pregame grading.",
-   "source": ""
+   "actual": 1,
+   "outcome": "hit",
+   "note": "Derrick Jones Jr. 1 ast in 26 min. Final.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401910025"
   },
   {
    "leg_id": "L4",
-   "actual": null,
-   "outcome": "pending",
-   "note": "Game not started at pregame grading.",
-   "source": ""
+   "actual": 4,
+   "outcome": "hit",
+   "note": "Jaden McDaniels 4 ast in 36 min (25 pts). Final.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401910026"
   },
   {
    "leg_id": "L5",
-   "actual": null,
-   "outcome": "pending",
-   "note": "Game not started at pregame grading.",
-   "source": ""
+   "actual": 3,
+   "outcome": "miss",
+   "note": "Devin Vassell 3 reb in 26 min. Final.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401910027"
   },
   {
    "leg_id": "L6",
-   "actual": null,
-   "outcome": "pending",
-   "note": "Game not started at pregame grading.",
-   "source": ""
+   "actual": 3,
+   "outcome": "hit",
+   "note": "Zach LaVine 3 reb in 30 min. Final.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401910028"
   },
   {
    "leg_id": "L7",
-   "actual": null,
-   "outcome": "pending",
-   "note": "Game not started at pregame grading.",
-   "source": ""
+   "actual": 4,
+   "outcome": "hit",
+   "note": "Tomas Hertl 4 SOG (1 G) in 13:44 TOI. Final.",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892764"
   },
   {
    "leg_id": "L8",
-   "actual": null,
-   "outcome": "pending",
-   "note": "Game not started at pregame grading.",
-   "source": ""
+   "actual": 1,
+   "outcome": "miss",
+   "note": "Charlie Coyle 1 SOG in 19:22 TOI (4:31 PP). Final. (Pregame flagged the leg degraded; paper swap Carlsson also missed.)",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892759"
   },
   {
    "leg_id": "L9",
-   "actual": null,
-   "outcome": "pending",
-   "note": "Game not started at pregame grading.",
-   "source": ""
+   "actual": 1,
+   "outcome": "miss",
+   "note": "Emmitt Finnie 1 SOG (1 G) in 15:25 TOI. Final.",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892762"
   },
   {
    "leg_id": "L10",
-   "actual": null,
-   "outcome": "pending",
-   "note": "Game not started at pregame grading.",
-   "source": ""
+   "actual": 0,
+   "outcome": "miss",
+   "note": "JJ Peterka 0 SOG (3 missed) in 19:05 TOI. Final.",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892758"
   },
   {
    "leg_id": "L11",
-   "actual": null,
-   "outcome": "pending",
-   "note": "Game not started at pregame grading.",
-   "source": ""
+   "actual": 4,
+   "outcome": "hit",
+   "note": "Luke Evangelista 4 SOG in 20:47 TOI. Final.",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892763"
   }
  ],
  "slips": [
@@ -95,17 +95,20 @@
    "id": "2026-11-21-morning-3",
    "size": 3,
    "stake": 1,
-   "outcome": "pending",
+   "outcome": "loss",
    "payout": 0,
-   "pnl": 0
+   "pnl": -1,
+   "note": "UD 3-Flex L9/L2/L5: 0/3 (Finnie 1 SOG, Lillard 3 ast, Vassell 3 reb)."
   },
   {
    "id": "2026-11-21-morning-2",
    "size": 2,
    "stake": 1,
-   "outcome": "pending",
+   "outcome": "loss",
    "payout": 0,
-   "pnl": 0
+   "pnl": -1,
+   "note": "UD 2-Standard L8/L6: Coyle missed (1 SOG), LaVine hit."
   }
- ]
+ ],
+ "notes": "Legs 5/11 (overs 4/10, unders 1/1). Hits: L3 DJJ U1.5 ast, L4 McDaniels O2.5 ast (unused), L6 LaVine O2.5 reb, L7 Hertl O1.5 SOG, L11 Evangelista O1.5 SOG. Misses: L1 Simons 1 ast, L2 Lillard 3 ast, L5 Vassell 3 reb, L8 Coyle 1 SOG, L9 Finnie 1 SOG, L10 Peterka 0 SOG. Panel: Claude keep 11/0 -> keeps 5/11 hit; Cursor keep 11/0 -> keeps 5/11 hit; no cuts. Slips: 5-leg PP Power lost (L1, L10 missed), 3-leg UD Flex lost (0/3), 2-leg UD Standard lost (Coyle). Snapshot P/L -$3.00."
 }

@@ -1,15 +1,16 @@
 {
  "schema": "results/v1",
  "run": "2026-11-22-morning",
- "graded_at": "2026-11-22T16:55:00-05:00",
+ "graded_at": "2026-11-22T18:10:00-05:00",
  "author": "parlay-locks",
- "notes": "PARTIAL (pregame run, 4:55 PM ET): 4 of 12 legs final, 3 hit / 1 miss. L2 Fant U1.5 rec MISS (2 rec on 5 tgt), L3 Gibbs O3.5 rec HIT (4), L5 Dowdle O1.5 rec HIT (4), L10 J.T. Miller O1.5 SOG HIT (2). Pending: L1 Tuten, L4 Jeanty (4:25 games in progress), L6 Wiggins (DET@ATL at halftime), L7 Okoro, L8 Bane, L9 Pritchard, L11 Benn, L12 Boeser (evening). Slip: 5-leg PP Power is already LOST (Fant miss; Power needs 5/5, no tie/DNP on Fant) -$1.00. 3-leg UD Flex and 2-leg UD Standard pending. Panel so far: Claude keep 4/4 graded -> 3 hit; Cursor keep 4/4 -> 3 hit; no cuts. The finalize run should regrade the remaining legs.",
+ "notes": "PARTIAL (finalize run, 6:10 PM ET): 6 of 12 legs graded, 4 hit / 2 miss. Hits: L1 Tuten O1.5 rec (2), L3 Gibbs, L5 Dowdle, L10 J.T. Miller. Misses: L2 Fant U1.5 rec (2), L6 Wiggins O1.5 ast (1). Pending: L4 Jeanty (3 rec, LV@DEN in progress), L7 Okoro, L8 Bane, L9 Pritchard, L11 Benn, L12 Boeser. 5-leg PP Power LOST (-$1). 3-leg UD Flex alive at 2/3 only. 2-leg UD Standard pending (Gibbs hit, Okoro tonight). Panel so far: Claude keep 6/6 -> 4 hit; Cursor keep 6/6 -> 4 hit; no cuts. Next run regrades the rest.",
  "legs": [
   {
    "leg_id": "L1",
-   "actual": null,
-   "outcome": "pending",
-   "note": "JAX @ NYG in progress at 4:55 PM ET."
+   "actual": 2,
+   "outcome": "hit",
+   "note": "Bhayshul Tuten 2 rec, 19 yds on 2 targets (in progress at 6:05 PM ET; O1.5 already cleared).",
+   "source": "https://www.cbssports.com/nfl/gametracker/boxscore/NFL_20261122_JAC@NYG/"
   },
   {
    "leg_id": "L2",
@@ -29,7 +30,7 @@
    "leg_id": "L4",
    "actual": null,
    "outcome": "pending",
-   "note": "LV @ DEN in progress."
+   "note": "LV @ DEN in progress at 6:05 PM ET; Jeanty 3 rec (incl. 68-yd TD) so far, needs 4."
   },
   {
    "leg_id": "L5",
@@ -40,9 +41,10 @@
   },
   {
    "leg_id": "L6",
-   "actual": null,
-   "outcome": "pending",
-   "note": "DET @ ATL at halftime at 4:53 PM ET."
+   "actual": 1,
+   "outcome": "miss",
+   "note": "Aaron Wiggins 1 ast. Final, ATL 107-97 DET.",
+   "source": "https://www.cbssports.com/nba/gametracker/boxscore/NBA_20261122_DET@ATL/"
   },
   {
    "leg_id": "L7",
@@ -103,7 +105,7 @@
    "pnl": 0,
    "platform": "Underdog",
    "play_type": "flex",
-   "note": "Wiggins, Benn, Bane pending."
+   "note": "Wiggins O1.5 ast (L6) missed with 1. Flex still alive at 2/3 (1.09x) if Benn U1.5 SOG and Bane O2.5 ast both hit."
   },
   {
    "id": "2026-11-22-morning-2",

@@ -1,0 +1,68 @@
+{
+  "schema": "slips/v1",
+  "run": "2026-11-22-pregame",
+  "date": "2026-11-22",
+  "snapshot": "pregame",
+  "created_at": "2026-11-22T18:10:00-05:00",
+  "author": "parlay-locks",
+  "paper": true,
+  "notes": "Pregame check-and-swap (P2). Panel voted (Claude 5-0 keep; Cursor 4 keep / 1 cut). L2 Hockenson O4.5 rec VETOED: Cursor named a roster error in the thesis (cited Kyler Murray as MIN's QB), which is a named-error cut under P3. L5 McTavish O1.5 SOG DROPPED by me despite a 2-0 panel keep: 6 PM recheck of NHL.com projected lineups has McTavish on ST. LOUIS (2nd line, Holloway-McTavish-Dvorsky), not Edmonton, so the drafted thesis (EDM role expansion with Nugent-Hopkins out) was a roster error; the panel missed it. 6 PM news recheck: McCaffrey active (no designation), Ace Bailey no designation, Nembhard not on injury report and starting; no changes. Morning swaps: none. Remaining live morning legs (Jeanty in progress, Okoro, Bane, Pritchard [unused], Benn, Boeser) unchanged; no dead legs. Built ONE slip: 2-leg UD Standard from the two highest-priced overs (L3 Bailey, L4 Nembhard). 5-leg skipped (only 3 clean fresh legs/games). 3-leg skipped: with only 3 legs it would share 2 legs with the 2-leg (anti-nesting), and the 2-leg EV (~1.19) beats the 3-leg Flex on the same legs (~1.07). L1 McCaffrey O3.5 rec unused (still a clean leg).",
+  "slips": [
+    {
+      "id": "2026-11-22-pregame-2",
+      "size": 2,
+      "platform": "Underdog",
+      "play_type": "standard",
+      "stake": 1,
+      "payout_multiplier": 3.5,
+      "legs": [
+        "L3",
+        "L4"
+      ],
+      "rationale": "Overs only (P4): Ace Bailey O1.5 ast (60.8%, 5 books; Markkanen, Jaren Jackson Jr. and Nurkic out put the ball in his hands) + Andrew Nembhard O6.5 ast (55.9%, 5 books; Haliburton and McConnell out, primary creator). Different games (DAL @ UTAH 7:00, IND @ NY 8:00 ET). Est joint 34.0% vs 28.6% BE. Panel 2-0 keep on both."
+    }
+  ],
+  "lock_ts": "2026-11-22T18:05:56-05:00",
+  "lock_source": "candidates",
+  "lock_candidates": "data/candidates/2026-11-22-pregame.json",
+  "lock_prices": {
+    "L3": {
+      "player": "Ace Bailey",
+      "market": "Assists",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.608,
+      "est_prob_raw": 0.608,
+      "price_ts": "2026-11-22T16:54:14-05:00",
+      "n_books": 5,
+      "price_books": [
+        "betmgm -200/+145",
+        "betonlineag -182/+138",
+        "betrivers -162/+120",
+        "bovada -185/+140",
+        "draftkings -185/+139"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L4": {
+      "player": "Andrew Nembhard",
+      "market": "Assists",
+      "line": 6.5,
+      "pick": "over",
+      "est_prob": 0.559,
+      "est_prob_raw": 0.559,
+      "price_ts": "2026-11-22T16:54:14-05:00",
+      "n_books": 5,
+      "price_books": [
+        "betonlineag -145/+112",
+        "betrivers -139/+102",
+        "bovada -150/+115",
+        "draftkings -150/+114",
+        "fanduel -146/+114"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    }
+  }
+}

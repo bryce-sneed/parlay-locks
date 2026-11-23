@@ -1,0 +1,87 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-23-pregame",
+    "model":  "cursor",
+    "model_name":  "auto",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-23T17:30:04-05:00",
+    "finished_at":  "2026-11-23T17:30:49-05:00",
+    "duration_s":  26.6,
+    "usage":  {
+                  "inputTokens":  29510,
+                  "outputTokens":  2199,
+                  "cacheReadTokens":  23168,
+                  "cacheWriteTokens":  0
+              },
+    "overall_notes":  "All six P2 legs use fresh 4:48–4:49 PM ET per-book devig medians with at least two books and no line-mismatch or cross-book pairing issues. Mitchell and Thompson have the clearest injury-backed role cases; Bailey is the thinnest on book depth and log validation but still clears the n_books ≥ 2 bar. Default veto stance: keep the slate unless a tagged rule fires—none do here.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  72,
+                      "reasoning":  "Four-book median 57.7% on the exact O4.5 assist line with Mobley, Tyson, and Tomlin out supports more Mitchell on-ball creation without a stale quote or single-book price. Main risk is Chicago’s defensive matchup and possible tightening if the Bulls are shorthanded in unexpected ways. A Powell absence downgrade or a material line move toward 5.5+ would weaken the edge.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "minutes",
+                                         "no-l10-pull"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  78,
+                      "reasoning":  "Six books at 58.1% on O2.5 assists is the deepest consensus in the batch and fits a steady Thompson playmaking role with Houston clean on the injury sheet. Risk is modest regression or a slow-paced game with limited assist chances. Would revisit if a late Rockets scratch changes primary ball-handling.",
+                      "risk_flags":  [
+                                         "minutes",
+                                         "no-l10-pull"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  68,
+                      "reasoning":  "Five books at 57.3% on O2.5 assists is a different market than the Nov 21 rebounds miss, and Fox/Wemby DTD ambiguity cuts both ways for Vassell creation versus targets. No stale-price or n_books issue. Would cut mentally only if both stars sit and the game script collapses assist volume anyway—that is not grounds for a tagged veto without contradictory pricing.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "DTD",
+                                         "no-l10-pull"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  58,
+                      "reasoning":  "Two books still satisfy the multi-book rule; Utah’s frontcourt absences support Bailey’s expanded usage and the Nov 22 hit on O1.5 is noted context. The gap is thin process—no fresh L10 assist sample and minimum book depth—so this is the weakest keep, not a rule violation. More books or a dip below break-even after news would flip stance.",
+                      "risk_flags":  [
+                                         "small-sample",
+                                         "injury",
+                                         "rookie",
+                                         "no-l10-pull"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  74,
+                      "reasoning":  "Three-book 60.4% on O1.5 SOG with Montreal missing Kreider, Anderson, Demidov, and Matheson fits increased top-six and PP exposure for Texier. Prices are current pregame, not morning stale. Risk is lineup deployment if Texier lands in a lower line combo despite injuries.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "minutes",
+                                         "no-l10-pull"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  76,
+                      "reasoning":  "Five books at 58.3% on O1.5 SOG is well-supported among late NHL overs and Seattle absences (McCann, O’Brien) do not shrink Samoskevich’s shot environment by the drafter’s read. No single-book, cooldown, or line mismatch. Would worry if Anaheim late scratches change his line or icetime materially.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "minutes",
+                                         "no-l10-pull"
+                                     ]
+                  }
+              ]
+}

@@ -1,0 +1,80 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-23-pregame",
+    "model":  "claude",
+    "model_name":  "haiku",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-23T17:30:04-05:00",
+    "finished_at":  "2026-11-23T17:30:49-05:00",
+    "duration_s":  42.7,
+    "usage":  {
+                  "cost_usd":  0.08405,
+                  "cache_read":  0,
+                  "output_tokens":  4123,
+                  "input_tokens":  9
+              },
+    "overall_notes":  "Clean P2 slate of six overs, all priced 4:48–4:49 PM ET with 2–6 books supporting each leg. The drafter conducted a pregame injury review and skipped workload re-pulls but compensated with multi-book market devigging (57.3–60.4%) and explicit role context. No concrete cutoff errors found; all legs meet the minimum standards for n_books, recency, and injury transparency.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  75,
+                      "reasoning":  "Four books, recent 4:49 PM pricing, 57.7% per-book median. Mitchell\u0027s role expansion from Mobley\u0027s Nov 16 absence is concrete and well-established; he now carries primary on-ball creation. Chicago\u0027s bench absences (Powell out, Claxton/Smith DTD) don\u0027t mitigate the edge. The only gap is the missing L10 workload refresh, but the market price is recent and cross-validated.",
+                      "risk_flags":  [
+                                         "no_l10_refresh",
+                                         "market_price_only"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  78,
+                      "reasoning":  "Six-book support (best on slate), 58.1% per-book median, 4:49 PM pricing. Thompson is a steady playmaker and this is the deepest-priced leg; multi-book consensus here is strong. Beal\u0027s absence for LAC doesn\u0027t affect Houston\u0027s internal offense. No injury expansion for Thompson, no recent miss, no workload red flags.",
+                      "risk_flags":  [
+                                         "no_l10_refresh"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  72,
+                      "reasoning":  "Five books, 57.3% per-book median, 4:49 PM pricing. Vassell\u0027s Nov 21 rebounds miss doesn\u0027t apply (different prop market). The dual uncertainty—Wembanyama or Fox out expands creation for Vassell but potentially shrinks assist targets—is acknowledged and priced in. The injury list (Harper, Harris out; Wemby/Fox/McLaughlin DTD) creates legitimate variance, but the market price reflects that.",
+                      "risk_flags":  [
+                                         "no_l10_refresh",
+                                         "injury_role_ambiguity"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  70,
+                      "reasoning":  "Two books (n_books = 2, above the \u003c 2 cutoff), 58.0% per-book median, 4:49 PM pricing. Bailey hit O1.5 assists Nov 22, and Utah has four players out (Markkanen, JJJ, Nurkic, Hayes), making role expansion tangible and recent. Only two books is thin support, but it\u0027s not a single-book error; the market consensus across both sources is aligned and Bailey\u0027s expanded minutes are real.",
+                      "risk_flags":  [
+                                         "thin_book_support",
+                                         "no_l10_refresh"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  76,
+                      "reasoning":  "Three books, 60.4% per-book median (highest on slate), 4:48 PM pricing. Texier\u0027s role expansion from Montreal losing Kreider, Anderson, Demidov (IR), and Matheson is concrete and addresses top-six and power-play opportunity. LA\u0027s day-to-day absences don\u0027t undermine the thesis. The team field is null (data input gap), but the reasoning is internally consistent and injury-driven role expansion is explicit.",
+                      "risk_flags":  [
+                                         "no_l10_refresh",
+                                         "team_field_null"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  73,
+                      "reasoning":  "Five books, 58.3% per-book median, 4:49 PM pricing. Samoskevich is the best-supported SOG over among late games (per drafter), with Anaheim\u0027s IR losses (Sennecke, Poehling) and Carlsson DTD creating role opportunity. Seattle\u0027s depth absences (McCann, O\u0027Brien) don\u0027t affect Anaheim\u0027s lineup. The team field is null (data input gap), but reasoning is sound and injury context is clear.",
+                      "risk_flags":  [
+                                         "no_l10_refresh",
+                                         "team_field_null"
+                                     ]
+                  }
+              ]
+}

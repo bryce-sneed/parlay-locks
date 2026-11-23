@@ -1,0 +1,207 @@
+{
+  "schema": "slips/v1",
+  "run": "2026-11-23-morning",
+  "date": "2026-11-23",
+  "snapshot": "morning",
+  "created_at": "2026-11-23T11:05:00-05:00",
+  "author": "parlay-locks",
+  "paper": true,
+  "notes": "Morning, week 2 day 5 (Mon). 10 NBA / 7 NHL / MNF CIN @ WAS. Panel ran: Claude 10-0 keep, Cursor 10-0 keep; no cuts, no vetoes, nothing overruled. ~10:55-11:05 AM ET recheck: NOP's Zion, Murphy and McGowens upgraded to probable (no change to the Gillespie reb thesis; NOP still without Murray/Mathurin/Watford). TOR: Murray-Boyles probable (concussion) after missing Nov 20; Leonard, Barrett, Bittle still out - Poeltl kept (CMB's status was known before the 9:51 price). MIN: Edwards, DiVincenzo, Clark still out (Dosunmu). WPG: Scheifele on L1/PP1 with Connor/Vilardi, no WPG forward newly out (DeMelo is D) - no role expansion against the under. CIN: Chase Brown and Perine both off the injury report, Iosivas doubtful (WR) - no RB role change for the Perine under. NYI moved Palmieri to the 3rd line with Barzal/Heineman after Saturday's 1st period - degrades his thesis, so he is left out. No line-threshold, single-book, cross-book-pairing, 3PM U1.5, or blowout-only issues found. Naz Reid (55.7%, thinnest) not used. Used 8 of 10 legs; 5-leg is Power because the shaded avg is 60.5% (> 56.6%). Odds API: 0 credits spent at finalize (lock prices copied from candidates).",
+  "slips": [
+    {
+      "id": "2026-11-23-morning-5",
+      "size": 5,
+      "platform": "PrizePicks",
+      "play_type": "power",
+      "stake": 1,
+      "payout_multiplier": 20,
+      "legs": [
+        "L1",
+        "L2",
+        "L7",
+        "L6",
+        "L10"
+      ],
+      "rationale": "PP 5-pick Power (shaded avg 60.5% > 56.6%): Luke Hughes O1.5 SOG (61.7%, 5 books, PP1 D), Joel Farabee O1.5 SOG (61.3%, 2+ in 9/10), Jakob Poeltl O1.5 ast (59.8%, Leonard/Barrett out), Collin Gillespie O2.5 reb (59.4%, M. Williams out), Samaje Perine U1.5 rec (volume under: 1.7 targets/g, RB2; 60.1% shaded / 63.1% raw). Five games, 1 under, 4-5 books each. Est joint ~8.1% vs 5.0% BE. Panel 2-0 keep on all five."
+    },
+    {
+      "id": "2026-11-23-morning-3",
+      "size": 3,
+      "platform": "Underdog",
+      "play_type": "flex",
+      "stake": 1,
+      "payout_multiplier": 3.25,
+      "legs": [
+        "L5",
+        "L8",
+        "L4"
+      ],
+      "rationale": "UD 3-pick Flex (3.25x / 1.09x): Blake Coleman O1.5 SOG (60.2%, Q. Hughes out), Ayo Dosunmu O3.5 reb (58.9%, 30-39 min with Edwards/DiVincenzo out), Mark Scheifele U2.5 SOG (volume under: 2.3-2.4 SOG/g L10, WPG on B2B; 58.5% shaded). Three games, 1 under. Avg 59.2% vs 55.4% BE. Shares no legs with the 5-leg. Panel 2-0 keep on all three."
+    },
+    {
+      "id": "2026-11-23-morning-2",
+      "size": 2,
+      "platform": "Underdog",
+      "play_type": "standard",
+      "stake": 1,
+      "payout_multiplier": 3.5,
+      "legs": [
+        "L2",
+        "L5"
+      ],
+      "rationale": "Overs only (P4): Joel Farabee O1.5 SOG (61.3%, 4 books; 2+ in 9/10) + Blake Coleman O1.5 SOG (60.2%, 4 books; 2+ in 4 straight). Different games. Est joint 36.9% vs 28.6% BE. Shares 1 leg with the 3-leg (Coleman) and 1 with the 5-leg (Farabee), so no slip pair nests the same anchors. Panel 2-0 keep on both."
+    }
+  ],
+  "lock_ts": "2026-11-23T10:58:55-05:00",
+  "lock_source": "candidates",
+  "lock_candidates": "data/candidates/2026-11-23-morning.json",
+  "lock_prices": {
+    "L1": {
+      "player": "Luke Hughes",
+      "market": "Shots on Goal",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.617,
+      "est_prob_raw": 0.617,
+      "price_ts": "2026-11-23T09:51:57-05:00",
+      "n_books": 5,
+      "price_books": [
+        "betmgm -190/+140",
+        "betonlineag -192/+145",
+        "bovada -190/+145",
+        "draftkings -200/+145",
+        "fanduel -198/+150"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L2": {
+      "player": "Joel Farabee",
+      "market": "Shots on Goal",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.613,
+      "est_prob_raw": 0.613,
+      "price_ts": "2026-11-23T09:51:57-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betmgm -190/+138",
+        "betonlineag -189/+144",
+        "draftkings -190/+140",
+        "fanduel -205/+154"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L7": {
+      "player": "Jakob Poeltl",
+      "market": "Assists",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.598,
+      "est_prob_raw": 0.598,
+      "price_ts": "2026-11-23T09:51:56-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betonlineag -172/+132",
+        "betrivers -165/+120",
+        "bovada -180/+135",
+        "draftkings -179/+135"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L6": {
+      "player": "Collin Gillespie",
+      "market": "Rebounds",
+      "line": 2.5,
+      "pick": "over",
+      "est_prob": 0.594,
+      "est_prob_raw": 0.594,
+      "price_ts": "2026-11-23T09:51:57-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betonlineag -172/+131",
+        "bovada -170/+130",
+        "draftkings -173/+131",
+        "fanduel -186/+138"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L10": {
+      "player": "Samaje Perine",
+      "market": "Receptions",
+      "line": 1.5,
+      "pick": "under",
+      "est_prob": 0.601,
+      "est_prob_raw": 0.631,
+      "price_ts": "2026-11-23T09:51:40-05:00",
+      "n_books": 5,
+      "price_books": [
+        "betmgm +160/-220",
+        "betonlineag +155/-204",
+        "bovada +140/-185",
+        "draftkings +141/-180",
+        "fanduel +168/-230"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L5": {
+      "player": "Blake Coleman",
+      "market": "Shots on Goal",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.602,
+      "est_prob_raw": 0.602,
+      "price_ts": "2026-11-23T09:53:25-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betmgm -185/+135",
+        "betonlineag -175/+135",
+        "bovada -165/+125",
+        "draftkings -185/+135"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L8": {
+      "player": "Ayo Dosunmu",
+      "market": "Rebounds",
+      "line": 3.5,
+      "pick": "over",
+      "est_prob": 0.589,
+      "est_prob_raw": 0.589,
+      "price_ts": "2026-11-23T09:51:56-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betmgm -165/+125",
+        "betonlineag -167/+127",
+        "bovada -170/+130",
+        "fanduel -174/+130"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L4": {
+      "player": "Mark Scheifele",
+      "market": "Shots on Goal",
+      "line": 2.5,
+      "pick": "under",
+      "est_prob": 0.585,
+      "est_prob_raw": 0.615,
+      "price_ts": "2026-11-23T09:51:58-05:00",
+      "n_books": 5,
+      "price_books": [
+        "betmgm +135/-185",
+        "betonlineag +144/-189",
+        "bovada +145/-190",
+        "draftkings +140/-190",
+        "fanduel +154/-205"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    }
+  }
+}

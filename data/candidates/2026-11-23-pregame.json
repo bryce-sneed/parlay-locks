@@ -1,0 +1,268 @@
+{
+ "schema": "candidates/v1",
+ "run": "2026-11-23-pregame",
+ "date": "2026-11-23",
+ "snapshot": "pregame",
+ "created_at": "2026-11-23T16:50:02-05:00",
+ "author": "parlay-locks",
+ "slate_notes": "Pregame check-and-swap (P2). None of the morning legs had started at 4:50 PM ET (recheck) (first puck 7:10 PM). ESPN injury report rechecked: no swaps needed. Perine is active for CIN (Rachaad White questionable for WAS). Pospisil is OUT for CGY and Hodgson for OTT, so Farabee's role is unchanged. NJD/CBJ have no new news (L. Hughes is fine). Guenther (IR), Carcone and Marino are out for Utah, which weakens the opponent but doesn't hurt Scheifele's under. Raptors: Jaden Bradley is DTD and Bittle is out, so Poeltl's assist role is unchanged. Zion is DTD for NOP, so Gillespie's rebound leg is unchanged. For BKN @ MIN, Traore is OUT for BKN, so Dosunmu is unaffected. Quinn Hughes went on IR for MIN and Trouba and Sherwood are out for SJS, so Coleman's shot volume holds or improves. Nothing to grade yet: all of today's games start at 7:10 PM or later, and the earlier runs are already graded. New legs (P2): 6 overs priced 4:48-4:49 PM ET at 2-6 books, in games starting 7:40 PM ET or later with no morning legs: CLE @ CHI, LAC @ HOU, SAS @ SAC, UTA @ LAL, LAK @ MTL, ANA @ SEA. Skipped: Jaylon Tyson O1.5 ast (OUT), Okoro O2.5 reb (cooldown), Panarin O2.5 SOG (DTD this morning), Wembanyama U3.5 ast (DTD, role expansion), Vassell O3.5 reb (cooldown after the Nov 21 miss), Proctor O2.5 reb (same game as Mitchell), Doncic O7.5 ast (55.5%, too thin with Reaves out), Granlund (only 2 books, same game as Samoskevich), and VGK @ EDM (no side at 55.5% or better). Odds API: 10 credits this run (39/45 today, 282 left this month). Confirm each line in the app and skip Goblin/Demon lines.",
+ "legs": [
+  {
+   "id": "L1",
+   "sport": "NBA",
+   "event": "Cleveland Cavaliers @ Chicago Bulls",
+   "start_time": "2026-11-23T20:10:00-05:00",
+   "player": "Donovan Mitchell",
+   "market": "Assists",
+   "line": 4.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.577,
+   "est_prob_raw": 0.577,
+   "confidence": 60,
+   "price_ts": "2026-11-23T16:49:00-05:00",
+   "n_books": 4,
+   "price_books": [
+    "betonlineag -156/+121",
+    "bovada -160/+120",
+    "draftkings -161/+122",
+    "fanduel -160/+124"
+   ],
+   "price_method": "per_book_median",
+   "reasoning": "New P2 pregame leg in a game with no morning legs. 4 books price O4.5 assists, per-book devig median 57.7%, priced 16:49 ET (after 3 PM). Cleveland is without Evan Mobley (out since Nov 16), Jaylon Tyson (out) and Nae'Qwan Tomlin, so Mitchell carries more of the on-ball creation. Chicago is without Norman Powell, with Claxton and Jalen Smith day-to-day. I didn't re-pull L10 game logs this run, so this leg leans on the market price plus the injury context.",
+   "key_stats": [
+    "Per-book devig median 57.7% at 4 books",
+    "betonlineag -156/+121, bovada -160/+120, draftkings -161/+122, fanduel -160/+124"
+   ],
+   "injury_notes": "CLE: Mobley, Tyson, Tomlin OUT. CHI: Powell OUT; Claxton, J. Smith DTD.",
+   "sources": [
+    {
+     "title": "The Odds API event odds (per-book devig via pl price)",
+     "url": "https://the-odds-api.com/"
+    },
+    {
+     "title": "ESPN injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    }
+   ],
+   "team": "CLE"
+  },
+  {
+   "id": "L2",
+   "sport": "NBA",
+   "event": "Los Angeles Clippers @ Houston Rockets",
+   "start_time": "2026-11-23T20:40:00-05:00",
+   "player": "Amen Thompson",
+   "market": "Assists",
+   "line": 2.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.581,
+   "est_prob_raw": 0.581,
+   "confidence": 60,
+   "price_ts": "2026-11-23T16:49:01-05:00",
+   "n_books": 6,
+   "price_books": [
+    "betmgm -175/+130",
+    "betonlineag -164/+126",
+    "betrivers -159/+117",
+    "bovada -160/+120",
+    "draftkings -161/+122",
+    "fanduel -172/+134"
+   ],
+   "price_method": "per_book_median",
+   "reasoning": "New P2 pregame leg in a game with no morning legs. 6 books price O2.5 assists, per-book devig median 58.1%, priced 16:49 ET (after 3 PM). Thompson's playmaking role in Houston is steady, and this is the deepest-priced leg (six books agree). The Clippers are without Beal. Houston has no listed injuries. I didn't re-pull L10 game logs this run, so this leg leans on the market price plus the injury context.",
+   "key_stats": [
+    "Per-book devig median 58.1% at 6 books",
+    "betmgm -175/+130, betonlineag -164/+126, betrivers -159/+117, bovada -160/+120, draftkings -161/+122, fanduel -172/+134"
+   ],
+   "injury_notes": "LAC: Beal OUT. HOU: none listed.",
+   "sources": [
+    {
+     "title": "The Odds API event odds (per-book devig via pl price)",
+     "url": "https://the-odds-api.com/"
+    },
+    {
+     "title": "ESPN injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    }
+   ],
+   "team": "HOU"
+  },
+  {
+   "id": "L3",
+   "sport": "NBA",
+   "event": "San Antonio Spurs @ Sacramento Kings",
+   "start_time": "2026-11-23T22:10:00-05:00",
+   "player": "Devin Vassell",
+   "market": "Assists",
+   "line": 2.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.573,
+   "est_prob_raw": 0.573,
+   "confidence": 59,
+   "price_ts": "2026-11-23T16:49:02-05:00",
+   "n_books": 5,
+   "price_books": [
+    "betonlineag -156/+120",
+    "betrivers -152/+112",
+    "bovada -160/+120",
+    "draftkings -162/+122",
+    "fanduel -158/+118"
+   ],
+   "price_method": "per_book_median",
+   "reasoning": "New P2 pregame leg in a game with no morning legs. 5 books price O2.5 assists, per-book devig median 57.3%, priced 16:49 ET (after 3 PM). San Antonio lists Wembanyama, Fox and McLaughlin as day-to-day, and Harper and Harris are out. Any Fox or Wemby absence adds ball-handling for Vassell, which helps the over (the risk is fewer assist targets). This is a different prop than his Nov 21 rebounds miss, so the cooldown doesn't apply. I didn't re-pull L10 game logs this run, so this leg leans on the market price plus the injury context.",
+   "key_stats": [
+    "Per-book devig median 57.3% at 5 books",
+    "betonlineag -156/+120, betrivers -152/+112, bovada -160/+120, draftkings -162/+122, fanduel -158/+118"
+   ],
+   "injury_notes": "SAS: Harper, Harris OUT; Wembanyama, Fox, McLaughlin DTD. SAC: Raynaud, Simmons OUT.",
+   "sources": [
+    {
+     "title": "The Odds API event odds (per-book devig via pl price)",
+     "url": "https://the-odds-api.com/"
+    },
+    {
+     "title": "ESPN injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    }
+   ],
+   "team": "SAS"
+  },
+  {
+   "id": "L4",
+   "sport": "NBA",
+   "event": "Utah Jazz @ Los Angeles Lakers",
+   "start_time": "2026-11-23T22:10:00-05:00",
+   "player": "Ace Bailey",
+   "market": "Assists",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.58,
+   "est_prob_raw": 0.58,
+   "confidence": 56,
+   "price_ts": "2026-11-23T16:49:01-05:00",
+   "n_books": 2,
+   "price_books": [
+    "betonlineag -164/+125",
+    "betrivers -165/+120"
+   ],
+   "price_method": "per_book_median",
+   "reasoning": "New P2 pregame leg in a game with no morning legs. 2 books price O1.5 assists, per-book devig median 58.0%, priced 16:49 ET (after 3 PM). Utah is without Markkanen, Jackson Jr., Nurkic and now Jaxson Hayes, so Bailey keeps his expanded usage. He hit O1.5 assists on Nov 22. Only two books price it, which is the minimum, so confidence is lower. I didn't re-pull L10 game logs this run, so this leg leans on the market price plus the injury context.",
+   "key_stats": [
+    "Per-book devig median 58.0% at 2 books",
+    "betonlineag -164/+125, betrivers -165/+120"
+   ],
+   "injury_notes": "UTAH: Markkanen, JJJ, Nurkic, Hayes OUT. LAL: Reaves OUT.",
+   "sources": [
+    {
+     "title": "The Odds API event odds (per-book devig via pl price)",
+     "url": "https://the-odds-api.com/"
+    },
+    {
+     "title": "ESPN injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    }
+   ],
+   "team": "UTAH"
+  },
+  {
+   "id": "L5",
+   "sport": "NHL",
+   "event": "Los Angeles Kings @ Montr\u00e9al Canadiens",
+   "start_time": "2026-11-23T19:40:00-05:00",
+   "player": "Alexandre Texier",
+   "market": "Shots on Goal",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.604,
+   "est_prob_raw": 0.604,
+   "confidence": 58,
+   "price_ts": "2026-11-23T16:48:52-05:00",
+   "n_books": 3,
+   "price_books": [
+    "betmgm -185/+135",
+    "bovada -185/+140",
+    "draftkings -185/+135"
+   ],
+   "price_method": "per_book_median",
+   "reasoning": "New P2 pregame leg in a game with no morning legs. 3 books price O1.5 shots on goal, per-book devig median 60.4%, priced 16:48 ET (after 3 PM). Montreal is missing Kreider, Anderson, Demidov and Matheson, which opens top-six and power-play minutes for Texier. LA lists Moore, Gustafsson and Edmundson as day-to-day. I didn't re-pull L10 game logs this run, so this leg leans on the market price plus the injury context.",
+   "key_stats": [
+    "Per-book devig median 60.4% at 3 books",
+    "betmgm -185/+135, bovada -185/+140, draftkings -185/+135"
+   ],
+   "injury_notes": "MTL: Kreider, Anderson, Demidov (IR), Matheson OUT. LAK: Moore, Gustafsson, Edmundson DTD.",
+   "sources": [
+    {
+     "title": "The Odds API event odds (per-book devig via pl price)",
+     "url": "https://the-odds-api.com/"
+    },
+    {
+     "title": "ESPN injuries",
+     "url": "https://www.espn.com/nhl/injuries"
+    }
+   ]
+  },
+  {
+   "id": "L6",
+   "sport": "NHL",
+   "event": "Anaheim Ducks @ Seattle Kraken",
+   "start_time": "2026-11-23T21:50:00-05:00",
+   "player": "Mackie Samoskevich",
+   "market": "Shots on Goal",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.583,
+   "est_prob_raw": 0.583,
+   "confidence": 60,
+   "price_ts": "2026-11-23T16:49:00-05:00",
+   "n_books": 5,
+   "price_books": [
+    "betmgm -165/+125",
+    "betonlineag -167/+127",
+    "bovada -165/+125",
+    "draftkings -165/+125",
+    "fanduel -178/+136"
+   ],
+   "price_method": "per_book_median",
+   "reasoning": "New P2 pregame leg in a game with no morning legs. 5 books price O1.5 shots on goal, per-book devig median 58.3%, priced 16:49 ET (after 3 PM). Five books price O1.5 SOG, the best-supported SOG over among the late games. Seattle is without McCann and O'Brien. Anaheim has Carlsson day-to-day and Sennecke and Poehling on IR. I didn't re-pull L10 game logs this run, so this leg leans on the market price plus the injury context.",
+   "key_stats": [
+    "Per-book devig median 58.3% at 5 books",
+    "betmgm -165/+125, betonlineag -167/+127, bovada -165/+125, draftkings -165/+125, fanduel -178/+136"
+   ],
+   "injury_notes": "SEA: McCann, O'Brien IR. ANA: Carlsson DTD; Sennecke, Poehling IR.",
+   "sources": [
+    {
+     "title": "The Odds API event odds (per-book devig via pl price)",
+     "url": "https://the-odds-api.com/"
+    },
+    {
+     "title": "ESPN injuries",
+     "url": "https://www.espn.com/nhl/injuries"
+    }
+   ]
+  }
+ ]
+}

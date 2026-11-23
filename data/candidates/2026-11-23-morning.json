@@ -1,0 +1,496 @@
+{
+ "schema": "candidates/v1",
+ "run": "2026-11-23-morning",
+ "date": "2026-11-23",
+ "snapshot": "morning",
+ "created_at": "2026-11-23T09:54:47-05:00",
+ "author": "parlay-locks",
+ "slate_notes": "Monday slate: 10 NBA, 7 NHL, MNF CIN @ WAS. 10 legs across 10 different games (NHL 5, NBA 4, NFL 1), 8 overs and 2 unders. Every leg is a per-book devig median at the exact line with 4-6 books (P1), and unders are shaded -3. Priced 9:51-9:53 AM ET. Skipped for cooldown/role: Okoro (misses Nov 20 and Nov 22), SGA (out), Jaylon Tyson (out), Panarin (DTD), Wembanyama U3.5 ast (DTD; Harper out = role expansion), Diabate/Clingan assist unders (recent teammate outs / recent overs), CIN WR unders (Iosivas IR = role expansion). Confirm each line in the app and skip Goblin/Demon lines.",
+ "legs": [
+  {
+   "id": "L1",
+   "sport": "NHL",
+   "event": "Columbus Blue Jackets @ New Jersey Devils",
+   "start_time": "2026-11-23T19:10:00-05:00",
+   "player": "Luke Hughes",
+   "team": "NJ",
+   "market": "Shots on Goal",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.617,
+   "est_prob_raw": 0.617,
+   "n_books": 5,
+   "price_ts": "2026-11-23T09:51:57-05:00",
+   "price_books": [
+    "betmgm -190/+140",
+    "betonlineag -192/+145",
+    "bovada -190/+145",
+    "draftkings -200/+145",
+    "fanduel -198/+150"
+   ],
+   "price_method": "per_book_median",
+   "confidence": 62,
+   "reasoning": "Hughes is NJ's top-pair, PP1 offensive defenseman and a high-volume shooter from the point. He's had 2+ SOG in 6 of his last 10, including 5 at STL on Nov 22. CBJ allow a lot of point shots, and NJ's D-corps is thinner with Kovacevic and Casey on IR, which keeps his TOI high. Five books agree, priced around -190/+145 (61.7% fair). Not on cooldown.",
+   "key_stats": [
+    "L10 SOG: 5,1,2,3,0,3,1,2,1,2 (2+ in 6/10)",
+    "5-book median fair over 61.7%",
+    "NJ D Kovacevic, Casey on IR"
+   ],
+   "injury_notes": "No news on Hughes. NJ: Mantha, Kovacevic, Casey IR. CBJ: Monahan out.",
+   "sources": [
+    {
+     "title": "Hughes gamelog",
+     "url": "https://www.espn.com/nhl/player/gamelog/_/id/4874719"
+    },
+    {
+     "title": "ESPN injuries",
+     "url": "https://www.espn.com/nhl/injuries"
+    },
+    {
+     "title": "The Odds API event odds (regions=us), per-book devig median via pl price",
+     "url": "https://the-odds-api.com/liveapi/guides/v4/"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "sport": "NHL",
+   "event": "Calgary Flames @ Ottawa Senators",
+   "start_time": "2026-11-23T19:40:00-05:00",
+   "player": "Joel Farabee",
+   "team": "CGY",
+   "market": "Shots on Goal",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.613,
+   "est_prob_raw": 0.613,
+   "n_books": 4,
+   "price_ts": "2026-11-23T09:51:57-05:00",
+   "price_books": [
+    "betmgm -190/+138",
+    "betonlineag -189/+144",
+    "draftkings -190/+140",
+    "fanduel -205/+154"
+   ],
+   "price_method": "per_book_median",
+   "confidence": 61,
+   "reasoning": "Farabee is a top-six shooter for Calgary with 2+ SOG in 9 of his last 10 (5,3,2,2,3,5,5,4,3,1). Huberdeau on IR (Nov 19) and Pospisil day-to-day push more top-six/PP minutes to him. Ottawa plays fast and gives up volume. 4 books, ~-190/+140 (61.3% fair).",
+   "key_stats": [
+    "L10 SOG: 5,3,2,2,3,5,5,4,3,1 (2+ in 9/10)",
+    "4-book median fair over 61.3%",
+    "Huberdeau IR since Nov 19"
+   ],
+   "injury_notes": "CGY: Huberdeau IR, Pospisil DTD, Bahl IR. OTT: Burakovsky, Foegele, Eklund IR.",
+   "sources": [
+    {
+     "title": "Farabee gamelog",
+     "url": "https://www.espn.com/nhl/player/gamelog/_/id/4352750"
+    },
+    {
+     "title": "ESPN injuries",
+     "url": "https://www.espn.com/nhl/injuries"
+    },
+    {
+     "title": "The Odds API event odds (regions=us), per-book devig median via pl price",
+     "url": "https://the-odds-api.com/liveapi/guides/v4/"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "sport": "NHL",
+   "event": "Toronto Maple Leafs @ New York Islanders",
+   "start_time": "2026-11-23T19:40:00-05:00",
+   "player": "Kyle Palmieri",
+   "team": "NYI",
+   "market": "Shots on Goal",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.587,
+   "est_prob_raw": 0.587,
+   "n_books": 4,
+   "price_ts": "2026-11-23T09:51:58-05:00",
+   "price_books": [
+    "betmgm -175/+130",
+    "betonlineag -167/+128",
+    "bovada -165/+125",
+    "draftkings -170/+125"
+   ],
+   "price_method": "per_book_median",
+   "confidence": 59,
+   "reasoning": "Palmieri is a steady top-six/PP1 right wing who has cleared 1.5 in 8 of his last 10 (2,1,3,0,2,2,2,2,4,2). At home against a Toronto team without Marchenko, Sissons, Domi, and several D (McWard, Blankenburg on IR as of Nov 21), which should make for a lot of NYI zone time. 4 books, ~-170/+127 (58.7% fair).",
+   "key_stats": [
+    "L10 SOG: 2,1,3,0,2,2,2,2,4,2 (2+ in 8/10)",
+    "4-book median fair over 58.7%",
+    "TOR D McWard, Blankenburg IR Nov 21"
+   ],
+   "injury_notes": "NYI: Pulock DTD, Romanov IR. TOR: big injury list (Marchenko, Sissons, Domi, D depth); Roslovic DTD.",
+   "sources": [
+    {
+     "title": "Palmieri gamelog",
+     "url": "https://www.espn.com/nhl/player/gamelog/_/id/5517"
+    },
+    {
+     "title": "ESPN injuries",
+     "url": "https://www.espn.com/nhl/injuries"
+    },
+    {
+     "title": "The Odds API event odds (regions=us), per-book devig median via pl price",
+     "url": "https://the-odds-api.com/liveapi/guides/v4/"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "sport": "NHL",
+   "event": "Utah Mammoth @ Winnipeg Jets",
+   "start_time": "2026-11-23T19:40:00-05:00",
+   "player": "Mark Scheifele",
+   "team": "WPG",
+   "market": "Shots on Goal",
+   "line": 2.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.585,
+   "est_prob_raw": 0.615,
+   "n_books": 5,
+   "price_ts": "2026-11-23T09:51:58-05:00",
+   "price_books": [
+    "betmgm +135/-185",
+    "betonlineag +144/-189",
+    "bovada +145/-190",
+    "draftkings +140/-190",
+    "fanduel +154/-205"
+   ],
+   "price_method": "per_book_median",
+   "confidence": 58,
+   "reasoning": "Under 2.5 SOG for a playmaking 1C whose volume sits below the line: 2.3 SOG/g over his last 10 (3,1,2,4,2,0,2,3,3,4), with 2 or fewer in 6 of 10. Winnipeg is on the second night of a back-to-back (VGK Nov 22). No WPG forward was ruled out in the last 3 games (DeMelo, a D, went on IR Nov 19), so no role-expansion flag. Price runs up to -205 at one book; the volume justification is his 2.3 SOG/g average under the 2.5 line, not results history. 5-book median fair under 61.5%, shaded to 58.5%.",
+   "key_stats": [
+    "L10 SOG avg 2.4; <=2 in 6/10",
+    "5-book median fair under 61.5% raw, 58.5% shaded",
+    "WPG on B2B"
+   ],
+   "injury_notes": "WPG: DeMelo IR (D), Rosen/Namestnikov/Bjugstad IR long-term. UTA: Keller DTD, Guenther/Schmaltz IR (weakens UTA offense, not a WPG role change).",
+   "sources": [
+    {
+     "title": "Scheifele gamelog",
+     "url": "https://www.espn.com/nhl/player/gamelog/_/id/2562632"
+    },
+    {
+     "title": "ESPN injuries",
+     "url": "https://www.espn.com/nhl/injuries"
+    },
+    {
+     "title": "The Odds API event odds (regions=us), per-book devig median via pl price",
+     "url": "https://the-odds-api.com/liveapi/guides/v4/"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "sport": "NHL",
+   "event": "Minnesota Wild @ San Jose Sharks",
+   "start_time": "2026-11-23T22:10:00-05:00",
+   "player": "Blake Coleman",
+   "team": "MIN",
+   "market": "Shots on Goal",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.602,
+   "est_prob_raw": 0.602,
+   "n_books": 4,
+   "price_ts": "2026-11-23T09:53:25-05:00",
+   "price_books": [
+    "betmgm -185/+135",
+    "betonlineag -175/+135",
+    "bovada -165/+125",
+    "draftkings -185/+135"
+   ],
+   "price_method": "per_book_median",
+   "confidence": 60,
+   "reasoning": "Coleman has 2+ SOG in 4 straight (3,2,2,2) and 5 of his last 10. Minnesota lost Quinn Hughes (out Nov 21), which pushes more of the shooting to the forwards. San Jose is a weak defensive team. 4 books, ~-175/+135 (60.2% fair).",
+   "key_stats": [
+    "L4 SOG 3,2,2,2; 2+ in 5/10",
+    "4-book median fair over 60.2%",
+    "MIN without Quinn Hughes"
+   ],
+   "injury_notes": "MIN: Q. Hughes out, Gustavsson/Maatta IR. SJ: Sherwood out, Chernyshov/Musty IR.",
+   "sources": [
+    {
+     "title": "Coleman gamelog",
+     "url": "https://www.espn.com/nhl/player/gamelog/_/id/2563026"
+    },
+    {
+     "title": "ESPN injuries",
+     "url": "https://www.espn.com/nhl/injuries"
+    },
+    {
+     "title": "The Odds API event odds (regions=us), per-book devig median via pl price",
+     "url": "https://the-odds-api.com/liveapi/guides/v4/"
+    }
+   ]
+  },
+  {
+   "id": "L6",
+   "sport": "NBA",
+   "event": "Phoenix Suns @ New Orleans Pelicans",
+   "start_time": "2026-11-23T20:10:00-05:00",
+   "player": "Collin Gillespie",
+   "team": "PHX",
+   "market": "Rebounds",
+   "line": 2.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.594,
+   "est_prob_raw": 0.594,
+   "n_books": 4,
+   "price_ts": "2026-11-23T09:51:57-05:00",
+   "price_books": [
+    "betonlineag -172/+131",
+    "bovada -170/+130",
+    "draftkings -173/+131",
+    "fanduel -186/+138"
+   ],
+   "price_method": "per_book_median",
+   "confidence": 59,
+   "reasoning": "Gillespie is a 24-28 min starter-level guard who has 3+ rebounds in his last 4 (4,3,3,4) and 6 of his last 10. Mark Williams is out for PHX, which leaves more guard rebounding. NOP is thin (Murray, Mathurin, McGowens, Watford out; Zion and Murphy DTD), so expect a fast, long-rebound game. 4 books, ~-172/+131 (59.4% fair).",
+   "key_stats": [
+    "L4 reb 4,3,3,4; 3+ in 6/10",
+    "Min 22-28",
+    "4-book median fair over 59.4%"
+   ],
+   "injury_notes": "PHX: M. Williams out, Dunn DTD. NOP: Zion and Murphy DTD; Murray, Mathurin, Watford, McGowens out.",
+   "sources": [
+    {
+     "title": "Gillespie gamelog",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/4278585"
+    },
+    {
+     "title": "ESPN injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    },
+    {
+     "title": "The Odds API event odds (regions=us), per-book devig median via pl price",
+     "url": "https://the-odds-api.com/liveapi/guides/v4/"
+    }
+   ]
+  },
+  {
+   "id": "L7",
+   "sport": "NBA",
+   "event": "Milwaukee Bucks @ Toronto Raptors",
+   "start_time": "2026-11-23T19:40:00-05:00",
+   "player": "Jakob Poeltl",
+   "team": "TOR",
+   "market": "Assists",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.598,
+   "est_prob_raw": 0.598,
+   "n_books": 4,
+   "price_ts": "2026-11-23T09:51:56-05:00",
+   "price_books": [
+    "betonlineag -172/+132",
+    "betrivers -165/+120",
+    "bovada -180/+135",
+    "draftkings -179/+135"
+   ],
+   "price_method": "per_book_median",
+   "confidence": 60,
+   "reasoning": "With Kawhi Leonard (out Nov 20), RJ Barrett (out Nov 19) and Nate Bittle out, Toronto runs more of its offense through Poeltl's handoffs. He has 3 and 5 assists in the two games since then (29-32 min) and 2+ in 6 of his last 10. Milwaukee is missing Dieng. 4 books, ~-175/+132 (59.8% fair).",
+   "key_stats": [
+    "Last 2: 3, 5 ast at 29-32 min",
+    "2+ ast in 6/10",
+    "4-book median fair over 59.8%"
+   ],
+   "injury_notes": "TOR: Leonard, Barrett, Bittle out; Murray-Boyles DTD. MIL: Dieng out.",
+   "sources": [
+    {
+     "title": "Poeltl gamelog",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/3134908"
+    },
+    {
+     "title": "ESPN injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    },
+    {
+     "title": "The Odds API event odds (regions=us), per-book devig median via pl price",
+     "url": "https://the-odds-api.com/liveapi/guides/v4/"
+    }
+   ]
+  },
+  {
+   "id": "L8",
+   "sport": "NBA",
+   "event": "Brooklyn Nets @ Minnesota Timberwolves",
+   "start_time": "2026-11-23T19:40:00-05:00",
+   "player": "Ayo Dosunmu",
+   "team": "MIN",
+   "market": "Rebounds",
+   "line": 3.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.589,
+   "est_prob_raw": 0.589,
+   "n_books": 4,
+   "price_ts": "2026-11-23T09:51:56-05:00",
+   "price_books": [
+    "betmgm -165/+125",
+    "betonlineag -167/+127",
+    "bovada -170/+130",
+    "fanduel -174/+130"
+   ],
+   "price_method": "per_book_median",
+   "confidence": 59,
+   "reasoning": "With Anthony Edwards and DiVincenzo out, Dosunmu is playing 30-39 min. He has 4+ rebounds in 4 of his last 5 and 6 of his last 10. Brooklyn is without Traore and has Nelson DTD. 4 books, ~-170/+128 (58.9% fair).",
+   "key_stats": [
+    "Min 30-39 L10",
+    "Reb 4+ in 6/10 (L5: 2,4,4,5,4)",
+    "4-book median fair over 58.9%"
+   ],
+   "injury_notes": "MIN: Edwards, DiVincenzo, Clark out. BKN: Traore out, Nelson DTD.",
+   "sources": [
+    {
+     "title": "Dosunmu gamelog",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/4397002"
+    },
+    {
+     "title": "ESPN injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    },
+    {
+     "title": "The Odds API event odds (regions=us), per-book devig median via pl price",
+     "url": "https://the-odds-api.com/liveapi/guides/v4/"
+    }
+   ]
+  },
+  {
+   "id": "L9",
+   "sport": "NBA",
+   "event": "Memphis Grizzlies @ Charlotte Hornets",
+   "start_time": "2026-11-23T19:10:00-05:00",
+   "player": "Naz Reid",
+   "team": "MEM",
+   "market": "Assists",
+   "line": 2.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.557,
+   "est_prob_raw": 0.557,
+   "n_books": 6,
+   "price_ts": "2026-11-23T09:51:55-05:00",
+   "price_books": [
+    "betmgm -155/+115",
+    "betonlineag -145/+111",
+    "betrivers -136/+100",
+    "bovada -150/+115",
+    "draftkings -148/+112",
+    "fanduel -138/+104"
+   ],
+   "price_method": "per_book_median",
+   "confidence": 56,
+   "reasoning": "With Jerami Grant (out Nov 23), Boozer, GG Jackson and Pippen out, Reid is a 34-42 min hub for Memphis. He has 3+ assists in each of his last 5 (3,4,3,3,4). Charlotte is short-handed (Allen, G. Williams, Knueppel, Schroder out). 6 books (55.7% fair). This is a thinner edge than the others, so it fits the 5-leg Flex rather than Power.",
+   "key_stats": [
+    "L5 ast 3,4,3,3,4",
+    "Min 27-42",
+    "6-book median fair over 55.7%"
+   ],
+   "injury_notes": "MEM: Grant, Boozer, Jackson, Pippen, Saunders out. CHA: Allen, G. Williams, Knueppel, Schroder out; B. Miller DTD.",
+   "sources": [
+    {
+     "title": "Reid gamelog",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/4396971"
+    },
+    {
+     "title": "ESPN injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    },
+    {
+     "title": "The Odds API event odds (regions=us), per-book devig median via pl price",
+     "url": "https://the-odds-api.com/liveapi/guides/v4/"
+    }
+   ]
+  },
+  {
+   "id": "L10",
+   "sport": "NFL",
+   "event": "Cincinnati Bengals @ Washington Commanders",
+   "start_time": "2026-11-23T20:15:00-05:00",
+   "player": "Samaje Perine",
+   "team": "CIN",
+   "market": "Receptions",
+   "line": 1.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.601,
+   "est_prob_raw": 0.631,
+   "n_books": 5,
+   "price_ts": "2026-11-23T09:51:40-05:00",
+   "price_books": [
+    "betmgm +160/-220",
+    "betonlineag +155/-204",
+    "bovada +140/-185",
+    "draftkings +141/-180",
+    "fanduel +168/-230"
+   ],
+   "price_method": "per_book_median",
+   "confidence": 60,
+   "reasoning": "Monday Night Football. Perine is CIN's RB2 behind Chase Brown, with Tahj Brooks also active. He has 0-1 catches in 6 of 9 games and averages 1.7 targets/game. His 4-catch game vs PIT (Nov 16) is the outlier. No CIN back was ruled out recently (the Iosivas IR adds WR snaps, not RB targets). Prices run about -170 to -190, and the volume justification is the 1.7 targets/g. 5 books, raw under 63.1% shaded to 60.1%. The weather fetch for Landover failed; receptions for a backup RB are not very weather-sensitive.",
+   "key_stats": [
+    "Rec L9: 4,0,1,0,2,0,1,1,3 (<=1 in 6/9)",
+    "Targets avg 1.7/g",
+    "5-book median fair under 63.1% raw, 60.1% shaded"
+   ],
+   "injury_notes": "CIN: Iosivas IR (WR), Burrow active. WAS: Croskey-Merritt IR, R. White questionable (WAS backfield, not CIN).",
+   "sources": [
+    {
+     "title": "Perine gamelog",
+     "url": "https://www.espn.com/nfl/player/gamelog/_/id/3116389"
+    },
+    {
+     "title": "ESPN injuries",
+     "url": "https://www.espn.com/nfl/injuries"
+    },
+    {
+     "title": "The Odds API event odds (regions=us), per-book devig median via pl price",
+     "url": "https://the-odds-api.com/liveapi/guides/v4/"
+    }
+   ]
+  }
+ ]
+}

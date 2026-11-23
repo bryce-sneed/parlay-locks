@@ -1,0 +1,57 @@
+{
+ "schema": "results/v1",
+ "run": "2026-11-22-pregame",
+ "graded_at": "2026-11-23T09:58:00-05:00",
+ "author": "parlay-locks",
+ "notes": "FINAL: 3 hit / 2 miss of 5. Hits: L2 Hockenson O4.5 rec (6; vetoed by Cursor), L3 Bailey O1.5 ast (2), L4 Nembhard O6.5 ast (8). Misses: L1 McCaffrey O3.5 rec (2), L5 McTavish O1.5 SOG (0; dropped by me before slips). 2-leg UD Standard (Bailey+Nembhard) WON 3.5x, +$2.50. Panel: Claude keep 5/5 -> 3 hit; Cursor keep 4 -> 2 hit, cut 1 (Hockenson) -> hit, so the cut was wrong.",
+ "legs": [
+  {
+   "leg_id": "L1",
+   "actual": 2,
+   "outcome": "miss",
+   "note": "Christian McCaffrey 2 rec, 13 yds on 3 targets (12 car, 49 yds, 1 TD). Final, SF 35-10 MIN.",
+   "source": "https://www.espn.com/nfl/boxscore/_/gameId/401873077"
+  },
+  {
+   "leg_id": "L2",
+   "actual": 6,
+   "outcome": "hit",
+   "note": "T.J. Hockenson 6 rec, 55 yds on 7 targets. Final, SF 35-10 MIN. (Vetoed by Cursor; not played.)",
+   "source": "https://www.espn.com/nfl/boxscore/_/gameId/401873077"
+  },
+  {
+   "leg_id": "L3",
+   "actual": 2,
+   "outcome": "hit",
+   "note": "Ace Bailey 2 ast in 33 min. Final, DAL 116-114 UTAH.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401910033"
+  },
+  {
+   "leg_id": "L4",
+   "actual": 8,
+   "outcome": "hit",
+   "note": "Andrew Nembhard 8 ast in 32 min. Final, NY 113-106 IND.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401910034"
+  },
+  {
+   "leg_id": "L5",
+   "actual": 0,
+   "outcome": "miss",
+   "note": "Mason McTavish 0 SOG in 12:15 TOI. Final, STL 5-4 EDM. (Dropped before slips.)",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892770"
+  }
+ ],
+ "slips": [
+  {
+   "id": "2026-11-22-pregame-2",
+   "size": 2,
+   "stake": 1,
+   "outcome": "win",
+   "payout": 3.5,
+   "pnl": 2.5,
+   "platform": "Underdog",
+   "play_type": "standard",
+   "note": "Bailey 2 ast and Nembhard 8 ast both hit."
+  }
+ ]
+}

@@ -1,0 +1,139 @@
+{
+  "schema": "slips/v1",
+  "run": "2026-11-23-pregame",
+  "date": "2026-11-23",
+  "snapshot": "pregame",
+  "created_at": "2026-11-23T18:05:00-05:00",
+  "author": "parlay-locks",
+  "paper": true,
+  "notes": "Pregame check-and-swap (P2). Panel ran: Claude 6-0 keep, Cursor 6-0 keep; no cuts, no vetoes, nothing overruled. ~6:00 PM ET recheck: Mitchell, Amen Thompson, Vassell and Ace Bailey all projected starters with no designation (CLE still without Mobley/Tyson/Tomlin); Texier on MTL L1 with Suzuki/Caufield (Demidov, Kreider, Anderson out); Samoskevich projected in SEA top-6. Morning legs: no dead or changed legs, no swaps (draft run 4:50 PM recheck + 6 PM). Built 5-leg PP Power from the five deepest-priced fresh overs (L1,L2,L3,L5,L6; 5 games, 0 unders, avg 58.4% > 56.6%) and 2-leg UD Standard from the two highest overs (L5 Texier, L2 Thompson). 3-leg UD Flex SKIPPED: only one fresh leg (L4 Bailey, 2 books, thinnest) sits outside the 5-leg, so a 3-leg would nest the 5-leg's weaker spots. L4 unused.",
+  "slips": [
+    {
+      "id": "2026-11-23-pregame-5",
+      "size": 5,
+      "platform": "PrizePicks",
+      "play_type": "power",
+      "stake": 1,
+      "payout_multiplier": 20,
+      "legs": [
+        "L1",
+        "L2",
+        "L3",
+        "L5",
+        "L6"
+      ],
+      "rationale": "PP 5-pick Power (avg 58.4%, all overs, >56.6%): Texier O1.5 SOG (60.4%, 3 books, L1 w/ Suzuki-Caufield), Samoskevich O1.5 SOG (58.3%, 5 books), Amen Thompson O2.5 ast (58.1%, 6 books), Mitchell O4.5 ast (57.7%, 4 books, Mobley out), Vassell O2.5 ast (57.3%, 5 books). Five games. Est joint ~6.8% vs 5.0% BE. Panel 2-0 keep on all five."
+    },
+    {
+      "id": "2026-11-23-pregame-2",
+      "size": 2,
+      "platform": "Underdog",
+      "play_type": "standard",
+      "stake": 1,
+      "payout_multiplier": 3.5,
+      "legs": [
+        "L5",
+        "L2"
+      ],
+      "rationale": "Overs only (P4): Texier O1.5 SOG (60.4%) + Amen Thompson O2.5 ast (58.1%, 6 books). Different games (LAK @ MTL 7:40, LAC @ HOU 8:40 ET). Est joint 35.1% vs 28.6% BE. Panel 2-0 keep on both."
+    }
+  ],
+  "lock_ts": "2026-11-23T17:58:26-05:00",
+  "lock_source": "candidates",
+  "lock_candidates": "data/candidates/2026-11-23-pregame.json",
+  "lock_prices": {
+    "L1": {
+      "player": "Donovan Mitchell",
+      "market": "Assists",
+      "line": 4.5,
+      "pick": "over",
+      "est_prob": 0.577,
+      "est_prob_raw": 0.577,
+      "price_ts": "2026-11-23T16:49:00-05:00",
+      "n_books": 4,
+      "price_books": [
+        "betonlineag -156/+121",
+        "bovada -160/+120",
+        "draftkings -161/+122",
+        "fanduel -160/+124"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L2": {
+      "player": "Amen Thompson",
+      "market": "Assists",
+      "line": 2.5,
+      "pick": "over",
+      "est_prob": 0.581,
+      "est_prob_raw": 0.581,
+      "price_ts": "2026-11-23T16:49:01-05:00",
+      "n_books": 6,
+      "price_books": [
+        "betmgm -175/+130",
+        "betonlineag -164/+126",
+        "betrivers -159/+117",
+        "bovada -160/+120",
+        "draftkings -161/+122",
+        "fanduel -172/+134"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L3": {
+      "player": "Devin Vassell",
+      "market": "Assists",
+      "line": 2.5,
+      "pick": "over",
+      "est_prob": 0.573,
+      "est_prob_raw": 0.573,
+      "price_ts": "2026-11-23T16:49:02-05:00",
+      "n_books": 5,
+      "price_books": [
+        "betonlineag -156/+120",
+        "betrivers -152/+112",
+        "bovada -160/+120",
+        "draftkings -162/+122",
+        "fanduel -158/+118"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L5": {
+      "player": "Alexandre Texier",
+      "market": "Shots on Goal",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.604,
+      "est_prob_raw": 0.604,
+      "price_ts": "2026-11-23T16:48:52-05:00",
+      "n_books": 3,
+      "price_books": [
+        "betmgm -185/+135",
+        "bovada -185/+140",
+        "draftkings -185/+135"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L6": {
+      "player": "Mackie Samoskevich",
+      "market": "Shots on Goal",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.583,
+      "est_prob_raw": 0.583,
+      "price_ts": "2026-11-23T16:49:00-05:00",
+      "n_books": 5,
+      "price_books": [
+        "betmgm -165/+125",
+        "betonlineag -167/+127",
+        "bovada -165/+125",
+        "draftkings -165/+125",
+        "fanduel -178/+136"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    }
+  }
+}

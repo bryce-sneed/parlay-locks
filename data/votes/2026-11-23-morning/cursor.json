@@ -1,0 +1,123 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-23-morning",
+    "model":  "cursor",
+    "model_name":  "auto",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-23T10:30:03-05:00",
+    "finished_at":  "2026-11-23T10:32:43-05:00",
+    "duration_s":  28.6,
+    "usage":  {
+                  "inputTokens":  29965,
+                  "outputTokens":  2554,
+                  "cacheReadTokens":  23808,
+                  "cacheWriteTokens":  0
+              },
+    "overall_notes":  "Morning-priced legs use per-book medians at the listed lines with four to six books; nothing here trips line-mismatch, single-book, or stale-price rules for a same-morning draft. Unders on Scheifele SOG and Perine receptions include explicit volume checks and no teammate-out role expansion against the under. I would not veto any leg; L9 is the softest edge but weakness alone is not a cut criterion.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  74,
+                      "reasoning":  "Hughes’s top-pair PP role and 6/10 at 2+ SOG match a 1.5 over with five-book devig at the line; NJ D injuries support TOI without contradicting the price. Main risk is a low-event road script or limited PP time. I would cut only on a late scratch or a material Hughes usage downgrade.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "minutes"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  76,
+                      "reasoning":  "Farabee’s 9/10 at 2+ SOG and Huberdeau IR-driven top-six bump align with an over, and four books meet the median devig standard. Ottawa’s pace is a plus for volume. I would reconsider only if Pospisil or linemates change materially pregame.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "role-expansion"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  69,
+                      "reasoning":  "Palmieri’s 8/10 at 2+ SOG and home usage are enough for 1.5 with four-book pricing; Toronto’s defensive absences support zone time even if one injury name in the note is sloppy. Risk is a single-digit SOG night in a tight game. Line move or PP demotion would change the view.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  66,
+                      "reasoning":  "Scheifele’s 2.3 SOG/g over L10 and six games at 2 or fewer justify under 2.5 with a stated volume check and no forward role expansion from recent outs. B2B fatigue is not the same as expanded shooting volume. I would cut only if a top-line mate return suddenly lifts his shot rate.",
+                      "risk_flags":  [
+                                         "back-to-back",
+                                         "volume"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  71,
+                      "reasoning":  "Coleman’s recent 2+ SOG streak and Quinn Hughes out shifting offense forward fit the over at four books. San Jose’s defense supports shot volume. Blowout either way could skew SOG but is not the primary thesis. Lineup demotion is the main watch.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "blowout"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  68,
+                      "reasoning":  "Gillespie’s recent rebound run and minutes with Williams out support over 2.5 at four-book median pricing. A fast, thin NOP frontcourt helps rebound chances. Risk is a small-ball or low-minute night if game script collapses.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "minutes"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  73,
+                      "reasoning":  "Poeltl’s 3 and 5 assists since Leonard and Barrett out match the hub narrative for over 1.5 with four books at the line. Milwaukee missing Dieng is minor for this prop. Regression to one assist in a slow half is the main risk.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "role"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  70,
+                      "reasoning":  "Dosunmu’s 30–39 minutes and 4+ boards in four of five with Edwards and DiVincenzo out support over 3.5 at four-book fair value. Brooklyn’s frontcourt injuries are secondary. A tight rotation or foul trouble would be the change factor.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "minutes"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "keep",
+                      "confidence":  58,
+                      "reasoning":  "Reid’s five-game 3+ assist streak and heavy minutes with Grant and others out fit an assist over at six books, though 55.7% fair is the thinnest edge on the card. Charlotte’s absences add pace risk, not a pricing violation. I would not cut for edge size alone; only a late Grant return or minute cap.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "thin-edge",
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L10",
+                      "decision":  "keep",
+                      "confidence":  65,
+                      "reasoning":  "Perine’s 1.7 targets/g and 0–1 catches in six of nine justify under 1.5 with five-book median and an explicit target check; Iosivas IR does not expand RB receiving volume. Failed weather fetch is noted but low relevance for RB2 receptions. Blowout benching actually helps an under.",
+                      "risk_flags":  [
+                                         "weather",
+                                         "game-script",
+                                         "volume"
+                                     ]
+                  }
+              ]
+}

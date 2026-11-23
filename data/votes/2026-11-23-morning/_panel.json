@@ -1,0 +1,116 @@
+{
+    "schema":  "panel/v1",
+    "run":  "2026-11-23-morning",
+    "host":  "SNEED_PC",
+    "started_at":  "2026-11-23T10:30:03-05:00",
+    "finished_at":  "2026-11-23T10:32:43-05:00",
+    "second_pass":  false,
+    "models":  {
+                   "cursor":  {
+                                  "status":  "ok",
+                                  "keep":  10,
+                                  "cut":  0,
+                                  "abstain":  0,
+                                  "duration_s":  28.6
+                              },
+                   "claude":  {
+                                  "status":  "ok",
+                                  "keep":  10,
+                                  "cut":  0,
+                                  "abstain":  0,
+                                  "duration_s":  157.9
+                              }
+               },
+    "consensus":  [
+                      {
+                          "leg_id":  "L2",
+                          "keep":  2,
+                          "cut":  0,
+                          "abstain":  0,
+                          "avg_conf":  68.5,
+                          "score":  68.5,
+                          "veto":  false
+                      },
+                      {
+                          "leg_id":  "L1",
+                          "keep":  2,
+                          "cut":  0,
+                          "abstain":  0,
+                          "avg_conf":  68,
+                          "score":  68,
+                          "veto":  false
+                      },
+                      {
+                          "leg_id":  "L7",
+                          "keep":  2,
+                          "cut":  0,
+                          "abstain":  0,
+                          "avg_conf":  66.5,
+                          "score":  66.5,
+                          "veto":  false
+                      },
+                      {
+                          "leg_id":  "L5",
+                          "keep":  2,
+                          "cut":  0,
+                          "abstain":  0,
+                          "avg_conf":  65.5,
+                          "score":  65.5,
+                          "veto":  false
+                      },
+                      {
+                          "leg_id":  "L8",
+                          "keep":  2,
+                          "cut":  0,
+                          "abstain":  0,
+                          "avg_conf":  64.5,
+                          "score":  64.5,
+                          "veto":  false
+                      },
+                      {
+                          "leg_id":  "L3",
+                          "keep":  2,
+                          "cut":  0,
+                          "abstain":  0,
+                          "avg_conf":  64,
+                          "score":  64,
+                          "veto":  false
+                      },
+                      {
+                          "leg_id":  "L6",
+                          "keep":  2,
+                          "cut":  0,
+                          "abstain":  0,
+                          "avg_conf":  63.5,
+                          "score":  63.5,
+                          "veto":  false
+                      },
+                      {
+                          "leg_id":  "L10",
+                          "keep":  2,
+                          "cut":  0,
+                          "abstain":  0,
+                          "avg_conf":  62.5,
+                          "score":  62.5,
+                          "veto":  false
+                      },
+                      {
+                          "leg_id":  "L4",
+                          "keep":  2,
+                          "cut":  0,
+                          "abstain":  0,
+                          "avg_conf":  62.5,
+                          "score":  62.5,
+                          "veto":  false
+                      },
+                      {
+                          "leg_id":  "L9",
+                          "keep":  2,
+                          "cut":  0,
+                          "abstain":  0,
+                          "avg_conf":  57,
+                          "score":  57,
+                          "veto":  false
+                      }
+                  ]
+}

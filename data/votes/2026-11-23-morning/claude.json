@@ -1,0 +1,111 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-23-morning",
+    "model":  "claude",
+    "model_name":  "haiku",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-23T10:30:03-05:00",
+    "finished_at":  "2026-11-23T10:32:43-05:00",
+    "duration_s":  157.9,
+    "usage":  {
+                  "cost_usd":  0.148406,
+                  "cache_read":  0,
+                  "output_tokens":  17899,
+                  "input_tokens":  9
+              },
+    "overall_notes":  "Solid 10-leg slate with 8 overs and 2 unders, all properly devigged across 4–6 books at exact lines with current 9:51–9:53 AM pricing. Drafter has thoroughly vetted role expansions and skipped appropriate cooldowns; remaining legs have sound volume justification. No concrete veto issues identified.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  62,
+                      "reasoning":  "Top-pair defenseman with strong recent form (60% 2+ SOG hit rate). NJ D-corps thin (Kovacevic, Casey IR) maintains high TOI and elevated shot volume from the point. CBJ permits point shots. 5-book devigging at 61.7% fair solid.",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  61,
+                      "reasoning":  "Excellent 90% recent hit rate (2+ SOG in 9/10) with Huberdeau IR since Nov 19 securing top-six offensive role and minutes. Ottawa plays fast and permits volume. 4-book median at 61.3% fair supports over edge.",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  59,
+                      "reasoning":  "Solid 80% baseline with TOR defensemen depleted (McWard, Blankenburg IR since Nov 21), creating extended NYI zone time. Palmieri on PP1 at home. 4-book devigging at 58.7% fair appropriate for role advantage.",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  59,
+                      "reasoning":  "Volume-based under: Scheifele 2.4 SOG/g average sits below 2.5 line; miss rate supports under at 58.5% shaded fair. B2B (second night) minor rest factor; UTA weakness limits WPG blowout scenario. 5-book devigging sound.",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  60,
+                      "reasoning":  "Coleman in hot form (4 straight 2+ SOG) with MIN losing top D (Q. Hughes out Nov 21), redistributing offensive load to forwards. SJ weak defensive matchup. 4-book 60.2% fair supports over edge.",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  59,
+                      "reasoning":  "Gillespie 4-straight 3+ rebound streak (4,3,3,4) in 22–28 min with M. Williams absence and NOP heavily depleted (5+ outs, Zion/Murphy DTD), creating fast-break rebound volume. 4-book 59.4% fair solid.",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  60,
+                      "reasoning":  "Clear role expansion: Kawhi Leonard out Nov 20, RJ Barrett out Nov 19, Bittle out. Recent 2 games show 3 and 5 assists at 29–32 min, confirming offensive concentration through Poeltl handoffs. 4-book 59.8% fair supports over.",
+                      "risk_flags":  [
+                                         "role_expansion"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  59,
+                      "reasoning":  "Minute expansion to 30–39 min due to Edwards/DiVincenzo outs; strong L5 rebound rate (4/5 games 3+) supports over. Brooklyn depleted (Traore out, Nelson DTD). 4-book 58.9% fair appropriate.",
+                      "risk_flags":  [
+                                         "role_expansion"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "keep",
+                      "confidence":  56,
+                      "reasoning":  "Perfect L5 form (3,4,3,3,4 assists) with MEM outs (Grant, Boozer, Jackson, Pippen) concentrating play through Reid at 34–42 min. CHA short-handed. Thin edge (55.7% fair) acknowledged by drafter; correctly placed in Flex tier, not Power.",
+                      "risk_flags":  [
+                                         "thin_edge"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L10",
+                      "decision":  "keep",
+                      "confidence":  60,
+                      "reasoning":  "Volume-based under: Perine is RB2 at 1.7 targets/g, below 1.5 catch line, with 67% miss rate (0–1 catches in 6/9). Iosivas IR adds WR snaps, not RB targets—no role expansion. 5-book 60.1% shaded fair supports under.",
+                      "risk_flags":  [
+
+                                     ]
+                  }
+              ]
+}

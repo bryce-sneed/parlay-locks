@@ -1,0 +1,11 @@
+{
+ "schema": "slips/v1",
+ "run": "2026-11-24-pregame",
+ "date": "2026-11-24",
+ "snapshot": "pregame",
+ "created_at": "2026-11-24T18:02:00-05:00",
+ "author": "parlay-locks",
+ "paper": true,
+ "notes": "Pregame check-and-swap (P2). Panel ran (Claude 2-0 keep, Cursor 2-0 keep on L1 Ekholm U1.5 SOG, L2 Trae Young U2.5 reb; no vetoes, nothing overruled). Morning legs (Pritchard O3.5 ast, Davis O1.5 ast, Jenkins O3.5 reb, Gordon U2.5 ast, Connelly O1.5 SOG): no swaps per the 4:55 PM ET draft recheck; a 6 PM ESPN injury-page recheck timed out, so no newer news was found. NO new pregame slips: only 2 fresh-priced legs (4:52 PM ET, 2+ books), both unders. 2-leg needs overs only, 3-leg and 5-leg need 3/5 legs (and at most about half unders). Odds API: 0 credits at finalize.",
+ "slips": []
+}

@@ -1,0 +1,103 @@
+{
+  "schema": "candidates/v1",
+  "run": "2026-11-24-pregame",
+  "date": "2026-11-24",
+  "snapshot": "pregame",
+  "created_at": "2026-11-24T16:58:00-05:00",
+  "author": "parlay-locks",
+  "slate_notes": "Pregame check-and-swap (P2). Rechecked at ~4:55 PM ET; no morning legs have started (first tip 7:11 PM). ESPN injury report: no swaps needed. Pritchard (BOS) and Davis (WAS) active, no new news; Robinson out for BOS and Vukcevic out / Mann questionable for WAS do not shrink either assists role. Jenkins (DET): Duren still out and Okorie now out 2+ weeks, so his role holds or grows; Cunningham probable. Gordon (DEN): no Nuggets injuries; P.J. Washington still questionable for DAL. Connelly (VGK): no lineup news. New legs (prices stamped 4:52 PM ET, 2+ books): 2 unders, Ekholm U1.5 SOG and Trae Young U2.5 reb, neither repeating a morning player or game thesis. Skipped: Olofsson O1.5 SOG and Barbashev O0.5 SOG (same VGK shot-volume thesis as the morning Connelly leg; Barbashev also a 0.5 line), Hertl U2.5 SOG (3+ in 7/10). No other NBA points/rebounds line in DET@ORL, BOS@WAS, DAL@DEN priced clearly above break-even. Thin 4-game slate. Confirm lines in the app; skip Goblin/Demon lines.",
+  "legs": [
+    {
+      "id": "L1",
+      "sport": "NHL",
+      "event": "Vegas Golden Knights @ Edmonton Oilers",
+      "start_time": "2026-11-24T20:10:00-05:00",
+      "player": "Mattias Ekholm",
+      "team": "EDM",
+      "market": "Shots on Goal",
+      "line": 1.5,
+      "pick": "under",
+      "platforms": [
+        "prizepicks",
+        "underdog"
+      ],
+      "est_prob": 0.594,
+      "est_prob_raw": 0.624,
+      "n_books": 2,
+      "price_ts": "2026-11-24T16:52:30-05:00",
+      "price_books": [
+        "betonlineag +152/-200",
+        "draftkings +145/-200"
+      ],
+      "price_method": "per_book_median",
+      "confidence": 57,
+      "reasoning": "Volume case (priced -200 at both books): Ekholm is a defensive-role D averaging 1.2 SOG over his last 10 (1,1,2,2,0,0,2,2,1,1) on ~21 min TOI, with 1 or fewer in 6 of 10 and never more than 2. Not a blowout thesis; he is not on PP1. Different game thesis from the morning Connelly O1.5 (VGK forward shot volume). Under shaded -3 pts per P1.",
+      "key_stats": [
+        "L10 SOG 1,1,2,2,0,0,2,2,1,1 (avg 1.2, <=1 in 6/10, max 2)",
+        "TOI 19-23 min",
+        "2-book median fair under 62.4%, shaded to 59.4%"
+      ],
+      "injury_notes": "No EDM/VGK lineup changes found affecting Ekholm's role.",
+      "sources": [
+        {
+          "title": "Mattias Ekholm gamelog (ESPN)",
+          "url": "https://www.espn.com/nhl/player/gamelog/_/id/2558631"
+        },
+        {
+          "title": "The Odds API event odds (regions=us), per-book devig median via pl price",
+          "url": "https://the-odds-api.com/liveapi/guides/v4/"
+        }
+      ]
+    },
+    {
+      "id": "L2",
+      "sport": "NBA",
+      "event": "Boston Celtics @ Washington Wizards",
+      "start_time": "2026-11-24T20:10:00-05:00",
+      "player": "Trae Young",
+      "team": "WAS",
+      "market": "Rebounds",
+      "line": 2.5,
+      "pick": "under",
+      "platforms": [
+        "prizepicks",
+        "underdog"
+      ],
+      "est_prob": 0.56,
+      "est_prob_raw": 0.59,
+      "n_books": 6,
+      "price_ts": "2026-11-24T16:52:39-05:00",
+      "price_books": [
+        "betmgm +145/-200",
+        "betonlineag +132/-172",
+        "betrivers +120/-162",
+        "bovada +130/-170",
+        "draftkings +128/-169",
+        "fanduel +128/-164"
+      ],
+      "price_method": "per_book_median",
+      "confidence": 55,
+      "reasoning": "Trae has 2 or fewer rebounds in 7 of his last 10 (4,2,1,2,1,2,3,1,5,2; avg 2.3) on 26-45 min, so the under holds even at full minutes and in a close game (not a blowout-benching thesis). Priced about -170 across 6 books. Independent of the morning BOS @ WAS assists overs (Pritchard, Davis). Tre Mann questionable adds guard minutes but not rebounding role. Under shaded -3 pts per P1.",
+      "key_stats": [
+        "L10 reb 4,2,1,2,1,2,3,1,5,2 (<=2 in 7/10)",
+        "Min 26-45",
+        "6-book median fair under 59.0%, shaded to 56.0%"
+      ],
+      "injury_notes": "WAS: Tre Mann questionable (illness), Vukcevic out. BOS: Mitchell Robinson out (illness).",
+      "sources": [
+        {
+          "title": "Trae Young gamelog (ESPN)",
+          "url": "https://www.espn.com/nba/player/gamelog/_/id/4277905"
+        },
+        {
+          "title": "ESPN injuries",
+          "url": "https://www.espn.com/nba/injuries"
+        },
+        {
+          "title": "The Odds API event odds (regions=us), per-book devig median via pl price",
+          "url": "https://the-odds-api.com/liveapi/guides/v4/"
+        }
+      ]
+    }
+  ]
+}

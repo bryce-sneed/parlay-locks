@@ -1,0 +1,140 @@
+{
+  "schema": "slips/v1",
+  "run": "2026-11-24-morning",
+  "date": "2026-11-24",
+  "snapshot": "morning",
+  "created_at": "2026-11-24T11:08:00-05:00",
+  "author": "parlay-locks",
+  "paper": true,
+  "notes": "Morning, week 2 day 6 (Tue). Thin slate: 3 NBA + 1 NHL, no NFL. Panel ran: Claude 6-0 keep, Cursor 6-0 keep; no cuts, no vetoes, nothing overruled. ~11:00 AM ET recheck (NBA 8:15 AM official report + lineup sites): no changes vs the 9:44 price. DET still without Duren/D. Robinson/Okorie/Prince, Cunningham probable (Jenkins reb thesis intact). Anthony Davis not on WAS report, projected starter. DAL: P.J. Washington still questionable (only helps Marshall; irrelevant to the Gordon under, DEN has no injuries so no role expansion). Connelly projected in the VGK lineup. No line-threshold, single-book, cross-book-pairing, 3PM U1.5, or blowout-only issues. 5-leg SKIPPED: only 4 games on the slate, and the core requires 5 different games. Built 3-leg UD Flex + 2-leg UD Standard (overs) with no shared legs; Naji Marshall O2.5 ast (57.0%, thinnest form) unused. Odds API: 0 credits at finalize.",
+  "slips": [
+    {
+      "id": "2026-11-24-morning-3",
+      "size": 3,
+      "platform": "Underdog",
+      "play_type": "flex",
+      "stake": 1,
+      "payout_multiplier": 3.25,
+      "legs": [
+        "L1",
+        "L3",
+        "L4"
+      ],
+      "rationale": "UD 3-pick Flex (3.25x / 1.09x): Payton Pritchard O3.5 ast (57.7%, 5 books; WAS thin), Daniss Jenkins O3.5 reb (57.0%, 6 books; Duren out), Aaron Gordon U2.5 ast (58.7% shaded / 61.7% raw, 6 books; volume under, DEN fully healthy). Three games, 1 under. Avg 57.8% vs ~55.4% BE. Shares no legs with the 2-leg. Panel 2-0 keep on all three."
+    },
+    {
+      "id": "2026-11-24-morning-2",
+      "size": 2,
+      "platform": "Underdog",
+      "play_type": "standard",
+      "stake": 1,
+      "payout_multiplier": 3.5,
+      "legs": [
+        "L2",
+        "L6"
+      ],
+      "rationale": "Overs only (P4): Anthony Davis O1.5 ast (60.9%, 6 books; healthy, projected starter) + Trevor Connelly O1.5 SOG (58.3%, 3 books). Different games. Est joint 35.5% vs 28.6% BE. Panel 2-0 keep on both."
+    }
+  ],
+  "lock_ts": "2026-11-24T11:01:36-05:00",
+  "lock_source": "candidates",
+  "lock_candidates": "data/candidates/2026-11-24-morning.json",
+  "lock_prices": {
+    "L1": {
+      "player": "Payton Pritchard",
+      "market": "Assists",
+      "line": 3.5,
+      "pick": "over",
+      "est_prob": 0.577,
+      "est_prob_raw": 0.577,
+      "price_ts": "2026-11-24T09:44:49-05:00",
+      "n_books": 5,
+      "price_books": [
+        "betmgm -150/+110",
+        "betonlineag -159/+122",
+        "betrivers -162/+120",
+        "bovada -180/+135",
+        "fanduel -180/+134"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L3": {
+      "player": "Daniss Jenkins",
+      "market": "Rebounds",
+      "line": 3.5,
+      "pick": "over",
+      "est_prob": 0.57,
+      "est_prob_raw": 0.57,
+      "price_ts": "2026-11-24T09:44:49-05:00",
+      "n_books": 6,
+      "price_books": [
+        "betmgm -155/+115",
+        "betonlineag -154/+119",
+        "betrivers -143/+107",
+        "bovada -160/+120",
+        "draftkings -155/+118",
+        "fanduel -166/+124"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L4": {
+      "player": "Aaron Gordon",
+      "market": "Assists",
+      "line": 2.5,
+      "pick": "under",
+      "est_prob": 0.587,
+      "est_prob_raw": 0.617,
+      "price_ts": "2026-11-24T09:44:50-05:00",
+      "n_books": 6,
+      "price_books": [
+        "betmgm +125/-165",
+        "betonlineag +141/-185",
+        "betrivers +145/-200",
+        "bovada +150/-200",
+        "draftkings +147/-195",
+        "fanduel +142/-192"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L2": {
+      "player": "Anthony Davis",
+      "market": "Assists",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.609,
+      "est_prob_raw": 0.609,
+      "price_ts": "2026-11-24T09:44:49-05:00",
+      "n_books": 6,
+      "price_books": [
+        "betmgm -190/+140",
+        "betonlineag -182/+139",
+        "betrivers -200/+145",
+        "bovada -180/+135",
+        "draftkings -180/+136",
+        "fanduel -205/+152"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    },
+    "L6": {
+      "player": "Trevor Connelly",
+      "market": "Shots on Goal",
+      "line": 1.5,
+      "pick": "over",
+      "est_prob": 0.583,
+      "est_prob_raw": 0.583,
+      "price_ts": "2026-11-24T09:44:50-05:00",
+      "n_books": 3,
+      "price_books": [
+        "betmgm -160/+120",
+        "betonlineag -167/+128",
+        "fanduel -164/+125"
+      ],
+      "price_method": "per_book_median",
+      "source": "candidates"
+    }
+  }
+}

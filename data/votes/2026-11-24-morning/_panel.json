@@ -1,0 +1,80 @@
+{
+    "schema":  "panel/v1",
+    "run":  "2026-11-24-morning",
+    "host":  "SNEED_PC",
+    "started_at":  "2026-11-24T10:30:04-05:00",
+    "finished_at":  "2026-11-24T10:31:09-05:00",
+    "second_pass":  false,
+    "models":  {
+                   "cursor":  {
+                                  "status":  "ok",
+                                  "keep":  6,
+                                  "cut":  0,
+                                  "abstain":  0,
+                                  "duration_s":  32.3
+                              },
+                   "claude":  {
+                                  "status":  "ok",
+                                  "keep":  6,
+                                  "cut":  0,
+                                  "abstain":  0,
+                                  "duration_s":  62.8
+                              }
+               },
+    "consensus":  [
+                      {
+                          "leg_id":  "L1",
+                          "keep":  2,
+                          "cut":  0,
+                          "abstain":  0,
+                          "avg_conf":  83,
+                          "score":  83,
+                          "veto":  false
+                      },
+                      {
+                          "leg_id":  "L3",
+                          "keep":  2,
+                          "cut":  0,
+                          "abstain":  0,
+                          "avg_conf":  82.5,
+                          "score":  82.5,
+                          "veto":  false
+                      },
+                      {
+                          "leg_id":  "L4",
+                          "keep":  2,
+                          "cut":  0,
+                          "abstain":  0,
+                          "avg_conf":  82,
+                          "score":  82,
+                          "veto":  false
+                      },
+                      {
+                          "leg_id":  "L6",
+                          "keep":  2,
+                          "cut":  0,
+                          "abstain":  0,
+                          "avg_conf":  75.5,
+                          "score":  75.5,
+                          "veto":  false
+                      },
+                      {
+                          "leg_id":  "L2",
+                          "keep":  2,
+                          "cut":  0,
+                          "abstain":  0,
+                          "avg_conf":  68,
+                          "score":  68,
+                          "veto":  false
+                      },
+                      {
+                          "leg_id":  "L5",
+                          "keep":  2,
+                          "cut":  0,
+                          "abstain":  0,
+                          "avg_conf":  62,
+                          "score":  62,
+                          "veto":  false
+                      }
+                  ]
+}

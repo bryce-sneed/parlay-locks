@@ -1,0 +1,79 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-24-morning",
+    "model":  "claude",
+    "model_name":  "haiku",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-24T10:30:04-05:00",
+    "finished_at":  "2026-11-24T10:31:09-05:00",
+    "duration_s":  62.8,
+    "usage":  {
+                  "cost_usd":  0.08674899999999999,
+                  "cache_read":  0,
+                  "output_tokens":  6240,
+                  "input_tokens":  9
+              },
+    "overall_notes":  "Well-constructed thin slate with solid devigging across 3–6 books and morning timestamps. Five overs rest on strong recent form (60–90% L10 hit rates) with contextual injury support (Duren out for Jenkins, WAS thin for Pritchard). The single under (Gordon) is volume-driven with explicit non-blowout reasoning. L2 (Davis 1.5 AST) and L5 (Marshall 2.5 AST) are marginal on form alone (both 50% hit rate) but appropriately derated at the board\u0027s longest odds, so no hard veto issues surface.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  92,
+                      "reasoning":  "Pritchard\u0027s 80% L10 hit rate (4+ in 8/10) on 28–34 min is clean, properly supported by WAS\u0027s pace and depth. Five books devigged at the exact line, 9:44 AM ET timestamp is fresh for 8:10 PM game. No line-mismatch, staleness, or role-shift concerns.",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  78,
+                      "reasoning":  "Davis\u0027s 50% L10 hit rate (2+ in 5/10) is weaker than the 6-book consensus (-180 to -205), explaining why drafter picks at the deepest price (-205). Volume is there (30–35 min, Vukcevic out), and the probability (60.9%) accounts for the softer form; drafter explicitly flags moderate confidence. No line-mismatch or stale-price issue, but form is the softest on the slate.",
+                      "risk_flags":  [
+                                         "form-weaker-than-market",
+                                         "pick-at-extreme-odds"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  94,
+                      "reasoning":  "Jenkins\u0027s 70% L10 hit rate (4+ in 7/10) on locked-in 35–39 min over five straight games is excellent. Duren hamstring out directly expands rebound opportunity. Six books properly devigged at 3.5; no injury, staleness, or volume concerns.",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  88,
+                      "reasoning":  "Aaron Gordon\u0027s 90% L10 hit rate (≤2 in 9/10) on 1.7 AST / ~29 min is strong, volume-driven baseline with no blowout thesis dependency. Drafter correctly notes role is finisher/screener (not ball-handler), so low assists are structural. Six books devigged, under shaded –3 for conservative buffer. No line-mismatch or blowout-benching risk.",
+                      "risk_flags":  [
+
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  68,
+                      "reasoning":  "Marshall\u0027s 50% L10 hit rate (3+ in 5/10) on 2.5 AST is marginal, though drafter explicitly acknowledges weak form (\u0027panel should weigh the 50% L10 hit rate\u0027). Secondary handler role (23–30 min) is thin, and role boost depends on Washington being out (only questionable, not confirmed). Pricing reflects this softness; no hard line-mismatch or stale-price error, but conditional risk on Washington\u0027s health.",
+                      "risk_flags":  [
+                                         "form-50-percent",
+                                         "conditional-role-expansion",
+                                         "wash-questionable"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  82,
+                      "reasoning":  "Connelly\u0027s 100% L10 hit rate (2+ in all 6 recent, 3–4–6–3–4–2) is excellent despite TOI variance (13:31–18:20). Last game barely cleared at 2 SOG with lower end of TOI range, suggesting some role instability, but perfect hit streak and upgraded role context are solid. Only three books but above the veto threshold (n_books ≥ 2); no line-mismatch. Adequate coverage for thin slate.",
+                      "risk_flags":  [
+                                         "toi-variance-13-18min",
+                                         "last-game-minimum"
+                                     ]
+                  }
+              ]
+}

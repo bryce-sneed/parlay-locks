@@ -1,0 +1,85 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-24-morning",
+    "model":  "cursor",
+    "model_name":  "auto",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-24T10:30:04-05:00",
+    "finished_at":  "2026-11-24T10:31:09-05:00",
+    "duration_s":  32.3,
+    "usage":  {
+                  "inputTokens":  31352,
+                  "outputTokens":  1828,
+                  "cacheReadTokens":  4480,
+                  "cacheWriteTokens":  0
+              },
+    "overall_notes":  "Thin Tuesday slate with six legs priced from a consistent 9:44 AM snapshot and mostly six-book medians at the exact pick\u0027em lines. No leg triggered a concrete veto error under the panel rules; the main softness is Davis and Marshall hit rates versus market, which the drafter already flags rather than mispricing.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  74,
+                      "reasoning":  "Pritchard’s minutes and assist production align with a 3.5 over, Washington’s absences support pace and possessions, and five per-book devigged books at the exact line satisfy pricing rules. Risk is a cold shooting night that limits assist chances or a blowout that trims fourth-quarter run. A line move toward the under or a late BOS rotation change would weaken the leg.",
+                      "risk_flags":  [
+                                         "blowout",
+                                         "minutes",
+                                         "injury"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  58,
+                      "reasoning":  "Pricing is sound (six-book median at 1.5) and Vukcevic out logically concentrates hub touches for Davis, but the L10 hit rate on 2+ assists is only 5/10 versus a heavy favorite price. I would cut only if internal data contradicted the line or book pairing, not for form alone. More consistent 2+ games or a softer market would raise confidence.",
+                      "risk_flags":  [
+                                         "small-sample",
+                                         "injury",
+                                         "line-heavy"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  71,
+                      "reasoning":  "Duren out plus sustained 35–39 minutes supports rebound volume at 3.5, with 4+ in seven of ten and six books at the line. The two low-rebound games came in reduced minutes, which is explained in the card. A late Duren upgrade or a minutes pullback would be the main change scenario.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "minutes"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  76,
+                      "reasoning":  "This under is volume-grounded (≤2 assists in nine of ten, low season mean) rather than blowout-bench logic, and the card documents a six-book median under with shading. Gordon is not the primary creator behind Jokic and Murray, so role expansion from opponent injuries is a weak assists case. A sudden playmaking spike in usage would be what flips the leg.",
+                      "risk_flags":  [
+                                         "usage",
+                                         "blowout"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  56,
+                      "reasoning":  "Six books at 2.5 over and the PJ Washington / Lively context plausibly add on-ball reps, but 3+ assists in only five of ten is thin versus a fair-ish over price and minutes swing 14–30. That is acknowledged risk, not a LINE-MISMATCH or single-book error. Confirmed Washington out with stable minutes would improve the leg.",
+                      "risk_flags":  [
+                                         "minutes",
+                                         "injury",
+                                         "small-sample"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  69,
+                      "reasoning":  "Connelly’s six-game 2+ SOG run and rising TOI support 1.5 over, and three per-book devigged books meet n_books ≥ 2. Edmonton goaltending and forward absences are context for shot volume, not a pricing violation. A lineup scratch or TOI drop under 12 minutes would change the view.",
+                      "risk_flags":  [
+                                         "toi",
+                                         "injury",
+                                         "n_books_3"
+                                     ]
+                  }
+              ]
+}

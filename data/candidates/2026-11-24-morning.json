@@ -1,0 +1,307 @@
+{
+ "schema": "candidates/v1",
+ "run": "2026-11-24-morning",
+ "date": "2026-11-24",
+ "snapshot": "morning",
+ "created_at": "2026-11-24T10:05:00-05:00",
+ "author": "parlay-locks",
+ "slate_notes": "Tuesday thin slate: 3 NBA (DET @ ORL 7:11, BOS @ WAS 8:10, DAL @ DEN 10:10) and 1 NHL (VGK @ EDM 8:10). No NFL (Thanksgiving is Thu). 6 legs across 4 games (max 2 per game, opposite-direction or different teams), 5 overs and 1 under. Fewer than the usual 8-12 because the slate is small and independence rules bind. Every leg is a per-book devig median at the exact line with 3-6 books (P1), priced 9:44 AM ET; the under is shaded -3. Skipped: Barbashev O0.5 SOG (0.5 line, 2 books), Hertl U2.5 SOG (3+ in 7/10), Olofsson O1.5 SOG and Kyshawn George / Dybantsa assists (same-game thesis concentration), Ausar Thompson O7.5 reb (same Duren-out thesis as Jenkins, 55.4%). Cooldown respected (no Nov 21-23 misses repeated). Confirm each line in the app and skip Goblin/Demon lines.",
+ "legs": [
+  {
+   "id": "L1",
+   "sport": "NBA",
+   "event": "Boston Celtics @ Washington Wizards",
+   "start_time": "2026-11-24T20:10:00-05:00",
+   "player": "Payton Pritchard",
+   "team": "BOS",
+   "market": "Assists",
+   "line": 3.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.577,
+   "est_prob_raw": 0.577,
+   "n_books": 5,
+   "price_ts": "2026-11-24T09:44:49-05:00",
+   "price_books": [
+    "betmgm -150/+110",
+    "betonlineag -159/+122",
+    "betrivers -162/+120",
+    "bovada -180/+135",
+    "fanduel -180/+134"
+   ],
+   "price_method": "per_book_median",
+   "confidence": 62,
+   "reasoning": "Pritchard is running Boston's second-unit/combo-guard offense at 28-34 min lately and has 4+ assists in 8 of his last 10 (4,8,2,5,6,1,5,4,5,5). Washington is thin (Vukcevic, Beekman, Champagnie, Watkins out) and plays fast, which keeps possessions up. Five books devigged at 3.5.",
+   "key_stats": [
+    "L10 ast 4,8,2,5,6,1,5,4,5,5 (4+ in 8/10)",
+    "Min 28-34 in last 4 of 5",
+    "5-book median fair over"
+   ],
+   "injury_notes": "BOS: Mitchell Robinson out (illness). WAS: Vukcevic, Beekman, Champagnie, Watkins out.",
+   "sources": [
+    {
+     "title": "Payton Pritchard gamelog (ESPN)",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/4066354"
+    },
+    {
+     "title": "ESPN injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    },
+    {
+     "title": "The Odds API event odds (regions=us), per-book devig median via pl price",
+     "url": "https://the-odds-api.com/liveapi/guides/v4/"
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "sport": "NBA",
+   "event": "Boston Celtics @ Washington Wizards",
+   "start_time": "2026-11-24T20:10:00-05:00",
+   "player": "Anthony Davis",
+   "team": "WAS",
+   "market": "Assists",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.609,
+   "est_prob_raw": 0.609,
+   "n_books": 6,
+   "price_ts": "2026-11-24T09:44:49-05:00",
+   "price_books": [
+    "betmgm -190/+140",
+    "betonlineag -182/+139",
+    "betrivers -200/+145",
+    "bovada -180/+135",
+    "draftkings -180/+136",
+    "fanduel -205/+152"
+   ],
+   "price_method": "per_book_median",
+   "confidence": 56,
+   "reasoning": "Davis is Washington's hub at 30-35 min and the WAS frontcourt is short (Vukcevic out), so he sees doubles and touches. Hit 2+ in 5 of last 10 (1,3,2,0,5,4,0,1,3,1), weaker than the 6-book market (-180 to -205), so confidence is moderate; this leg leans on the deepest price on the board.",
+   "key_stats": [
+    "L10 ast 1,3,2,0,5,4,0,1,3,1 (2+ in 5/10)",
+    "Min 30-35 (44 in OT game)",
+    "6-book median fair over"
+   ],
+   "injury_notes": "WAS: Vukcevic, Beekman, Champagnie, Watkins out. BOS: M. Robinson out.",
+   "sources": [
+    {
+     "title": "Anthony Davis gamelog (ESPN)",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/6583"
+    },
+    {
+     "title": "ESPN injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    },
+    {
+     "title": "The Odds API event odds (regions=us), per-book devig median via pl price",
+     "url": "https://the-odds-api.com/liveapi/guides/v4/"
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "sport": "NBA",
+   "event": "Detroit Pistons @ Orlando Magic",
+   "start_time": "2026-11-24T19:11:00-05:00",
+   "player": "Daniss Jenkins",
+   "team": "DET",
+   "market": "Rebounds",
+   "line": 3.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.57,
+   "est_prob_raw": 0.57,
+   "n_books": 6,
+   "price_ts": "2026-11-24T09:44:49-05:00",
+   "price_books": [
+    "betmgm -155/+115",
+    "betonlineag -154/+119",
+    "betrivers -143/+107",
+    "bovada -160/+120",
+    "draftkings -155/+118",
+    "fanduel -166/+124"
+   ],
+   "price_method": "per_book_median",
+   "confidence": 60,
+   "reasoning": "Jenkins has played 35-39 min in five straight games and has 4+ rebounds in 7 of his last 10 (5,4,4,5,1,6,6,5,1,1); the 1s came in 21-35 min spots. Jalen Duren is out (hamstring) and Duncan Robinson out, so more guard/wing rebounds and minutes stay available. Six books at 3.5.",
+   "key_stats": [
+    "L10 reb 5,4,4,5,1,6,6,5,1,1 (4+ in 7/10)",
+    "Min 35-39 last 5",
+    "6-book median fair over"
+   ],
+   "injury_notes": "DET: Duren out, D. Robinson out, Okorie out, Prince out; Cunningham probable (knee). ORL: Banchero, Isaac, Penda out.",
+   "sources": [
+    {
+     "title": "Daniss Jenkins gamelog (ESPN)",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/5107199"
+    },
+    {
+     "title": "ESPN injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    },
+    {
+     "title": "The Odds API event odds (regions=us), per-book devig median via pl price",
+     "url": "https://the-odds-api.com/liveapi/guides/v4/"
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "sport": "NBA",
+   "event": "Dallas Mavericks @ Denver Nuggets",
+   "start_time": "2026-11-24T22:10:00-05:00",
+   "player": "Aaron Gordon",
+   "team": "DEN",
+   "market": "Assists",
+   "line": 2.5,
+   "pick": "under",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.587,
+   "est_prob_raw": 0.617,
+   "n_books": 6,
+   "price_ts": "2026-11-24T09:44:50-05:00",
+   "price_books": [
+    "betmgm +125/-165",
+    "betonlineag +141/-185",
+    "betrivers +145/-200",
+    "bovada +150/-200",
+    "draftkings +147/-195",
+    "fanduel +142/-192"
+   ],
+   "price_method": "per_book_median",
+   "confidence": 58,
+   "reasoning": "Volume case (priced about -190): Gordon is averaging ~1.7 assists in ~29 min over his last 10 (5,2,2,1,1,2,2,0,0,2), 2 or fewer in 9 of 10, with Jokic and Murray running the offense. Not a blowout-benching thesis; his role is finisher/screener. Under shaded -3 pts per P1.",
+   "key_stats": [
+    "L10 ast 5,2,2,1,1,2,2,0,0,2 (<=2 in 9/10)",
+    "Min 24-33",
+    "6-book median fair under, shaded -3"
+   ],
+   "injury_notes": "DEN: no listed injuries. DAL: P.J. Washington questionable (illness), Lively out, Lawal out.",
+   "sources": [
+    {
+     "title": "Aaron Gordon gamelog (ESPN)",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/3064290"
+    },
+    {
+     "title": "ESPN injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    },
+    {
+     "title": "The Odds API event odds (regions=us), per-book devig median via pl price",
+     "url": "https://the-odds-api.com/liveapi/guides/v4/"
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "sport": "NBA",
+   "event": "Dallas Mavericks @ Denver Nuggets",
+   "start_time": "2026-11-24T22:10:00-05:00",
+   "player": "Naji Marshall",
+   "team": "DAL",
+   "market": "Assists",
+   "line": 2.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.57,
+   "est_prob_raw": 0.57,
+   "n_books": 6,
+   "price_ts": "2026-11-24T09:44:50-05:00",
+   "price_books": [
+    "betmgm -165/+125",
+    "betonlineag -154/+119",
+    "betrivers -157/+115",
+    "bovada -160/+120",
+    "draftkings -155/+118",
+    "fanduel -154/+116"
+   ],
+   "price_method": "per_book_median",
+   "confidence": 54,
+   "reasoning": "Marshall plays 23-30 min as a secondary handler and has 3+ assists in 5 of his last 10 (4,1,2,2,5,4,2,2,5,3). P.J. Washington is questionable (illness) and Lively is out, which can push more on-ball reps his way. Thinner on form than price; panel should weigh the 50% L10 hit rate.",
+   "key_stats": [
+    "L10 ast 4,1,2,2,5,4,2,2,5,3 (3+ in 5/10)",
+    "Min 14-30",
+    "6-book median fair over"
+   ],
+   "injury_notes": "DAL: P.J. Washington questionable (illness); Lively, Lawal, de Larrea, Biberovic out.",
+   "sources": [
+    {
+     "title": "Naji Marshall gamelog (ESPN)",
+     "url": "https://www.espn.com/nba/player/gamelog/_/id/4278594"
+    },
+    {
+     "title": "ESPN injuries",
+     "url": "https://www.espn.com/nba/injuries"
+    },
+    {
+     "title": "The Odds API event odds (regions=us), per-book devig median via pl price",
+     "url": "https://the-odds-api.com/liveapi/guides/v4/"
+    }
+   ]
+  },
+  {
+   "id": "L6",
+   "sport": "NHL",
+   "event": "Vegas Golden Knights @ Edmonton Oilers",
+   "start_time": "2026-11-24T20:10:00-05:00",
+   "player": "Trevor Connelly",
+   "team": "VGK",
+   "market": "Shots on Goal",
+   "line": 1.5,
+   "pick": "over",
+   "platforms": [
+    "prizepicks",
+    "underdog"
+   ],
+   "est_prob": 0.583,
+   "est_prob_raw": 0.583,
+   "n_books": 3,
+   "price_ts": "2026-11-24T09:44:50-05:00",
+   "price_books": [
+    "betmgm -160/+120",
+    "betonlineag -167/+128",
+    "fanduel -164/+125"
+   ],
+   "price_method": "per_book_median",
+   "confidence": 60,
+   "reasoning": "Connelly has 2+ SOG in each of his last six (3,4,6,3,4,2) on 13:31-18:20 TOI and has moved into a bigger role. Edmonton is down Andersen in goal with Nugent-Hopkins and Hyman day-to-day. Only VGK leg drafted (skipped Olofsson O1.5 to avoid two legs on the same VGK shot-volume thesis; skipped Hertl U2.5 because he has 3+ SOG in 7 of 10).",
+   "key_stats": [
+    "L6 SOG 3,4,6,3,4,2",
+    "TOI 13:31-18:20",
+    "3-book median fair over"
+   ],
+   "injury_notes": "EDM: Andersen IR, Nugent-Hopkins and Hyman DTD, Savoie LTIR. VGK: none listed.",
+   "sources": [
+    {
+     "title": "Trevor Connelly gamelog (ESPN)",
+     "url": "https://www.espn.com/nhl/player/gamelog/_/id/5216887"
+    },
+    {
+     "title": "ESPN injuries",
+     "url": "https://www.espn.com/nhl/injuries"
+    },
+    {
+     "title": "The Odds API event odds (regions=us), per-book devig median via pl price",
+     "url": "https://the-odds-api.com/liveapi/guides/v4/"
+    }
+   ]
+  }
+ ]
+}

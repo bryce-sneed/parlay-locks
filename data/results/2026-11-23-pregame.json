@@ -1,0 +1,75 @@
+{
+ "schema": "results/v1",
+ "run": "2026-11-23-pregame",
+ "graded_at": "2026-11-24T09:58:00-05:00",
+ "author": "parlay-locks",
+ "notes": "FINAL: 3 hit / 3 miss of 6. Hits: L1 Mitchell O4.5 ast (5), L2 A. Thompson O2.5 ast (5), L6 Samoskevich O1.5 SOG (2). Misses: L3 Vassell O2.5 ast (2), L4 Bailey O1.5 ast (1, not played), L5 Texier O1.5 SOG (1). 5-leg PP Power lost (3/5), 2-leg UD Standard lost (Texier). Snapshot -$2.00. Panel: Claude keep 6/6 -> 3 hit; Cursor keep 6/6 -> 3 hit; no cuts.",
+ "legs": [
+  {
+   "leg_id": "L1",
+   "actual": 5,
+   "outcome": "hit",
+   "note": "Donovan Mitchell 5 ast in 37 min. Final, Chicago Bulls 122-108 Cleveland Cavaliers.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401910041"
+  },
+  {
+   "leg_id": "L2",
+   "actual": 5,
+   "outcome": "hit",
+   "note": "Amen Thompson 5 ast in 28 min. Final, Houston Rockets 116-104 LA Clippers.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401910043"
+  },
+  {
+   "leg_id": "L3",
+   "actual": 2,
+   "outcome": "miss",
+   "note": "Devin Vassell 2 ast in 34 min. Final, San Antonio Spurs 123-107 Sacramento Kings.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401910045"
+  },
+  {
+   "leg_id": "L4",
+   "actual": 1,
+   "outcome": "miss",
+   "note": "Ace Bailey 1 ast in 33 min. Final, Los Angeles Lakers 109-94 Utah Jazz.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401910044"
+  },
+  {
+   "leg_id": "L5",
+   "actual": 1,
+   "outcome": "miss",
+   "note": "Alexandre Texier 1 SOG (2 missed) in 14:32 TOI. Final, Los Angeles Kings 2-1 Montreal Canadiens.",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892774"
+  },
+  {
+   "leg_id": "L6",
+   "actual": 2,
+   "outcome": "hit",
+   "note": "Mackie Samoskevich 2 SOG in 15:58 TOI. Final, Seattle Kraken 3-2 Anaheim Ducks.",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892778"
+  }
+ ],
+ "slips": [
+  {
+   "id": "2026-11-23-pregame-5",
+   "size": 5,
+   "stake": 1,
+   "outcome": "loss",
+   "payout": 0,
+   "pnl": -1,
+   "platform": "PrizePicks",
+   "play_type": "power",
+   "note": "3/5 (Vassell, Texier missed)."
+  },
+  {
+   "id": "2026-11-23-pregame-2",
+   "size": 2,
+   "stake": 1,
+   "outcome": "loss",
+   "payout": 0,
+   "pnl": -1,
+   "platform": "Underdog",
+   "play_type": "standard",
+   "note": "Texier 1 SOG missed; A. Thompson hit."
+  }
+ ]
+}

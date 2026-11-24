@@ -1,0 +1,41 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-24-pregame",
+    "model":  "claude",
+    "model_name":  "haiku",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-24T17:30:05-05:00",
+    "finished_at":  "2026-11-24T17:30:40-05:00",
+    "duration_s":  33,
+    "usage":  {
+                  "cost_usd":  0.073879,
+                  "cache_read":  0,
+                  "output_tokens":  2802,
+                  "input_tokens":  9
+              },
+    "overall_notes":  "Thin 4-game slate with two independent unders grounded in baseline volume, not narrative thesis or blowout. Both legs are properly sourced (2 and 6 books respectively, per_book_median), current-priced (stamped 4:52 PM ET), and lack role expansion risk from known lineup changes. No recent misses or settled-line pressure to signal sharp money fleeing.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  82,
+                      "reasoning":  "Ekholm\u0027s U1.5 SOG is well-supported by clean volume (1.2 avg SOG over L10, max 2, six games ≤1). Defenseman with stable 19–23 min TOI and no PP1 usage—not narrative-driven. Only 2 books is the minimum but meets the threshold; fair under 62.4% shaded to 59.4% is reasonable for picking around break-even on a thin slate. No role compression risk or stale pricing.",
+                      "risk_flags":  [
+                                         "thin_books",
+                                         "defenseman_variance"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  76,
+                      "reasoning":  "Trae Young\u0027s U2.5 REB is robust: 7 of 10 recent games ≤2 rebounds, 2.3 avg, in a 26–45 min range typical for a starting PG. The drafter explicitly confirms this is not blowout-benching—the under holds in competitive games. Vukcevic\u0027s absence and Mann\u0027s questionable status do not expand a 6\u00271\" PG\u0027s rebounding role. Six-book median fair under 59.0% shaded to 56.0% is reasonable. Only variance risk (the 5-rebound outlier exists in L10), but line hasn\u0027t moved.",
+                      "risk_flags":  [
+                                         "guard_rebounds_variance",
+                                         "one_outlier_in_l10"
+                                     ]
+                  }
+              ]
+}

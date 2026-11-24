@@ -1,0 +1,43 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-24-pregame",
+    "model":  "cursor",
+    "model_name":  "auto",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-24T17:30:05-05:00",
+    "finished_at":  "2026-11-24T17:30:40-05:00",
+    "duration_s":  25.4,
+    "usage":  {
+                  "inputTokens":  14903,
+                  "outputTokens":  1326,
+                  "cacheReadTokens":  19712,
+                  "cacheWriteTokens":  0
+              },
+    "overall_notes":  "Thin two-leg add-on slate (NHL SOG under, NBA rebounds under), both rechecked ~4:55 PM with fresh 2+ book pricing and no identified recent misses. I find no line-mismatch, stale-price, single-book, role-expansion, or thin-reasoning errors on either leg; default keep on both. Main residual risk is game-script variance (OT/extra minutes) rather than pricing methodology.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  74,
+                      "reasoning":  "Ekholm U1.5 SOG is supported by a clear volume profile (L10 avg 1.2 SOG, max 2, defensive D without PP1 thesis) and 2-book per-book median devig at the exact 1.5 line with timestamps only minutes before the draft. The leg is priced heavily on the under side but the write-up includes TOI and shot-volume context, so it is not an uncapped-role under. Key risk is a rare 3+ SOG spike or PP usage bump; I would reconsider on confirmed PP1 elevation or a material line move toward 2.0+.",
+                      "risk_flags":  [
+                                         "heavy-juice",
+                                         "low-ceiling-volume",
+                                         "game-script"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  68,
+                      "reasoning":  "Trae Young U2.5 rebounds fits the listed hit rate (≤2 in 7/10, avg 2.3) with full-minute samples and explicit rejection of a blowout-bench narrative, and pricing uses six books at the 2.5 line via per-book median—not a single-book or cross-paired quote. Injury notes (Vukcevic out, Mann Q) are acknowledged without a clear minutes/usage lift for rebounding on this player. Key risk is offensive-rebound variance or an uptempo pace game; a line drop to 2.0 with unchanged role would weaken the edge.",
+                      "risk_flags":  [
+                                         "rebound-variance",
+                                         "injury-context",
+                                         "pace"
+                                     ]
+                  }
+              ]
+}

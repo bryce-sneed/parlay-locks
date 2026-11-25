@@ -1,0 +1,11 @@
+{
+ "schema": "slips/v1",
+ "run": "2026-11-25-pregame",
+ "date": "2026-11-25",
+ "snapshot": "pregame",
+ "created_at": "2026-11-25T18:03:00-05:00",
+ "author": "parlay-locks",
+ "paper": true,
+ "notes": "Pregame check-and-swap (P2), final run of week 2. Panel ran (Claude 1-0 keep, Cursor 1-0 keep on L1 Boeser O1.5 SOG; no vetoes, nothing overruled). Morning legs (Lehkonen, Turner, Bratt, DJJ U1.5 ast, Vilardi, Hunter, Diabate, Harley U2.5 SOG, Amen Thompson, J.T. Miller): no swaps per the 4:50 PM ET draft recheck (CHA Kalkbrenner/Allen out helps Diabate; SAC LaVine questionable does not hurt Hunter); a ~6 PM ESPN injury-page recheck timed out, so no newer news was found. NO new pregame slips: only 1 fresh-priced leg (4:46 PM ET, 5 books), not enough for a 2/3/5-leg slip. Odds API: 0 credits at finalize.",
+ "slips": []
+}

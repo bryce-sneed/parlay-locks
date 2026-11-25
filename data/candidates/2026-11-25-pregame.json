@@ -1,0 +1,59 @@
+{
+  "schema": "candidates/v1",
+  "run": "2026-11-25-pregame",
+  "date": "2026-11-25",
+  "snapshot": "pregame",
+  "created_at": "2026-11-25T16:55:00-05:00",
+  "author": "parlay-locks",
+  "slate_notes": "Pregame check-and-swap (P2), final day of week 2. Grading: nothing pending (results exist through 2026-11-24-pregame; today's morning games are tonight). Rechecked all 12 morning candidates at ~4:50 PM ET (ESPN NBA/NHL injury feeds, which carry the official NBA report updates); no morning games have started (first puck 7:00 PM). No swaps: all 10 slip legs OK. CHA: Kalkbrenner and Grayson Allen now OUT (were doubtful/questionable), Schroder out, Sion James probable, so Diabate's (L2) role holds or grows. SAC: LaVine downgraded to questionable, Raynaud out; if LaVine sits, Hunter's (L4) creation role grows, so the over is not hurt. MIL/HOU: still no injuries (Turner L1, Thompson L3). LAC/MEM: no new LAC news; Pippen/Grant/Boozer out for MEM (unchanged) does not change DJJ's (L6) low-usage assists role. NHL: Bratt (L7), Lehkonen (L8; Makar no longer on the injury list, MacKinnon still out), Vilardi (L9), J.T. Miller (L10), Harley (L11; Bichsel/Capobianco still out, Myers off the list) have no new news. Unused morning legs: Gridin (L12) context changed (CGY Frost ruled out); Hartenstein (L5) unchanged. New leg (price stamped 4:46 PM ET, 5 books): Brock Boeser O1.5 SOG in VAN @ DET (7:30 PM), a game not used in the morning and no shared thesis. Pettersson out for VAN. Skipped: Filip Chytil O1.5 SOG (only 1 book, fails P1). Skipped Sidy Cissoko O2.5 reb (SAS @ POR, Wembanyama and Fox still questionable, so his role is unresolved). Odds API: 1 credit used this run, 20 left today (240 for the month). Confirm the line in the app and skip Goblin/Demon lines.",
+  "legs": [
+    {
+      "id": "L1",
+      "sport": "NHL",
+      "event": "Vancouver Canucks @ Detroit Red Wings",
+      "start_time": "2026-11-25T19:30:00-05:00",
+      "player": "Brock Boeser",
+      "team": "VAN",
+      "market": "Shots on Goal",
+      "line": 1.5,
+      "pick": "over",
+      "platforms": [
+        "prizepicks",
+        "underdog"
+      ],
+      "est_prob": 0.584,
+      "n_books": 5,
+      "price_ts": "2026-11-25T16:46:43-05:00",
+      "price_books": [
+        "betmgm -165/+125",
+        "betonlineag -164/+126",
+        "bovada -170/+130",
+        "draftkings -170/+125",
+        "fanduel -156/+120"
+      ],
+      "price_method": "per_book_median",
+      "confidence": 58,
+      "reasoning": "Boeser has 2+ SOG in 7 of his last 10 (3,2,3,2,1,1,1,2,3,3; avg 2.1), including 3,2,3,2 in his last four, on 20-24 min TOI with PP time. Elias Pettersson is out for VAN, which keeps Boeser in a top-six/PP1 shooting role. 5-book per-book devig median 58.4% at 1.5, priced around -165, so no volume flag needed. He hit this prop (3 SOG) on Nov 22, so no cooldown issue. VAN @ DET was not used in the morning run, so there's no repeated player or game thesis.",
+      "key_stats": [
+        "L10 SOG 3,2,3,2,1,1,1,2,3,3 (2+ in 7/10)",
+        "TOI 19:30-24:09 last 4",
+        "5-book median fair over 58.4%"
+      ],
+      "injury_notes": "VAN: Elias Pettersson out; Demko, Gallagher, Brisebois, MacEachern IR. DET: Wallinder day-to-day; Montembeault, Edvinsson IR.",
+      "sources": [
+        {
+          "title": "Brock Boeser gamelog (ESPN)",
+          "url": "https://www.espn.com/nhl/player/gamelog/_/id/3899979"
+        },
+        {
+          "title": "ESPN NHL injuries",
+          "url": "https://www.espn.com/nhl/injuries"
+        },
+        {
+          "title": "The Odds API event odds (regions=us), per-book devig median via pl price",
+          "url": "https://the-odds-api.com/liveapi/guides/v4/"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-25-morning",
+    "model":  "cursor",
+    "model_name":  "auto",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-25T10:30:04-05:00",
+    "finished_at":  "2026-11-25T10:32:23-05:00",
+    "duration_s":  31.1,
+    "usage":  {
+                  "inputTokens":  19068,
+                  "outputTokens":  3571,
+                  "cacheReadTokens":  36608,
+                  "cacheWriteTokens":  0
+              },
+    "overall_notes":  "Morning 9:50 ET pricing with per-book median devig on all legs meets P1, and I found no line-mismatch, stale-price, or single-book failures. The slate is assist-heavy on NBA after a rough Nov 24 variance day; each leg is game-isolated with stated injury context. I would keep every leg; L12 is the weakest on historical SOG floor but role-expansion and four-book pricing are not veto-level errors under the listed rules.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  72,
+                      "reasoning":  "Turner at 1.5 assists has a 7/10 recent clear rate with stable starter minutes and matchup logic that is not blowout-dependent. Four-book median at the exact line with no contradictory injury news for MIL. Main risk is a low-usage center night; a line move to 2.0 or a benching script would weaken the over.",
+                      "risk_flags":  [
+                                         "variance",
+                                         "low-line"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  76,
+                      "reasoning":  "Diabate shows 9/10 at 2+ assists with 30-38 minutes and Kalkbrenner doubtful supporting the primary-center role. Five-book median pricing and Schroder absence is acknowledged without contradicting Diabate’s short-roll path. Risk is Allen questionable or late lineup shuffles at center.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "minutes"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  68,
+                      "reasoning":  "Thompson is 7/10 at 3+ on a 2.5 line with connector minutes intact and HOU healthy per the card. Four books at 9:50 AM; the two zero-game outliers are noted and not a pricing error. Risk is another low-touch finishing night without a corresponding line adjustment.",
+                      "risk_flags":  [
+                                         "variance",
+                                         "assists-cluster"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  71,
+                      "reasoning":  "Hunter has 8/10 at 2+ assists with Raynaud out reinforcing heavy minutes on a soft 1.5 line. Pricing is four-book median at the pick’em line; GSW absences support possession share rather than a thin narrative. Risk is a wing scoring-only role with few secondary assists.",
+                      "risk_flags":  [
+                                         "minutes",
+                                         "injury"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  63,
+                      "reasoning":  "Hartenstein’s 8/10 at 4+ on 3.5 fits the hub thesis with massive OKC absence list already in the reasoning, and six-book median pricing is solid P1. Minutes volatility (18-34) is the main risk but assist rate is explicitly addressed, not ignored. Would reconsider if pregame reports show a hard cap well under ~22 minutes.",
+                      "risk_flags":  [
+                                         "minutes",
+                                         "injury"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  70,
+                      "reasoning":  "Jones under 1.5 has an 8/10 one-or-fewer assist profile with a stated volume case and no teammate-driven role expansion for playmaking. Four-book fair under with P1 -3 shading; not a blowout-bench thesis. Risk is a random 3-assist spike in a high-possession game.",
+                      "risk_flags":  [
+                                         "variance",
+                                         "usage"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  69,
+                      "reasoning":  "Bratt is 8/10 at 2+ SOG with PP1/top-line usage and Mantha’s absence already baked into role. Last night’s 0 SOG rematch is an outlier, not a line or price methodology error. Risk is CBJ tightening volume in a back-to-back narrative game.",
+                      "risk_flags":  [
+                                         "rematch",
+                                         "variance"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  75,
+                      "reasoning":  "Lehkonen at 9/10 on 2+ SOG with MacKinnon’s long absence supporting top-six/PP minutes is coherent for an over. Three books still clears the two-book floor with per-book median at 1.5. Risk is Makar return shifting lines/pairings without SOG follow-through.",
+                      "risk_flags":  [
+                                         "injury",
+                                         "lineup"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "keep",
+                      "confidence":  67,
+                      "reasoning":  "Vilardi has 8/10 at 2+ on modest but stable top-six TOI and three-book median pricing at the exact SOG line. DeMelo out is correctly dismissed as non-impact for Vilardi’s forward role. Risk is a single zero-SOG clunker in an otherwise fine floor.",
+                      "risk_flags":  [
+                                         "variance"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L10",
+                      "decision":  "keep",
+                      "confidence":  78,
+                      "reasoning":  "Miller’s 10/10 at 2+ SOG is the cleanest volume floor on the card, and Bjorkstrand’s absence supports concentrated top-six/PP time. Four-book median fair over meets P1. Risk is mainly shootout variance at a low 1.5 line, not a methodology flaw.",
+                      "risk_flags":  [
+                                         "low-line"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L11",
+                      "decision":  "keep",
+                      "confidence":  66,
+                      "reasoning":  "Harley under 2.5 has 7/10 at two or fewer SOG with an explicit distributor-not-shooter volume case and D-pair injuries dating to Nov 14 already reflected in the log. Three-book shaded under is acceptable P1; Myers return is a minutes trim, not unchecked role expansion for shots. Risk is a one-off offensive D game (6 SOG in the log).",
+                      "risk_flags":  [
+                                         "usage",
+                                         "variance"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L12",
+                      "decision":  "keep",
+                      "confidence":  58,
+                      "reasoning":  "Gridin is only 6/10 at 2+ SOG, but Frost/Pospisil absence is a concrete role-upside story and four-book 58.8% median is not a pricing-rule violation. The drafter flags thin form, which is a confidence issue rather than a veto error here. Would cut only if Frost plays and PP bump does not materialize in confirmed lines.",
+                      "risk_flags":  [
+                                         "small-sample",
+                                         "injury",
+                                         "thin-form"
+                                     ]
+                  }
+              ]
+}

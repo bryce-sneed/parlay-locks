@@ -1,0 +1,137 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-25-morning",
+    "model":  "claude",
+    "model_name":  "haiku",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-25T10:30:04-05:00",
+    "finished_at":  "2026-11-25T10:32:23-05:00",
+    "duration_s":  137.3,
+    "usage":  {
+                  "cost_usd":  0.137062,
+                  "cache_read":  0,
+                  "output_tokens":  15187,
+                  "input_tokens":  9
+              },
+    "overall_notes":  "This is a well-constructed slate of 12 legs across 12 different games (6 NBA, 6 NHL) priced at 9:50 AM ET using 3–6 books with per-book devigging and proper -3 shading on unders. The NBA composition is assists-heavy (5/6) but each leg is on a different team and game, mitigating concentration risk. No legs trigger error criteria for a veto; all use timely pricing, multi-book support, and have clear role/volume reasoning.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  76,
+                      "reasoning":  "Turner\u0027s 7/10 AST record over 21–36 min is well-supported by role stability (MIL no injuries) and a soft BKN defense that switches and generates kick-outs from the center. 4-book devigging is clean. The main risk is per-game variance, but overs have been the best bucket (74% week 1) and this 1.5 line is a floor.",
+                      "risk_flags":  [
+                                         "variance",
+                                         "minute-range"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L2",
+                      "decision":  "keep",
+                      "confidence":  85,
+                      "reasoning":  "Diabate\u0027s dominant 9/10 record for 2+ AST is backed by 30–38 min and an expanded role; Kalkbrenner doubtful confirms Diabate stays primary center with DHO/short-roll touches. Schroder\u0027s absence does not reduce his playmaking. 5-book median is robust. High confidence in this leg.",
+                      "risk_flags":  [
+                                         "injury-dependent-role"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L3",
+                      "decision":  "keep",
+                      "confidence":  72,
+                      "reasoning":  "Thompson\u0027s 7/10 for 3+ AST meets the 2.5 line; median is 3 and the two 0-assist games were high-scoring outliers. Role is stable as primary hub with 25–41 min; HOU have no listed injuries. PHX pace is favorable. 4-book support is solid.",
+                      "risk_flags":  [
+                                         "variance",
+                                         "outlier-games"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L4",
+                      "decision":  "keep",
+                      "confidence":  81,
+                      "reasoning":  "Hunter\u0027s 8/10 record for 2+ AST is supported by stable 31–42 min and Raynaud ruled out today, which keeps Hunter\u0027s minutes heavy. GSW are severely short (Curry, Butler, Porzingis, Moody out), so the Kings should control possession and touches. 4-book devigging is sound.",
+                      "risk_flags":  [
+                                         "possession-dependent"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L5",
+                      "decision":  "keep",
+                      "confidence":  68,
+                      "reasoning":  "Hartenstein\u0027s 8/10 for 4+ AST is strong and his assist rate per minute is high enough to clear 3.5 even at 23 min. The main risk is the 18–34 min variance; this is acknowledged by the drafter. OKC absences (Jalen Williams, Holmgren, Wallace, Topic out) lock him in as the high-post hub, and 6-book pricing factors the minutes uncertainty.",
+                      "risk_flags":  [
+                                         "minute-variance",
+                                         "role-dependent"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L6",
+                      "decision":  "keep",
+                      "confidence":  80,
+                      "reasoning":  "Jones\u0027 low-usage wing/defender profile fits the 8/10 under record (≤1 AST in 8/10). Volume case (~63% raw) supports -3 shading, and LAC have no new rotation absences, so no role expansion. Not a blowout thesis; he stays under in normal full-minute games. 4-book devigging is appropriate.",
+                      "risk_flags":  [
+                                         "blowout-risk",
+                                         "low-sample-player"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L7",
+                      "decision":  "keep",
+                      "confidence":  72,
+                      "reasoning":  "Bratt\u0027s 8/10 record for 2+ SOG is solid despite the 0 yesterday in a back-to-back rematch vs CBJ. The drafter notes this as an outlier in a strong log; top-line/PP1 role is stable and Mantha\u0027s absence keeps minutes high. 4-book support is robust. The recent 0 is acknowledged as variance, not a trend.",
+                      "risk_flags":  [
+                                         "recent-0-sog",
+                                         "back-to-back",
+                                         "rematch"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L8",
+                      "decision":  "keep",
+                      "confidence":  82,
+                      "reasoning":  "Lehkonen\u0027s exceptional 9/10 record for 2+ SOG is backed by MacKinnon\u0027s 12-week absence (since Nov 21), which elevates his top-six and PP role. COL at home is a high-shot-share team. 3-book devigging meets the minimum threshold. Role expansion directly supports the over.",
+                      "risk_flags":  [
+                                         "role-expansion-driven"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L9",
+                      "decision":  "keep",
+                      "confidence":  76,
+                      "reasoning":  "Vilardi\u0027s 8/10 record for 2+ SOG with stable 17–25 min top-six/PP1 role is reliable. WPG absences (DeMelo) do not affect his deployment. BOS is mid-pack in shot suppression, so the matchup is neutral. 3-book support is adequate for the line.",
+                      "risk_flags":  [
+                                         "mid-tier-defense"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L10",
+                      "decision":  "keep",
+                      "confidence":  88,
+                      "reasoning":  "Miller\u0027s perfect 10/10 record for 2+ SOG is elite. Bjorkstrand\u0027s 2–3 month absence (since Nov 21) concentrates top-six and PP minutes at 18–22. A floor this steady and a record this strong at a 1.5 line is as close to a lock as the slate offers. 4-book devigging is clean.",
+                      "risk_flags":  [
+                                         "none"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L11",
+                      "decision":  "keep",
+                      "confidence":  76,
+                      "reasoning":  "Harley\u0027s 7/10 under record for ≤2 SOG fits his point-defenseman profile; he distributes from the point rather than shooting. DAL D absences (Bichsel, Capobianco) date to Nov 14, so recent log already reflects that role; Myers\u0027 possible return only trims minutes further. Volume case (~62% raw) with -3 shading is appropriate. Not a blowout thesis.",
+                      "risk_flags":  [
+                                         "injury-return-risk"
+                                     ]
+                  },
+                  {
+                      "leg_id":  "L12",
+                      "decision":  "keep",
+                      "confidence":  58,
+                      "reasoning":  "Gridin\u0027s 6/10 record is the thinnest in the set, and Frost\u0027s day-to-day status (UBI Monday) creates unresolved minutes/role risk. However, the drafter explicitly includes this because role expansion (Frost/Pospisil absences) is likely and the 4-book median of 58.8% factors in the uncertainty. If Frost stays out, role and 58.8% price justify inclusion. If Frost returns, minutes drop and the under-priced-relative-to-record becomes risky.",
+                      "risk_flags":  [
+                                         "thin-record",
+                                         "unresolved-injury",
+                                         "frost-day-to-day"
+                                     ]
+                  }
+              ]
+}

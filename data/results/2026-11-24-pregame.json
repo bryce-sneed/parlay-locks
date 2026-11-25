@@ -1,0 +1,24 @@
+{
+ "schema": "results/v1",
+ "run": "2026-11-24-pregame",
+ "graded_at": "2026-11-25T09:50:00-05:00",
+ "author": "parlay-locks",
+ "notes": "FINAL: 2 hit / 0 miss of 2. Hits: L1 Ekholm U1.5 SOG (1), L2 Trae Young U2.5 reb (0). No slips (check-and-swap only), $0.00. Panel: Claude keep 2/2 -> 2 hit; Cursor keep 2/2 -> 2 hit; no cuts.",
+ "legs": [
+  {
+   "leg_id": "L1",
+   "actual": 1,
+   "outcome": "hit",
+   "note": "Mattias Ekholm 1 SOG in 19:35 TOI. Final, Edmonton Oilers 5-3 Vegas Golden Knights.",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892780"
+  },
+  {
+   "leg_id": "L2",
+   "actual": 0,
+   "outcome": "hit",
+   "note": "Trae Young 0 reb, 12 ast in 35 min. Final, Washington Wizards 131-116 Boston Celtics.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909315"
+  }
+ ],
+ "slips": []
+}

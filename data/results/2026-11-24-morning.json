@@ -1,0 +1,75 @@
+{
+ "schema": "results/v1",
+ "run": "2026-11-24-morning",
+ "graded_at": "2026-11-25T09:50:00-05:00",
+ "author": "parlay-locks",
+ "notes": "FINAL: 2 hit / 4 miss of 6. Hits: L3 Jenkins O3.5 reb (4), L6 Connelly O1.5 SOG (5). Misses: L1 Pritchard O3.5 ast (2), L2 A. Davis O1.5 ast (1), L4 Gordon U2.5 ast (3, exactly on the miss side), L5 Marshall O2.5 ast (2, unplayed). 3-leg UD Flex lost (1/3), 2-leg UD Standard lost (Davis). No 5-leg (skipped, 4-game slate). Snapshot -$2.00. Panel: Claude keep 6/6 -> 2 hit; Cursor keep 6/6 -> 2 hit; no cuts. Assists legs went 0/4.",
+ "legs": [
+  {
+   "leg_id": "L1",
+   "actual": 2,
+   "outcome": "miss",
+   "note": "Payton Pritchard 2 ast, 14 pts (4-14 FG) in 28 min. Final, Washington Wizards 131-116 Boston Celtics.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909315"
+  },
+  {
+   "leg_id": "L2",
+   "actual": 1,
+   "outcome": "miss",
+   "note": "Anthony Davis 1 ast, 33 pts, 13 reb in 37 min. Final, Washington Wizards 131-116 Boston Celtics.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909315"
+  },
+  {
+   "leg_id": "L3",
+   "actual": 4,
+   "outcome": "hit",
+   "note": "Daniss Jenkins 4 reb, 10 ast in 35 min. Final, Orlando Magic 104-86 Detroit Pistons.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909314"
+  },
+  {
+   "leg_id": "L4",
+   "actual": 3,
+   "outcome": "miss",
+   "note": "Aaron Gordon 3 ast, 1 pt in 24 min; under 2.5 missed. Final, Denver Nuggets 120-101 Dallas Mavericks.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909316"
+  },
+  {
+   "leg_id": "L5",
+   "actual": 2,
+   "outcome": "miss",
+   "note": "Naji Marshall 2 ast in 22 min. Final, Denver Nuggets 120-101 Dallas Mavericks.",
+   "source": "https://www.espn.com/nba/boxscore/_/gameId/401909316"
+  },
+  {
+   "leg_id": "L6",
+   "actual": 5,
+   "outcome": "hit",
+   "note": "Trevor Connelly 5 SOG, 2 goals in 18:05 TOI. Final, Edmonton Oilers 5-3 Vegas Golden Knights.",
+   "source": "https://www.espn.com/nhl/boxscore/_/gameId/401892780"
+  }
+ ],
+ "slips": [
+  {
+   "id": "2026-11-24-morning-3",
+   "size": 3,
+   "stake": 1,
+   "outcome": "loss",
+   "payout": 0,
+   "pnl": -1,
+   "platform": "Underdog",
+   "play_type": "flex",
+   "note": "1/3: Jenkins hit; Pritchard and Gordon missed. Flex needs 2/3."
+  },
+  {
+   "id": "2026-11-24-morning-2",
+   "size": 2,
+   "stake": 1,
+   "outcome": "loss",
+   "payout": 0,
+   "pnl": -1,
+   "platform": "Underdog",
+   "play_type": "standard",
+   "note": "A. Davis 1 ast missed; Connelly hit."
+  }
+ ]
+}

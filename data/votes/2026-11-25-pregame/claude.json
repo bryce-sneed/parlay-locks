@@ -1,0 +1,31 @@
+{
+    "schema":  "votes/v1",
+    "run":  "2026-11-25-pregame",
+    "model":  "claude",
+    "model_name":  "haiku",
+    "round":  1,
+    "status":  "ok",
+    "error":  null,
+    "started_at":  "2026-11-25T17:30:04-05:00",
+    "finished_at":  "2026-11-25T17:30:35-05:00",
+    "duration_s":  28.6,
+    "usage":  {
+                  "cost_usd":  0.07257,
+                  "cache_read":  0,
+                  "output_tokens":  2593,
+                  "input_tokens":  9
+              },
+    "overall_notes":  "Single-leg slate with a fresh VAN @ DET matchup (7:30 PM). Boeser\u0027s over 1.5 SOG is backed by solid recent form (2+ in 7/10, 4/4 in last 4 games), clean 5-book devigged pricing (58.4%), and an explicable role scenario (Pettersson out, maintains top-six/PP1). No concrete veto triggers.",
+    "votes":  [
+                  {
+                      "leg_id":  "L1",
+                      "decision":  "keep",
+                      "confidence":  75,
+                      "reasoning":  "The pick passes all veto criteria: 5-book per-book devig is sound (no cross-book cherry-picking), price timestamp (4:46 PM) is fresh and concurrent with injury recheck (4:50 PM), Pettersson\u0027s OUT status supports the role reasoning, and recent form (2.1 avg, 7/10 at 2+, 4/4 last 4 games) is strong. The drafter has accounted for DET matchup and injury context. Main risk is routine variance—Boeser did record 1 SOG in 3 of his last 10 games—but this is embedded in the 58.4% EV and does not constitute a concrete error (line-mismatch, stale-price, role-expansion, recent-miss, or thin reasoning). No veto warranted.",
+                      "risk_flags":  [
+                                         "variance",
+                                         "small-sample"
+                                     ]
+                  }
+              ]
+}
